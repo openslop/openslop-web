@@ -18,7 +18,8 @@ export default function HeroSection() {
               style={{ fontFamily: "Satoshi, sans-serif" }}
             >
               Connects to all your favorite AI tools and creates consistent,
-              engaging content in minutes. Open-source and free forever.
+              engaging content in minutes.{" "}
+              <span className="font-bold">Open-source and free forever.</span>
             </p>
           </FadeIn>
           <FadeIn delay={0.3}>
