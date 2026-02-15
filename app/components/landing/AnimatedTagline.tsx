@@ -76,7 +76,8 @@ export default function AnimatedTagline() {
         lineHeight: "1.2em",
       }}
     >
-      AI{" "}
+      Create AI
+      <br />
       <span className="relative">
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-cyan-400 italic pr-1">
           {visibleText}
