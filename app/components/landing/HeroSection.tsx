@@ -1,6 +1,7 @@
 import AnimatedTagline from "./AnimatedTagline";
 import WaitlistForm from "./WaitlistForm";
 import ScriptEditorDemo from "@/app/demo/script-editor/ScriptEditorDemo";
+import FadeIn from "./FadeIn";
 
 export default function HeroSection() {
   return (
@@ -8,21 +9,30 @@ export default function HeroSection() {
       <div className="flex flex-col lg:flex-row gap-12 lg:gap-12 items-center">
         {/* Left column — fixed width */}
         <div className="w-full lg:w-[580px] lg:shrink-0 px-4 sm:px-6 lg:pl-16 space-y-8">
-          <AnimatedTagline />
-          <p
-            className="text-lg text-zinc-400 max-w-md"
-            style={{ fontFamily: "Satoshi, sans-serif" }}
-          >
-            Connects to all your favorite AI tools and creates content for you.
-            Open-source and free forever.
-          </p>
-          <WaitlistForm />
+          <FadeIn delay={0.1}>
+            <AnimatedTagline />
+          </FadeIn>
+          <FadeIn delay={0.2}>
+            <p
+              className="text-lg text-zinc-400 max-w-md"
+              style={{ fontFamily: "Satoshi, sans-serif" }}
+            >
+              Connects to all your favorite AI tools and creates consistent,
+              engaging content in minutes. Open-source and free forever.
+            </p>
+          </FadeIn>
+          <FadeIn delay={0.3}>
+            <WaitlistForm />
+          </FadeIn>
         </div>
 
         {/* Right column — fills remaining width to viewport edge */}
-        <div className="w-full lg:flex-1 lg:min-w-0 h-[450px] lg:h-[550px] rounded-2xl lg:rounded-r-none overflow-hidden scrollbar-hide px-4 sm:px-6 lg:px-0">
+        <FadeIn
+          delay={0.6}
+          className="w-full lg:flex-1 lg:min-w-0 h-[450px] lg:h-[550px] rounded-2xl lg:rounded-r-none overflow-hidden scrollbar-hide px-4 sm:px-6 lg:px-0"
+        >
           <ScriptEditorDemo />
-        </div>
+        </FadeIn>
       </div>
     </section>
   );

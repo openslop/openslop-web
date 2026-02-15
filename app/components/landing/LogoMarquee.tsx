@@ -17,7 +17,7 @@ export default function LogoMarquee() {
         {logos.map((logo) => (
           <div
             key={logo.name}
-            className="flex shrink-0 items-center opacity-50 hover:opacity-80 transition-opacity"
+            className="flex shrink-0 items-center opacity-50"
           >
             <Image
               src={logo.src}

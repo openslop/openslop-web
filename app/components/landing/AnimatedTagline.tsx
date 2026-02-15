@@ -4,20 +4,21 @@ import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 
 const words = [
-  "explainer videos",
-  "history videos",
+  "youtube videos",
   "crime stories",
-  "sleep stories",
-  "bedtime stories",
-  "kids animations",
   "creepypastas",
-  "newscasts",
-  "podcasts",
-  "voiceovers",
-  "YT shorts",
-  "TikToks",
-  "IG reels",
+  "explainer videos",
+  "sleep stories",
   "audiobooks",
+  "history videos",
+  "podcasts",
+  "YT shorts",
+  "bedtime stories",
+  "IG reels",
+  "newscasts",
+  "kids animations",
+  "voiceovers",
+  "TikToks",
 ];
 
 type Phase = "holding" | "erasing" | "pausing" | "typing";

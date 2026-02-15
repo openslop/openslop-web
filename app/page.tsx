@@ -1,22 +1,29 @@
 import HeroSection from "./components/landing/HeroSection";
 import LogoMarquee from "./components/landing/LogoMarquee";
 import AuroraBackground from "./components/landing/AuroraBackground";
+import FadeIn from "./components/landing/FadeIn";
 
 export default function Home() {
   return (
     <AuroraBackground>
       {/* Logo */}
-      <div className="absolute top-3 left-3 sm:top-4 sm:left-4 z-50">
+      <FadeIn
+        delay={0}
+        className="absolute top-3 left-3 sm:top-4 sm:left-4 z-50"
+      >
         <span
           className="text-xl tracking-tight text-white"
           style={{ fontFamily: "Sentient, serif" }}
         >
           OpenSlop
         </span>
-      </div>
+      </FadeIn>
 
       <HeroSection />
-      <LogoMarquee />
+
+      <FadeIn delay={0.5}>
+        <LogoMarquee />
+      </FadeIn>
     </AuroraBackground>
   );
 }

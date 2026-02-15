@@ -64,7 +64,7 @@ const PILL_COLORS = [
 const ELEMENT_COLORS: Record<ElementType, string> = {
   music: "bg-violet-600",
   image: "bg-cyan-600",
-  narration: "",
+  narration: "bg-amber-800",
   sound: "bg-emerald-600",
   character: "bg-amber-600",
   clip: "bg-rose-600",
@@ -76,7 +76,7 @@ const ELEMENT_ICON_COMPONENTS: Record<
 > = {
   music: Music,
   image: ImageIcon,
-  narration: null,
+  narration: Volume2,
   sound: Volume2,
   character: User,
   clip: Clapperboard,
@@ -85,7 +85,7 @@ const ELEMENT_ICON_COMPONENTS: Record<
 const ELEMENT_LABELS: Record<ElementType, string> = {
   music: "Music",
   image: "Image",
-  narration: "",
+  narration: "Narration",
   sound: "Sound Effect",
   character: "Character",
   clip: "Clip",
@@ -117,6 +117,7 @@ const INITIAL_ELEMENTS: StoryElement[] = [
     id: "narration-1",
     type: "narration",
     text: "The engine roared to life beneath the hood of the midnight-blue Silvia S15.",
+    model: "Cartesia",
   },
   {
     id: "sound-1",
@@ -129,6 +130,7 @@ const INITIAL_ELEMENTS: StoryElement[] = [
     id: "narration-2",
     type: "narration",
     text: "Takeshi gripped the steering wheel, his eyes locked on the winding road ahead.",
+    model: "Cartesia",
   },
   {
     id: "image-2",
@@ -151,6 +153,7 @@ const INITIAL_ELEMENTS: StoryElement[] = [
     id: "narration-3",
     type: "narration",
     text: "The neon signs blurred into streaks of color as the car surged forward into the Tokyo night.",
+    model: "Cartesia",
   },
   {
     id: "clip-1",
@@ -174,6 +177,21 @@ const RIVAL_CHARACTER: StoryElement = {
   model: "Cartesia",
   avatar: "/demo/avatars/ryu.webp",
 };
+const POST_RIVAL_NARRATION: StoryElement = {
+  id: "narration-5",
+  type: "narration",
+  text: "Ryu stepped out of the shadows, the glow of her taillights painting the alley crimson.",
+  model: "Cartesia",
+};
+const POST_RIVAL_CHARACTER: StoryElement = {
+  id: "character-3",
+  type: "character",
+  text: "Then let\u2019s race. Loser forfeits their keys.",
+  characterName: "Takeshi",
+  attributes: { gender: "Male", age: "Young adult", tone: "Determined" },
+  model: "Eleven Labs",
+  avatar: "/demo/avatars/takeshi.webp",
+};
 
 // Phase 5 additions
 const PHASE5_ELEMENTS: StoryElement[] = [
@@ -188,6 +206,7 @@ const PHASE5_ELEMENTS: StoryElement[] = [
     id: "narration-4",
     type: "narration",
     text: "The rear wheels broke loose as Takeshi yanked the handbrake, sending the car into a controlled slide.",
+    model: "Cartesia",
   },
   {
     id: "image-3",
@@ -416,16 +435,6 @@ function ElementCard({
 }) {
   const bgColor = ELEMENT_COLORS[element.type];
 
-  if (element.type === "narration") {
-    return (
-      <div className={`py-2 flex-1 flex items-center ${spectral.className}`}>
-        <p className="text-white text-xl text-center leading-relaxed w-full">
-          {element.text}
-        </p>
-      </div>
-    );
-  }
-
   const IconComponent = ELEMENT_ICON_COMPONENTS[element.type];
   const label = ELEMENT_LABELS[element.type];
   const attrs = element.attributes ? Object.entries(element.attributes) : [];
@@ -629,21 +638,9 @@ function CopilotInput({
 
 // ─── Animation Phases ────────────────────────────────────────────────────────
 
-type Phase =
-  | "prompt1"
-  | "elements"
-  | "prompt2"
-  | "edit1"
-  | "drag"
-  | "prompt3"
-  | "edit2"
-  | "pause"
-  | "fadeout";
-
 // ─── Main Demo Page ──────────────────────────────────────────────────────────
 
 export default function ScriptEditorDemo() {
-  const [phase, setPhase] = useState<Phase>("prompt1");
   const [visibleCount, setVisibleCount] = useState(0);
   const [elements, setElements] = useState<StoryElement[]>([]);
   const [copilotText, setCopilotText] = useState("");
@@ -700,7 +697,6 @@ export default function ScriptEditorDemo() {
   }, []);
 
   const resetState = useCallback(() => {
-    setPhase("prompt1");
     setVisibleCount(0);
     setElements([]);
     setCopilotText("");
@@ -709,7 +705,6 @@ export default function ScriptEditorDemo() {
     setMusicMorphPhase(null);
     setDragIndex(null);
     setDragOffset(0);
-    setGlobalVisible(true);
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollTop = 0;
     }
@@ -719,11 +714,11 @@ export default function ScriptEditorDemo() {
   useEffect(() => {
     clearTimeouts();
     resetState();
+    setGlobalVisible(true);
 
     let t = 0;
 
     // Phase 1: Prompt typing (0-4s)
-    schedule(() => setPhase("prompt1"), t);
     typeText(PROMPT_1, t + 300, () => {
       setShowCursor(true);
     });
@@ -731,7 +726,6 @@ export default function ScriptEditorDemo() {
 
     // Phase 2: Elements appear (4-12s)
     schedule(() => {
-      setPhase("elements");
       setElements(INITIAL_ELEMENTS);
       setCopilotText(PROMPT_1);
     }, t);
@@ -746,7 +740,6 @@ export default function ScriptEditorDemo() {
 
     // Phase 3: AI edit prompt
     schedule(() => {
-      setPhase("prompt2");
       setCopilotText("");
     }, t);
     typeText(PROMPT_2, t + 300, () => {
@@ -757,7 +750,6 @@ export default function ScriptEditorDemo() {
 
       // Start loading shimmer on music element
       schedule(() => {
-        setPhase("edit1");
         setHighlightMusic(true);
         setMusicMorphPhase("loading");
       }, 600);
@@ -791,13 +783,24 @@ export default function ScriptEditorDemo() {
         scrollToBottom();
       }, 1600 + revealDuration + 400);
 
-      schedule(() => setHighlightMusic(false), 1600 + revealDuration + 1800);
+      schedule(() => {
+        setElements((prev) => [...prev, POST_RIVAL_NARRATION]);
+        setVisibleCount((c) => c + 1);
+        scrollToBottom();
+      }, 1600 + revealDuration + 1200);
+
+      schedule(() => {
+        setElements((prev) => [...prev, POST_RIVAL_CHARACTER]);
+        setVisibleCount((c) => c + 1);
+        scrollToBottom();
+      }, 1600 + revealDuration + 2000);
+
+      schedule(() => setHighlightMusic(false), 1600 + revealDuration + 2800);
     });
-    t += 6500;
+    t += 8000;
 
     // Phase 4: Drag reorder
     schedule(() => {
-      setPhase("drag");
       setDragIndex(3);
       scrollContainerRef.current?.scrollTo({ top: 0, behavior: "smooth" });
     }, t);
@@ -818,13 +821,11 @@ export default function ScriptEditorDemo() {
 
     // Phase 5: Another AI edit
     schedule(() => {
-      setPhase("prompt3");
       setCopilotText("");
     }, t);
 
     typeText(PROMPT_3, t + 300, () => {
       schedule(() => {
-        setPhase("edit2");
         PHASE5_ELEMENTS.forEach((el, i) => {
           schedule(() => {
             setElements((prev) => [...prev, el]);
@@ -837,9 +838,7 @@ export default function ScriptEditorDemo() {
     t += 6000;
 
     // Phase 6: Pause then fade out and loop
-    schedule(() => setPhase("pause"), t);
     schedule(() => {
-      setPhase("fadeout");
       setGlobalVisible(false);
     }, t + 1500);
 
