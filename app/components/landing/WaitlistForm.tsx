@@ -44,7 +44,7 @@ export default function WaitlistForm() {
       }
 
       setStatus("success");
-      confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } });
+      confetti({ particleCount: 100, spread: 70, origin: { x: 0.3, y: 0.45 } });
     } catch {
       setError("Something went wrong. Please try again.");
       setStatus("error");
@@ -58,15 +58,33 @@ export default function WaitlistForm() {
           <p className="text-lg font-semibold text-white">
             Thanks &mdash; we&apos;ll call you soon
           </p>
-          <p className="mt-2 text-sm text-zinc-400">Want priority access?</p>
-          <a
-            href="https://form.typeform.com/to/WMzi15z4"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-3 inline-block rounded-lg bg-white/10 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white/20 cursor-pointer"
-          >
-            Tell us more
-          </a>
+          <div className="mt-3 flex flex-col sm:flex-row sm:items-center gap-3">
+            <p className="text-sm text-zinc-400">Want priority access?</p>
+            <a
+              href="https://form.typeform.com/to/WMzi15z4"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block rounded-xl px-6 py-3 font-semibold text-white transition-opacity hover:opacity-85 cursor-pointer"
+              style={{
+                backgroundImage:
+                  "linear-gradient(to right, #7c3aed -20%, #0891b2 120%)",
+              }}
+            >
+              Tell us more
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={3}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="inline-block w-5 h-5 ml-1 -mt-0.5"
+              >
+                <path d="M5 12h14M13 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     );
@@ -94,7 +112,11 @@ export default function WaitlistForm() {
         <button
           type="submit"
           disabled={status === "submitting"}
-          className="shrink-0 rounded-xl bg-gradient-to-r from-violet-600 to-cyan-600 px-6 py-3 font-semibold text-white transition-all hover:from-violet-500 hover:to-cyan-500 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
+          className="shrink-0 rounded-xl px-6 py-3 font-semibold text-white transition-opacity hover:opacity-85 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
+          style={{
+            backgroundImage:
+              "linear-gradient(to right, #7c3aed -20%, #0891b2 120%)",
+          }}
         >
           {status === "submitting" ? "Joining..." : "Join Beta"}
         </button>
@@ -105,16 +127,16 @@ export default function WaitlistForm() {
           {[1, 2, 3, 4].map((i) => (
             <Image
               key={i}
-              src={`/avatars/placeholder-${i}.svg`}
+              src={`/avatars/avatar-${i}.webp`}
               alt=""
               width={32}
               height={32}
-              className="rounded-full ring-2 ring-[#0a0a0a]"
+              className="rounded-full ring-2 ring-[#0a0a0a] object-cover"
             />
           ))}
         </div>
         <p className="text-sm text-zinc-400">
-          Join <span className="text-white font-medium">50+</span> creators on
+          Join <span className="text-white font-medium">60+</span> creators on
           the waitlist
         </p>
       </div>
