@@ -2,6 +2,7 @@ import HeroSection from "./components/landing/HeroSection";
 import LogoMarquee from "./components/landing/LogoMarquee";
 import AuroraBackground from "./components/landing/AuroraBackground";
 import FadeIn from "./components/landing/FadeIn";
+import Footer from "./components/landing/Footer";
 
 export default function Home() {
   return (
@@ -24,6 +25,8 @@ export default function Home() {
       <FadeIn delay={0.5}>
         <LogoMarquee />
       </FadeIn>
+
+      <Footer />
     </AuroraBackground>
   );
 }
