@@ -16,7 +16,8 @@ export async function GET() {
     favicon: `${SITE_URL}/favicon.ico`,
     copyright: `© ${new Date().getFullYear()} OpenSlop`,
     author: {
-      name: "Umair",
+      name: "Umair Nadeem",
+      email: "hi@openslop.ai",
       link: SITE_URL,
     },
   });
@@ -28,7 +29,7 @@ export async function GET() {
       link: `${SITE_URL}/blog/${post.slug}`,
       description: post.description,
       date: new Date(post.date),
-      author: [{ name: post.author }],
+      author: [{ name: post.author, email: "hi@openslop.ai" }],
       image: post.coverImage.startsWith("http")
         ? post.coverImage
         : `${SITE_URL}${post.coverImage}`,
