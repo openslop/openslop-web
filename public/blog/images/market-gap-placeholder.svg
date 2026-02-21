@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#7b8fcc"/>
+      <stop offset="30%" stop-color="#b08aaf"/>
+      <stop offset="55%" stop-color="#d98a8a"/>
+      <stop offset="80%" stop-color="#e8a585"/>
+      <stop offset="100%" stop-color="#f0c89a"/>
+    </linearGradient>
+    <radialGradient id="glowTL" cx="0%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#8ba0e0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="glowBR" cx="100%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#f5c490" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="glowTR" cx="100%" cy="0%" r="50%">
+      <stop offset="0%" stop-color="#d88a90" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="glowBL" cx="0%" cy="100%" r="50%">
+      <stop offset="0%" stop-color="#c8a0b8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="glowCenter" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#ffe0c0" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#ffe8d0" flood-opacity="0.6" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="960" height="400" rx="12" fill="url(#sky)"/>
+  <rect width="960" height="400" rx="12" fill="url(#glowTL)"/>
+  <rect width="960" height="400" rx="12" fill="url(#glowBR)"/>
+  <rect width="960" height="400" rx="12" fill="url(#glowTR)"/>
+  <rect width="960" height="400" rx="12" fill="url(#glowBL)"/>
+  <rect width="960" height="400" rx="12" fill="url(#glowCenter)"/>
+  <!-- Title -->
+  <text x="480" y="44" font-family="system-ui" font-size="22" fill="#ffffff" text-anchor="middle" font-weight="600" filter="url(#softglow)">The AI Video Tool Landscape</text>
+  <!-- Axes -->
+  <line x1="100" y1="320" x2="880" y2="320" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+  <line x1="100" y1="70" x2="100" y2="320" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+  <text x="490" y="360" font-family="system-ui" font-size="16" fill="rgba(255,255,255,0.7)" text-anchor="middle">Ease of Use →</text>
+  <text x="50" y="195" font-family="system-ui" font-size="16" fill="rgba(255,255,255,0.7)" text-anchor="middle" transform="rotate(-90 50 195)">Quality →</text>
+  <!-- Custom Scripts bubble -->
+  <circle cx="230" cy="230" r="44" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+  <text x="230" y="225" font-family="system-ui" font-size="15" fill="#fff0f0" text-anchor="middle" font-weight="500">Custom</text>
+  <text x="230" y="245" font-family="system-ui" font-size="15" fill="#fff0f0" text-anchor="middle" font-weight="500">Scripts</text>
+  <!-- Direct API Pipeline bubble -->
+  <circle cx="400" cy="120" r="44" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+  <text x="400" y="115" font-family="system-ui" font-size="15" fill="#f0ffff" text-anchor="middle" font-weight="500">Direct API</text>
+  <text x="400" y="135" font-family="system-ui" font-size="15" fill="#f0ffff" text-anchor="middle" font-weight="500">Pipeline</text>
+  <!-- All-in-One Tools bubble -->
+  <circle cx="660" cy="240" r="44" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+  <text x="660" y="235" font-family="system-ui" font-size="15" fill="#fff8f0" text-anchor="middle" font-weight="500">All-in-One</text>
+  <text x="660" y="255" font-family="system-ui" font-size="15" fill="#fff8f0" text-anchor="middle" font-weight="500">Tools</text>
+  <!-- OpenSlop bubble -->
+  <circle cx="740" cy="110" r="52" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.45)" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="740" y="105" font-family="system-ui" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="700" filter="url(#softglow)">OpenSlop</text>
+  <text x="740" y="128" font-family="system-ui" font-size="15" fill="rgba(255,255,255,0.8)" text-anchor="middle">(the gap)</text>
+</svg>

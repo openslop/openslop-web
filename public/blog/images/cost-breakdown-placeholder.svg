@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#7b8fcc"/>
+      <stop offset="30%" stop-color="#b08aaf"/>
+      <stop offset="55%" stop-color="#d98a8a"/>
+      <stop offset="80%" stop-color="#e8a585"/>
+      <stop offset="100%" stop-color="#f0c89a"/>
+    </linearGradient>
+    <radialGradient id="glowTL" cx="0%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#8ba0e0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="glowBR" cx="100%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#f5c490" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="glowTR" cx="100%" cy="0%" r="50%">
+      <stop offset="0%" stop-color="#d88a90" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="glowBL" cx="0%" cy="100%" r="50%">
+      <stop offset="0%" stop-color="#c8a0b8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="glowCenter" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#ffe0c0" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#ffe8d0" flood-opacity="0.6" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="960" height="360" rx="12" fill="url(#sky)"/>
+  <rect width="960" height="360" rx="12" fill="url(#glowTL)"/>
+  <rect width="960" height="360" rx="12" fill="url(#glowBR)"/>
+  <rect width="960" height="360" rx="12" fill="url(#glowTR)"/>
+  <rect width="960" height="360" rx="12" fill="url(#glowBL)"/>
+  <rect width="960" height="360" rx="12" fill="url(#glowCenter)"/>
+  <text x="480" y="44" font-family="system-ui" font-size="22" fill="#ffffff" text-anchor="middle" font-weight="600" filter="url(#softglow)">The Real Cost Breakdown</text>
+  <!-- Left: $200 approach -->
+  <rect x="30" y="65" width="435" height="270" rx="12" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.2)"/>
+  <text x="247" y="105" font-family="system-ui" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="600" filter="url(#softglow)">❌ Generate Everything as Video</text>
+  <text x="75" y="145" font-family="system-ui" font-size="15" fill="#ffffff">300 video clips × $0.50–$0.70 each</text>
+  <text x="75" y="175" font-family="system-ui" font-size="15" fill="#ffffff">TTS voiceover (ElevenLabs premium)</text>
+  <text x="75" y="205" font-family="system-ui" font-size="15" fill="#ffffff">Music generation</text>
+  <text x="75" y="235" font-family="system-ui" font-size="15" fill="#ffffff">Hours of manual editing in Premiere</text>
+  <text x="247" y="300" font-family="system-ui" font-size="36" fill="#ffffff" font-weight="700" text-anchor="middle" filter="url(#softglow)">~$200/video</text>
+  <!-- Right: $2 approach -->
+  <rect x="495" y="65" width="435" height="270" rx="12" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.2)"/>
+  <text x="712" y="105" font-family="system-ui" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="600" filter="url(#softglow)">✅ Images + Selective Animation</text>
+  <text x="540" y="145" font-family="system-ui" font-size="15" fill="#ffffff">200 images × $0.003 = $0.60</text>
+  <text x="540" y="175" font-family="system-ui" font-size="15" fill="#ffffff">25 animations × $0.07 = $1.75</text>
+  <text x="540" y="205" font-family="system-ui" font-size="15" fill="#ffffff">TTS via Cartesia (8× cheaper)</text>
+  <text x="540" y="235" font-family="system-ui" font-size="15" fill="#ffffff">80–90% Ken Burns (free via ffmpeg)</text>
+  <text x="712" y="300" font-family="system-ui" font-size="36" fill="#ffffff" font-weight="700" text-anchor="middle" filter="url(#softglow)">~$2/video</text>
+</svg>

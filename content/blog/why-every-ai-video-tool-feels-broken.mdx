@@ -1,0 +1,124 @@
+---
+title: "Why Every AI Video Tool Feels Broken"
+description: "I've tried every AI video tool on the market. They all promise the same thing and they all fall short in the same ways. Here's what's actually going wrong."
+date: "2026-02-17"
+author: "Umair"
+authorAvatar: "/avatars/placeholder-1.svg"
+coverImage: "/blog/covers/why-every-ai.webp"
+coverGif: "/blog/covers/why-every-ai.gif"
+category: "Reflections"
+tags: ["ai video", "tools", "opinion"]
+---
+
+<div className="callout">
+  "Its a slot machine with a subscription fee."
+  <span className="callout-author">— Umair</span>
+</div>
+
+I've spent six months trying every AI video tool that exists. OpenArt, Higgsfield, AutoShorts, StoryShort, Vimerse, Vadoo, Hypernatural, Freepik. The whole graveyard. Signed up for free trials, paid for pro plans, joined Discord servers where the founders post rocket emojis every time they ship a button color change.
+
+![rocket emojis](/blog/images/rocket-emojis.webp)
+
+Every single one let me down. Not because the AI is bad (the underlying models are genuinely incredible now) - instead; the tools wrapping them are the problem.
+
+## The Pitch
+
+You know the landing page. "Create stunning AI videos in minutes." Demo video looks cinematic. You think _finally, this is the one._
+
+<div className="giphy-embed">
+  <img
+    src="https://media.giphy.com/media/EEOytUcCOEDsafyoIi/giphy.gif"
+    alt=""
+  />
+</div>
+
+You sign up, type your own prompt, and the output looks like a stock photo slideshow assembled by someone who's never watched a YouTube video. Every. Single. Time.
+
+<div className="giphy-embed">
+  <img
+    src="https://media.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif"
+    alt=""
+  />
+</div>
+
+## How They All Break
+
+**They treat every video the same.** A kids bedtime story and a true crime documentary have nothing in common. Different pacing, different visuals, different audio, different editing. But you get the same template dropdown and the same five transitions. Its like a restaurant that serves every cuisine but only owns one pan.
+
+**The quality is artificially capped.** When you call image gen APIs directly you control everything. Seeds, aspect ratios, style references, model selection per scene. These tools abstract all of that away for "simplicity" and the result is that generic oversaturated AI look you can spot from across the room.
+
+Creators who call APIs directly and assemble with ffmpeg produce better output at a fifth of the cost. Funny how that works.
+
+![All-in-one tool output vs direct API pipeline output](/blog/images/quality-comparison-placeholder.svg)
+
+**You can't fix anything.** One bad image in scene 14? Regenerate the entire video. Wrong pacing on the third act? Regenerate. Hope the dice roll better this time.
+
+Thats not a creative tool. **Its a slot machine with a subscription fee.**
+
+<div
+  style={{
+    display: "grid",
+    gridTemplateColumns: "1fr 1fr",
+    gap: "1rem",
+    margin: "2rem 0",
+  }}
+>
+  <figure style={{ margin: 0 }}>
+    <img
+      src="/blog/images/aio-output.png"
+      alt="All-in-one tool output: over-saturated anime style"
+      style={{ borderRadius: "0.5rem", width: "100%", display: "block" }}
+    />
+    <figcaption>
+      All-in-One Tool Output: $5-$20/video, clearly AI, no stylistic control
+    </figcaption>
+  </figure>
+  <figure style={{ margin: 0 }}>
+    <img
+      src="/blog/images/direct-output.gif"
+      alt="Direct API pipeline output: controlled claymation style"
+      style={{ borderRadius: "0.5rem", width: "100%", display: "block" }}
+    />
+    <figcaption>
+      Direct API Pipeline Output: less than $2 per video, full stylistic control
+    </figcaption>
+  </figure>
+</div>
+
+## What Creators Actually Do Instead
+
+I've talked to 50+ AI video creators. Every single one has built some frankensteined version of their own pipeline.
+
+Janky Python scripts. Make.com/n8n automations that timeout every third run. Google Sheets wired to Zapier wired to API calls wired to prayers.
+
+What they actually want is dead simple: the quality of direct API access without needing a CS degree to set it up.
+
+Not a dumbed-down wizard. Not templates. A real tool where you pick which model generates each scene, decide what gets animated vs ken burns, swap individual images without nuking everything, and see what it costs before you commit.
+
+| Feature                       | All-in-one tools | DIY pipeline | OpenSlop |
+| ----------------------------- | ---------------- | ------------ | -------- |
+| Per-scene model control       | No               | Yes          | Yes      |
+| Swap individual assets        | No               | Yes          | Yes      |
+| Ken burns vs animation choice | No               | Yes          | Yes      |
+| No-code friendly              | Yes              | Lol          | Yes      |
+| Cost per video                | $5-20            | ~$2          | ~$2      |
+
+## The Gap
+
+The market has two halves with nothing in between.
+
+**Left:** Expensive all-in-one tools ($30-100/mo) producing content you'd be embarrassed to publish.
+
+**Right:** Raw API access producing great content, accessible only to people who can write code.
+
+![The market gap between all-in-one tools and raw API access](/blog/images/market-gap-placeholder.svg)
+
+Most creators want to be on the right. Most creators cant get there. The few who can have an absurd competitive advantage. $2 videos that look better than what someone else pays $100/month for.
+
+## Why OpenSlop Exists
+
+We're building the missing middle. **Open source. Free.** No black box, no templates, no $50/month "pro tier" that unlocks the features that shouldve been there from the start.
+
+The AI models have been good enough for months. The bottleneck was always the orchestration. Connecting models intelligently, giving creators actual control, and not extracting rent for the privilege.
+
+Built by someone who runs a daily AI channel and got tired of every tool being almost good enough. If you're currently duct-taping APIs together with Python scripts and caffeine, this is for you.

@@ -1,15 +1,15 @@
-"use client";
-
 import { ReactNode } from "react";
 
 interface AuroraBackgroundProps {
   children: ReactNode;
   showRadialGradient?: boolean;
+  animate?: boolean;
 }
 
 export default function AuroraBackground({
   children,
   showRadialGradient = true,
+  animate = true,
 }: AuroraBackgroundProps) {
   return (
     <div className="relative min-h-screen bg-[#0a0a0a] text-white">
@@ -48,7 +48,7 @@ export default function AuroraBackground({
           background-size: 200% 100%;
           background-attachment: fixed;
           mix-blend-mode: difference;
-          animation: aurora-anim 60s linear infinite;
+          animation: ${animate ? "aurora-anim 60s linear infinite" : "none"};
         }
       `}</style>
       <div className="absolute inset-0 overflow-hidden">
