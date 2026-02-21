@@ -5,6 +5,8 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
 import { getAllPosts, getPostBySlug } from "@/lib/blog";
 import AuroraBackground from "@/app/components/landing/AuroraBackground";
+import Footer from "@/app/components/landing/Footer";
+import BlogCTA from "@/app/components/blog/BlogCTA";
 import type { Metadata } from "next";
 
 type Params = Promise<{ slug: string }>;
@@ -113,10 +115,12 @@ export default async function BlogPostPage({ params }: { params: Params }) {
               <MDXRemote
                 source={post.content}
                 options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }}
+                components={{ BlogCTA }}
               />
             </div>
           </div>
         </article>
+        <Footer />
       </div>
     </AuroraBackground>
   );

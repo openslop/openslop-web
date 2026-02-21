@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { getAllPosts } from "@/lib/blog";
 import AuroraBackground from "@/app/components/landing/AuroraBackground";
+import Footer from "@/app/components/landing/Footer";
 import type { Metadata } from "next";
 import type { BlogPostMeta } from "@/lib/blog";
 
@@ -125,6 +126,7 @@ export default function BlogListingPage() {
           </div>
         )}
       </div>
+      <Footer />
     </AuroraBackground>
   );
 }
