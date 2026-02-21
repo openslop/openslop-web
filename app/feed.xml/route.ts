@@ -1,7 +1,7 @@
 import { Feed } from "feed";
 import { getAllPosts } from "@/lib/blog";
 
-const SITE_URL = "https://openslop.com";
+const SITE_URL = "https://openslop.ai";
 
 export async function GET() {
   const posts = getAllPosts();
