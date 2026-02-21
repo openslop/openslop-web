@@ -26,6 +26,11 @@ const urbanist = Urbanist({
 export const metadata: Metadata = {
   title: "OpenSlop — AI Video & Audio That Doesn't Insult Your Audience",
   description: "Professional AI-powered video and audio generation. Join the beta waitlist for early access.",
+  alternates: {
+    types: {
+      "application/rss+xml": "/feed.xml",
+    },
+  },
 };
 
 export default function RootLayout({
