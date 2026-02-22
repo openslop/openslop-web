@@ -1,5 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Instrument_Serif, Urbanist } from "next/font/google";
+import {
+  Geist,
+  Geist_Mono,
+  Instrument_Serif,
+  Urbanist,
+} from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -24,8 +29,10 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-  title: "OpenSlop — AI Video & Audio That Doesn't Insult Your Audience",
-  description: "Professional AI-powered video and audio generation. Join the beta waitlist for early access.",
+  title:
+    "OpenSlop - Free Open-Source AI Content Creator That Doesn't Insult Your Audience",
+  description:
+    "Free Open-Source AI-powered content creation. Join the beta waitlist for early access.",
   alternates: {
     types: {
       "application/rss+xml": "/feed.xml",
