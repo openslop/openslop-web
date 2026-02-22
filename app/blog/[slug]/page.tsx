@@ -115,7 +115,14 @@ export default async function BlogPostPage({ params }: { params: Params }) {
               <MDXRemote
                 source={post.content}
                 options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }}
-                components={{ BlogCTA }}
+                components={{
+                  BlogCTA,
+                  table: (props: React.ComponentProps<"table">) => (
+                    <div className="table-wrapper">
+                      <table {...props} />
+                    </div>
+                  ),
+                }}
               />
             </div>
           </div>
