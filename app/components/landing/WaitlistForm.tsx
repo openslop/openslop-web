@@ -136,7 +136,7 @@ export default function WaitlistForm() {
           ))}
         </div>
         <p className="text-sm text-zinc-400">
-          Join <span className="text-white font-medium">100+</span> creators on
+          Join <span className="text-white font-medium">110+</span> creators on
           the waitlist
         </p>
       </div>
