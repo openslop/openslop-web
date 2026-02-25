@@ -75,7 +75,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
     "@type": "BlogPosting",
     headline: post.title,
     description: post.description,
-    image: `https://openslop.com${post.coverImage}`,
+    image: `https://openslop.ai${post.coverImage}`,
     datePublished: post.date,
     dateModified: post.date,
     author: {
@@ -85,11 +85,11 @@ export default async function BlogPostPage({ params }: { params: Params }) {
     publisher: {
       "@type": "Organization",
       name: "OpenSlop",
-      url: "https://openslop.com",
+      url: "https://openslop.ai",
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://openslop.com/blog/${post.slug}`,
+      "@id": `https://openslop.ai/blog/${post.slug}`,
     },
     keywords: post.tags.join(", "),
   };

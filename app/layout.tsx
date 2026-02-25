@@ -29,7 +29,7 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://openslop.com"),
+  metadataBase: new URL("https://openslop.ai"),
   title: {
     default: "OpenSlop - Free Open-Source AI Content Creator",
     template: "%s - OpenSlop",
@@ -45,12 +45,12 @@ export const metadata: Metadata = {
     "content creation",
     "text to video",
   ],
-  authors: [{ name: "OpenSlop", url: "https://openslop.com" }],
+  authors: [{ name: "OpenSlop", url: "https://openslop.ai" }],
   creator: "OpenSlop",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://openslop.com",
+    url: "https://openslop.ai",
     siteName: "OpenSlop",
     title: "OpenSlop - Free Open-Source AI Content Creator",
     description:

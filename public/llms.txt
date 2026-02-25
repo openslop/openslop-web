@@ -6,17 +6,17 @@ OpenSlop is built for YouTube creators who want to produce AI-generated videos a
 
 ## Blog
 
-- [Why Every AI Video Tool Feels Broken](https://openslop.com/blog/why-every-ai-video-tool-feels-broken): Analysis of why current AI video tools fall short — quality caps, consistency failures, and the gap between marketing promises and actual output.
-- [The No-BS Guide to AI Video Creation at Scale](https://openslop.com/blog/the-no-bs-guide-to-ai-video-creation-at-scale): Complete guide covering the $2/video pipeline, tool stack, multi-pass scripting, character consistency, YouTube growth strategy, and monetization.
-- [Narrative Diffusion: The Multi-Pass Scripting Method](https://openslop.com/blog/narrative-diffusion-the-multi-pass-scripting-method): Deep dive into the 5-pass scripting method that makes AI scripts sound human, with exact prompts, model rankings, and pro tips.
+- [Why Every AI Video Tool Feels Broken](https://openslop.ai/blog/why-every-ai-video-tool-feels-broken): Analysis of why current AI video tools fall short — quality caps, consistency failures, and the gap between marketing promises and actual output.
+- [The No-BS Guide to AI Video Creation at Scale](https://openslop.ai/blog/the-no-bs-guide-to-ai-video-creation-at-scale): Complete guide covering the $2/video pipeline, tool stack, multi-pass scripting, character consistency, YouTube growth strategy, and monetization.
+- [Narrative Diffusion: The Multi-Pass Scripting Method](https://openslop.ai/blog/narrative-diffusion-the-multi-pass-scripting-method): Deep dive into the 5-pass scripting method that makes AI scripts sound human, with exact prompts, model rankings, and pro tips.
 
 ## Pages
 
-- [Home](https://openslop.com): Landing page with product overview and beta waitlist signup.
-- [About](https://openslop.com/about): About the OpenSlop team and mission.
+- [Home](https://openslop.ai): Landing page with product overview and beta waitlist signup.
+- [About](https://openslop.ai/about): About the OpenSlop team and mission.
 
 ## Optional
 
-- [Terms of Service](https://openslop.com/terms): Terms of service.
-- [Privacy Policy](https://openslop.com/privacy): Privacy policy.
-- [RSS Feed](https://openslop.com/feed.xml): Blog RSS feed.
+- [Terms of Service](https://openslop.ai/terms): Terms of service.
+- [Privacy Policy](https://openslop.ai/privacy): Privacy policy.
+- [RSS Feed](https://openslop.ai/feed.xml): Blog RSS feed.

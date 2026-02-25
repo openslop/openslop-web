@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/"],
       },
     ],
-    sitemap: "https://openslop.com/sitemap.xml",
-    host: "https://openslop.com",
+    sitemap: "https://openslop.ai/sitemap.xml",
+    host: "https://openslop.ai",
   };
 }
