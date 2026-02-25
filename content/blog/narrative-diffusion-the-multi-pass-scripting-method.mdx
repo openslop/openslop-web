@@ -1,0 +1,243 @@
+---
+title: "Narrative Diffusion: The Multi-Pass Scripting Method"
+description: "Stop writing AI scripts in one shot. Narrative diffusion is a multi-pass approach that works like Stable Diffusion - noise to structure to polish. Here's the exact method with prompts."
+date: "2026-02-24"
+author: "Umair"
+authorAvatar: "/avatars/umair-avatar.webp"
+coverImage: "/blog/covers/narrative-diffusion.webp"
+coverGif: "/blog/covers/narrative-diffusion.gif"
+category: "Knowledge & Tutorials"
+tags: ["scripting", "ai writing", "prompting", "claude", "narrative diffusion"]
+---
+
+<div className="callout">
+  "If you're writing scripts in one shot, that's your problem."
+  <span className="callout-author">— Umair</span>
+</div>
+
+Lots of people have been asking about my scripting process. I touched on this in [the No-BS guide](/blog/the-no-bs-guide-to-ai-video-creation-at-scale) but people wanted the full breakdown with actual prompts.
+
+Here's the core idea: **stop writing scripts in one pass.**
+
+Stable Diffusion doesn't render a final image in one shot. It starts with pure noise and refines over multiple denoising steps. General shapes first, then finer detail, then sharpening. Each step has one job.
+
+![How Stable Diffusion works, and why scripts should work the same way](/blog/images/stable-diffusion-analogy-placeholder.svg)
+
+Same thing for scripts. I call this "narrative diffusion." Each pass refines the last. The difference vs single-shot prompting is night and day. **This ships baked into OpenSlop's pipeline**, so you don't have to wire it up yourself.
+
+<div className="giphy-embed">
+  <img
+    src="https://media.giphy.com/media/hN8BGpsTCdrsPoH3oO/giphy.gif"
+    alt="Big brain moment"
+  />
+</div>
+
+## Why Single-Pass Produces Slop
+
+"Write me a 10-minute script about the history of Rome." You know what you get back. "Rome, the Eternal City, has captivated the imagination of millions." Wikipedia energy.
+
+The problem isn't the model. You're asking it to outline, write, enrich, polish, and ensure visual consistency in one prompt. So it does all five badly. This is like asking a chef to prep, cook, plate, and serve simultaneously. You get a microwave burrito.
+
+![Single-pass vs narrative diffusion output](/blog/images/single-vs-multi-pass-placeholder.svg)
+
+## Model Ranking
+
+The model matters more than people think.
+
+![Model tier list for scripting](/blog/images/model-ranking-scripting-placeholder.svg)
+
+| Model | Multi-pass capability | Context | Cost per script |
+| --- | --- | --- | --- |
+| Claude Opus 4.6 | Excellent, holds all passes | 1M tokens | ~$0.30-0.50 |
+| GPT-5.2 | Drifts pass 3-4 | 256K tokens | ~$0.20-0.40 |
+| Gemini 3 Pro | Struggles with polish | 2M tokens | ~$0.15-0.30 |
+| DeepSeek/Llama/OSS | Pass 1-2 only | Varies | Free-$0.05 |
+
+**Opus** holds multi-pass instructions without drifting and the language quality is noticeably better. Most script pros on r/writers prefer Anthropic for tone and voice. **GPT-5.2** starts "improvising" around pass 3-4, which is a polite way of saying it forgets your instructions. **Open source** is fine for passes 1-2 if budget's tight.
+
+One clean Opus run beats three messy GPT runs that need manual fixing. The cheapest tool is the one that works the first time.
+
+<div className="giphy-embed">
+  <img
+    src="https://media.giphy.com/media/yAYZnhvY3fflS/giphy.gif"
+    alt="Shut up and take my money"
+  />
+</div>
+
+## How Many Passes Do You Need?
+
+Not every piece of content needs all five. A quick explainer or kids' bedtime story? Passes 1 and 2 are enough.
+
+- **2 passes** (structure + draft): Short-form, simple stories, explainers. Gets you 80% there.
+- **3-4 passes** (+ enrich/polish): Long-form narratives, documentaries. "Fine" becomes "people actually finish watching."
+- **5 passes** (+ visual consistency): Full video pipeline with standalone image prompts, consistent art style, and animate/static tagging.
+
+OpenSlop lets you configure this per video. Don't overthink it.
+
+## The Passes
+
+![The 5 passes of narrative diffusion](/blog/images/narrative-diffusion-passes-placeholder.svg)
+
+---
+
+### Pass 1: The Kernel
+
+You're not writing yet. You're outlining a story that has an actual arc.
+
+> Briefly and succinctly outline an engaging **\[GENRE, e.g. kids' bedtime story, true crime documentary\]** with a high-concept premise, characters, themes, conflict, twists, and a resolution. The story should be about: **\[SEED IDEA, e.g. Little Red Riding Hood, the fall of Rome\]**
+
+Genre matters upfront because a bedtime story and a true crime doc have completely different structure. This pass should give you: a hook, 3-5 act structure, characters to anchor to, at least one twist, and a payoff that ties back to the hook.
+
+If the skeleton is weak, no amount of pretty language saves it. It's like building a house without a blueprint. You can start nailing boards together, and for a while it'll look like progress. Then you realize the bathroom is where the kitchen should be.
+
+You never skip pass 1. The kernel is non-negotiable.
+
+<div className="giphy-embed">
+  <img
+    src="https://media.giphy.com/media/lAhNLzBud4cSC80BMU/giphy.gif"
+    alt="Calculating, planning"
+  />
+</div>
+
+---
+
+### Pass 2: The Draft
+
+This is where writing happens. The system prompt we use in OpenSlop:
+
+> **You are a world-renowned audiobook narrator and storyteller in the style of \[AUTHOR, e.g. George R. R. Martin\].** Write with vivid sensory detail, stark human conflict, moral ambiguity, and textured worldbuilding. Reveal the story in layered revelations: first the conflict, then the deeper truths beneath it, like peeling an onion. Always write in **third person**, use **character dialogue** to drive the story, in a style for **audio narration** at a **5th-grade reading level**.
+
+The author style is configurable. GRRM steers toward moral ambiguity and consequences over simple good-vs-evil. Swap in whoever fits your content: Roald Dahl for kids' stories, David Attenborough for nature docs, Erik Larson for historical narrative. OpenSlop lets you set this per video.
+
+The system prompt also includes pre-writing requirements (theme, complex characters with flaws, setting with atmosphere), narration rules (hooking intro, show-don't-tell, escalating stakes, balanced pacing), and XML tagging for character dialogue with emotion attributes, image prompts, sound effects, and music cues so the output is machine-parseable.
+
+User prompt: **Write a complete detailed story about: \[PASS 1 OUTPUT\]**
+
+Why this works: **"5th-grade level"** forces clarity your audience can follow while doing dishes. **"Audio narration"** kills blog-style prose that dies as voiceover. **"Character dialogue"** keeps description minimal, at most 2 lines between dialogues. The **author style** anchors the model's tone so it doesn't default to generic AI prose.
+
+For simple content, this might be your last pass.
+
+<div className="giphy-embed">
+  <img
+    src="https://media.giphy.com/media/B1uajA01vvL91Urtsp/giphy.gif"
+    alt="Typing furiously"
+  />
+</div>
+
+---
+
+### Pass 3: Enrich (Optional)
+
+> Rewrite the story with richer detail and make it longer. **Keep all established events, motivations, and continuity intact.** Add sensory imagery, clearer scene-setting, additional short scenes for worldbuilding or tension without altering the plot. More dialogue, more sounds, more atmosphere. Do not remove detail.
+
+**"Keep all established events intact"** is the most important phrase here. Without it the model WILL rewrite everything. It'll shuffle scenes, drop characters, and "improve" your arc into something unrecognizable. I learned this the hard way. Twice.
+
+Before: _"The soldier walked through the city. It was destroyed."_
+
+After: _"The soldier's sandal caught on a loose cobblestone. Ash in the air, thick enough to taste. Copper pots scattered like discarded crowns. Somewhere behind him, a dog barked at nothing."_
+
+Same events. The first tells you what happened. The second puts you there.
+
+<div className="giphy-embed">
+  <img
+    src="https://media.giphy.com/media/Jt39DbX4GCEcG7RUR7/giphy.gif"
+    alt="Level up"
+  />
+</div>
+
+---
+
+### Pass 4: Polish (Optional)
+
+> Transform into a fully realized audio-drama narrative. Preserve all events and continuity. Make the prose feel hand-crafted. Deepen sensory detail. Strengthen conflict and tension. Tighten sentences, improve rhythm, remove redundancy. Fix continuity errors. Deliver a final, professionally edited manuscript. Do not remove detail.
+
+This is where you hunt down every LLM-ism and put it out of its misery. Every model has verbal tics. The kill list:
+
+- "delve" / "dive in" / "it's worth noting" / "moreover"
+- "journey" / "tapestry" / "landscape" / "let's explore"
+- "fascinating" / "remarkable" / "groundbreaking"
+- Any sentence starting with "Imagine..." or "But here's the thing..."
+
+**Vary sentence length.** AI defaults to medium-length sentences of equal size. Short punches. Then a longer sentence that rolls and builds momentum and carries the reader through. Then short again. Monotone sentence length is the uncanny valley of writing.
+
+**Open with tension, not context.** "Rome was founded in 753 BC" = boring. "The knife was still wet when Brutus turned to face the Senate" = hooked.
+
+<div className="giphy-embed">
+  <img
+    src="https://media.giphy.com/media/9WXyFIDv2PyBq/giphy.gif"
+    alt="Perfection"
+  />
+</div>
+
+---
+
+### Pass 5: Visual Consistency (Optional)
+
+> Review and rewrite every image prompt so each one works as a **standalone prompt** outside the context of the story. Every prompt must include: full character descriptions (age, build, hair, clothing, distinguishing features), a locked art style directive, camera angle, lighting, mood, and setting details. Ensure visual continuity across all scenes: consistent character appearances, consistent color palette, consistent art style. Tag each scene as "animate" or "static."
+
+This is the pass most people skip, and it's why their videos look like five different AI models collaborated on a group project.
+
+The problem: passes 2-4 produce image prompts that make sense *in context* ("the old man stepped into the room") but are useless as standalone generation prompts. Your image model doesn't have the story context. It doesn't know who "the old man" is. So you get a different old man in every frame.
+
+**Every prompt must be self-contained.** Instead of "the old man stepped into the room," you need "a gaunt 70-year-old man with a silver beard, deep-set brown eyes, and a tattered navy wool coat, stepping into a dimly lit stone chamber with arched doorways and flickering candlelight, cinematic wide shot, warm amber lighting, oil painting style." Same character description, same art style directive, every single scene.
+
+**Lock your art style.** Pick one and stamp it on every prompt: "Studio Ghibli watercolor," "hyper-realistic cinematic," "dark oil painting." If even one prompt drifts, that scene sticks out like a stock photo in a Pixar movie.
+
+**Check your cuts.** Scene A's character wears a red cloak. Scene B's character better still be wearing a red cloak. Models don't track continuity across separate generations. You have to enforce it manually in every prompt.
+
+**"Animate"** = AI video generation (~$0.07 each). Key dramatic moments, action, opening hook. **"Static"** = still image with Ken Burns (free via ffmpeg). Dialogue, establishing shots, anything voiceover carries. 80-90% should be static. Front-load animations in the first 2 minutes for retention.
+
+## Common Mistakes
+
+**Skipping pass 1.** You go straight to writing and get a Wikipedia article, not a story.
+
+**Combining passes.** "Write me a polished script with consistent image prompts." Each pass has one job. The moment you ask for multiple things the model compromises on all of them. You wouldn't ask your barber to also fix your car.
+
+**Forgetting "keep events intact."** Without this guardrail the model treats enrichment as an invitation to rewrite your plot. Models are like interns: enthusiastic, capable, but they'll redecorate your office while you're at lunch.
+
+**Wrong model for the wrong pass.** Open source for pass 4 polish means more time fixing LLM-isms than if you'd just paid for Opus. Penny wise, pound foolish.
+
+**All passes in one prompt.** "Do passes 1-4 in sequence." The model combines them mentally and produces something that's none of the above. Each pass needs its own prompt with the previous output as input.
+
+<div className="giphy-embed">
+  <img
+    src="https://media.giphy.com/media/vwI4mYEHP8k0w/giphy.gif"
+    alt="Facepalm"
+  />
+</div>
+
+## Pro Tips
+
+**Save pass outputs separately.** If pass 4 goes sideways, restart from pass 3, not scratch.
+
+**Run pass 4 twice if needed.** Diminishing returns after two. If you need three, the earlier passes are the problem.
+
+**Use Claude's 1M context.** Feed ALL previous outputs into each subsequent pass. Models with smaller windows start forgetting, and forgetting is where coherence goes to die.
+
+**Temperature matters.** Higher for pass 1 (creative ideas). Lower for pass 4 (precise editing).
+
+**Batch your scripts.** Run pass 1 for 5 videos, then pass 2 for all 5, and so on. Assembly line beats artisanal at scale.
+
+<div className="giphy-embed">
+  <img
+    src="https://media.giphy.com/media/11LK0CKzYtkaic/giphy.gif"
+    alt="Assembly line"
+  />
+</div>
+
+## Bottom Line
+
+Narrative diffusion is a series of prompts run in sequence. Sometimes two, sometimes five. But even at its simplest, the difference vs single-shot prompting is the difference between content people bounce from in 5 seconds and content they watch to the end.
+
+This entire method ships with OpenSlop. Prompts, pass configuration, XML tagging, all of it. Pick your genre, drop in a seed idea, choose your passes, and the pipeline handles the rest.
+
+Try it on your next script.
+
+<div className="giphy-embed">
+  <img
+    src="https://media.giphy.com/media/15BuyagtKucHm/giphy.gif"
+    alt="Mic drop"
+  />
+</div>
+
+<BlogCTA />

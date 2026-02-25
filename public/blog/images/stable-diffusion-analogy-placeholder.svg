@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#7b8fcc"/>
+      <stop offset="30%" stop-color="#b08aaf"/>
+      <stop offset="55%" stop-color="#d98a8a"/>
+      <stop offset="80%" stop-color="#e8a585"/>
+      <stop offset="100%" stop-color="#f0c89a"/>
+    </linearGradient>
+    <radialGradient id="glowTL" cx="0%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#8ba0e0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="glowBR" cx="100%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#f5c490" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#ffe8d0" flood-opacity="0.6" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="960" height="280" rx="12" fill="url(#sky)"/>
+  <rect width="960" height="280" rx="12" fill="url(#glowTL)"/>
+  <rect width="960" height="280" rx="12" fill="url(#glowBR)"/>
+  <text x="480" y="34" font-family="system-ui" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="600" filter="url(#softglow)">How Stable Diffusion Works (and Why Scripts Should Work the Same Way)</text>
+  <!-- Step boxes -->
+  <!-- Noise -->
+  <rect x="30" y="55" width="160" height="130" rx="10" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.2)"/>
+  <rect x="50" y="70" width="120" height="80" rx="6" fill="rgba(0,0,0,0.3)"/>
+  <text x="110" y="100" font-family="monospace" font-size="11" fill="rgba(255,255,255,0.4)" text-anchor="middle">░▒▓░▒▓░▒▓</text>
+  <text x="110" y="115" font-family="monospace" font-size="11" fill="rgba(255,255,255,0.4)" text-anchor="middle">▓░▒▓░▒░▓▒</text>
+  <text x="110" y="130" font-family="monospace" font-size="11" fill="rgba(255,255,255,0.4)" text-anchor="middle">▒▓░▒▓▒░▓░</text>
+  <text x="110" y="170" font-family="system-ui" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">Pure Noise</text>
+  <!-- Arrow -->
+  <text x="205" y="115" font-family="system-ui" font-size="24" fill="rgba(255,255,255,0.5)" text-anchor="middle">→</text>
+  <!-- Shapes -->
+  <rect x="220" y="55" width="160" height="130" rx="10" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.2)"/>
+  <rect x="240" y="70" width="120" height="80" rx="6" fill="rgba(0,0,0,0.3)"/>
+  <circle cx="280" cy="105" r="18" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.25)"/>
+  <rect x="310" y="90" width="30" height="25" rx="3" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.25)"/>
+  <text x="300" y="170" font-family="system-ui" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">Shapes</text>
+  <!-- Arrow -->
+  <text x="395" y="115" font-family="system-ui" font-size="24" fill="rgba(255,255,255,0.5)" text-anchor="middle">→</text>
+  <!-- Detail -->
+  <rect x="410" y="55" width="160" height="130" rx="10" fill="rgba(255,255,255,0.14)" stroke="rgba(255,255,255,0.2)"/>
+  <rect x="430" y="70" width="120" height="80" rx="6" fill="rgba(0,0,0,0.3)"/>
+  <circle cx="470" cy="100" r="16" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.35)"/>
+  <circle cx="466" cy="96" r="3" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="474" cy="96" r="3" fill="rgba(255,255,255,0.4)"/>
+  <line x1="466" y1="106" x2="474" y2="106" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+  <rect x="498" y="85" width="35" height="30" rx="4" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.35)"/>
+  <line x1="505" y1="92" x2="526" y2="92" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="505" y1="98" x2="520" y2="98" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="490" y="170" font-family="system-ui" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">Detail</text>
+  <!-- Arrow -->
+  <text x="585" y="115" font-family="system-ui" font-size="24" fill="rgba(255,255,255,0.5)" text-anchor="middle">→</text>
+  <!-- Sharp -->
+  <rect x="600" y="55" width="160" height="130" rx="10" fill="rgba(255,255,255,0.16)" stroke="rgba(255,255,255,0.2)"/>
+  <rect x="620" y="70" width="120" height="80" rx="6" fill="rgba(0,0,0,0.3)"/>
+  <circle cx="660" cy="100" r="16" fill="rgba(255,255,255,0.3)" stroke="rgba(255,255,255,0.5)"/>
+  <circle cx="655" cy="96" r="3.5" fill="rgba(100,180,255,0.6)"/>
+  <circle cx="665" cy="96" r="3.5" fill="rgba(100,180,255,0.6)"/>
+  <path d="M654 106 Q660 111 666 106" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+  <rect x="692" y="82" width="35" height="35" rx="5" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.5)"/>
+  <line x1="699" y1="90" x2="720" y2="90" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+  <line x1="699" y1="97" x2="715" y2="97" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <line x1="699" y1="104" x2="718" y2="104" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <text x="680" y="170" font-family="system-ui" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">Sharp</text>
+  <!-- Arrow -->
+  <text x="775" y="115" font-family="system-ui" font-size="24" fill="rgba(255,255,255,0.5)" text-anchor="middle">→</text>
+  <!-- Final -->
+  <rect x="790" y="55" width="140" height="130" rx="10" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.3)"/>
+  <rect x="808" y="70" width="105" height="80" rx="6" fill="rgba(0,0,0,0.3)"/>
+  <circle cx="842" cy="98" r="16" fill="rgba(255,255,255,0.35)" stroke="rgba(255,255,255,0.6)"/>
+  <circle cx="837" cy="94" r="3.5" fill="rgba(100,200,255,0.8)"/>
+  <circle cx="847" cy="94" r="3.5" fill="rgba(100,200,255,0.8)"/>
+  <path d="M836 104 Q842 110 848 104" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <rect x="870" y="80" width="35" height="38" rx="5" fill="rgba(255,255,255,0.3)" stroke="rgba(255,255,255,0.6)"/>
+  <line x1="877" y1="89" x2="898" y2="89" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"/>
+  <line x1="877" y1="96" x2="893" y2="96" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+  <line x1="877" y1="103" x2="896" y2="103" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+  <text x="860" y="170" font-family="system-ui" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">Final Image</text>
+  <!-- Bottom labels -->
+  <text x="110" y="210" font-family="system-ui" font-size="12" fill="rgba(255,255,255,0.5)" text-anchor="middle">Step 0</text>
+  <text x="300" y="210" font-family="system-ui" font-size="12" fill="rgba(255,255,255,0.5)" text-anchor="middle">Step 10</text>
+  <text x="490" y="210" font-family="system-ui" font-size="12" fill="rgba(255,255,255,0.5)" text-anchor="middle">Step 25</text>
+  <text x="680" y="210" font-family="system-ui" font-size="12" fill="rgba(255,255,255,0.5)" text-anchor="middle">Step 40</text>
+  <text x="860" y="210" font-family="system-ui" font-size="12" fill="rgba(255,255,255,0.5)" text-anchor="middle">Step 50</text>
+  <!-- Script analogy row -->
+  <rect x="30" y="228" width="900" height="36" rx="8" fill="rgba(255,255,255,0.06)"/>
+  <text x="50" y="251" font-family="system-ui" font-size="13" fill="rgba(255,255,255,0.4)">Scripts:</text>
+  <text x="110" y="251" font-family="system-ui" font-size="13" fill="rgba(255,255,255,0.6)" text-anchor="middle">Blank page</text>
+  <text x="300" y="251" font-family="system-ui" font-size="13" fill="rgba(255,255,255,0.6)" text-anchor="middle">Structure</text>
+  <text x="490" y="251" font-family="system-ui" font-size="13" fill="rgba(255,255,255,0.6)" text-anchor="middle">Draft</text>
+  <text x="680" y="251" font-family="system-ui" font-size="13" fill="rgba(255,255,255,0.6)" text-anchor="middle">Enrich</text>
+  <text x="860" y="251" font-family="system-ui" font-size="13" fill="rgba(255,255,255,0.6)" text-anchor="middle">Polish</text>
+</svg>

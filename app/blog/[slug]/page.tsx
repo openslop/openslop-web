@@ -160,7 +160,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
                   alt={post.author}
                   width={36}
                   height={36}
-                  className="rounded-full"
+                  className="rounded-full object-cover aspect-square"
                 />
                 <div className="flex items-center gap-2 text-sm text-zinc-400">
                   <span className="text-zinc-200">{post.author}</span>

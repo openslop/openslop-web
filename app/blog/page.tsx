@@ -33,7 +33,7 @@ function formatDate(dateStr: string) {
 function FeaturedTile({ post }: { post: BlogPostMeta }) {
   return (
     <Link href={`/blog/${post.slug}`} className="group block">
-      <div className="relative aspect-[16/9] w-full overflow-hidden bg-zinc-900">
+      <div className="relative aspect-[16/9] lg:aspect-auto lg:h-[31rem] w-full overflow-hidden bg-zinc-900">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={post.coverGif || post.coverImage}

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#7b8fcc"/>
+      <stop offset="30%" stop-color="#b08aaf"/>
+      <stop offset="55%" stop-color="#d98a8a"/>
+      <stop offset="80%" stop-color="#e8a585"/>
+      <stop offset="100%" stop-color="#f0c89a"/>
+    </linearGradient>
+    <radialGradient id="glowTL" cx="0%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#8ba0e0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="glowBR" cx="100%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#f5c490" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="glowTR" cx="100%" cy="0%" r="50%">
+      <stop offset="0%" stop-color="#d88a90" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="glowBL" cx="0%" cy="100%" r="50%">
+      <stop offset="0%" stop-color="#c8a0b8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#ffe8d0" flood-opacity="0.6" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="960" height="400" rx="12" fill="url(#sky)"/>
+  <rect width="960" height="400" rx="12" fill="url(#glowTL)"/>
+  <rect width="960" height="400" rx="12" fill="url(#glowBR)"/>
+  <rect width="960" height="400" rx="12" fill="url(#glowTR)"/>
+  <rect width="960" height="400" rx="12" fill="url(#glowBL)"/>
+  <text x="480" y="44" font-family="system-ui" font-size="22" fill="#ffffff" text-anchor="middle" font-weight="600" filter="url(#softglow)">Model Ranking for Multi-Pass Scripting</text>
+  <!-- Tier S -->
+  <rect x="30" y="70" width="900" height="70" rx="10" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.25)"/>
+  <text x="60" y="112" font-family="system-ui" font-size="28" fill="#ffffff" font-weight="700" filter="url(#softglow)">S</text>
+  <rect x="95" y="85" width="2" height="40" rx="1" fill="rgba(255,255,255,0.3)"/>
+  <text x="120" y="102" font-family="system-ui" font-size="17" fill="#ffffff" font-weight="600">Claude Opus 4.6</text>
+  <text x="120" y="125" font-family="system-ui" font-size="14" fill="rgba(255,255,255,0.7)">Best by far. 1M context, holds all passes without drifting. Preferred by r/writers for tone + style.</text>
+  <!-- Tier A -->
+  <rect x="30" y="152" width="900" height="70" rx="10" fill="rgba(255,255,255,0.11)" stroke="rgba(255,255,255,0.2)"/>
+  <text x="60" y="194" font-family="system-ui" font-size="28" fill="#ffffff" font-weight="700" filter="url(#softglow)">A</text>
+  <rect x="95" y="167" width="2" height="40" rx="1" fill="rgba(255,255,255,0.3)"/>
+  <text x="120" y="184" font-family="system-ui" font-size="17" fill="#ffffff" font-weight="600">GPT-5.2</text>
+  <text x="120" y="207" font-family="system-ui" font-size="14" fill="rgba(255,255,255,0.7)">Solid but loses coherence around pass 3-4. Starts improvising when it should be refining.</text>
+  <!-- Tier B -->
+  <rect x="30" y="234" width="900" height="70" rx="10" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)"/>
+  <text x="60" y="276" font-family="system-ui" font-size="28" fill="#ffffff" font-weight="700" filter="url(#softglow)">B</text>
+  <rect x="95" y="249" width="2" height="40" rx="1" fill="rgba(255,255,255,0.3)"/>
+  <text x="120" y="266" font-family="system-ui" font-size="17" fill="#ffffff" font-weight="600">Gemini 3 Pro</text>
+  <text x="120" y="289" font-family="system-ui" font-size="14" fill="rgba(255,255,255,0.7)">Decent for drafts, struggles with polish passes. Output needs more manual cleanup.</text>
+  <!-- Tier C -->
+  <rect x="30" y="316" width="900" height="70" rx="10" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/>
+  <text x="60" y="358" font-family="system-ui" font-size="28" fill="#ffffff" font-weight="700" filter="url(#softglow)">C</text>
+  <rect x="95" y="331" width="2" height="40" rx="1" fill="rgba(255,255,255,0.3)"/>
+  <text x="120" y="348" font-family="system-ui" font-size="17" fill="#ffffff" font-weight="600">DeepSeek / Llama / GPT OSS</text>
+  <text x="120" y="371" font-family="system-ui" font-size="14" fill="rgba(255,255,255,0.7)">Fine for pass 1-2 if budget is tight. Don't rely on them past structure + draft.</text>
+</svg>
