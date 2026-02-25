@@ -5,10 +5,10 @@ import { motion } from "framer-motion";
 
 const words = [
   "youtube videos",
+  "sleep stories",
+  "explainer videos",
   "crime stories",
   "creepypastas",
-  "explainer videos",
-  "sleep stories",
   "audiobooks",
   "history videos",
   "podcasts",

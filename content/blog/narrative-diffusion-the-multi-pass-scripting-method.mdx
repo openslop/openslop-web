@@ -23,7 +23,7 @@ Stable Diffusion doesn't render a final image in one shot. It starts with pure n
 
 ![How Stable Diffusion works, and why scripts should work the same way](/blog/images/stable-diffusion-analogy-placeholder.svg)
 
-Same thing for scripts. I call this "narrative diffusion." Each pass refines the last. The difference vs single-shot prompting is night and day. **This ships baked into OpenSlop's pipeline**, so you don't have to wire it up yourself.
+Same thing for scripts. I call this "narrative diffusion." Each pass refines the last. The difference vs single-shot prompting is night and day.
 
 <div className="giphy-embed">
   <img
@@ -46,12 +46,12 @@ The model matters more than people think.
 
 ![Model tier list for scripting](/blog/images/model-ranking-scripting-placeholder.svg)
 
-| Model | Multi-pass capability | Context | Cost per script |
-| --- | --- | --- | --- |
-| Claude Opus 4.6 | Excellent, holds all passes | 1M tokens | ~$0.30-0.50 |
-| GPT-5.2 | Drifts pass 3-4 | 256K tokens | ~$0.20-0.40 |
-| Gemini 3 Pro | Struggles with polish | 2M tokens | ~$0.15-0.30 |
-| DeepSeek/Llama/OSS | Pass 1-2 only | Varies | Free-$0.05 |
+| Model              | Multi-pass capability       | Context     | Cost per script |
+| ------------------ | --------------------------- | ----------- | --------------- |
+| Claude Opus 4.6    | Excellent, holds all passes | 1M tokens   | ~$0.30-0.50     |
+| GPT-5.2            | Drifts pass 3-4             | 256K tokens | ~$0.20-0.40     |
+| Gemini 3 Pro       | Struggles with polish       | 2M tokens   | ~$0.15-0.30     |
+| DeepSeek/Llama/OSS | Pass 1-2 only               | Varies      | Free-$0.05      |
 
 **Opus** holds multi-pass instructions without drifting and the language quality is noticeably better. Most script pros on r/writers prefer Anthropic for tone and voice. **GPT-5.2** starts "improvising" around pass 3-4, which is a polite way of saying it forgets your instructions. **Open source** is fine for passes 1-2 if budget's tight.
 
@@ -107,7 +107,7 @@ This is where writing happens. The system prompt we use in OpenSlop:
 
 > **You are a world-renowned audiobook narrator and storyteller in the style of \[AUTHOR, e.g. George R. R. Martin\].** Write with vivid sensory detail, stark human conflict, moral ambiguity, and textured worldbuilding. Reveal the story in layered revelations: first the conflict, then the deeper truths beneath it, like peeling an onion. Always write in **third person**, use **character dialogue** to drive the story, in a style for **audio narration** at a **5th-grade reading level**.
 
-The author style is configurable. GRRM steers toward moral ambiguity and consequences over simple good-vs-evil. Swap in whoever fits your content: Roald Dahl for kids' stories, David Attenborough for nature docs, Erik Larson for historical narrative. OpenSlop lets you set this per video.
+The author style is configurable. GRRM steers toward moral ambiguity and consequences over simple good-vs-evil. Swap in whoever fits your content: Roald Dahl for kids' stories, David Attenborough for nature docs, Erik Larson for historical narrative.
 
 The system prompt also includes pre-writing requirements (theme, complex characters with flaws, setting with atmosphere), narration rules (hooking intro, show-don't-tell, escalating stakes, balanced pacing), and XML tagging for character dialogue with emotion attributes, image prompts, sound effects, and music cues so the output is machine-parseable.
 
@@ -177,7 +177,7 @@ This is where you hunt down every LLM-ism and put it out of its misery. Every mo
 
 This is the pass most people skip, and it's why their videos look like five different AI models collaborated on a group project.
 
-The problem: passes 2-4 produce image prompts that make sense *in context* ("the old man stepped into the room") but are useless as standalone generation prompts. Your image model doesn't have the story context. It doesn't know who "the old man" is. So you get a different old man in every frame.
+The problem: passes 2-4 produce image prompts that make sense _in context_ ("the old man stepped into the room") but are useless as standalone generation prompts. Your image model doesn't have the story context. It doesn't know who "the old man" is. So you get a different old man in every frame.
 
 **Every prompt must be self-contained.** Instead of "the old man stepped into the room," you need "a gaunt 70-year-old man with a silver beard, deep-set brown eyes, and a tattered navy wool coat, stepping into a dimly lit stone chamber with arched doorways and flickering candlelight, cinematic wide shot, warm amber lighting, oil painting style." Same character description, same art style directive, every single scene.
 
@@ -229,7 +229,7 @@ The problem: passes 2-4 produce image prompts that make sense *in context* ("the
 
 Narrative diffusion is a series of prompts run in sequence. Sometimes two, sometimes five. But even at its simplest, the difference vs single-shot prompting is the difference between content people bounce from in 5 seconds and content they watch to the end.
 
-This entire method ships with OpenSlop. Prompts, pass configuration, XML tagging, all of it. Pick your genre, drop in a seed idea, choose your passes, and the pipeline handles the rest.
+This entire method ships with OpenSlop (free and open-source). Prompts, pass configuration, XML tagging, all of it. Pick your genre, drop in a seed idea, choose your passes, and the pipeline handles the rest.
 
 Try it on your next script.
 
