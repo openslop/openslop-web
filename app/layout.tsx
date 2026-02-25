@@ -29,11 +29,61 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-  title:
-    "OpenSlop - Free Open-Source AI Content Creator That Doesn't Insult Your Audience",
+  metadataBase: new URL("https://openslop.com"),
+  title: {
+    default: "OpenSlop - Free Open-Source AI Content Creator",
+    template: "%s - OpenSlop",
+  },
   description:
-    "Free Open-Source AI-powered content creation. Join the beta waitlist for early access.",
+    "Free open-source AI video pipeline. Single prompt to finished video for under $2. No GPU, no manual editing.",
+  keywords: [
+    "AI video",
+    "open source",
+    "video creation",
+    "automation",
+    "YouTube",
+    "content creation",
+    "text to video",
+  ],
+  authors: [{ name: "OpenSlop", url: "https://openslop.com" }],
+  creator: "OpenSlop",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://openslop.com",
+    siteName: "OpenSlop",
+    title: "OpenSlop - Free Open-Source AI Content Creator",
+    description:
+      "Free open-source AI video pipeline. Single prompt to finished video for under $2. No GPU, no manual editing.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "OpenSlop - AI Video Creation Pipeline",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "OpenSlop - Free Open-Source AI Content Creator",
+    description:
+      "Free open-source AI video pipeline. Single prompt to finished video for under $2.",
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large" as const,
+      "max-snippet": -1,
+    },
+  },
   alternates: {
+    canonical: "/",
     types: {
       "application/rss+xml": "/feed.xml",
     },

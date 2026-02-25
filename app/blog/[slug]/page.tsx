@@ -26,8 +26,34 @@ export async function generateMetadata({
   if (!post) return {};
 
   return {
-    title: `${post.title} — OpenSlop Blog`,
+    title: post.title,
     description: post.description,
+    openGraph: {
+      type: "article",
+      title: post.title,
+      description: post.description,
+      url: `/blog/${post.slug}`,
+      publishedTime: post.date,
+      authors: [post.author],
+      images: [
+        {
+          url: post.coverImage,
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
+      tags: post.tags,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.description,
+      images: [post.coverImage],
+    },
+    alternates: {
+      canonical: `/blog/${post.slug}`,
+    },
   };
 }
 
@@ -44,8 +70,38 @@ export default async function BlogPostPage({ params }: { params: Params }) {
   const post = getPostBySlug(slug);
   if (!post) notFound();
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.description,
+    image: `https://openslop.com${post.coverImage}`,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: {
+      "@type": "Person",
+      name: post.author,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "OpenSlop",
+      url: "https://openslop.com",
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://openslop.com/blog/${post.slug}`,
+    },
+    keywords: post.tags.join(", "),
+  };
+
   return (
     <AuroraBackground animate={false}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
       <div className="font-[family-name:var(--font-urbanist)] text-zinc-300">
         {/* Cover image — fixed to top of page, fades into background */}
         <div

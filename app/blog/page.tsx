@@ -7,9 +7,19 @@ import type { Metadata } from "next";
 import type { BlogPostMeta } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Blog — OpenSlop",
+  title: "Blog",
   description:
     "Opinionated guides, tutorials, and hot takes on AI video creation.",
+  openGraph: {
+    title: "Blog",
+    description:
+      "Opinionated guides, tutorials, and hot takes on AI video creation.",
+    url: "/blog",
+    type: "website",
+  },
+  alternates: {
+    canonical: "/blog",
+  },
 };
 
 function formatDate(dateStr: string) {
