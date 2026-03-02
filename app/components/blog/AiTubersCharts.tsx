@@ -2518,8 +2518,8 @@ function CrowdedDonutCard({
                 <ChartTooltip
                   labelFormatter={(p) => p.category as string}
                   valueFormatter={(k, v) => {
-                    if (k === "category") return null;
-                    return `Channels: ${v}`;
+                    if (k === "channels") return `Channels: ${v}`;
+                    return null;
                   }}
                 />
               }
