@@ -1,0 +1,6100 @@
+{
+  "source_sheet_id": "1qeFJIdkKwMUp1OsXFwoMPtIXU8yEAU4cUed2T7Ewbqw",
+  "range": "Sheet1!A1:Z1035",
+  "header_row_number": 3,
+  "header": [
+    "Channel",
+    "AI Use",
+    "Subscribers",
+    "Category",
+    "Description",
+    "Emails"
+  ],
+  "record_count": 338,
+  "records": [
+    {
+      "row_number": 4,
+      "channel": "https://www.youtube.com/@MastersOfProphecy",
+      "ai_use": "Full",
+      "subscribers_raw": "35,600,000",
+      "category_raw": "Art & Music",
+      "description_raw": "AI music with synths and high-octane beats",
+      "emails_raw": "theinfographicsshow@thoughtleaders.io",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@MastersOfProphecy",
+        "Full",
+        "35,600,000",
+        "Art & Music",
+        "AI music with synths and high-octane beats",
+        "theinfographicsshow@thoughtleaders.io"
+      ]
+    },
+    {
+      "row_number": 5,
+      "channel": "https://www.youtube.com/@TheInfographicsShow",
+      "ai_use": "Minimal",
+      "subscribers_raw": "15,300,000",
+      "category_raw": "Explainers & Facts",
+      "description_raw": "animated infographic explainers and facts",
+      "emails_raw": "dagogo@coldfusioncollective.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@TheInfographicsShow",
+        "Minimal",
+        "15,300,000",
+        "Explainers & Facts",
+        "animated infographic explainers and facts",
+        "dagogo@coldfusioncollective.com"
+      ]
+    },
+    {
+      "row_number": 6,
+      "channel": "https://youtube.com/@coldfusion",
+      "ai_use": "Partial",
+      "subscribers_raw": "5,140,000",
+      "category_raw": "Explainers & Facts",
+      "description_raw": "tech and history documentaries about business and society",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@coldfusion",
+        "Partial",
+        "5,140,000",
+        "Explainers & Facts",
+        "tech and history documentaries about business and society",
+        ""
+      ]
+    },
+    {
+      "row_number": 7,
+      "channel": "https://youtube.com/@Alphageographi",
+      "ai_use": "Full",
+      "subscribers_raw": "4,900,000",
+      "category_raw": "Animals",
+      "description_raw": "animal rescue stories and welfare content",
+      "emails_raw": "nickcrowleytv@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@Alphageographi",
+        "Full",
+        "4,900,000",
+        "Animals",
+        "animal rescue stories and welfare content",
+        "nickcrowleytv@gmail.com"
+      ]
+    },
+    {
+      "row_number": 8,
+      "channel": "https://www.youtube.com/@storys.meowia",
+      "ai_use": "Full",
+      "subscribers_raw": "3,900,000",
+      "category_raw": "Animals",
+      "description_raw": "cat stories and shorts",
+      "emails_raw": "joshuabakeradword@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@storys.meowia",
+        "Full",
+        "3,900,000",
+        "Animals",
+        "cat stories and shorts",
+        "joshuabakeradword@gmail.com"
+      ]
+    },
+    {
+      "row_number": 9,
+      "channel": "https://www.youtube.com/@melodysheep",
+      "ai_use": "Partial",
+      "subscribers_raw": "3,200,000",
+      "category_raw": "Space & Science",
+      "description_raw": "space and science music videos with visual storytelling",
+      "emails_raw": "team@astrumspace.co",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@melodysheep",
+        "Partial",
+        "3,200,000",
+        "Space & Science",
+        "space and science music videos with visual storytelling",
+        "team@astrumspace.co"
+      ]
+    },
+    {
+      "row_number": 10,
+      "channel": "https://www.youtube.com/@BandarApnaDost",
+      "ai_use": "Full",
+      "subscribers_raw": "3,140,000",
+      "category_raw": "Animals",
+      "description_raw": "funny social commentary skits involving a monkey",
+      "emails_raw": "advertise@watchmojo.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@BandarApnaDost",
+        "Full",
+        "3,140,000",
+        "Animals",
+        "funny social commentary skits involving a monkey",
+        "advertise@watchmojo.com"
+      ]
+    },
+    {
+      "row_number": 11,
+      "channel": "https://youtube.com/@nickcrowley",
+      "ai_use": "Minimal",
+      "subscribers_raw": "3,100,000",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "dark documentary videos about disturbing topics",
+      "emails_raw": "top5unknowns@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@nickcrowley",
+        "Minimal",
+        "3,100,000",
+        "Mystery & Unsolved",
+        "dark documentary videos about disturbing topics",
+        "top5unknowns@gmail.com"
+      ]
+    },
+    {
+      "row_number": 12,
+      "channel": "https://youtube.com/@topfives",
+      "ai_use": "Partial",
+      "subscribers_raw": "3,090,000",
+      "category_raw": "Explainers & Facts",
+      "description_raw": "top five list videos about mysteries and facts",
+      "emails_raw": "lifesbiggestquestion@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@topfives",
+        "Partial",
+        "3,090,000",
+        "Explainers & Facts",
+        "top five list videos about mysteries and facts",
+        "lifesbiggestquestion@gmail.com"
+      ]
+    },
+    {
+      "row_number": 13,
+      "channel": "https://youtube.com/@astrumspace",
+      "ai_use": "Partial",
+      "subscribers_raw": "2,700,000",
+      "category_raw": "Space & Science",
+      "description_raw": "space documentaries and astronomy explainers",
+      "emails_raw": "hello@fascinatinghorror.co.uk",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@astrumspace",
+        "Partial",
+        "2,700,000",
+        "Space & Science",
+        "space documentaries and astronomy explainers",
+        "hello@fascinatinghorror.co.uk"
+      ]
+    },
+    {
+      "row_number": 14,
+      "channel": "https://www.youtube.com/@AiCartoonKidsStoryEnglishWorld",
+      "ai_use": "Full",
+      "subscribers_raw": "2,700,000",
+      "category_raw": "Kids stories",
+      "description_raw": "animated cartoon stories for kids in English",
+      "emails_raw": "extinctzooprod@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AiCartoonKidsStoryEnglishWorld",
+        "Full",
+        "2,700,000",
+        "Kids stories",
+        "animated cartoon stories for kids in English",
+        "extinctzooprod@gmail.com"
+      ]
+    },
+    {
+      "row_number": 15,
+      "channel": "https://youtube.com/@watchmojo",
+      "ai_use": "Minimal",
+      "subscribers_raw": "2,590,000",
+      "category_raw": "News & Pop Culture",
+      "description_raw": "pop culture list videos and rankings",
+      "emails_raw": "joseph@vooks.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@watchmojo",
+        "Minimal",
+        "2,590,000",
+        "News & Pop Culture",
+        "pop culture list videos and rankings",
+        "joseph@vooks.com"
+      ]
+    },
+    {
+      "row_number": 16,
+      "channel": "https://www.youtube.com/@HomeDesign365",
+      "ai_use": "Full",
+      "subscribers_raw": "2,520,000",
+      "category_raw": "Lifestyle",
+      "description_raw": "home design and interior inspiration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@HomeDesign365",
+        "Full",
+        "2,520,000",
+        "Lifestyle",
+        "home design and interior inspiration",
+        ""
+      ]
+    },
+    {
+      "row_number": 17,
+      "channel": "https://youtube.com/@top5unknowns",
+      "ai_use": "Partial",
+      "subscribers_raw": "2,170,000",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "top 5 mystery and unknown compilation videos",
+      "emails_raw": "reyouniverse.business@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@top5unknowns",
+        "Partial",
+        "2,170,000",
+        "Mystery & Unsolved",
+        "top 5 mystery and unknown compilation videos",
+        "reyouniverse.business@gmail.com"
+      ]
+    },
+    {
+      "row_number": 18,
+      "channel": "https://youtube.com/@lifesbiggestquestions",
+      "ai_use": "Partial",
+      "subscribers_raw": "1,850,000",
+      "category_raw": "Explainers & Facts",
+      "description_raw": "animated science and philosophy question videos",
+      "emails_raw": "suibhne@standard.tv",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@lifesbiggestquestions",
+        "Partial",
+        "1,850,000",
+        "Explainers & Facts",
+        "animated science and philosophy question videos",
+        "suibhne@standard.tv"
+      ]
+    },
+    {
+      "row_number": 19,
+      "channel": "https://youtube.com/@fascinatinghorror",
+      "ai_use": "Partial",
+      "subscribers_raw": "1,400,000",
+      "category_raw": "History",
+      "description_raw": "narrated historical disasters and horror events",
+      "emails_raw": "michael@getsleepy.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@fascinatinghorror",
+        "Partial",
+        "1,400,000",
+        "History",
+        "narrated historical disasters and horror events",
+        "michael@getsleepy.com"
+      ]
+    },
+    {
+      "row_number": 20,
+      "channel": "https://youtube.com/@extinctzoo",
+      "ai_use": "Partial",
+      "subscribers_raw": "1,330,000",
+      "category_raw": "History",
+      "description_raw": "animated history and science documentary videos",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@extinctzoo",
+        "Partial",
+        "1,330,000",
+        "History",
+        "animated history and science documentary videos",
+        ""
+      ]
+    },
+    {
+      "row_number": 21,
+      "channel": "https://www.youtube.com/@VooksStorybooks",
+      "ai_use": "Minimal",
+      "subscribers_raw": "1,120,000",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "animated storybooks and kids read-aloud videos",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@VooksStorybooks",
+        "Minimal",
+        "1,120,000",
+        "Animation & Storytelling",
+        "animated storybooks and kids read-aloud videos",
+        ""
+      ]
+    },
+    {
+      "row_number": 22,
+      "channel": "https://youtube.com/@thebiblestoryofai",
+      "ai_use": "Full",
+      "subscribers_raw": "1,070,000",
+      "category_raw": "Religious Stories",
+      "description_raw": "bible stories and biblical narratives",
+      "emails_raw": "mysteryhistory@ctemplar.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@thebiblestoryofai",
+        "Full",
+        "1,070,000",
+        "Religious Stories",
+        "bible stories and biblical narratives",
+        "mysteryhistory@ctemplar.com"
+      ]
+    },
+    {
+      "row_number": 23,
+      "channel": "https://www.youtube.com/@historypiece",
+      "ai_use": "Full",
+      "subscribers_raw": "881,000",
+      "category_raw": "History",
+      "description_raw": "Historical storytelling with cinematic production",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@historypiece",
+        "Full",
+        "881,000",
+        "History",
+        "Historical storytelling with cinematic production",
+        ""
+      ]
+    },
+    {
+      "row_number": 24,
+      "channel": "https://www.youtube.com/@LoFiLulla",
+      "ai_use": "Full",
+      "subscribers_raw": "825,000",
+      "category_raw": "Art & Music",
+      "description_raw": "lofi lullaby music",
+      "emails_raw": "secretoriginsproject@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@LoFiLulla",
+        "Full",
+        "825,000",
+        "Art & Music",
+        "lofi lullaby music",
+        "secretoriginsproject@gmail.com"
+      ]
+    },
+    {
+      "row_number": 25,
+      "channel": "https://youtube.com/@ryv",
+      "ai_use": "Partial",
+      "subscribers_raw": "779,000",
+      "category_raw": "Space & Science",
+      "description_raw": "videos about space, science, and interesting facts",
+      "emails_raw": "sasakiandi@jurnals.net",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@ryv",
+        "Partial",
+        "779,000",
+        "Space & Science",
+        "videos about space, science, and interesting facts",
+        "sasakiandi@jurnals.net"
+      ]
+    },
+    {
+      "row_number": 26,
+      "channel": "https://www.youtube.com/@ReligiousStoryTV",
+      "ai_use": "Full",
+      "subscribers_raw": "733,000",
+      "category_raw": "Religious Stories",
+      "description_raw": "religious stories and spiritual tales animated",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@ReligiousStoryTV",
+        "Full",
+        "733,000",
+        "Religious Stories",
+        "religious stories and spiritual tales animated",
+        ""
+      ]
+    },
+    {
+      "row_number": 27,
+      "channel": "https://www.youtube.com/Suibhne",
+      "ai_use": "Minimal",
+      "subscribers_raw": "689,000",
+      "category_raw": "History",
+      "description_raw": "animated histories of countries",
+      "emails_raw": "hello@inspiraggio.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/Suibhne",
+        "Minimal",
+        "689,000",
+        "History",
+        "animated histories of countries",
+        "hello@inspiraggio.com"
+      ]
+    },
+    {
+      "row_number": 28,
+      "channel": "https://www.youtube.com/@SleeplessHistorian",
+      "ai_use": "Full",
+      "subscribers_raw": "684,000",
+      "category_raw": "Sleep Stories",
+      "description_raw": "narrated stories and documentaries for relaxation",
+      "emails_raw": "mysterious5info@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@SleeplessHistorian",
+        "Full",
+        "684,000",
+        "Sleep Stories",
+        "narrated stories and documentaries for relaxation",
+        "mysterious5info@gmail.com"
+      ]
+    },
+    {
+      "row_number": 29,
+      "channel": "https://www.youtube.com/@getsleepypod",
+      "ai_use": "Full",
+      "subscribers_raw": "668,000",
+      "category_raw": "Sleep Stories",
+      "description_raw": "sleep stories and guided relaxation podcast content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@getsleepypod",
+        "Full",
+        "668,000",
+        "Sleep Stories",
+        "sleep stories and guided relaxation podcast content",
+        ""
+      ]
+    },
+    {
+      "row_number": 30,
+      "channel": "https://youtube.com/@ancientarchitects",
+      "ai_use": "Partial",
+      "subscribers_raw": "631,000",
+      "category_raw": "History",
+      "description_raw": "ancient civilizations and mysteries",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@ancientarchitects",
+        "Partial",
+        "631,000",
+        "History",
+        "ancient civilizations and mysteries",
+        ""
+      ]
+    },
+    {
+      "row_number": 31,
+      "channel": "https://www.instagram.com/animatedlifetips/",
+      "ai_use": "Partial",
+      "subscribers_raw": "600,000",
+      "category_raw": "Motivation & Self-Improvement",
+      "description_raw": "animated life tips and motivational advice",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.instagram.com/animatedlifetips/",
+        "Partial",
+        "600,000",
+        "Motivation & Self-Improvement",
+        "animated life tips and motivational advice",
+        ""
+      ]
+    },
+    {
+      "row_number": 32,
+      "channel": "https://youtube.com/@mysteryhistory",
+      "ai_use": "Full",
+      "subscribers_raw": "594,000",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "mystery history videos and ancient enigmas",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@mysteryhistory",
+        "Full",
+        "594,000",
+        "Mystery & Unsolved",
+        "mystery history videos and ancient enigmas",
+        ""
+      ]
+    },
+    {
+      "row_number": 33,
+      "channel": "https://youtube.com/@AIHistorianOfficial",
+      "ai_use": "Full",
+      "subscribers_raw": "537,000",
+      "category_raw": "History",
+      "description_raw": "historical content and storytelling about the past and future",
+      "emails_raw": "takehfg@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@AIHistorianOfficial",
+        "Full",
+        "537,000",
+        "History",
+        "historical content and storytelling about the past and future",
+        "takehfg@gmail.com"
+      ]
+    },
+    {
+      "row_number": 34,
+      "channel": "https://youtube.com/@secretoriginsofficial",
+      "ai_use": "Full",
+      "subscribers_raw": "503,000",
+      "category_raw": "History",
+      "description_raw": "documentary videos about mysteries and origins",
+      "emails_raw": "africancorevideos@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@secretoriginsofficial",
+        "Full",
+        "503,000",
+        "History",
+        "documentary videos about mysteries and origins",
+        "africancorevideos@gmail.com"
+      ]
+    },
+    {
+      "row_number": 35,
+      "channel": "https://youtube.com/@sasakiandi?si=pBQA96x206U9woFC",
+      "ai_use": "Full",
+      "subscribers_raw": "481,000",
+      "category_raw": "Art & Music",
+      "description_raw": "AI suno artist",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@sasakiandi?si=pBQA96x206U9woFC",
+        "Full",
+        "481,000",
+        "Art & Music",
+        "AI suno artist",
+        ""
+      ]
+    },
+    {
+      "row_number": 36,
+      "channel": "https://youtube.com/@the_secretsoftheBibleAI",
+      "ai_use": "Full",
+      "subscribers_raw": "478,000",
+      "category_raw": "Religious Stories",
+      "description_raw": "biblical secrets and mysteries exploration",
+      "emails_raw": "pastperplex@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@the_secretsoftheBibleAI",
+        "Full",
+        "478,000",
+        "Religious Stories",
+        "biblical secrets and mysteries exploration",
+        "pastperplex@gmail.com"
+      ]
+    },
+    {
+      "row_number": 37,
+      "channel": "https://youtube.com/@inspiraggio",
+      "ai_use": "Minimal",
+      "subscribers_raw": "438,000",
+      "category_raw": "Motivation & Self-Improvement",
+      "description_raw": "inspirational videos and motivational storytelling",
+      "emails_raw": "stephendalton@infinitymind.de",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@inspiraggio",
+        "Minimal",
+        "438,000",
+        "Motivation & Self-Improvement",
+        "inspirational videos and motivational storytelling",
+        "stephendalton@infinitymind.de"
+      ]
+    },
+    {
+      "row_number": 38,
+      "channel": "https://youtube.com/@mysterious5s",
+      "ai_use": "Minimal",
+      "subscribers_raw": "416,000",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "mystery compilation videos about strange events",
+      "emails_raw": "goodknightsleep@protonmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@mysterious5s",
+        "Minimal",
+        "416,000",
+        "Mystery & Unsolved",
+        "mystery compilation videos about strange events",
+        "goodknightsleep@protonmail.com"
+      ]
+    },
+    {
+      "row_number": 39,
+      "channel": "https://youtube.com/@HistoryNutshells",
+      "ai_use": "Full",
+      "subscribers_raw": "398,000",
+      "category_raw": "History",
+      "description_raw": "history explainers in short format",
+      "emails_raw": "team@astrumspace.co",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@HistoryNutshells",
+        "Full",
+        "398,000",
+        "History",
+        "history explainers in short format",
+        "team@astrumspace.co"
+      ]
+    },
+    {
+      "row_number": 40,
+      "channel": "https://www.youtube.com/@BibleChroniclesAnimation",
+      "ai_use": "Full",
+      "subscribers_raw": "394,000",
+      "category_raw": "Religious Stories",
+      "description_raw": "animated Bible stories",
+      "emails_raw": "dane.pavitt@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@BibleChroniclesAnimation",
+        "Full",
+        "394,000",
+        "Religious Stories",
+        "animated Bible stories",
+        "dane.pavitt@gmail.com"
+      ]
+    },
+    {
+      "row_number": 41,
+      "channel": "https://youtube.com/@TheAIBibleOfficial",
+      "ai_use": "Full",
+      "subscribers_raw": "386,000",
+      "category_raw": "Religious Stories",
+      "description_raw": "bible verses brought to life with art generators",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@TheAIBibleOfficial",
+        "Full",
+        "386,000",
+        "Religious Stories",
+        "bible verses brought to life with art generators",
+        ""
+      ]
+    },
+    {
+      "row_number": 42,
+      "channel": "https://www.youtube.com/@NrecapsAnimationOfficial",
+      "ai_use": "Full",
+      "subscribers_raw": "383,000",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "animation recaps and stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@NrecapsAnimationOfficial",
+        "Full",
+        "383,000",
+        "Animation & Storytelling",
+        "animation recaps and stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 43,
+      "channel": "https://youtube.com/@wallstreetmillennial",
+      "ai_use": "Minimal",
+      "subscribers_raw": "356,000",
+      "category_raw": "Finance",
+      "description_raw": "finance commentary and investing explainers",
+      "emails_raw": "MysteriousChroniclesMC@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@wallstreetmillennial",
+        "Minimal",
+        "356,000",
+        "Finance",
+        "finance commentary and investing explainers",
+        "MysteriousChroniclesMC@gmail.com"
+      ]
+    },
+    {
+      "row_number": 44,
+      "channel": "https://youtube.com/@theaihistory22",
+      "ai_use": "Full",
+      "subscribers_raw": "326,000",
+      "category_raw": "History",
+      "description_raw": "historical content and visualizations",
+      "emails_raw": "contactcriminalcoreyt@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@theaihistory22",
+        "Full",
+        "326,000",
+        "History",
+        "historical content and visualizations",
+        "contactcriminalcoreyt@gmail.com"
+      ]
+    },
+    {
+      "row_number": 45,
+      "channel": "https://youtube.com/@historyforgranite",
+      "ai_use": "Partial",
+      "subscribers_raw": "321,000",
+      "category_raw": "History",
+      "description_raw": "ancient history videos focused on egypt and stonework",
+      "emails_raw": "theunchartedmysteries@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@historyforgranite",
+        "Partial",
+        "321,000",
+        "History",
+        "ancient history videos focused on egypt and stonework",
+        "theunchartedmysteries@gmail.com"
+      ]
+    },
+    {
+      "row_number": 46,
+      "channel": "https://www.youtube.com/@AfricanCoreVideos",
+      "ai_use": "Full",
+      "subscribers_raw": "319,000",
+      "category_raw": "History",
+      "description_raw": "african history and culture documentary videos",
+      "emails_raw": "nosconfunden.contacto@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AfricanCoreVideos",
+        "Full",
+        "319,000",
+        "History",
+        "african history and culture documentary videos",
+        "nosconfunden.contacto@gmail.com"
+      ]
+    },
+    {
+      "row_number": 47,
+      "channel": "https://www.youtube.com/@BabySleepMusic79",
+      "ai_use": "Full",
+      "subscribers_raw": "318,000",
+      "category_raw": "Kids Sleep Stories",
+      "description_raw": "sleep music for kids",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@BabySleepMusic79",
+        "Full",
+        "318,000",
+        "Kids Sleep Stories",
+        "sleep music for kids",
+        ""
+      ]
+    },
+    {
+      "row_number": 48,
+      "channel": "https://youtube.com/@pastperplex",
+      "ai_use": "Minimal",
+      "subscribers_raw": "298,000",
+      "category_raw": "History",
+      "description_raw": "history mysteries and ancient civilization videos",
+      "emails_raw": "evolveandbulid@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@pastperplex",
+        "Minimal",
+        "298,000",
+        "History",
+        "history mysteries and ancient civilization videos",
+        "evolveandbulid@gmail.com"
+      ]
+    },
+    {
+      "row_number": 49,
+      "channel": "https://www.youtube.com/@Stephen_Dalton",
+      "ai_use": "Partial",
+      "subscribers_raw": "292,000",
+      "category_raw": "Sleep Stories",
+      "description_raw": "sleep meditation and calming narrated relaxation",
+      "emails_raw": "dark5ancientmysteries@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@Stephen_Dalton",
+        "Partial",
+        "292,000",
+        "Sleep Stories",
+        "sleep meditation and calming narrated relaxation",
+        "dark5ancientmysteries@gmail.com"
+      ]
+    },
+    {
+      "row_number": 50,
+      "channel": "https://www.youtube.com/@GoodKnightSleep",
+      "ai_use": "Full",
+      "subscribers_raw": "291,000",
+      "category_raw": "Sleep Stories",
+      "description_raw": "sleep stories and bedtime narration",
+      "emails_raw": "fallasleepto.science@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@GoodKnightSleep",
+        "Full",
+        "291,000",
+        "Sleep Stories",
+        "sleep stories and bedtime narration",
+        "fallasleepto.science@gmail.com"
+      ]
+    },
+    {
+      "row_number": 51,
+      "channel": "https://youtube.com/@astrumearth",
+      "ai_use": "Partial",
+      "subscribers_raw": "275,000",
+      "category_raw": "Space & Science",
+      "description_raw": "earth and space documentary videos",
+      "emails_raw": "jaydonebusiness@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@astrumearth",
+        "Partial",
+        "275,000",
+        "Space & Science",
+        "earth and space documentary videos",
+        "jaydonebusiness@gmail.com"
+      ]
+    },
+    {
+      "row_number": 52,
+      "channel": "https://youtube.com/@DanePavitt",
+      "ai_use": "Minimal",
+      "subscribers_raw": "265,000",
+      "category_raw": "History",
+      "description_raw": "documentary-style videos about history and mysteries",
+      "emails_raw": "gates.of.imagination.contact@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@DanePavitt",
+        "Minimal",
+        "265,000",
+        "History",
+        "documentary-style videos about history and mysteries",
+        "gates.of.imagination.contact@gmail.com"
+      ]
+    },
+    {
+      "row_number": 53,
+      "channel": "https://youtube.com/@narrative8206",
+      "ai_use": "Partial",
+      "subscribers_raw": "259,000",
+      "category_raw": "Explainers & Facts",
+      "description_raw": "narrative documentaries and story explainers",
+      "emails_raw": "dozingdragonpod@proton.me",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@narrative8206",
+        "Partial",
+        "259,000",
+        "Explainers & Facts",
+        "narrative documentaries and story explainers",
+        "dozingdragonpod@proton.me"
+      ]
+    },
+    {
+      "row_number": 54,
+      "channel": "https://youtube.com/@shortsparksenglish",
+      "ai_use": "Partial",
+      "subscribers_raw": "257,000",
+      "category_raw": "History",
+      "description_raw": "ancient history and mythology storytelling",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@shortsparksenglish",
+        "Partial",
+        "257,000",
+        "History",
+        "ancient history and mythology storytelling",
+        ""
+      ]
+    },
+    {
+      "row_number": 55,
+      "channel": "https://www.youtube.com/@AIAnimationWorld.2",
+      "ai_use": "Full",
+      "subscribers_raw": "255,000",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "animated shorts - family stories and adventures",
+      "emails_raw": "support@sleepiest.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AIAnimationWorld.2",
+        "Full",
+        "255,000",
+        "Animation & Storytelling",
+        "animated shorts - family stories and adventures",
+        "support@sleepiest.com"
+      ]
+    },
+    {
+      "row_number": 56,
+      "channel": "https://www.youtube.com/@MysteriousChroniclesMC",
+      "ai_use": "Full",
+      "subscribers_raw": "252,000",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "narrated mysteries and strange history chronicles",
+      "emails_raw": "dan@danjoneshypnosis.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@MysteriousChroniclesMC",
+        "Full",
+        "252,000",
+        "Mystery & Unsolved",
+        "narrated mysteries and strange history chronicles",
+        "dan@danjoneshypnosis.com"
+      ]
+    },
+    {
+      "row_number": 57,
+      "channel": "https://www.youtube.com/@judahsketchanimation",
+      "ai_use": "Full",
+      "subscribers_raw": "240,000",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "sketch animation stories",
+      "emails_raw": "storified1@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@judahsketchanimation",
+        "Full",
+        "240,000",
+        "Animation & Storytelling",
+        "sketch animation stories",
+        "storified1@gmail.com"
+      ]
+    },
+    {
+      "row_number": 58,
+      "channel": "https://youtube.com/@criminalcoreyt",
+      "ai_use": "Partial",
+      "subscribers_raw": "239,000",
+      "category_raw": "True Crime & Mysteries",
+      "description_raw": "true crime and real-life mystery videos",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@criminalcoreyt",
+        "Partial",
+        "239,000",
+        "True Crime & Mysteries",
+        "true crime and real-life mystery videos",
+        ""
+      ]
+    },
+    {
+      "row_number": 59,
+      "channel": "https://youtube.com/@theunchartedmysteries",
+      "ai_use": "Full",
+      "subscribers_raw": "238,000",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "history mysteries and unexplained phenomena",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@theunchartedmysteries",
+        "Full",
+        "238,000",
+        "Mystery & Unsolved",
+        "history mysteries and unexplained phenomena",
+        ""
+      ]
+    },
+    {
+      "row_number": 60,
+      "channel": "https://www.youtube.com/@NosConfunden",
+      "ai_use": "Full",
+      "subscribers_raw": "226,000",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "spanish videos about mysteries and conspiracies",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@NosConfunden",
+        "Full",
+        "226,000",
+        "Mystery & Unsolved",
+        "spanish videos about mysteries and conspiracies",
+        ""
+      ]
+    },
+    {
+      "row_number": 61,
+      "channel": "https://www.youtube.com/@PsychologyIsSimplified",
+      "ai_use": "Full",
+      "subscribers_raw": "221,000",
+      "category_raw": "Motivation & Self-Improvement",
+      "description_raw": "AI psychology explainer content",
+      "emails_raw": "hello@bedtimestoryco.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@PsychologyIsSimplified",
+        "Full",
+        "221,000",
+        "Motivation & Self-Improvement",
+        "AI psychology explainer content",
+        "hello@bedtimestoryco.com"
+      ]
+    },
+    {
+      "row_number": 62,
+      "channel": "https://youtube.com/@simpleaichannel4",
+      "ai_use": "Full",
+      "subscribers_raw": "220,000",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "entertainment content",
+      "emails_raw": "huzaifachaudhary1357@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@simpleaichannel4",
+        "Full",
+        "220,000",
+        "Animation & Storytelling",
+        "entertainment content",
+        "huzaifachaudhary1357@gmail.com"
+      ]
+    },
+    {
+      "row_number": 63,
+      "channel": "https://youtube.com/@evolveandbuild",
+      "ai_use": "Partial",
+      "subscribers_raw": "216,000",
+      "category_raw": "Health & Fitness",
+      "description_raw": "health, fitness, and gym tips",
+      "emails_raw": "contact@foxandsheep.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@evolveandbuild",
+        "Partial",
+        "216,000",
+        "Health & Fitness",
+        "health, fitness, and gym tips",
+        "contact@foxandsheep.com"
+      ]
+    },
+    {
+      "row_number": 64,
+      "channel": "https://www.youtube.com/@TheChristianSeed",
+      "ai_use": "Full",
+      "subscribers_raw": "216,000",
+      "category_raw": "Religious Stories",
+      "description_raw": "Christian faith animated stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@TheChristianSeed",
+        "Full",
+        "216,000",
+        "Religious Stories",
+        "Christian faith animated stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 65,
+      "channel": "https://www.youtube.com/@Dark5AncientMysteries",
+      "ai_use": "Partial",
+      "subscribers_raw": "215,000",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "mysteries about history, archaeology, mythology and the ancients",
+      "emails_raw": "michael@slumberstudios.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@Dark5AncientMysteries",
+        "Partial",
+        "215,000",
+        "Mystery & Unsolved",
+        "mysteries about history, archaeology, mythology and the ancients",
+        "michael@slumberstudios.com"
+      ]
+    },
+    {
+      "row_number": 66,
+      "channel": "https://youtube.com/@KellyBoeschAIArt",
+      "ai_use": "Full",
+      "subscribers_raw": "212,000",
+      "category_raw": "Art & Music",
+      "description_raw": "visual art showcase and digital creations inspired by beauty and elegance",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@KellyBoeschAIArt",
+        "Full",
+        "212,000",
+        "Art & Music",
+        "visual art showcase and digital creations inspired by beauty and elegance",
+        ""
+      ]
+    },
+    {
+      "row_number": 67,
+      "channel": "https://www.youtube.com/@alphaakki",
+      "ai_use": "Full",
+      "subscribers_raw": "207,000",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "animated stories and shorts",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@alphaakki",
+        "Full",
+        "207,000",
+        "Animation & Storytelling",
+        "animated stories and shorts",
+        ""
+      ]
+    },
+    {
+      "row_number": 68,
+      "channel": "https://youtube.com/@sleepysciencechannel",
+      "ai_use": "Full",
+      "subscribers_raw": "201,000",
+      "category_raw": "Sleep Science",
+      "description_raw": "generative workflows)",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@sleepysciencechannel",
+        "Full",
+        "201,000",
+        "Sleep Science",
+        "generative workflows)",
+        ""
+      ]
+    },
+    {
+      "row_number": 69,
+      "channel": "https://www.youtube.com/@HistorianSleepy",
+      "ai_use": "Full",
+      "subscribers_raw": "197,000",
+      "category_raw": "Sleep Stories",
+      "description_raw": "AI-generated sleepy history content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@HistorianSleepy",
+        "Full",
+        "197,000",
+        "Sleep Stories",
+        "AI-generated sleepy history content",
+        ""
+      ]
+    },
+    {
+      "row_number": 70,
+      "channel": "https://www.youtube.com/@AICraftyCat",
+      "ai_use": "Full",
+      "subscribers_raw": "196,000",
+      "category_raw": "Animals",
+      "description_raw": "crafty cat stories and adventures",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AICraftyCat",
+        "Full",
+        "196,000",
+        "Animals",
+        "crafty cat stories and adventures",
+        ""
+      ]
+    },
+    {
+      "row_number": 71,
+      "channel": "https://youtube.com/@jaydonehistory",
+      "ai_use": "Partial",
+      "subscribers_raw": "185,000",
+      "category_raw": "History",
+      "description_raw": "history storytelling and documentary narration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@jaydonehistory",
+        "Partial",
+        "185,000",
+        "History",
+        "history storytelling and documentary narration",
+        ""
+      ]
+    },
+    {
+      "row_number": 72,
+      "channel": "https://www.youtube.com/@gatesofimagination",
+      "ai_use": "Full",
+      "subscribers_raw": "179,000",
+      "category_raw": "Sleep Stories",
+      "description_raw": "human-narrated audiobooks and bedtime stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@gatesofimagination",
+        "Full",
+        "179,000",
+        "Sleep Stories",
+        "human-narrated audiobooks and bedtime stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 73,
+      "channel": "https://www.youtube.com/@DozingDragonASMR",
+      "ai_use": "Full",
+      "subscribers_raw": "169,000",
+      "category_raw": "Sleep Stories",
+      "description_raw": "asmr sleep stories and relaxing narration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@DozingDragonASMR",
+        "Full",
+        "169,000",
+        "Sleep Stories",
+        "asmr sleep stories and relaxing narration",
+        ""
+      ]
+    },
+    {
+      "row_number": 74,
+      "channel": "https://www.youtube.com/@AnimatedHorrorFlicks",
+      "ai_use": "Full",
+      "subscribers_raw": "166,000",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "animated horror stories",
+      "emails_raw": "egozaboza1989@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AnimatedHorrorFlicks",
+        "Full",
+        "166,000",
+        "Animation & Storytelling",
+        "animated horror stories",
+        "egozaboza1989@gmail.com"
+      ]
+    },
+    {
+      "row_number": 75,
+      "channel": "https://www.youtube.com/@CatStoryShort109",
+      "ai_use": "Full",
+      "subscribers_raw": "165,000",
+      "category_raw": "Animals",
+      "description_raw": "cat story shorts",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@CatStoryShort109",
+        "Full",
+        "165,000",
+        "Animals",
+        "cat story shorts",
+        ""
+      ]
+    },
+    {
+      "row_number": 76,
+      "channel": "https://www.youtube.com/@PuppyTalesAI-video",
+      "ai_use": "Full",
+      "subscribers_raw": "164,000",
+      "category_raw": "Animals",
+      "description_raw": "puppy tales and heartwarming dog stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@PuppyTalesAI-video",
+        "Full",
+        "164,000",
+        "Animals",
+        "puppy tales and heartwarming dog stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 77,
+      "channel": "https://www.youtube.com/@TheZinnyStudio",
+      "ai_use": "Full",
+      "subscribers_raw": "160,000",
+      "category_raw": "Content Creation",
+      "description_raw": "animation tutorials and faceless YouTube channel guides",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@TheZinnyStudio",
+        "Full",
+        "160,000",
+        "Content Creation",
+        "animation tutorials and faceless YouTube channel guides",
+        ""
+      ]
+    },
+    {
+      "row_number": 78,
+      "channel": "https://www.youtube.com/@hootsandtales",
+      "ai_use": "Partial",
+      "subscribers_raw": "157,000",
+      "category_raw": "Sleep Stories",
+      "description_raw": "bedtime stories and cozy sleep narration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@hootsandtales",
+        "Partial",
+        "157,000",
+        "Sleep Stories",
+        "bedtime stories and cozy sleep narration",
+        ""
+      ]
+    },
+    {
+      "row_number": 79,
+      "channel": "https://www.youtube.com/@koalamoonfm",
+      "ai_use": "Full",
+      "subscribers_raw": "154,000",
+      "category_raw": "Kids Sleep Stories",
+      "description_raw": "sleep stories and guided relaxation audio",
+      "emails_raw": "lazychillproductions@protonmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@koalamoonfm",
+        "Full",
+        "154,000",
+        "Kids Sleep Stories",
+        "sleep stories and guided relaxation audio",
+        "lazychillproductions@protonmail.com"
+      ]
+    },
+    {
+      "row_number": 80,
+      "channel": "https://www.youtube.com/@Lextragon",
+      "ai_use": "Full",
+      "subscribers_raw": "153,000",
+      "category_raw": "Art & Music",
+      "description_raw": "music production and creative visual content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@Lextragon",
+        "Full",
+        "153,000",
+        "Art & Music",
+        "music production and creative visual content",
+        ""
+      ]
+    },
+    {
+      "row_number": 81,
+      "channel": "https://www.youtube.com/@DanJonesHypnosis",
+      "ai_use": "Full",
+      "subscribers_raw": "140,000",
+      "category_raw": "Hypnosis & Relaxation",
+      "description_raw": "hypnosis sessions and guided relaxation",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@DanJonesHypnosis",
+        "Full",
+        "140,000",
+        "Hypnosis & Relaxation",
+        "hypnosis sessions and guided relaxation",
+        ""
+      ]
+    },
+    {
+      "row_number": 82,
+      "channel": "https://www.youtube.com/@AI_WILD_Wonders",
+      "ai_use": "Full",
+      "subscribers_raw": "136,000",
+      "category_raw": "Animals",
+      "description_raw": "wildlife wonders and nature stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AI_WILD_Wonders",
+        "Full",
+        "136,000",
+        "Animals",
+        "wildlife wonders and nature stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 83,
+      "channel": "https://youtube.com/@storified1",
+      "ai_use": "Partial",
+      "subscribers_raw": "134,000",
+      "category_raw": "Accidents & Disasters",
+      "description_raw": "horror documentaries and internet culture stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@storified1",
+        "Partial",
+        "134,000",
+        "Accidents & Disasters",
+        "horror documentaries and internet culture stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 84,
+      "channel": "https://www.youtube.com/@Animated_Stories",
+      "ai_use": "Full",
+      "subscribers_raw": "134,000",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "animated moral stories and fairy tales",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@Animated_Stories",
+        "Full",
+        "134,000",
+        "Animation & Storytelling",
+        "animated moral stories and fairy tales",
+        ""
+      ]
+    },
+    {
+      "row_number": 85,
+      "channel": "https://www.youtube.com/@CryptoCareer",
+      "ai_use": "Full",
+      "subscribers_raw": "126,000",
+      "category_raw": "Finance",
+      "description_raw": "crypto career guides and investment content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@CryptoCareer",
+        "Full",
+        "126,000",
+        "Finance",
+        "crypto career guides and investment content",
+        ""
+      ]
+    },
+    {
+      "row_number": 86,
+      "channel": "https://www.youtube.com/@AICatStory-y6k",
+      "ai_use": "Full",
+      "subscribers_raw": "119,000",
+      "category_raw": "Animals",
+      "description_raw": "cat story shorts",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AICatStory-y6k",
+        "Full",
+        "119,000",
+        "Animals",
+        "cat story shorts",
+        ""
+      ]
+    },
+    {
+      "row_number": 87,
+      "channel": "https://www.youtube.com/@powerfulstoichabits",
+      "ai_use": "Full",
+      "subscribers_raw": "116,000",
+      "category_raw": "Motivation & Self-Improvement",
+      "description_raw": "stoic philosophy habits and motivational content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@powerfulstoichabits",
+        "Full",
+        "116,000",
+        "Motivation & Self-Improvement",
+        "stoic philosophy habits and motivational content",
+        ""
+      ]
+    },
+    {
+      "row_number": 88,
+      "channel": "https://youtube.com/@AIBIBLESAGAS",
+      "ai_use": "Full",
+      "subscribers_raw": "109,000",
+      "category_raw": "Religious Stories",
+      "description_raw": "Bible sagas and stories reimagined with animation",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@AIBIBLESAGAS",
+        "Full",
+        "109,000",
+        "Religious Stories",
+        "Bible sagas and stories reimagined with animation",
+        ""
+      ]
+    },
+    {
+      "row_number": 89,
+      "channel": "https://www.youtube.com/@ClanoftheCuriouss",
+      "ai_use": "Full",
+      "subscribers_raw": "106,000",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "curiosity-driven content for inquisitive minds",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@ClanoftheCuriouss",
+        "Full",
+        "106,000",
+        "Mystery & Unsolved",
+        "curiosity-driven content for inquisitive minds",
+        ""
+      ]
+    },
+    {
+      "row_number": 90,
+      "channel": "https://www.youtube.com/@HorrorStoryAI-n6z9d",
+      "ai_use": "Full",
+      "subscribers_raw": "102,000",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "horror stories with cinematic narration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@HorrorStoryAI-n6z9d",
+        "Full",
+        "102,000",
+        "Mystery & Unsolved",
+        "horror stories with cinematic narration",
+        ""
+      ]
+    },
+    {
+      "row_number": 91,
+      "channel": "https://www.youtube.com/@AInaturecabin",
+      "ai_use": "Full",
+      "subscribers_raw": "100,000",
+      "category_raw": "Animals",
+      "description_raw": "nature cabin ambience and wildlife content",
+      "emails_raw": "elisavetgradinsta@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AInaturecabin",
+        "Full",
+        "100,000",
+        "Animals",
+        "nature cabin ambience and wildlife content",
+        "elisavetgradinsta@gmail.com"
+      ]
+    },
+    {
+      "row_number": 92,
+      "channel": "https://www.youtube.com/@AIMagicalFamily",
+      "ai_use": "Full",
+      "subscribers_raw": "96,700",
+      "category_raw": "Lifestyle",
+      "description_raw": "Family AI-generated family/kids content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AIMagicalFamily",
+        "Full",
+        "96,700",
+        "Lifestyle",
+        "Family AI-generated family/kids content",
+        ""
+      ]
+    },
+    {
+      "row_number": 93,
+      "channel": "https://youtube.com/@DerKommandantenglish",
+      "ai_use": "Partial",
+      "subscribers_raw": "92,400",
+      "category_raw": "History",
+      "description_raw": "military documentaries with narration (English version)",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@DerKommandantenglish",
+        "Partial",
+        "92,400",
+        "History",
+        "military documentaries with narration (English version)",
+        ""
+      ]
+    },
+    {
+      "row_number": 94,
+      "channel": "https://www.youtube.com/@bedtimestoryco",
+      "ai_use": "Full",
+      "subscribers_raw": "91,300",
+      "category_raw": "Kids Sleep Stories",
+      "description_raw": "bedtime stories for kids and families",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@bedtimestoryco",
+        "Full",
+        "91,300",
+        "Kids Sleep Stories",
+        "bedtime stories for kids and families",
+        ""
+      ]
+    },
+    {
+      "row_number": 95,
+      "channel": "https://www.instagram.com/hunk_hooves_/",
+      "ai_use": "Partial",
+      "subscribers_raw": "89,400",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "animated short stories with sound effects",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.instagram.com/hunk_hooves_/",
+        "Partial",
+        "89,400",
+        "Animation & Storytelling",
+        "animated short stories with sound effects",
+        ""
+      ]
+    },
+    {
+      "row_number": 96,
+      "channel": "https://www.youtube.com/@FoxAndSheepKids",
+      "ai_use": "Full",
+      "subscribers_raw": "84,800",
+      "category_raw": "Kids Sleep Stories",
+      "description_raw": "animated kids stories and bedtime content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@FoxAndSheepKids",
+        "Full",
+        "84,800",
+        "Kids Sleep Stories",
+        "animated kids stories and bedtime content",
+        ""
+      ]
+    },
+    {
+      "row_number": 97,
+      "channel": "https://youtube.com/@Timeportalss",
+      "ai_use": "Full",
+      "subscribers_raw": "83,300",
+      "category_raw": "History",
+      "description_raw": "historical visualization videos",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@Timeportalss",
+        "Full",
+        "83,300",
+        "History",
+        "historical visualization videos",
+        ""
+      ]
+    },
+    {
+      "row_number": 98,
+      "channel": "https://www.youtube.com/@SuperHeroStoryAI",
+      "ai_use": "Full",
+      "subscribers_raw": "83,100",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "superhero stories and animated shorts",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@SuperHeroStoryAI",
+        "Full",
+        "83,100",
+        "Animation & Storytelling",
+        "superhero stories and animated shorts",
+        ""
+      ]
+    },
+    {
+      "row_number": 99,
+      "channel": "https://www.youtube.com/@aibibletamil",
+      "ai_use": "Full",
+      "subscribers_raw": "82,500",
+      "category_raw": "Religious Stories",
+      "description_raw": "Bible stories in Tamil",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@aibibletamil",
+        "Full",
+        "82,500",
+        "Religious Stories",
+        "Bible stories in Tamil",
+        ""
+      ]
+    },
+    {
+      "row_number": 100,
+      "channel": "https://www.youtube.com/@Snugglekids",
+      "ai_use": "Full",
+      "subscribers_raw": "78,800",
+      "category_raw": "Kids Sleep Stories",
+      "description_raw": "historical documentaries and deep dives",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@Snugglekids",
+        "Full",
+        "78,800",
+        "Kids Sleep Stories",
+        "historical documentaries and deep dives",
+        ""
+      ]
+    },
+    {
+      "row_number": 101,
+      "channel": "https://www.youtube.com/@mr_datavisuals",
+      "ai_use": "Full",
+      "subscribers_raw": "77,800",
+      "category_raw": "Explainers & Facts",
+      "description_raw": "science-based stories about parasites",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@mr_datavisuals",
+        "Full",
+        "77,800",
+        "Explainers & Facts",
+        "science-based stories about parasites",
+        ""
+      ]
+    },
+    {
+      "row_number": 102,
+      "channel": "https://youtube.com/@AuralisDocs",
+      "ai_use": "Full",
+      "subscribers_raw": "76,000",
+      "category_raw": "History",
+      "description_raw": "toxins",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@AuralisDocs",
+        "Full",
+        "76,000",
+        "History",
+        "toxins",
+        ""
+      ]
+    },
+    {
+      "row_number": 103,
+      "channel": "https://youtube.com/@BigfootFeed",
+      "ai_use": "Full",
+      "subscribers_raw": "74,700",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "animated trailers",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@BigfootFeed",
+        "Full",
+        "74,700",
+        "Animation & Storytelling",
+        "animated trailers",
+        ""
+      ]
+    },
+    {
+      "row_number": 104,
+      "channel": "https://youtube.com/@MaxRiven",
+      "ai_use": "Full",
+      "subscribers_raw": "74,100",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "short films",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@MaxRiven",
+        "Full",
+        "74,100",
+        "Animation & Storytelling",
+        "short films",
+        ""
+      ]
+    },
+    {
+      "row_number": 105,
+      "channel": "https://youtube.com/@digitalsculler",
+      "ai_use": "Partial",
+      "subscribers_raw": "73,800",
+      "category_raw": "Content Creation",
+      "description_raw": "and cinematic parodies of internet culture",
+      "emails_raw": "contacto@ciudadtrendy.mx",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@digitalsculler",
+        "Partial",
+        "73,800",
+        "Content Creation",
+        "and cinematic parodies of internet culture",
+        "contacto@ciudadtrendy.mx"
+      ]
+    },
+    {
+      "row_number": 106,
+      "channel": "https://youtube.com/@AImaskman",
+      "ai_use": "Full",
+      "subscribers_raw": "71,200",
+      "category_raw": "AI & Tech",
+      "description_raw": "business and economics explainers",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@AImaskman",
+        "Full",
+        "71,200",
+        "AI & Tech",
+        "business and economics explainers",
+        ""
+      ]
+    },
+    {
+      "row_number": 107,
+      "channel": "https://youtube.com/@sleepytimehistoryyt",
+      "ai_use": "Full",
+      "subscribers_raw": "67,700",
+      "category_raw": "Sleep Stories",
+      "description_raw": "3d-animated historical battle recreations",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@sleepytimehistoryyt",
+        "Full",
+        "67,700",
+        "Sleep Stories",
+        "3d-animated historical battle recreations",
+        ""
+      ]
+    },
+    {
+      "row_number": 108,
+      "channel": "https://youtube.com/@EstablishedContext",
+      "ai_use": "Partial",
+      "subscribers_raw": "64,500",
+      "category_raw": "Finance",
+      "description_raw": "ai-assisted business and economics explainers",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@EstablishedContext",
+        "Partial",
+        "64,500",
+        "Finance",
+        "ai-assisted business and economics explainers",
+        ""
+      ]
+    },
+    {
+      "row_number": 109,
+      "channel": "https://www.youtube.com/@MaximusKhan",
+      "ai_use": "Minimal",
+      "subscribers_raw": "62,800",
+      "category_raw": "History",
+      "description_raw": "videos on history, mystery, adventure, and intrigue",
+      "emails_raw": "hello@moombeamtale.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@MaximusKhan",
+        "Minimal",
+        "62,800",
+        "History",
+        "videos on history, mystery, adventure, and intrigue",
+        "hello@moombeamtale.com"
+      ]
+    },
+    {
+      "row_number": 110,
+      "channel": "https://youtube.com/@historybattles3D",
+      "ai_use": "Full",
+      "subscribers_raw": "62,200",
+      "category_raw": "History",
+      "description_raw": "3d ai-animated historical battle recreations",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@historybattles3D",
+        "Full",
+        "62,200",
+        "History",
+        "3d ai-animated historical battle recreations",
+        ""
+      ]
+    },
+    {
+      "row_number": 111,
+      "channel": "https://youtube.com/@ksceveryday",
+      "ai_use": "Full",
+      "subscribers_raw": "61,000",
+      "category_raw": "Content Creation",
+      "description_raw": "building faceless youtube channels with automation tools",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@ksceveryday",
+        "Full",
+        "61,000",
+        "Content Creation",
+        "building faceless youtube channels with automation tools",
+        ""
+      ]
+    },
+    {
+      "row_number": 112,
+      "channel": "https://www.youtube.com/@CatcuteAIshorts",
+      "ai_use": "Full",
+      "subscribers_raw": "59,600",
+      "category_raw": "Animals",
+      "description_raw": "cute cat shorts",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@CatcuteAIshorts",
+        "Full",
+        "59,600",
+        "Animals",
+        "cute cat shorts",
+        ""
+      ]
+    },
+    {
+      "row_number": 113,
+      "channel": "https://youtube.com/@aiConvoYT",
+      "ai_use": "Full",
+      "subscribers_raw": "58,800",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "chatbot-to-chatbot conversations and interactions",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@aiConvoYT",
+        "Full",
+        "58,800",
+        "Animation & Storytelling",
+        "chatbot-to-chatbot conversations and interactions",
+        ""
+      ]
+    },
+    {
+      "row_number": 114,
+      "channel": "https://youtube.com/@aiTrends-channel",
+      "ai_use": "Full",
+      "subscribers_raw": "58,100",
+      "category_raw": "Content Creation",
+      "description_raw": "building faceless youtube channels with ai tools",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@aiTrends-channel",
+        "Full",
+        "58,100",
+        "Content Creation",
+        "building faceless youtube channels with ai tools",
+        ""
+      ]
+    },
+    {
+      "row_number": 115,
+      "channel": "https://youtube.com/@cinematichistorytales",
+      "ai_use": "Full",
+      "subscribers_raw": "56,700",
+      "category_raw": "History",
+      "description_raw": "cinematic historical storytelling and documentaries",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@cinematichistorytales",
+        "Full",
+        "56,700",
+        "History",
+        "cinematic historical storytelling and documentaries",
+        ""
+      ]
+    },
+    {
+      "row_number": 116,
+      "channel": "https://www.youtube.com/@TheDreamoria",
+      "ai_use": "Full",
+      "subscribers_raw": "56,600",
+      "category_raw": "Sleep Stories",
+      "description_raw": "dreamy bedtime stories and sleep narration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@TheDreamoria",
+        "Full",
+        "56,600",
+        "Sleep Stories",
+        "dreamy bedtime stories and sleep narration",
+        ""
+      ]
+    },
+    {
+      "row_number": 117,
+      "channel": "https://youtube.com/@lazychillzone",
+      "ai_use": "Partial",
+      "subscribers_raw": "53,400",
+      "category_raw": "Sleep Stories",
+      "description_raw": "relaxing ambient videos and chill content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@lazychillzone",
+        "Partial",
+        "53,400",
+        "Sleep Stories",
+        "relaxing ambient videos and chill content",
+        ""
+      ]
+    },
+    {
+      "row_number": 118,
+      "channel": "https://www.youtube.com/@HistoryandSleep",
+      "ai_use": "Full",
+      "subscribers_raw": "52,000",
+      "category_raw": "Sleep Stories",
+      "description_raw": "and discovery for sleep",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@HistoryandSleep",
+        "Full",
+        "52,000",
+        "Sleep Stories",
+        "and discovery for sleep",
+        ""
+      ]
+    },
+    {
+      "row_number": 119,
+      "channel": "https://youtube.com/@mysticvideoai",
+      "ai_use": "Full",
+      "subscribers_raw": "50,000",
+      "category_raw": "Art & Music",
+      "description_raw": "music videos blending visuals and sound",
+      "emails_raw": "TheMidnightReaderYT@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@mysticvideoai",
+        "Full",
+        "50,000",
+        "Art & Music",
+        "music videos blending visuals and sound",
+        "TheMidnightReaderYT@gmail.com"
+      ]
+    },
+    {
+      "row_number": 120,
+      "channel": "https://www.youtube.com/@whispersofthewildofficial",
+      "ai_use": "Full",
+      "subscribers_raw": "49,000",
+      "category_raw": "Animals",
+      "description_raw": "wildlife and nature stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@whispersofthewildofficial",
+        "Full",
+        "49,000",
+        "Animals",
+        "wildlife and nature stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 121,
+      "channel": "https://youtube.com/@kazu-en",
+      "ai_use": "Full",
+      "subscribers_raw": "48,400",
+      "category_raw": "History",
+      "description_raw": "forgotten stories brought to life with animation",
+      "emails_raw": "cyrelkentyecyec051@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@kazu-en",
+        "Full",
+        "48,400",
+        "History",
+        "forgotten stories brought to life with animation",
+        "cyrelkentyecyec051@gmail.com"
+      ]
+    },
+    {
+      "row_number": 122,
+      "channel": "https://youtube.com/@tgbid",
+      "ai_use": "Full",
+      "subscribers_raw": "44,800",
+      "category_raw": "Humanoid Medical Facts",
+      "description_raw": "illustration videos and visual art storytelling",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@tgbid",
+        "Full",
+        "44,800",
+        "Humanoid Medical Facts",
+        "illustration videos and visual art storytelling",
+        ""
+      ]
+    },
+    {
+      "row_number": 123,
+      "channel": "https://youtube.com/@HistoryinMotion3",
+      "ai_use": "Full",
+      "subscribers_raw": "43,000",
+      "category_raw": "History",
+      "description_raw": "narrated movie and series recaps",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@HistoryinMotion3",
+        "Full",
+        "43,000",
+        "History",
+        "narrated movie and series recaps",
+        ""
+      ]
+    },
+    {
+      "row_number": 124,
+      "channel": "https://youtube.com/@sanatanlegendsai",
+      "ai_use": "Full",
+      "subscribers_raw": "42,900",
+      "category_raw": "Religious Stories",
+      "description_raw": "hindu mythology and legends",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@sanatanlegendsai",
+        "Full",
+        "42,900",
+        "Religious Stories",
+        "hindu mythology and legends",
+        ""
+      ]
+    },
+    {
+      "row_number": 125,
+      "channel": "https://youtube.com/@EternalRecaps-b1f",
+      "ai_use": "Full",
+      "subscribers_raw": "42,200",
+      "category_raw": "Explainers & Facts",
+      "description_raw": "ai-narrated movie and series recaps",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@EternalRecaps-b1f",
+        "Full",
+        "42,200",
+        "Explainers & Facts",
+        "ai-narrated movie and series recaps",
+        ""
+      ]
+    },
+    {
+      "row_number": 126,
+      "channel": "https://youtube.com/@TheBibleInBlack",
+      "ai_use": "Full",
+      "subscribers_raw": "41,400",
+      "category_raw": "Religious Stories",
+      "description_raw": "colorized and restored historical photos and footage",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@TheBibleInBlack",
+        "Full",
+        "41,400",
+        "Religious Stories",
+        "colorized and restored historical photos and footage",
+        ""
+      ]
+    },
+    {
+      "row_number": 127,
+      "channel": "https://www.youtube.com/@aiva1828",
+      "ai_use": "Full",
+      "subscribers_raw": "39,100",
+      "category_raw": "Art & Music",
+      "description_raw": "original music compositions and performances",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@aiva1828",
+        "Full",
+        "39,100",
+        "Art & Music",
+        "original music compositions and performances",
+        ""
+      ]
+    },
+    {
+      "row_number": 128,
+      "channel": "https://youtube.com/@syraxverse",
+      "ai_use": "Full",
+      "subscribers_raw": "38,800",
+      "category_raw": "Content Creation",
+      "description_raw": "youtube and content creation tips",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@syraxverse",
+        "Full",
+        "38,800",
+        "Content Creation",
+        "youtube and content creation tips",
+        ""
+      ]
+    },
+    {
+      "row_number": 129,
+      "channel": "https://youtube.com/@HistoryReborn47",
+      "ai_use": "Full",
+      "subscribers_raw": "37,800",
+      "category_raw": "History",
+      "description_raw": "ai colorized and restored historical photos and footage",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@HistoryReborn47",
+        "Full",
+        "37,800",
+        "History",
+        "ai colorized and restored historical photos and footage",
+        ""
+      ]
+    },
+    {
+      "row_number": 130,
+      "channel": "https://youtube.com/@geekbotai",
+      "ai_use": "Full",
+      "subscribers_raw": "37,400",
+      "category_raw": "AI & Tech",
+      "description_raw": "youtube and ai content creation tips",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@geekbotai",
+        "Full",
+        "37,400",
+        "AI & Tech",
+        "youtube and ai content creation tips",
+        ""
+      ]
+    },
+    {
+      "row_number": 131,
+      "channel": "https://www.youtube.com/@AIASMRCreationsByIva",
+      "ai_use": "Full",
+      "subscribers_raw": "37,400",
+      "category_raw": "Hypnosis & Relaxation",
+      "description_raw": "ASMR creations and calming visual content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AIASMRCreationsByIva",
+        "Full",
+        "37,400",
+        "Hypnosis & Relaxation",
+        "ASMR creations and calming visual content",
+        ""
+      ]
+    },
+    {
+      "row_number": 132,
+      "channel": "https://www.youtube.com/@AI_Film_Forge",
+      "ai_use": "Full",
+      "subscribers_raw": "34,300",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "short films and cinematic content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AI_Film_Forge",
+        "Full",
+        "34,300",
+        "Animation & Storytelling",
+        "short films and cinematic content",
+        ""
+      ]
+    },
+    {
+      "row_number": 133,
+      "channel": "https://www.youtube.com/@Stephen-Y.G",
+      "ai_use": "Full",
+      "subscribers_raw": "33,900",
+      "category_raw": "Art & Music",
+      "description_raw": "music videos and visual productions",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@Stephen-Y.G",
+        "Full",
+        "33,900",
+        "Art & Music",
+        "music videos and visual productions",
+        ""
+      ]
+    },
+    {
+      "row_number": 134,
+      "channel": "https://www.youtube.com/@CookingWithAi",
+      "ai_use": "Full",
+      "subscribers_raw": "33,300",
+      "category_raw": "Lifestyle",
+      "description_raw": "cooking content and recipes",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@CookingWithAi",
+        "Full",
+        "33,300",
+        "Lifestyle",
+        "cooking content and recipes",
+        ""
+      ]
+    },
+    {
+      "row_number": 135,
+      "channel": "https://youtube.com/@ZigZagProductionStudio",
+      "ai_use": "Full",
+      "subscribers_raw": "32,300",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "story videos and narrated content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@ZigZagProductionStudio",
+        "Full",
+        "32,300",
+        "Animation & Storytelling",
+        "story videos and narrated content",
+        ""
+      ]
+    },
+    {
+      "row_number": 136,
+      "channel": "https://www.youtube.com/@neuralframes",
+      "ai_use": "Full",
+      "subscribers_raw": "32,000",
+      "category_raw": "Art & Music",
+      "description_raw": "generative animations for musicians and creatives via neuralframes.com",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@neuralframes",
+        "Full",
+        "32,000",
+        "Art & Music",
+        "generative animations for musicians and creatives via neuralframes.com",
+        ""
+      ]
+    },
+    {
+      "row_number": 137,
+      "channel": "https://youtube.com/@Sword_And_Pen_Official45",
+      "ai_use": "Full",
+      "subscribers_raw": "31,700",
+      "category_raw": "History",
+      "description_raw": "military and political power narration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@Sword_And_Pen_Official45",
+        "Full",
+        "31,700",
+        "History",
+        "military and political power narration",
+        ""
+      ]
+    },
+    {
+      "row_number": 138,
+      "channel": "https://www.youtube.com/@cataishorts353",
+      "ai_use": "Full",
+      "subscribers_raw": "31,700",
+      "category_raw": "Animals",
+      "description_raw": "cat shorts",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@cataishorts353",
+        "Full",
+        "31,700",
+        "Animals",
+        "cat shorts",
+        ""
+      ]
+    },
+    {
+      "row_number": 139,
+      "channel": "https://youtube.com/@kirtopchannel",
+      "ai_use": "Full",
+      "subscribers_raw": "31,000",
+      "category_raw": "Content Creation",
+      "description_raw": "workflow tutorials and automation guides",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@kirtopchannel",
+        "Full",
+        "31,000",
+        "Content Creation",
+        "workflow tutorials and automation guides",
+        ""
+      ]
+    },
+    {
+      "row_number": 140,
+      "channel": "https://youtube.com/@ClickyAI",
+      "ai_use": "Partial",
+      "subscribers_raw": "30,000",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "ranking and list videos",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@ClickyAI",
+        "Partial",
+        "30,000",
+        "Animation & Storytelling",
+        "ranking and list videos",
+        ""
+      ]
+    },
+    {
+      "row_number": 141,
+      "channel": "https://youtube.com/@AIFlowOfficial",
+      "ai_use": "Full",
+      "subscribers_raw": "28,700",
+      "category_raw": "Content Creation",
+      "description_raw": "impossible true stories with cinematic narration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@AIFlowOfficial",
+        "Full",
+        "28,700",
+        "Content Creation",
+        "impossible true stories with cinematic narration",
+        ""
+      ]
+    },
+    {
+      "row_number": 142,
+      "channel": "https://youtube.com/@LoveMeetsArt",
+      "ai_use": "Full",
+      "subscribers_raw": "27,300",
+      "category_raw": "Content Creation",
+      "description_raw": "tutorials on creating art and visual content",
+      "emails_raw": "huzaifachaudhary1357@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@LoveMeetsArt",
+        "Full",
+        "27,300",
+        "Content Creation",
+        "tutorials on creating art and visual content",
+        "huzaifachaudhary1357@gmail.com"
+      ]
+    },
+    {
+      "row_number": 143,
+      "channel": "https://www.youtube.com/@sleepyhistoryforsleepai",
+      "ai_use": "Full",
+      "subscribers_raw": "26,600",
+      "category_raw": "Sleep Stories",
+      "description_raw": "calm history storytelling with painted visuals for sleep",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@sleepyhistoryforsleepai",
+        "Full",
+        "26,600",
+        "Sleep Stories",
+        "calm history storytelling with painted visuals for sleep",
+        ""
+      ]
+    },
+    {
+      "row_number": 144,
+      "channel": "https://youtube.com/@ImpossibleTales96",
+      "ai_use": "Full",
+      "subscribers_raw": "24,500",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "impossible true stories with cinematic ai narration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@ImpossibleTales96",
+        "Full",
+        "24,500",
+        "Mystery & Unsolved",
+        "impossible true stories with cinematic ai narration",
+        ""
+      ]
+    },
+    {
+      "row_number": 145,
+      "channel": "https://www.youtube.com/@hindianimationai-v9u",
+      "ai_use": "Full",
+      "subscribers_raw": "23,700",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "Hindi animated stories and shorts",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@hindianimationai-v9u",
+        "Full",
+        "23,700",
+        "Animation & Storytelling",
+        "Hindi animated stories and shorts",
+        ""
+      ]
+    },
+    {
+      "row_number": 146,
+      "channel": "https://youtube.com/@MasteringtheUnknown",
+      "ai_use": "Full",
+      "subscribers_raw": "23,300",
+      "category_raw": "History",
+      "description_raw": "Historical storytelling with cinematic production",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@MasteringtheUnknown",
+        "Full",
+        "23,300",
+        "History",
+        "Historical storytelling with cinematic production",
+        ""
+      ]
+    },
+    {
+      "row_number": 147,
+      "channel": "https://youtube.com/@TheMainverse",
+      "ai_use": "Full",
+      "subscribers_raw": "23,000",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "cinematic entertainment using Sora",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@TheMainverse",
+        "Full",
+        "23,000",
+        "Animation & Storytelling",
+        "cinematic entertainment using Sora",
+        ""
+      ]
+    },
+    {
+      "row_number": 148,
+      "channel": "https://www.youtube.com/@AI_Filmss",
+      "ai_use": "Full",
+      "subscribers_raw": "22,800",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "short films and cinematic stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AI_Filmss",
+        "Full",
+        "22,800",
+        "Animation & Storytelling",
+        "short films and cinematic stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 149,
+      "channel": "https://www.youtube.com/@PawRescueStoriesAI",
+      "ai_use": "Full",
+      "subscribers_raw": "22,700",
+      "category_raw": "Animals",
+      "description_raw": "animal rescue stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@PawRescueStoriesAI",
+        "Full",
+        "22,700",
+        "Animals",
+        "animal rescue stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 150,
+      "channel": "https://youtube.com/@BibleBrickStories",
+      "ai_use": "Full",
+      "subscribers_raw": "21,200",
+      "category_raw": "Religious Stories",
+      "description_raw": "lego-style Bible story animations",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@BibleBrickStories",
+        "Full",
+        "21,200",
+        "Religious Stories",
+        "lego-style Bible story animations",
+        ""
+      ]
+    },
+    {
+      "row_number": 151,
+      "channel": "https://www.youtube.com/@ELEVENZAIMUSICLAB",
+      "ai_use": "Full",
+      "subscribers_raw": "21,100",
+      "category_raw": "Art & Music",
+      "description_raw": "skibidi toilet and meme content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@ELEVENZAIMUSICLAB",
+        "Full",
+        "21,100",
+        "Art & Music",
+        "skibidi toilet and meme content",
+        ""
+      ]
+    },
+    {
+      "row_number": 152,
+      "channel": "https://youtube.com/@LicbeAIMedia",
+      "ai_use": "Full",
+      "subscribers_raw": "19,900",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "media and storytelling",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@LicbeAIMedia",
+        "Full",
+        "19,900",
+        "Animation & Storytelling",
+        "media and storytelling",
+        ""
+      ]
+    },
+    {
+      "row_number": 153,
+      "channel": "https://youtube.com/@SereneVideoAI",
+      "ai_use": "Full",
+      "subscribers_raw": "19,900",
+      "category_raw": "Sleep Stories",
+      "description_raw": "calming music videos with soothing visuals and peaceful soundscapes",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@SereneVideoAI",
+        "Full",
+        "19,900",
+        "Sleep Stories",
+        "calming music videos with soothing visuals and peaceful soundscapes",
+        ""
+      ]
+    },
+    {
+      "row_number": 154,
+      "channel": "https://youtube.com/@bonsai-effect",
+      "ai_use": "Full",
+      "subscribers_raw": "19,400",
+      "category_raw": "Art & Music",
+      "description_raw": "exploring the world of digital art and creative visual showcases",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@bonsai-effect",
+        "Full",
+        "19,400",
+        "Art & Music",
+        "exploring the world of digital art and creative visual showcases",
+        ""
+      ]
+    },
+    {
+      "row_number": 155,
+      "channel": "https://www.youtube.com/@DreamsofDisclosure",
+      "ai_use": "Full",
+      "subscribers_raw": "19,000",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "fully automated slideshow videos via scripting and image generation",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@DreamsofDisclosure",
+        "Full",
+        "19,000",
+        "Mystery & Unsolved",
+        "fully automated slideshow videos via scripting and image generation",
+        ""
+      ]
+    },
+    {
+      "row_number": 156,
+      "channel": "https://youtube.com/@CommonHub",
+      "ai_use": "Full",
+      "subscribers_raw": "18,400",
+      "category_raw": "Explainers & Facts",
+      "description_raw": "educational content across multiple subjects",
+      "emails_raw": "funntimee1111@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@CommonHub",
+        "Full",
+        "18,400",
+        "Explainers & Facts",
+        "educational content across multiple subjects",
+        "funntimee1111@gmail.com"
+      ]
+    },
+    {
+      "row_number": 157,
+      "channel": "https://youtube.com/@DreamRealm37",
+      "ai_use": "Full",
+      "subscribers_raw": "18,100",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "ai-narrated mystery and unexplained phenomena stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@DreamRealm37",
+        "Full",
+        "18,100",
+        "Mystery & Unsolved",
+        "ai-narrated mystery and unexplained phenomena stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 158,
+      "channel": "https://www.youtube.com/@wildeyes00",
+      "ai_use": "Full",
+      "subscribers_raw": "17,800",
+      "category_raw": "Animals",
+      "description_raw": "breathtaking 4K African wildlife and nature content",
+      "emails_raw": "ken@kwsystems.ca",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@wildeyes00",
+        "Full",
+        "17,800",
+        "Animals",
+        "breathtaking 4K African wildlife and nature content",
+        "ken@kwsystems.ca"
+      ]
+    },
+    {
+      "row_number": 159,
+      "channel": "https://www.youtube.com/@story-ai-78",
+      "ai_use": "Full",
+      "subscribers_raw": "17,500",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "animated stories and short narratives",
+      "emails_raw": "asifrafique2020@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@story-ai-78",
+        "Full",
+        "17,500",
+        "Animation & Storytelling",
+        "animated stories and short narratives",
+        "asifrafique2020@gmail.com"
+      ]
+    },
+    {
+      "row_number": 160,
+      "channel": "https://youtube.com/@LatentTelevision",
+      "ai_use": "Full",
+      "subscribers_raw": "16,900",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "comedy and experimental content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@LatentTelevision",
+        "Full",
+        "16,900",
+        "Animation & Storytelling",
+        "comedy and experimental content",
+        ""
+      ]
+    },
+    {
+      "row_number": 161,
+      "channel": "https://youtube.com/@Historydad_ai",
+      "ai_use": "Full",
+      "subscribers_raw": "16,800",
+      "category_raw": "History",
+      "description_raw": "ai-written comedy history shorts and stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@Historydad_ai",
+        "Full",
+        "16,800",
+        "History",
+        "ai-written comedy history shorts and stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 162,
+      "channel": "https://youtube.com/@ciudadtrendy",
+      "ai_use": "Partial",
+      "subscribers_raw": "16,300",
+      "category_raw": "Content Creation",
+      "description_raw": "tools tips and tricks for passive income",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@ciudadtrendy",
+        "Partial",
+        "16,300",
+        "Content Creation",
+        "tools tips and tricks for passive income",
+        ""
+      ]
+    },
+    {
+      "row_number": 163,
+      "channel": "https://youtube.com/@cosmhush",
+      "ai_use": "Full",
+      "subscribers_raw": "16,000",
+      "category_raw": "Space & Science",
+      "description_raw": "videos about space discoveries",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@cosmhush",
+        "Full",
+        "16,000",
+        "Space & Science",
+        "videos about space discoveries",
+        ""
+      ]
+    },
+    {
+      "row_number": 164,
+      "channel": "https://youtube.com/@clovakStudioai",
+      "ai_use": "Full",
+      "subscribers_raw": "14,800",
+      "category_raw": "AI & Tech",
+      "description_raw": "ai tools tips and tricks for passive income",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@clovakStudioai",
+        "Full",
+        "14,800",
+        "AI & Tech",
+        "ai tools tips and tricks for passive income",
+        ""
+      ]
+    },
+    {
+      "row_number": 165,
+      "channel": "https://www.youtube.com/@kidsHaven-KH",
+      "ai_use": "Full",
+      "subscribers_raw": "14,600",
+      "category_raw": "Kids stories",
+      "description_raw": "Fun kids videos lessons and adventures channel.",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@kidsHaven-KH",
+        "Full",
+        "14,600",
+        "Kids stories",
+        "Fun kids videos lessons and adventures channel.",
+        ""
+      ]
+    },
+    {
+      "row_number": 166,
+      "channel": "https://youtube.com/@NovaEclipseAI",
+      "ai_use": "Full",
+      "subscribers_raw": "14,400",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "unhinged creative content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@NovaEclipseAI",
+        "Full",
+        "14,400",
+        "Animation & Storytelling",
+        "unhinged creative content",
+        ""
+      ]
+    },
+    {
+      "row_number": 167,
+      "channel": "https://www.youtube.com/@AuraAnimalsAA",
+      "ai_use": "Full",
+      "subscribers_raw": "14,400",
+      "category_raw": "Animals",
+      "description_raw": "Animal videos",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AuraAnimalsAA",
+        "Full",
+        "14,400",
+        "Animals",
+        "Animal videos",
+        ""
+      ]
+    },
+    {
+      "row_number": 168,
+      "channel": "https://www.youtube.com/@Moonbeam_Tales",
+      "ai_use": "Full",
+      "subscribers_raw": "14,000",
+      "category_raw": "Kids Sleep Stories",
+      "description_raw": "bedtime stories and calming narration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@Moonbeam_Tales",
+        "Full",
+        "14,000",
+        "Kids Sleep Stories",
+        "bedtime stories and calming narration",
+        ""
+      ]
+    },
+    {
+      "row_number": 169,
+      "channel": "https://www.youtube.com/@hindiaianimationkahani",
+      "ai_use": "Full",
+      "subscribers_raw": "13,800",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "Hindi animated stories and folktales",
+      "emails_raw": "pastmystchannel@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@hindiaianimationkahani",
+        "Full",
+        "13,800",
+        "Animation & Storytelling",
+        "Hindi animated stories and folktales",
+        "pastmystchannel@gmail.com"
+      ]
+    },
+    {
+      "row_number": 170,
+      "channel": "https://youtube.com/@animatedai",
+      "ai_use": "Full",
+      "subscribers_raw": "13,700",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "animations",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@animatedai",
+        "Full",
+        "13,700",
+        "Animation & Storytelling",
+        "animations",
+        ""
+      ]
+    },
+    {
+      "row_number": 171,
+      "channel": "https://www.youtube.com/@StoryHoodAI-r8o",
+      "ai_use": "Full",
+      "subscribers_raw": "13,000",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "neighborhood and urban stories animated",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@StoryHoodAI-r8o",
+        "Full",
+        "13,000",
+        "Animation & Storytelling",
+        "neighborhood and urban stories animated",
+        ""
+      ]
+    },
+    {
+      "row_number": 172,
+      "channel": "https://youtube.com/@thetimelessmysteriess",
+      "ai_use": "Full",
+      "subscribers_raw": "12,900",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "narrated horror stories and creepy content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@thetimelessmysteriess",
+        "Full",
+        "12,900",
+        "Mystery & Unsolved",
+        "narrated horror stories and creepy content",
+        ""
+      ]
+    },
+    {
+      "row_number": 173,
+      "channel": "https://www.youtube.com/@asmrLunai",
+      "ai_use": "Full",
+      "subscribers_raw": "12,900",
+      "category_raw": "Hypnosis & Relaxation",
+      "description_raw": "ASMR lunar-themed relaxation content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@asmrLunai",
+        "Full",
+        "12,900",
+        "Hypnosis & Relaxation",
+        "ASMR lunar-themed relaxation content",
+        ""
+      ]
+    },
+    {
+      "row_number": 174,
+      "channel": "https://www.youtube.com/@TheSleepyHistorianHistory",
+      "ai_use": "Full",
+      "subscribers_raw": "12,200",
+      "category_raw": "Sleep Stories",
+      "description_raw": "calm sleep history storytelling for late nights",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@TheSleepyHistorianHistory",
+        "Full",
+        "12,200",
+        "Sleep Stories",
+        "calm sleep history storytelling for late nights",
+        ""
+      ]
+    },
+    {
+      "row_number": 175,
+      "channel": "https://www.youtube.com/@SpaceSleepDOC",
+      "ai_use": "Full",
+      "subscribers_raw": "12,100",
+      "category_raw": "Space & Science",
+      "description_raw": "space sleep documentary narration",
+      "emails_raw": "tomboftruth@gmail.com",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@SpaceSleepDOC",
+        "Full",
+        "12,100",
+        "Space & Science",
+        "space sleep documentary narration",
+        "tomboftruth@gmail.com"
+      ]
+    },
+    {
+      "row_number": 176,
+      "channel": "https://www.youtube.com/@SpaceMysteriesMorganFreeman",
+      "ai_use": "Full",
+      "subscribers_raw": "12,100",
+      "category_raw": "Space & Science",
+      "description_raw": "space mysteries narration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@SpaceMysteriesMorganFreeman",
+        "Full",
+        "12,100",
+        "Space & Science",
+        "space mysteries narration",
+        ""
+      ]
+    },
+    {
+      "row_number": 177,
+      "channel": "https://www.youtube.com/@PureNatureDOC",
+      "ai_use": "Full",
+      "subscribers_raw": "12,100",
+      "category_raw": "Animals",
+      "description_raw": "nature documentary narration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@PureNatureDOC",
+        "Full",
+        "12,100",
+        "Animals",
+        "nature documentary narration",
+        ""
+      ]
+    },
+    {
+      "row_number": 178,
+      "channel": "https://youtube.com/@AIVlogWithEna",
+      "ai_use": "Full",
+      "subscribers_raw": "11,800",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "movie and pop culture breakdowns",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@AIVlogWithEna",
+        "Full",
+        "11,800",
+        "Animation & Storytelling",
+        "movie and pop culture breakdowns",
+        ""
+      ]
+    },
+    {
+      "row_number": 179,
+      "channel": "https://www.youtube.com/@WarEchoes9",
+      "ai_use": "Full",
+      "subscribers_raw": "11,800",
+      "category_raw": "History",
+      "description_raw": "war history documentaries and battle stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@WarEchoes9",
+        "Full",
+        "11,800",
+        "History",
+        "war history documentaries and battle stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 180,
+      "channel": "https://www.youtube.com/@AiCooksForYou",
+      "ai_use": "Full",
+      "subscribers_raw": "11,600",
+      "category_raw": "Lifestyle",
+      "description_raw": "cooking recipe videos",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AiCooksForYou",
+        "Full",
+        "11,600",
+        "Lifestyle",
+        "cooking recipe videos",
+        ""
+      ]
+    },
+    {
+      "row_number": 181,
+      "channel": "https://youtube.com/@BitterSnake",
+      "ai_use": "Full",
+      "subscribers_raw": "11,300",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "ai-narrated horror stories and creepy content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@BitterSnake",
+        "Full",
+        "11,300",
+        "Mystery & Unsolved",
+        "ai-narrated horror stories and creepy content",
+        ""
+      ]
+    },
+    {
+      "row_number": 182,
+      "channel": "https://www.youtube.com/@wildlifeai.07",
+      "ai_use": "Full",
+      "subscribers_raw": "11,000",
+      "category_raw": "Animals",
+      "description_raw": "wildlife content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@wildlifeai.07",
+        "Full",
+        "11,000",
+        "Animals",
+        "wildlife content",
+        ""
+      ]
+    },
+    {
+      "row_number": 183,
+      "channel": "https://youtube.com/@ThinkverseAI1",
+      "ai_use": "Full",
+      "subscribers_raw": "10,800",
+      "category_raw": "Content Creation",
+      "description_raw": "tools for animations and creative content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@ThinkverseAI1",
+        "Full",
+        "10,800",
+        "Content Creation",
+        "tools for animations and creative content",
+        ""
+      ]
+    },
+    {
+      "row_number": 184,
+      "channel": "https://www.youtube.com/@ASMRAIbyClara",
+      "ai_use": "Full",
+      "subscribers_raw": "10,000",
+      "category_raw": "Hypnosis & Relaxation",
+      "description_raw": "ASMR relaxation and calming triggers",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@ASMRAIbyClara",
+        "Full",
+        "10,000",
+        "Hypnosis & Relaxation",
+        "ASMR relaxation and calming triggers",
+        ""
+      ]
+    },
+    {
+      "row_number": 185,
+      "channel": "https://www.youtube.com/@spacefactory0769",
+      "ai_use": "Full",
+      "subscribers_raw": "9,170",
+      "category_raw": "Space & Science",
+      "description_raw": "space documentary content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@spacefactory0769",
+        "Full",
+        "9,170",
+        "Space & Science",
+        "space documentary content",
+        ""
+      ]
+    },
+    {
+      "row_number": 186,
+      "channel": "https://youtube.com/@hashemalghaili",
+      "ai_use": "Full",
+      "subscribers_raw": "9,160",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "dark cinematic series and sci-fi short films",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@hashemalghaili",
+        "Full",
+        "9,160",
+        "Animation & Storytelling",
+        "dark cinematic series and sci-fi short films",
+        ""
+      ]
+    },
+    {
+      "row_number": 187,
+      "channel": "https://www.youtube.com/@Quizvideousa",
+      "ai_use": "Full",
+      "subscribers_raw": "9,160",
+      "category_raw": "Explainers & Facts",
+      "description_raw": "quiz videos",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@Quizvideousa",
+        "Full",
+        "9,160",
+        "Explainers & Facts",
+        "quiz videos",
+        ""
+      ]
+    },
+    {
+      "row_number": 188,
+      "channel": "https://youtube.com/@AIcaptainYT",
+      "ai_use": "Full",
+      "subscribers_raw": "8,910",
+      "category_raw": "AI & Tech",
+      "description_raw": "ai tools for animations and creative content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@AIcaptainYT",
+        "Full",
+        "8,910",
+        "AI & Tech",
+        "ai tools for animations and creative content",
+        ""
+      ]
+    },
+    {
+      "row_number": 189,
+      "channel": "https://youtube.com/@EpicAiStudioYT",
+      "ai_use": "Full",
+      "subscribers_raw": "8,200",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "ai-powered dark cinematic series and sci-fi short films",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@EpicAiStudioYT",
+        "Full",
+        "8,200",
+        "Animation & Storytelling",
+        "ai-powered dark cinematic series and sci-fi short films",
+        ""
+      ]
+    },
+    {
+      "row_number": 190,
+      "channel": "https://www.youtube.com/@CatStoriesAi-z4z",
+      "ai_use": "Full",
+      "subscribers_raw": "8,090",
+      "category_raw": "Animals",
+      "description_raw": "cat stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@CatStoriesAi-z4z",
+        "Full",
+        "8,090",
+        "Animals",
+        "cat stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 191,
+      "channel": "https://www.youtube.com/@AiAnimalRescueStorieshub",
+      "ai_use": "Full",
+      "subscribers_raw": "7,940",
+      "category_raw": "Animals",
+      "description_raw": "animal rescue stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AiAnimalRescueStorieshub",
+        "Full",
+        "7,940",
+        "Animals",
+        "animal rescue stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 192,
+      "channel": "https://www.youtube.com/@NatureMeditationAmbience",
+      "ai_use": "Full",
+      "subscribers_raw": "7,930",
+      "category_raw": "Hypnosis & Relaxation",
+      "description_raw": "nature meditation sounds and ambient relaxation",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@NatureMeditationAmbience",
+        "Full",
+        "7,930",
+        "Hypnosis & Relaxation",
+        "nature meditation sounds and ambient relaxation",
+        ""
+      ]
+    },
+    {
+      "row_number": 193,
+      "channel": "https://youtube.com/@Vihannah-AIARTvibes",
+      "ai_use": "Full",
+      "subscribers_raw": "7,900",
+      "category_raw": "Art & Music",
+      "description_raw": "art vibes and visual content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@Vihannah-AIARTvibes",
+        "Full",
+        "7,900",
+        "Art & Music",
+        "art vibes and visual content",
+        ""
+      ]
+    },
+    {
+      "row_number": 194,
+      "channel": "https://www.youtube.com/@TheMidnightReaderYT",
+      "ai_use": "Full",
+      "subscribers_raw": "7,890",
+      "category_raw": "Sleep Stories",
+      "description_raw": "videos about bizarre mysteries",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@TheMidnightReaderYT",
+        "Full",
+        "7,890",
+        "Sleep Stories",
+        "videos about bizarre mysteries",
+        ""
+      ]
+    },
+    {
+      "row_number": 195,
+      "channel": "https://youtube.com/@SunoZoneAIs",
+      "ai_use": "Full",
+      "subscribers_raw": "7,820",
+      "category_raw": "Art & Music",
+      "description_raw": "faceless narrated explainer videos",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@SunoZoneAIs",
+        "Full",
+        "7,820",
+        "Art & Music",
+        "faceless narrated explainer videos",
+        ""
+      ]
+    },
+    {
+      "row_number": 196,
+      "channel": "https://youtube.com/@beyondbizarrew",
+      "ai_use": "Full",
+      "subscribers_raw": "7,640",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "monetization strategies and faceless channel tips",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@beyondbizarrew",
+        "Full",
+        "7,640",
+        "Mystery & Unsolved",
+        "monetization strategies and faceless channel tips",
+        ""
+      ]
+    },
+    {
+      "row_number": 197,
+      "channel": "https://youtube.com/@Savantics",
+      "ai_use": "Full",
+      "subscribers_raw": "7,520",
+      "category_raw": "Explainers & Facts",
+      "description_raw": "podcast with five synthetic voices exploring big questions",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@Savantics",
+        "Full",
+        "7,520",
+        "Explainers & Facts",
+        "podcast with five synthetic voices exploring big questions",
+        ""
+      ]
+    },
+    {
+      "row_number": 198,
+      "channel": "https://www.youtube.com/@AIPuppyStoryz",
+      "ai_use": "Full",
+      "subscribers_raw": "6,970",
+      "category_raw": "Animals",
+      "description_raw": "puppy stories and heartwarming dog tales",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AIPuppyStoryz",
+        "Full",
+        "6,970",
+        "Animals",
+        "puppy stories and heartwarming dog tales",
+        ""
+      ]
+    },
+    {
+      "row_number": 199,
+      "channel": "https://youtube.com/@AICashTom0",
+      "ai_use": "Full",
+      "subscribers_raw": "6,880",
+      "category_raw": "Content Creation",
+      "description_raw": "hustle culture and making money online",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@AICashTom0",
+        "Full",
+        "6,880",
+        "Content Creation",
+        "hustle culture and making money online",
+        ""
+      ]
+    },
+    {
+      "row_number": 200,
+      "channel": "https://www.youtube.com/@miraclecatstories1",
+      "ai_use": "Full",
+      "subscribers_raw": "6,780",
+      "category_raw": "Animals",
+      "description_raw": "emotional cat rescue and miracle stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@miraclecatstories1",
+        "Full",
+        "6,780",
+        "Animals",
+        "emotional cat rescue and miracle stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 201,
+      "channel": "https://youtube.com/@APodcastRunByAI",
+      "ai_use": "Full",
+      "subscribers_raw": "6,730",
+      "category_raw": "AI & Tech",
+      "description_raw": "podcast with five ai voices exploring big questions",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@APodcastRunByAI",
+        "Full",
+        "6,730",
+        "AI & Tech",
+        "podcast with five ai voices exploring big questions",
+        ""
+      ]
+    },
+    {
+      "row_number": 202,
+      "channel": "https://youtube.com/@AiDarkFiles",
+      "ai_use": "Full",
+      "subscribers_raw": "6,530",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "dark technology and shadow side of innovation content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@AiDarkFiles",
+        "Full",
+        "6,530",
+        "Mystery & Unsolved",
+        "dark technology and shadow side of innovation content",
+        ""
+      ]
+    },
+    {
+      "row_number": 203,
+      "channel": "https://youtube.com/@AIPlayground-o9e",
+      "ai_use": "Full",
+      "subscribers_raw": "6,350",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "experimental content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@AIPlayground-o9e",
+        "Full",
+        "6,350",
+        "Animation & Storytelling",
+        "experimental content",
+        ""
+      ]
+    },
+    {
+      "row_number": 204,
+      "channel": "https://www.youtube.com/@snoozetorian",
+      "ai_use": "Full",
+      "subscribers_raw": "6,310",
+      "category_raw": "Sleep Stories",
+      "description_raw": "AI-generated sleep history narration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@snoozetorian",
+        "Full",
+        "6,310",
+        "Sleep Stories",
+        "AI-generated sleep history narration",
+        ""
+      ]
+    },
+    {
+      "row_number": 205,
+      "channel": "https://youtube.com/@particlepanic",
+      "ai_use": "Partial",
+      "subscribers_raw": "6,060",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "cinematic short films",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@particlepanic",
+        "Partial",
+        "6,060",
+        "Animation & Storytelling",
+        "cinematic short films",
+        ""
+      ]
+    },
+    {
+      "row_number": 206,
+      "channel": "https://youtube.com/@natashadelgado-p6o",
+      "ai_use": "Partial",
+      "subscribers_raw": "5,530",
+      "category_raw": "Lifestyle",
+      "description_raw": "personal content and lifestyle videos",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@natashadelgado-p6o",
+        "Partial",
+        "5,530",
+        "Lifestyle",
+        "personal content and lifestyle videos",
+        ""
+      ]
+    },
+    {
+      "row_number": 207,
+      "channel": "https://youtube.com/@GrimTalesCrimeFiles",
+      "ai_use": "Full",
+      "subscribers_raw": "5,310",
+      "category_raw": "True Crime & Mysteries",
+      "description_raw": "narrated physics and universe explainers",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@GrimTalesCrimeFiles",
+        "Full",
+        "5,310",
+        "True Crime & Mysteries",
+        "narrated physics and universe explainers",
+        ""
+      ]
+    },
+    {
+      "row_number": 208,
+      "channel": "https://www.youtube.com/@EmotionalAIAnimals",
+      "ai_use": "Full",
+      "subscribers_raw": "5,130",
+      "category_raw": "Animals",
+      "description_raw": "emotional animal stories and rescue tales",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@EmotionalAIAnimals",
+        "Full",
+        "5,130",
+        "Animals",
+        "emotional animal stories and rescue tales",
+        ""
+      ]
+    },
+    {
+      "row_number": 209,
+      "channel": "https://www.youtube.com/@DeepSeaHarvests",
+      "ai_use": "Full",
+      "subscribers_raw": "4,950",
+      "category_raw": "Animals",
+      "description_raw": "deep sea and ocean harvesting content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@DeepSeaHarvests",
+        "Full",
+        "4,950",
+        "Animals",
+        "deep sea and ocean harvesting content",
+        ""
+      ]
+    },
+    {
+      "row_number": 210,
+      "channel": "https://youtube.com/@TheAIBible-Stories",
+      "ai_use": "Full",
+      "subscribers_raw": "4,860",
+      "category_raw": "Religious Stories",
+      "description_raw": "bible story visualizations",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@TheAIBible-Stories",
+        "Full",
+        "4,860",
+        "Religious Stories",
+        "bible story visualizations",
+        ""
+      ]
+    },
+    {
+      "row_number": 211,
+      "channel": "https://www.youtube.com/@VikingLegends-c1y",
+      "ai_use": "Full",
+      "subscribers_raw": "4,650",
+      "category_raw": "History",
+      "description_raw": "Viking legends and Norse mythology stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@VikingLegends-c1y",
+        "Full",
+        "4,650",
+        "History",
+        "Viking legends and Norse mythology stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 212,
+      "channel": "https://www.youtube.com/@AI-SUPERHEROSSTUDIO",
+      "ai_use": "Full",
+      "subscribers_raw": "4,560",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "superhero animated stories and shorts",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AI-SUPERHEROSSTUDIO",
+        "Full",
+        "4,560",
+        "Animation & Storytelling",
+        "superhero animated stories and shorts",
+        ""
+      ]
+    },
+    {
+      "row_number": 213,
+      "channel": "https://www.youtube.com/@SanatanAIFilms",
+      "ai_use": "Full",
+      "subscribers_raw": "4,480",
+      "category_raw": "Religious Stories",
+      "description_raw": "Hindu mythology and Sanatan dharma animated films",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@SanatanAIFilms",
+        "Full",
+        "4,480",
+        "Religious Stories",
+        "Hindu mythology and Sanatan dharma animated films",
+        ""
+      ]
+    },
+    {
+      "row_number": 214,
+      "channel": "https://www.youtube.com/@Meooww.storiess",
+      "ai_use": "Full",
+      "subscribers_raw": "4,400",
+      "category_raw": "Animals",
+      "description_raw": "cat stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@Meooww.storiess",
+        "Full",
+        "4,400",
+        "Animals",
+        "cat stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 215,
+      "channel": "https://www.youtube.com/@healthwithai6",
+      "ai_use": "Full",
+      "subscribers_raw": "4,400",
+      "category_raw": "Health & Fitness",
+      "description_raw": "health and wellness content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@healthwithai6",
+        "Full",
+        "4,400",
+        "Health & Fitness",
+        "health and wellness content",
+        ""
+      ]
+    },
+    {
+      "row_number": 216,
+      "channel": "https://www.youtube.com/@CryptoAINews",
+      "ai_use": "Full",
+      "subscribers_raw": "4,250",
+      "category_raw": "News & Pop Culture",
+      "description_raw": "crypto and technology news updates",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@CryptoAINews",
+        "Full",
+        "4,250",
+        "News & Pop Culture",
+        "crypto and technology news updates",
+        ""
+      ]
+    },
+    {
+      "row_number": 217,
+      "channel": "https://www.youtube.com/@AI-SurvivalTales-25",
+      "ai_use": "Full",
+      "subscribers_raw": "4,240",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "survival stories and dramatic tales",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AI-SurvivalTales-25",
+        "Full",
+        "4,240",
+        "Animation & Storytelling",
+        "survival stories and dramatic tales",
+        ""
+      ]
+    },
+    {
+      "row_number": 218,
+      "channel": "https://www.youtube.com/@ASMRAiLabs",
+      "ai_use": "Full",
+      "subscribers_raw": "4,220",
+      "category_raw": "Hypnosis & Relaxation",
+      "description_raw": "ASMR experiments and relaxation labs",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@ASMRAiLabs",
+        "Full",
+        "4,220",
+        "Hypnosis & Relaxation",
+        "ASMR experiments and relaxation labs",
+        ""
+      ]
+    },
+    {
+      "row_number": 219,
+      "channel": "https://youtube.com/@FeynmanAnalysis",
+      "ai_use": "Full",
+      "subscribers_raw": "4,010",
+      "category_raw": "Space & Science",
+      "description_raw": "ai-narrated physics and universe explainers",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@FeynmanAnalysis",
+        "Full",
+        "4,010",
+        "Space & Science",
+        "ai-narrated physics and universe explainers",
+        ""
+      ]
+    },
+    {
+      "row_number": 220,
+      "channel": "https://youtube.com/@salem.and.ghanem",
+      "ai_use": "Full",
+      "subscribers_raw": "3,970",
+      "category_raw": "Kids stories",
+      "description_raw": "Arabic kids educational stories and nasheed without music",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@salem.and.ghanem",
+        "Full",
+        "3,970",
+        "Kids stories",
+        "Arabic kids educational stories and nasheed without music",
+        ""
+      ]
+    },
+    {
+      "row_number": 221,
+      "channel": "https://youtube.com/@BibleStoriesAI-w8k",
+      "ai_use": "Full",
+      "subscribers_raw": "3,900",
+      "category_raw": "Religious Stories",
+      "description_raw": "bible stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@BibleStoriesAI-w8k",
+        "Full",
+        "3,900",
+        "Religious Stories",
+        "bible stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 222,
+      "channel": "https://youtube.com/@AIBIBLEMOVIES",
+      "ai_use": "Full",
+      "subscribers_raw": "3,900",
+      "category_raw": "Religious Stories",
+      "description_raw": "bible movie content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@AIBIBLEMOVIES",
+        "Full",
+        "3,900",
+        "Religious Stories",
+        "bible movie content",
+        ""
+      ]
+    },
+    {
+      "row_number": 223,
+      "channel": "https://www.youtube.com/@ai.princessstories",
+      "ai_use": "Full",
+      "subscribers_raw": "3,800",
+      "category_raw": "Kids stories",
+      "description_raw": "princess fairy tale stories for kids",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@ai.princessstories",
+        "Full",
+        "3,800",
+        "Kids stories",
+        "princess fairy tale stories for kids",
+        ""
+      ]
+    },
+    {
+      "row_number": 224,
+      "channel": "https://www.youtube.com/@aistorystudies",
+      "ai_use": "Full",
+      "subscribers_raw": "3,770",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "story studies and narrated tales",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@aistorystudies",
+        "Full",
+        "3,770",
+        "Animation & Storytelling",
+        "story studies and narrated tales",
+        ""
+      ]
+    },
+    {
+      "row_number": 225,
+      "channel": "https://www.youtube.com/@relexa_relax",
+      "ai_use": "Full",
+      "subscribers_raw": "3,760",
+      "category_raw": "Hypnosis & Relaxation",
+      "description_raw": "sleep meditations and inner growth",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@relexa_relax",
+        "Full",
+        "3,760",
+        "Hypnosis & Relaxation",
+        "sleep meditations and inner growth",
+        ""
+      ]
+    },
+    {
+      "row_number": 226,
+      "channel": "https://www.youtube.com/@Aicatstory11-c9j",
+      "ai_use": "Full",
+      "subscribers_raw": "3,730",
+      "category_raw": "Animals",
+      "description_raw": "animated stories and shorts",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@Aicatstory11-c9j",
+        "Full",
+        "3,730",
+        "Animals",
+        "animated stories and shorts",
+        ""
+      ]
+    },
+    {
+      "row_number": 227,
+      "channel": "https://youtube.com/@zoonikai",
+      "ai_use": "Full",
+      "subscribers_raw": "3,610",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "animated content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@zoonikai",
+        "Full",
+        "3,610",
+        "Animation & Storytelling",
+        "animated content",
+        ""
+      ]
+    },
+    {
+      "row_number": 228,
+      "channel": "https://www.youtube.com/@Epicmovieai",
+      "ai_use": "Full",
+      "subscribers_raw": "3,490",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "epic movie-style cinematic stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@Epicmovieai",
+        "Full",
+        "3,490",
+        "Animation & Storytelling",
+        "epic movie-style cinematic stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 229,
+      "channel": "https://www.youtube.com/@AICatStoriesss",
+      "ai_use": "Full",
+      "subscribers_raw": "3,440",
+      "category_raw": "Animals",
+      "description_raw": "cat short stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AICatStoriesss",
+        "Full",
+        "3,440",
+        "Animals",
+        "cat short stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 230,
+      "channel": "https://www.youtube.com/@aicat-story21",
+      "ai_use": "Full",
+      "subscribers_raw": "3,370",
+      "category_raw": "Animals",
+      "description_raw": "cat stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@aicat-story21",
+        "Full",
+        "3,370",
+        "Animals",
+        "cat stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 231,
+      "channel": "https://youtube.com/@thespacebrief1",
+      "ai_use": "Partial",
+      "subscribers_raw": "3,200",
+      "category_raw": "Space & Science",
+      "description_raw": "space news and astronomy explainers",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@thespacebrief1",
+        "Partial",
+        "3,200",
+        "Space & Science",
+        "space news and astronomy explainers",
+        ""
+      ]
+    },
+    {
+      "row_number": 232,
+      "channel": "https://youtube.com/@BibleNutshells",
+      "ai_use": "Full",
+      "subscribers_raw": "3,190",
+      "category_raw": "Religious Stories",
+      "description_raw": "bible stories in nutshell format",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@BibleNutshells",
+        "Full",
+        "3,190",
+        "Religious Stories",
+        "bible stories in nutshell format",
+        ""
+      ]
+    },
+    {
+      "row_number": 233,
+      "channel": "https://www.youtube.com/@RelaxingHistory",
+      "ai_use": "Full",
+      "subscribers_raw": "3,150",
+      "category_raw": "Sleep Stories",
+      "description_raw": "relaxing narration content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@RelaxingHistory",
+        "Full",
+        "3,150",
+        "Sleep Stories",
+        "relaxing narration content",
+        ""
+      ]
+    },
+    {
+      "row_number": 234,
+      "channel": "https://www.youtube.com/@PrimeCinematicAI",
+      "ai_use": "Full",
+      "subscribers_raw": "3,110",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "cinematic short films and visual stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@PrimeCinematicAI",
+        "Full",
+        "3,110",
+        "Animation & Storytelling",
+        "cinematic short films and visual stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 235,
+      "channel": "https://www.youtube.com/@epicloreai",
+      "ai_use": "Full",
+      "subscribers_raw": "3,030",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "epic lore and legendary fantasy stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@epicloreai",
+        "Full",
+        "3,030",
+        "Animation & Storytelling",
+        "epic lore and legendary fantasy stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 236,
+      "channel": "https://www.youtube.com/@ClassicStoriesAIFilms",
+      "ai_use": "Full",
+      "subscribers_raw": "2,860",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "classic stories adapted into film-style videos",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@ClassicStoriesAIFilms",
+        "Full",
+        "2,860",
+        "Animation & Storytelling",
+        "classic stories adapted into film-style videos",
+        ""
+      ]
+    },
+    {
+      "row_number": 237,
+      "channel": "https://www.youtube.com/@airescuesoul",
+      "ai_use": "Full",
+      "subscribers_raw": "2,820",
+      "category_raw": "Animals",
+      "description_raw": "animal rescue stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@airescuesoul",
+        "Full",
+        "2,820",
+        "Animals",
+        "animal rescue stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 238,
+      "channel": "https://youtube.com/@leo_Ai",
+      "ai_use": "Full",
+      "subscribers_raw": "2,700",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "creative content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@leo_Ai",
+        "Full",
+        "2,700",
+        "Animation & Storytelling",
+        "creative content",
+        ""
+      ]
+    },
+    {
+      "row_number": 239,
+      "channel": "https://youtube.com/@MoonMellowKids",
+      "ai_use": "Full",
+      "subscribers_raw": "2,690",
+      "category_raw": "Kids Sleep Stories",
+      "description_raw": "tech tutorials making complex topics accessible",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@MoonMellowKids",
+        "Full",
+        "2,690",
+        "Kids Sleep Stories",
+        "tech tutorials making complex topics accessible",
+        ""
+      ]
+    },
+    {
+      "row_number": 240,
+      "channel": "https://www.youtube.com/@rockmist7405",
+      "ai_use": "Full",
+      "subscribers_raw": "2,690",
+      "category_raw": "Art & Music",
+      "description_raw": "art and music videos",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@rockmist7405",
+        "Full",
+        "2,690",
+        "Art & Music",
+        "art and music videos",
+        ""
+      ]
+    },
+    {
+      "row_number": 241,
+      "channel": "https://www.youtube.com/@JournalJourney123",
+      "ai_use": "Full",
+      "subscribers_raw": "2,660",
+      "category_raw": "Kids stories",
+      "description_raw": "fairy tales",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@JournalJourney123",
+        "Full",
+        "2,660",
+        "Kids stories",
+        "fairy tales",
+        ""
+      ]
+    },
+    {
+      "row_number": 242,
+      "channel": "https://youtube.com/@artsq_channel",
+      "ai_use": "Partial",
+      "subscribers_raw": "2,630",
+      "category_raw": "History",
+      "description_raw": "history and fun random facts about things around the world",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@artsq_channel",
+        "Partial",
+        "2,630",
+        "History",
+        "history and fun random facts about things around the world",
+        ""
+      ]
+    },
+    {
+      "row_number": 243,
+      "channel": "https://www.youtube.com/@AndRelax9309",
+      "ai_use": "Full",
+      "subscribers_raw": "2,610",
+      "category_raw": "Hypnosis & Relaxation",
+      "description_raw": "relaxation and ambient sleep content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AndRelax9309",
+        "Full",
+        "2,610",
+        "Hypnosis & Relaxation",
+        "relaxation and ambient sleep content",
+        ""
+      ]
+    },
+    {
+      "row_number": 244,
+      "channel": "https://www.youtube.com/@AIcutshortsstories",
+      "ai_use": "Full",
+      "subscribers_raw": "2,550",
+      "category_raw": "Animals",
+      "description_raw": "cat short stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AIcutshortsstories",
+        "Full",
+        "2,550",
+        "Animals",
+        "cat short stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 245,
+      "channel": "https://youtube.com/@EsmileAi",
+      "ai_use": "Full",
+      "subscribers_raw": "2,540",
+      "category_raw": "AI & Tech",
+      "description_raw": "tech and ai tutorials making complex topics accessible",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@EsmileAi",
+        "Full",
+        "2,540",
+        "AI & Tech",
+        "tech and ai tutorials making complex topics accessible",
+        ""
+      ]
+    },
+    {
+      "row_number": 246,
+      "channel": "https://www.youtube.com/@BoringHistoryBites",
+      "ai_use": "Full",
+      "subscribers_raw": "2,440",
+      "category_raw": "History",
+      "description_raw": "history storytelling and documentary narration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@BoringHistoryBites",
+        "Full",
+        "2,440",
+        "History",
+        "history storytelling and documentary narration",
+        ""
+      ]
+    },
+    {
+      "row_number": 247,
+      "channel": "https://youtube.com/@Vd_AI",
+      "ai_use": "Full",
+      "subscribers_raw": "2,380",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "animated stories with narration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@Vd_AI",
+        "Full",
+        "2,380",
+        "Animation & Storytelling",
+        "animated stories with narration",
+        ""
+      ]
+    },
+    {
+      "row_number": 248,
+      "channel": "https://www.youtube.com/@wrAIth-AI",
+      "ai_use": "Full",
+      "subscribers_raw": "2,280",
+      "category_raw": "Art & Music",
+      "description_raw": "music and videos with creative production",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@wrAIth-AI",
+        "Full",
+        "2,280",
+        "Art & Music",
+        "music and videos with creative production",
+        ""
+      ]
+    },
+    {
+      "row_number": 249,
+      "channel": "https://youtube.com/@AiFacelessChannel",
+      "ai_use": "Full",
+      "subscribers_raw": "2,270",
+      "category_raw": "Content Creation",
+      "description_raw": "ai tools tutorials for faceless content creation",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@AiFacelessChannel",
+        "Full",
+        "2,270",
+        "Content Creation",
+        "ai tools tutorials for faceless content creation",
+        ""
+      ]
+    },
+    {
+      "row_number": 250,
+      "channel": "https://www.youtube.com/@AiCanCook",
+      "ai_use": "Full",
+      "subscribers_raw": "2,130",
+      "category_raw": "Lifestyle",
+      "description_raw": "cooking content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AiCanCook",
+        "Full",
+        "2,130",
+        "Lifestyle",
+        "cooking content",
+        ""
+      ]
+    },
+    {
+      "row_number": 251,
+      "channel": "https://www.instagram.com/hooves_stories/",
+      "ai_use": "Partial",
+      "subscribers_raw": "2,066",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "animated stories with ai-style narration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.instagram.com/hooves_stories/",
+        "Partial",
+        "2,066",
+        "Animation & Storytelling",
+        "animated stories with ai-style narration",
+        ""
+      ]
+    },
+    {
+      "row_number": 252,
+      "channel": "https://youtube.com/@TwinkleTalesTime1",
+      "ai_use": "Full",
+      "subscribers_raw": "2,060",
+      "category_raw": "Kids Sleep Stories",
+      "description_raw": "children stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@TwinkleTalesTime1",
+        "Full",
+        "2,060",
+        "Kids Sleep Stories",
+        "children stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 253,
+      "channel": "https://youtube.com/@madebyaistudio",
+      "ai_use": "Full",
+      "subscribers_raw": "2,010",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "studio films and shorts",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@madebyaistudio",
+        "Full",
+        "2,010",
+        "Animation & Storytelling",
+        "studio films and shorts",
+        ""
+      ]
+    },
+    {
+      "row_number": 254,
+      "channel": "https://www.youtube.com/@AINewsDailyUpdate",
+      "ai_use": "Full",
+      "subscribers_raw": "1,980",
+      "category_raw": "News & Pop Culture",
+      "description_raw": "daily news updates",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AINewsDailyUpdate",
+        "Full",
+        "1,980",
+        "News & Pop Culture",
+        "daily news updates",
+        ""
+      ]
+    },
+    {
+      "row_number": 255,
+      "channel": "https://youtube.com/@NovaJuliet",
+      "ai_use": "Full",
+      "subscribers_raw": "1,830",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "creative videos",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@NovaJuliet",
+        "Full",
+        "1,830",
+        "Animation & Storytelling",
+        "creative videos",
+        ""
+      ]
+    },
+    {
+      "row_number": 256,
+      "channel": "https://www.youtube.com/@VoicesOfHannah",
+      "ai_use": "Full",
+      "subscribers_raw": "1,800",
+      "category_raw": "Sleep Stories",
+      "description_raw": "making money with social media and automation",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@VoicesOfHannah",
+        "Full",
+        "1,800",
+        "Sleep Stories",
+        "making money with social media and automation",
+        ""
+      ]
+    },
+    {
+      "row_number": 257,
+      "channel": "https://youtube.com/@VideoMax_AI",
+      "ai_use": "Full",
+      "subscribers_raw": "1,750",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "video content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@VideoMax_AI",
+        "Full",
+        "1,750",
+        "Animation & Storytelling",
+        "video content",
+        ""
+      ]
+    },
+    {
+      "row_number": 258,
+      "channel": "https://www.youtube.com/@MovieDigest-YKL",
+      "ai_use": "Full",
+      "subscribers_raw": "1,700",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "movie digest recaps",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@MovieDigest-YKL",
+        "Full",
+        "1,700",
+        "Animation & Storytelling",
+        "movie digest recaps",
+        ""
+      ]
+    },
+    {
+      "row_number": 259,
+      "channel": "https://youtube.com/@alchrix",
+      "ai_use": "Full",
+      "subscribers_raw": "1,680",
+      "category_raw": "Content Creation",
+      "description_raw": "making money with social media and ai",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@alchrix",
+        "Full",
+        "1,680",
+        "Content Creation",
+        "making money with social media and ai",
+        ""
+      ]
+    },
+    {
+      "row_number": 260,
+      "channel": "https://www.youtube.com/@AncientAILegacy",
+      "ai_use": "Full",
+      "subscribers_raw": "1,680",
+      "category_raw": "History",
+      "description_raw": "ancient history and legacy content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AncientAILegacy",
+        "Full",
+        "1,680",
+        "History",
+        "ancient history and legacy content",
+        ""
+      ]
+    },
+    {
+      "row_number": 261,
+      "channel": "https://www.youtube.com/@AiRecap-y1l",
+      "ai_use": "Full",
+      "subscribers_raw": "1,640",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "movie and show recaps",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AiRecap-y1l",
+        "Full",
+        "1,640",
+        "Animation & Storytelling",
+        "movie and show recaps",
+        ""
+      ]
+    },
+    {
+      "row_number": 262,
+      "channel": "https://www.youtube.com/@Wardocuments26",
+      "ai_use": "Full",
+      "subscribers_raw": "1,620",
+      "category_raw": "History",
+      "description_raw": "war documentaries and historical footage",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@Wardocuments26",
+        "Full",
+        "1,620",
+        "History",
+        "war documentaries and historical footage",
+        ""
+      ]
+    },
+    {
+      "row_number": 263,
+      "channel": "https://www.youtube.com/@Aiherouniverse-d6l",
+      "ai_use": "Full",
+      "subscribers_raw": "1,520",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "hero universe animated stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@Aiherouniverse-d6l",
+        "Full",
+        "1,520",
+        "Animation & Storytelling",
+        "hero universe animated stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 264,
+      "channel": "https://youtube.com/@theancienttrails",
+      "ai_use": "Full",
+      "subscribers_raw": "1,480",
+      "category_raw": "History",
+      "description_raw": "videos about ancient mysteries",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@theancienttrails",
+        "Full",
+        "1,480",
+        "History",
+        "videos about ancient mysteries",
+        ""
+      ]
+    },
+    {
+      "row_number": 265,
+      "channel": "https://youtube.com/@africaamaze",
+      "ai_use": "Full",
+      "subscribers_raw": "1,460",
+      "category_raw": "Content Creation",
+      "description_raw": "content creation tips and tricks",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@africaamaze",
+        "Full",
+        "1,460",
+        "Content Creation",
+        "content creation tips and tricks",
+        ""
+      ]
+    },
+    {
+      "row_number": 266,
+      "channel": "https://www.youtube.com/@aimythologyworld",
+      "ai_use": "Full",
+      "subscribers_raw": "1,410",
+      "category_raw": "Religious Stories",
+      "description_raw": "mythology stories and ancient legends",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@aimythologyworld",
+        "Full",
+        "1,410",
+        "Religious Stories",
+        "mythology stories and ancient legends",
+        ""
+      ]
+    },
+    {
+      "row_number": 267,
+      "channel": "https://www.youtube.com/@Divineoceanai",
+      "ai_use": "Full",
+      "subscribers_raw": "1,390",
+      "category_raw": "Religious Stories",
+      "description_raw": "divine and spiritual ocean-themed stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@Divineoceanai",
+        "Full",
+        "1,390",
+        "Religious Stories",
+        "divine and spiritual ocean-themed stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 268,
+      "channel": "https://www.youtube.com/@Aimusic_legends",
+      "ai_use": "Full",
+      "subscribers_raw": "1,380",
+      "category_raw": "Art & Music",
+      "description_raw": "music production and legendary tracks",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@Aimusic_legends",
+        "Full",
+        "1,380",
+        "Art & Music",
+        "music production and legendary tracks",
+        ""
+      ]
+    },
+    {
+      "row_number": 269,
+      "channel": "https://www.youtube.com/@TheAIgorithm",
+      "ai_use": "Full",
+      "subscribers_raw": "1,370",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "fully automated slideshow videos via scripting and image generation",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@TheAIgorithm",
+        "Full",
+        "1,370",
+        "Animation & Storytelling",
+        "fully automated slideshow videos via scripting and image generation",
+        ""
+      ]
+    },
+    {
+      "row_number": 270,
+      "channel": "https://www.youtube.com/@AIrelaxroom",
+      "ai_use": "Full",
+      "subscribers_raw": "1,360",
+      "category_raw": "Hypnosis & Relaxation",
+      "description_raw": "relaxation room ambience and calming content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AIrelaxroom",
+        "Full",
+        "1,360",
+        "Hypnosis & Relaxation",
+        "relaxation room ambience and calming content",
+        ""
+      ]
+    },
+    {
+      "row_number": 271,
+      "channel": "https://www.youtube.com/@AIrescuetales-k5r",
+      "ai_use": "Full",
+      "subscribers_raw": "1,310",
+      "category_raw": "Animals",
+      "description_raw": "rescue tales",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AIrescuetales-k5r",
+        "Full",
+        "1,310",
+        "Animals",
+        "rescue tales",
+        ""
+      ]
+    },
+    {
+      "row_number": 272,
+      "channel": "https://youtube.com/@Ai_podcastofficial",
+      "ai_use": "Full",
+      "subscribers_raw": "1,210",
+      "category_raw": "AI & Tech",
+      "description_raw": "ai podcasts and news",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@Ai_podcastofficial",
+        "Full",
+        "1,210",
+        "AI & Tech",
+        "ai podcasts and news",
+        ""
+      ]
+    },
+    {
+      "row_number": 273,
+      "channel": "https://www.youtube.com/@MidnighMafiaStories",
+      "ai_use": "Full",
+      "subscribers_raw": "1,210",
+      "category_raw": "True Crime & Mysteries",
+      "description_raw": "midnight mafia and crime stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@MidnighMafiaStories",
+        "Full",
+        "1,210",
+        "True Crime & Mysteries",
+        "midnight mafia and crime stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 274,
+      "channel": "https://www.youtube.com/@ZenFitJourneyYT",
+      "ai_use": "Full",
+      "subscribers_raw": "1,200",
+      "category_raw": "Health & Fitness",
+      "description_raw": "AI fitness/wellness content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@ZenFitJourneyYT",
+        "Full",
+        "1,200",
+        "Health & Fitness",
+        "AI fitness/wellness content",
+        ""
+      ]
+    },
+    {
+      "row_number": 275,
+      "channel": "https://youtube.com/@OneNastyCowgirl",
+      "ai_use": "Full",
+      "subscribers_raw": "1,190",
+      "category_raw": "Art & Music",
+      "description_raw": "suno AI musician's music videos",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@OneNastyCowgirl",
+        "Full",
+        "1,190",
+        "Art & Music",
+        "suno AI musician's music videos",
+        ""
+      ]
+    },
+    {
+      "row_number": 276,
+      "channel": "https://www.youtube.com/@InspiredMindsAI",
+      "ai_use": "Full",
+      "subscribers_raw": "1,190",
+      "category_raw": "Motivation & Self-Improvement",
+      "description_raw": "motivational stories and life lessons",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@InspiredMindsAI",
+        "Full",
+        "1,190",
+        "Motivation & Self-Improvement",
+        "motivational stories and life lessons",
+        ""
+      ]
+    },
+    {
+      "row_number": 277,
+      "channel": "https://www.youtube.com/@aicatstory3r-adii",
+      "ai_use": "Full",
+      "subscribers_raw": "1,190",
+      "category_raw": "Animals",
+      "description_raw": "cat stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@aicatstory3r-adii",
+        "Full",
+        "1,190",
+        "Animals",
+        "cat stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 278,
+      "channel": "https://www.youtube.com/@Astrologyzodiac1",
+      "ai_use": "Full",
+      "subscribers_raw": "1,150",
+      "category_raw": "Astrology & Spirituality",
+      "description_raw": "astrology and zodiac content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@Astrologyzodiac1",
+        "Full",
+        "1,150",
+        "Astrology & Spirituality",
+        "astrology and zodiac content",
+        ""
+      ]
+    },
+    {
+      "row_number": 279,
+      "channel": "https://www.youtube.com/@AIMusicWorld-now",
+      "ai_use": "Full",
+      "subscribers_raw": "1,130",
+      "category_raw": "Art & Music",
+      "description_raw": "original music production",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AIMusicWorld-now",
+        "Full",
+        "1,130",
+        "Art & Music",
+        "original music production",
+        ""
+      ]
+    },
+    {
+      "row_number": 280,
+      "channel": "https://www.youtube.com/@funwithai1313",
+      "ai_use": "Full",
+      "subscribers_raw": "1,110",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "fun animated stories and entertainment",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@funwithai1313",
+        "Full",
+        "1,110",
+        "Animation & Storytelling",
+        "fun animated stories and entertainment",
+        ""
+      ]
+    },
+    {
+      "row_number": 281,
+      "channel": "https://youtube.com/@squirrelempire1",
+      "ai_use": "Full",
+      "subscribers_raw": "1,100",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "narrated story videos and internet storytelling",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@squirrelempire1",
+        "Full",
+        "1,100",
+        "Animation & Storytelling",
+        "narrated story videos and internet storytelling",
+        ""
+      ]
+    },
+    {
+      "row_number": 282,
+      "channel": "https://www.youtube.com/@Aivillagecooking",
+      "ai_use": "Full",
+      "subscribers_raw": "1,100",
+      "category_raw": "Lifestyle",
+      "description_raw": "village cooking videos",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@Aivillagecooking",
+        "Full",
+        "1,100",
+        "Lifestyle",
+        "village cooking videos",
+        ""
+      ]
+    },
+    {
+      "row_number": 283,
+      "channel": "https://www.youtube.com/@nextspaceai",
+      "ai_use": "Full",
+      "subscribers_raw": "1,090",
+      "category_raw": "Space & Science",
+      "description_raw": "space content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@nextspaceai",
+        "Full",
+        "1,090",
+        "Space & Science",
+        "space content",
+        ""
+      ]
+    },
+    {
+      "row_number": 284,
+      "channel": "https://www.youtube.com/@AINEWSTODAY01",
+      "ai_use": "Full",
+      "subscribers_raw": "1,070",
+      "category_raw": "News & Pop Culture",
+      "description_raw": "news today",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AINEWSTODAY01",
+        "Full",
+        "1,070",
+        "News & Pop Culture",
+        "news today",
+        ""
+      ]
+    },
+    {
+      "row_number": 285,
+      "channel": "https://www.youtube.com/@Aifairytalekids",
+      "ai_use": "Full",
+      "subscribers_raw": "1,030",
+      "category_raw": "Kids stories",
+      "description_raw": "fairy tales for kids",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@Aifairytalekids",
+        "Full",
+        "1,030",
+        "Kids stories",
+        "fairy tales for kids",
+        ""
+      ]
+    },
+    {
+      "row_number": 286,
+      "channel": "https://www.youtube.com/@AIRescueTales999",
+      "ai_use": "Full",
+      "subscribers_raw": "1,010",
+      "category_raw": "Animals",
+      "description_raw": "animal rescue tales and emotional stories",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AIRescueTales999",
+        "Full",
+        "1,010",
+        "Animals",
+        "animal rescue tales and emotional stories",
+        ""
+      ]
+    },
+    {
+      "row_number": 287,
+      "channel": "https://www.youtube.com/@cocolabx",
+      "ai_use": "Full",
+      "subscribers_raw": "1,000",
+      "category_raw": "Art & Music",
+      "description_raw": "AI video content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@cocolabx",
+        "Full",
+        "1,000",
+        "Art & Music",
+        "AI video content",
+        ""
+      ]
+    },
+    {
+      "row_number": 288,
+      "channel": "https://www.youtube.com/@AiBadri",
+      "ai_use": "Full",
+      "subscribers_raw": "1,000",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "animated stories and entertainment",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AiBadri",
+        "Full",
+        "1,000",
+        "Animation & Storytelling",
+        "animated stories and entertainment",
+        ""
+      ]
+    },
+    {
+      "row_number": 289,
+      "channel": "https://youtube.com/@NepaliHistorian",
+      "ai_use": "Full",
+      "subscribers_raw": "867",
+      "category_raw": "History",
+      "description_raw": "Historical storytelling with cinematic production",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@NepaliHistorian",
+        "Full",
+        "867",
+        "History",
+        "Historical storytelling with cinematic production",
+        ""
+      ]
+    },
+    {
+      "row_number": 290,
+      "channel": "https://youtube.com/@relic4948",
+      "ai_use": "Full",
+      "subscribers_raw": "839",
+      "category_raw": "News & Pop Culture",
+      "description_raw": "random news and skits over gameplay footage",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@relic4948",
+        "Full",
+        "839",
+        "News & Pop Culture",
+        "random news and skits over gameplay footage",
+        ""
+      ]
+    },
+    {
+      "row_number": 291,
+      "channel": "https://youtube.com/@latesleep-01",
+      "ai_use": "Full",
+      "subscribers_raw": "736",
+      "category_raw": "Sleep Stories",
+      "description_raw": "sleep stories about ancient civilizations",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@latesleep-01",
+        "Full",
+        "736",
+        "Sleep Stories",
+        "sleep stories about ancient civilizations",
+        ""
+      ]
+    },
+    {
+      "row_number": 292,
+      "channel": "https://youtube.com/@SweetheartProWrestling",
+      "ai_use": "Full",
+      "subscribers_raw": "701",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "Improvised comedy wrestling dramedy featuring AI-generated characters and storylines",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@SweetheartProWrestling",
+        "Full",
+        "701",
+        "Animation & Storytelling",
+        "Improvised comedy wrestling dramedy featuring AI-generated characters and storylines",
+        ""
+      ]
+    },
+    {
+      "row_number": 293,
+      "channel": "https://www.youtube.com/@Tiiny-Taless",
+      "ai_use": "Full",
+      "subscribers_raw": "682",
+      "category_raw": "Kids Sleep Stories",
+      "description_raw": "kids bedtime stories and short tales",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@Tiiny-Taless",
+        "Full",
+        "682",
+        "Kids Sleep Stories",
+        "kids bedtime stories and short tales",
+        ""
+      ]
+    },
+    {
+      "row_number": 294,
+      "channel": "https://www.youtube.com/@kayireacts1911",
+      "ai_use": "Full",
+      "subscribers_raw": "652",
+      "category_raw": "History",
+      "description_raw": "reactions to historical shows and dramas",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@kayireacts1911",
+        "Full",
+        "652",
+        "History",
+        "reactions to historical shows and dramas",
+        ""
+      ]
+    },
+    {
+      "row_number": 295,
+      "channel": "https://www.youtube.com/@SleepyHistoryStories7",
+      "ai_use": "Full",
+      "subscribers_raw": "611",
+      "category_raw": "Sleep Stories",
+      "description_raw": "oil-painting visuals with calm narration for sleep",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@SleepyHistoryStories7",
+        "Full",
+        "611",
+        "Sleep Stories",
+        "oil-painting visuals with calm narration for sleep",
+        ""
+      ]
+    },
+    {
+      "row_number": 296,
+      "channel": "https://youtube.com/@Dreams_2_Destiny",
+      "ai_use": "Full",
+      "subscribers_raw": "602",
+      "category_raw": "Motivation & Self-Improvement",
+      "description_raw": "motivational content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@Dreams_2_Destiny",
+        "Full",
+        "602",
+        "Motivation & Self-Improvement",
+        "motivational content",
+        ""
+      ]
+    },
+    {
+      "row_number": 297,
+      "channel": "https://www.youtube.com/@NewsFlash24-7",
+      "ai_use": "Full",
+      "subscribers_raw": "594",
+      "category_raw": "News & Pop Culture",
+      "description_raw": "news and current events coverage",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@NewsFlash24-7",
+        "Full",
+        "594",
+        "News & Pop Culture",
+        "news and current events coverage",
+        ""
+      ]
+    },
+    {
+      "row_number": 298,
+      "channel": "https://www.youtube.com/@chinesehistoryforsleep",
+      "ai_use": "Full",
+      "subscribers_raw": "582",
+      "category_raw": "Sleep Stories",
+      "description_raw": "Chinese history narration for sleep",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@chinesehistoryforsleep",
+        "Full",
+        "582",
+        "Sleep Stories",
+        "Chinese history narration for sleep",
+        ""
+      ]
+    },
+    {
+      "row_number": 299,
+      "channel": "https://youtube.com/@thedeepdiveanalysis",
+      "ai_use": "Full",
+      "subscribers_raw": "526",
+      "category_raw": "Explainers & Facts",
+      "description_raw": "story content and narration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@thedeepdiveanalysis",
+        "Full",
+        "526",
+        "Explainers & Facts",
+        "story content and narration",
+        ""
+      ]
+    },
+    {
+      "row_number": 300,
+      "channel": "https://www.youtube.com/@historyfallasleep-h1s",
+      "ai_use": "Full",
+      "subscribers_raw": "364",
+      "category_raw": "Sleep Stories",
+      "description_raw": "sleep stories for relaxation and bedtime listening",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@historyfallasleep-h1s",
+        "Full",
+        "364",
+        "Sleep Stories",
+        "sleep stories for relaxation and bedtime listening",
+        ""
+      ]
+    },
+    {
+      "row_number": 301,
+      "channel": "https://www.youtube.com/@Storytv71",
+      "ai_use": "Full",
+      "subscribers_raw": "299",
+      "category_raw": "Kids Sleep Stories",
+      "description_raw": "AI-generated story content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@Storytv71",
+        "Full",
+        "299",
+        "Kids Sleep Stories",
+        "AI-generated story content",
+        ""
+      ]
+    },
+    {
+      "row_number": 302,
+      "channel": "https://youtube.com/@relivedlives",
+      "ai_use": "Full",
+      "subscribers_raw": "185",
+      "category_raw": "Explainers & Facts",
+      "description_raw": "Skeleton explainers and facts",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@relivedlives",
+        "Full",
+        "185",
+        "Explainers & Facts",
+        "Skeleton explainers and facts",
+        ""
+      ]
+    },
+    {
+      "row_number": 303,
+      "channel": "https://www.instagram.com/world.of.monarchs?igsh=MzRlODBiNWFlZA==",
+      "ai_use": "Full",
+      "subscribers_raw": "176",
+      "category_raw": "History",
+      "description_raw": "history content about monarchs and royal families",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.instagram.com/world.of.monarchs?igsh=MzRlODBiNWFlZA==",
+        "Full",
+        "176",
+        "History",
+        "history content about monarchs and royal families",
+        ""
+      ]
+    },
+    {
+      "row_number": 304,
+      "channel": "https://www.youtube.com/@mindbytefocus2",
+      "ai_use": "Partial",
+      "subscribers_raw": "172",
+      "category_raw": "Motivation & Self-Improvement",
+      "description_raw": "self-improvement and mindset videos",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@mindbytefocus2",
+        "Partial",
+        "172",
+        "Motivation & Self-Improvement",
+        "self-improvement and mindset videos",
+        ""
+      ]
+    },
+    {
+      "row_number": 305,
+      "channel": "https://youtube.com/@midnight_archives77",
+      "ai_use": "Full",
+      "subscribers_raw": "166",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "creepy mysteries and midnight archive storytelling",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@midnight_archives77",
+        "Full",
+        "166",
+        "Mystery & Unsolved",
+        "creepy mysteries and midnight archive storytelling",
+        ""
+      ]
+    },
+    {
+      "row_number": 306,
+      "channel": "https://youtube.com/@bizarreancientmysteries",
+      "ai_use": "Full",
+      "subscribers_raw": "145",
+      "category_raw": "History",
+      "description_raw": "videos about ancient mysteries and the unexplained",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@bizarreancientmysteries",
+        "Full",
+        "145",
+        "History",
+        "videos about ancient mysteries and the unexplained",
+        ""
+      ]
+    },
+    {
+      "row_number": 307,
+      "channel": "https://youtube.com/@noxium-d2h",
+      "ai_use": "Full",
+      "subscribers_raw": "144",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "dark mystery videos and short storytelling",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@noxium-d2h",
+        "Full",
+        "144",
+        "Mystery & Unsolved",
+        "dark mystery videos and short storytelling",
+        ""
+      ]
+    },
+    {
+      "row_number": 308,
+      "channel": "https://youtube.com/@mystery.and.madness.666",
+      "ai_use": "Full",
+      "subscribers_raw": "123",
+      "category_raw": "True Crime & Mysteries",
+      "description_raw": "True crime deep dives and cold case analysis",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@mystery.and.madness.666",
+        "Full",
+        "123",
+        "True Crime & Mysteries",
+        "True crime deep dives and cold case analysis",
+        ""
+      ]
+    },
+    {
+      "row_number": 309,
+      "channel": "https://youtube.com/@forgottencivilization5",
+      "ai_use": "Full",
+      "subscribers_raw": "121",
+      "category_raw": "History",
+      "description_raw": "forgotten stories about history and lost civilizations",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@forgottencivilization5",
+        "Full",
+        "121",
+        "History",
+        "forgotten stories about history and lost civilizations",
+        ""
+      ]
+    },
+    {
+      "row_number": 310,
+      "channel": "https://youtube.com/@archaeon2025",
+      "ai_use": "Full",
+      "subscribers_raw": "121",
+      "category_raw": "History",
+      "description_raw": "forbidden history, lost civilizations, and the ancient gods",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@archaeon2025",
+        "Full",
+        "121",
+        "History",
+        "forbidden history, lost civilizations, and the ancient gods",
+        ""
+      ]
+    },
+    {
+      "row_number": 311,
+      "channel": "https://youtube.com/@AICreatorCollective",
+      "ai_use": "Full",
+      "subscribers_raw": "106",
+      "category_raw": "AI & Tech",
+      "description_raw": "global collective sharing storytelling workflows",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@AICreatorCollective",
+        "Full",
+        "106",
+        "AI & Tech",
+        "global collective sharing storytelling workflows",
+        ""
+      ]
+    },
+    {
+      "row_number": 312,
+      "channel": "https://www.youtube.com/@SleepStoriesAudioBook",
+      "ai_use": "Full",
+      "subscribers_raw": "99",
+      "category_raw": "Sleep Stories",
+      "description_raw": "audiobook-style bedtime narration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@SleepStoriesAudioBook",
+        "Full",
+        "99",
+        "Sleep Stories",
+        "audiobook-style bedtime narration",
+        ""
+      ]
+    },
+    {
+      "row_number": 313,
+      "channel": "https://youtube.com/@pastmyst-l2o",
+      "ai_use": "Full",
+      "subscribers_raw": "90",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "history mystery videos and ancient enigmas",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@pastmyst-l2o",
+        "Full",
+        "90",
+        "Mystery & Unsolved",
+        "history mystery videos and ancient enigmas",
+        ""
+      ]
+    },
+    {
+      "row_number": 314,
+      "channel": "https://youtube.com/@huddlevideos1",
+      "ai_use": "Full",
+      "subscribers_raw": "89",
+      "category_raw": "Space & Science",
+      "description_raw": "Stories where science and history collide",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@huddlevideos1",
+        "Full",
+        "89",
+        "Space & Science",
+        "Stories where science and history collide",
+        ""
+      ]
+    },
+    {
+      "row_number": 315,
+      "channel": "https://youtube.com/@ancientdilemma",
+      "ai_use": "Full",
+      "subscribers_raw": "84",
+      "category_raw": "History",
+      "description_raw": "Lost civilizations and ancient mysteries",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@ancientdilemma",
+        "Full",
+        "84",
+        "History",
+        "Lost civilizations and ancient mysteries",
+        ""
+      ]
+    },
+    {
+      "row_number": 316,
+      "channel": "https://www.instagram.com/timetosleepstories/",
+      "ai_use": "Full",
+      "subscribers_raw": "80",
+      "category_raw": "Sleep Stories",
+      "description_raw": "bedtime stories and sleep narration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.instagram.com/timetosleepstories/",
+        "Full",
+        "80",
+        "Sleep Stories",
+        "bedtime stories and sleep narration",
+        ""
+      ]
+    },
+    {
+      "row_number": 317,
+      "channel": "https://youtube.com/@chronoscurator",
+      "ai_use": "Full",
+      "subscribers_raw": "74",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "shorts",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@chronoscurator",
+        "Full",
+        "74",
+        "Mystery & Unsolved",
+        "shorts",
+        ""
+      ]
+    },
+    {
+      "row_number": 318,
+      "channel": "https://youtube.com/@Foundational.Facts.Official",
+      "ai_use": "Full",
+      "subscribers_raw": "59",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "mystery and conspiracy videos",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@Foundational.Facts.Official",
+        "Full",
+        "59",
+        "Mystery & Unsolved",
+        "mystery and conspiracy videos",
+        ""
+      ]
+    },
+    {
+      "row_number": 319,
+      "channel": "https://youtube.com/@render_report",
+      "ai_use": "Full",
+      "subscribers_raw": "56",
+      "category_raw": "News & Pop Culture",
+      "description_raw": "and viral clips",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@render_report",
+        "Full",
+        "56",
+        "News & Pop Culture",
+        "and viral clips",
+        ""
+      ]
+    },
+    {
+      "row_number": 320,
+      "channel": "https://youtube.com/@tomb_of_truth",
+      "ai_use": "Full",
+      "subscribers_raw": "54",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "ai-generated mystery and conspiracy videos",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@tomb_of_truth",
+        "Full",
+        "54",
+        "Mystery & Unsolved",
+        "ai-generated mystery and conspiracy videos",
+        ""
+      ]
+    },
+    {
+      "row_number": 321,
+      "channel": "https://youtube.com/@quiettyrant",
+      "ai_use": "Full",
+      "subscribers_raw": "51",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "short mystery videos and storytelling",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@quiettyrant",
+        "Full",
+        "51",
+        "Mystery & Unsolved",
+        "short mystery videos and storytelling",
+        ""
+      ]
+    },
+    {
+      "row_number": 322,
+      "channel": "https://youtube.com/@what.is.it9",
+      "ai_use": "Full",
+      "subscribers_raw": "46",
+      "category_raw": "Explainers & Facts",
+      "description_raw": "short explainers about strange facts",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@what.is.it9",
+        "Full",
+        "46",
+        "Explainers & Facts",
+        "short explainers about strange facts",
+        ""
+      ]
+    },
+    {
+      "row_number": 323,
+      "channel": "https://youtube.com/@historicalsand1",
+      "ai_use": "Full",
+      "subscribers_raw": "45",
+      "category_raw": "History",
+      "description_raw": "short history facts and historical narration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@historicalsand1",
+        "Full",
+        "45",
+        "History",
+        "short history facts and historical narration",
+        ""
+      ]
+    },
+    {
+      "row_number": 324,
+      "channel": "https://www.youtube.com/@MidnightMurmer2",
+      "ai_use": "Full",
+      "subscribers_raw": "43",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "creepypasta-style stories and midnight scares",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@MidnightMurmer2",
+        "Full",
+        "43",
+        "Mystery & Unsolved",
+        "creepypasta-style stories and midnight scares",
+        ""
+      ]
+    },
+    {
+      "row_number": 325,
+      "channel": "https://www.youtube.com/@AncientX_Official",
+      "ai_use": "Full",
+      "subscribers_raw": "42",
+      "category_raw": "History",
+      "description_raw": "Ancient civilizations lost tech and mystery discoveries.",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@AncientX_Official",
+        "Full",
+        "42",
+        "History",
+        "Ancient civilizations lost tech and mystery discoveries.",
+        ""
+      ]
+    },
+    {
+      "row_number": 326,
+      "channel": "https://youtube.com/@Ascent.Academy.Official",
+      "ai_use": "Full",
+      "subscribers_raw": "38",
+      "category_raw": "Motivation & Self-Improvement",
+      "description_raw": "discipline and mindset content for personal growth",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@Ascent.Academy.Official",
+        "Full",
+        "38",
+        "Motivation & Self-Improvement",
+        "discipline and mindset content for personal growth",
+        ""
+      ]
+    },
+    {
+      "row_number": 327,
+      "channel": "https://www.youtube.com/@DoodleTuness",
+      "ai_use": "Full",
+      "subscribers_raw": "37",
+      "category_raw": "Kids Sleep Stories",
+      "description_raw": "sleep stories for kids",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@DoodleTuness",
+        "Full",
+        "37",
+        "Kids Sleep Stories",
+        "sleep stories for kids",
+        ""
+      ]
+    },
+    {
+      "row_number": 328,
+      "channel": "https://youtube.com/@DoodleTuness",
+      "ai_use": "Full",
+      "subscribers_raw": "36",
+      "category_raw": "History",
+      "description_raw": "Historical storytelling with cinematic production",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@DoodleTuness",
+        "Full",
+        "36",
+        "History",
+        "Historical storytelling with cinematic production",
+        ""
+      ]
+    },
+    {
+      "row_number": 329,
+      "channel": "https://youtube.com/@obsidianparadox-official3",
+      "ai_use": "Full",
+      "subscribers_raw": "25",
+      "category_raw": "Motivation & Self-Improvement",
+      "description_raw": "psychology, human behavior, and mental clarity",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@obsidianparadox-official3",
+        "Full",
+        "25",
+        "Motivation & Self-Improvement",
+        "psychology, human behavior, and mental clarity",
+        ""
+      ]
+    },
+    {
+      "row_number": 330,
+      "channel": "https://youtube.com/@echoesofexcellence123",
+      "ai_use": "Full",
+      "subscribers_raw": "24",
+      "category_raw": "Motivation & Self-Improvement",
+      "description_raw": "dark psychology, manipulation, and power dynamics",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@echoesofexcellence123",
+        "Full",
+        "24",
+        "Motivation & Self-Improvement",
+        "dark psychology, manipulation, and power dynamics",
+        ""
+      ]
+    },
+    {
+      "row_number": 331,
+      "channel": "https://youtube.com/@mythveil-q4e",
+      "ai_use": "Full",
+      "subscribers_raw": "23",
+      "category_raw": "Mystery & Unsolved",
+      "description_raw": "myth and mystery storytelling videos",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@mythveil-q4e",
+        "Full",
+        "23",
+        "Mystery & Unsolved",
+        "myth and mystery storytelling videos",
+        ""
+      ]
+    },
+    {
+      "row_number": 332,
+      "channel": "https://youtube.com/@anundream",
+      "ai_use": "Full",
+      "subscribers_raw": "14",
+      "category_raw": "History",
+      "description_raw": "Historical storytelling with cinematic production",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@anundream",
+        "Full",
+        "14",
+        "History",
+        "Historical storytelling with cinematic production",
+        ""
+      ]
+    },
+    {
+      "row_number": 333,
+      "channel": "https://youtube.com/@TheOracleofFortune",
+      "ai_use": "Full",
+      "subscribers_raw": "14",
+      "category_raw": "Motivation & Self-Improvement",
+      "description_raw": "Motivation and guru advice",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@TheOracleofFortune",
+        "Full",
+        "14",
+        "Motivation & Self-Improvement",
+        "Motivation and guru advice",
+        ""
+      ]
+    },
+    {
+      "row_number": 334,
+      "channel": "https://youtube.com/@entfaltedeingehirn",
+      "ai_use": "Full",
+      "subscribers_raw": "11",
+      "category_raw": "Motivation & Self-Improvement",
+      "description_raw": "German neuroscience and personal growth (Gerald Hüther)",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@entfaltedeingehirn",
+        "Full",
+        "11",
+        "Motivation & Self-Improvement",
+        "German neuroscience and personal growth (Gerald Hüther)",
+        ""
+      ]
+    },
+    {
+      "row_number": 335,
+      "channel": "https://www.youtube.com/@RolelyStories",
+      "ai_use": "Full",
+      "subscribers_raw": "8",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "animated childrens stories and family classics",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@RolelyStories",
+        "Full",
+        "8",
+        "Animation & Storytelling",
+        "animated childrens stories and family classics",
+        ""
+      ]
+    },
+    {
+      "row_number": 336,
+      "channel": "https://youtube.com/@tripletimeline",
+      "ai_use": "Full",
+      "subscribers_raw": "6",
+      "category_raw": "History",
+      "description_raw": "timeline videos covering topics and events",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@tripletimeline",
+        "Full",
+        "6",
+        "History",
+        "timeline videos covering topics and events",
+        ""
+      ]
+    },
+    {
+      "row_number": 337,
+      "channel": "https://youtube.com/@historyscribehq",
+      "ai_use": "Full",
+      "subscribers_raw": "4",
+      "category_raw": "History",
+      "description_raw": "historical content",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@historyscribehq",
+        "Full",
+        "4",
+        "History",
+        "historical content",
+        ""
+      ]
+    },
+    {
+      "row_number": 338,
+      "channel": "https://www.youtube.com/@planetabestial1",
+      "ai_use": "Full",
+      "subscribers_raw": "2",
+      "category_raw": "Animals",
+      "description_raw": "national geographic-style animal and wildlife documentaries",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@planetabestial1",
+        "Full",
+        "2",
+        "Animals",
+        "national geographic-style animal and wildlife documentaries",
+        ""
+      ]
+    },
+    {
+      "row_number": 339,
+      "channel": "https://youtube.com/@zenit2_comua",
+      "ai_use": "Full",
+      "subscribers_raw": "1",
+      "category_raw": "History",
+      "description_raw": "mysteries about the ancient universe",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@zenit2_comua",
+        "Full",
+        "1",
+        "History",
+        "mysteries about the ancient universe",
+        ""
+      ]
+    },
+    {
+      "row_number": 340,
+      "channel": "https://youtube.com/@the_el_goran",
+      "ai_use": "Full",
+      "subscribers_raw": "1",
+      "category_raw": "History",
+      "description_raw": "ancient mysteries and historical civilizations",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@the_el_goran",
+        "Full",
+        "1",
+        "History",
+        "ancient mysteries and historical civilizations",
+        ""
+      ]
+    },
+    {
+      "row_number": 341,
+      "channel": "https://youtube.com/@SleepCircuits",
+      "ai_use": "Full",
+      "subscribers_raw": "0",
+      "category_raw": "Sleep Stories",
+      "description_raw": "exploring ideas at their foundations - knowledge",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://youtube.com/@SleepCircuits",
+        "Full",
+        "0",
+        "Sleep Stories",
+        "exploring ideas at their foundations - knowledge",
+        ""
+      ]
+    }
+  ]
+}

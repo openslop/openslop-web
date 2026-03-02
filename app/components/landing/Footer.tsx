@@ -20,6 +20,11 @@ const linkGroups = [
     title: "Contact",
     links: [
       { label: "Email Us", href: "mailto:hi@openslop.ai" },
+      {
+        label: "Join Our Discord",
+        href: "https://discord.gg/zeP5482ced",
+        external: true,
+      },
     ],
   },
 ];
@@ -35,16 +40,30 @@ export default function Footer() {
                 {group.title}
               </h3>
               <ul className="mt-3 space-y-2">
-                {group.links.map((link) => (
-                  <li key={link.href}>
-                    <Link
-                      href={link.href}
-                      className="text-sm text-zinc-500 transition-colors hover:text-zinc-300"
-                    >
-                      {link.label}
-                    </Link>
-                  </li>
-                ))}
+                {group.links.map((link) => {
+                  const isExternal = "external" in link && link.external;
+                  return (
+                    <li key={link.href}>
+                      {isExternal ? (
+                        <a
+                          href={link.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sm text-zinc-500 transition-colors hover:text-zinc-300"
+                        >
+                          {link.label}
+                        </a>
+                      ) : (
+                        <Link
+                          href={link.href}
+                          className="text-sm text-zinc-500 transition-colors hover:text-zinc-300"
+                        >
+                          {link.label}
+                        </Link>
+                      )}
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           ))}

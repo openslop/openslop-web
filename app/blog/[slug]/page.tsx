@@ -4,9 +4,26 @@ import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
 import { getAllPosts, getPostBySlug } from "@/lib/blog";
-import AuroraBackground from "@/app/components/landing/AuroraBackground";
 import Footer from "@/app/components/landing/Footer";
 import BlogCTA from "@/app/components/blog/BlogCTA";
+import AiTubersCharts, {
+  NicheLandscapeChart,
+  AiMixChartBlock,
+  SubscriberBucketsChart,
+  RankCurveChart,
+  CollectionTrendChart,
+  SubDistributionChartBlock,
+  NicheRankingChartBlock,
+  NicheRecommendationsBlock,
+  KeyStatsBlock,
+  NicheLeaderboardBlock,
+  AiHeadroomSection,
+  Verdict,
+  HeadlineFindingsBlock,
+  NicheSharePieChart,
+  NicheMarimekkoChart,
+} from "@/app/components/blog/AiTubersCharts";
+import AiTubersDataTable from "@/app/components/blog/AiTubersDataTable";
 import type { Metadata } from "next";
 
 type Params = Promise<{ slug: string }>;
@@ -95,7 +112,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
   };
 
   return (
-    <AuroraBackground animate={false}>
+    <div className="min-h-screen bg-[#1a1a21]">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -151,7 +168,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
         </div>
 
         {/* Article content */}
-        <article className="relative mx-auto max-w-4xl px-2 pb-16 sm:px-4">
+        <article className="relative mx-auto max-w-5xl px-2 pb-16 sm:px-4">
           <div className="-mt-6 rounded-2xl bg-black px-6 pt-16 pb-8 shadow-[0_0_120px_80px_rgba(0,0,0,0.95)] sm:px-6 md:px-8 lg:px-10">
             <div className="prose mx-auto">
               <div className="not-prose mb-8 flex items-center gap-3">
@@ -173,6 +190,32 @@ export default async function BlogPostPage({ params }: { params: Params }) {
                 options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }}
                 components={{
                   BlogCTA,
+                  AiTubersCharts,
+                  NicheLandscapeChart,
+                  AiMixChartBlock,
+                  SubscriberBucketsChart,
+                  RankCurveChart,
+                  CollectionTrendChart,
+                  SubDistributionChartBlock,
+                  NicheRankingChartBlock,
+                  NicheRecommendationsBlock,
+                  KeyStatsBlock,
+                  NicheLeaderboardBlock,
+                  AiHeadroomSection,
+                  Verdict,
+                  HeadlineFindingsBlock,
+                  NicheSharePieChart,
+                  NicheMarimekkoChart,
+                  AiTubersDataTable,
+                  hr: () => (
+                    <hr
+                      style={{
+                        border: "none",
+                        borderTop: "1px solid rgba(255,255,255,0.18)",
+                        margin: "40px 0",
+                      }}
+                    />
+                  ),
                   table: (props: React.ComponentProps<"table">) => (
                     <div className="table-wrapper">
                       <table {...props} />
@@ -185,6 +228,6 @@ export default async function BlogPostPage({ params }: { params: Params }) {
         </article>
         <Footer />
       </div>
-    </AuroraBackground>
+    </div>
   );
 }

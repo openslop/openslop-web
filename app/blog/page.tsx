@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { getAllPosts } from "@/lib/blog";
-import AuroraBackground from "@/app/components/landing/AuroraBackground";
 import Footer from "@/app/components/landing/Footer";
 import type { Metadata } from "next";
 import type { BlogPostMeta } from "@/lib/blog";
@@ -88,7 +87,7 @@ export default function BlogListingPage() {
   const remainingPosts = rest.slice(2);
 
   return (
-    <AuroraBackground animate={false}>
+    <div className="min-h-screen bg-[#1a1a21]">
       <div className="mx-auto max-w-6xl px-6 py-16 font-[family-name:var(--font-urbanist)] text-zinc-300">
         <Link
           href="/"
@@ -138,6 +137,6 @@ export default function BlogListingPage() {
         )}
       </div>
       <Footer />
-    </AuroraBackground>
+    </div>
   );
 }

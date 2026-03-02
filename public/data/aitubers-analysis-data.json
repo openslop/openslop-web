@@ -1,0 +1,6445 @@
+{
+  "meta": {
+    "generated_at": "2026-03-02T04:27:10.171Z",
+    "source_sheet": "1qeFJIdkKwMUp1OsXFwoMPtIXU8yEAU4cUed2T7Ewbqw"
+  },
+  "summary": {
+    "channels_cleaned": 338,
+    "channels_with_subscribers": 337,
+    "ai_use_distribution": {
+      "Full": 292,
+      "Minimal": 11,
+      "Partial": 35
+    }
+  },
+  "category_stats": [
+    {
+      "category": "Animation & Storytelling",
+      "channels": 54,
+      "total_subscribers": 3473525,
+      "avg_subscribers": 64324.54,
+      "median_subscribers": 10480,
+      "ai_full_pct": 90.7,
+      "ai_partial_pct": 7.4,
+      "ai_minimal_pct": 1.9,
+      "opportunity_score": 8.195,
+      "crowded_score": 2.18
+    },
+    {
+      "category": "History",
+      "channels": 49,
+      "total_subscribers": 9003015,
+      "avg_subscribers": 183735,
+      "median_subscribers": 31700,
+      "ai_full_pct": 75.5,
+      "ai_partial_pct": 16.3,
+      "ai_minimal_pct": 8.2,
+      "opportunity_score": 8.602,
+      "crowded_score": 2.318
+    },
+    {
+      "category": "Animals",
+      "channels": 33,
+      "total_subscribers": 13101982,
+      "avg_subscribers": 397029.76,
+      "median_subscribers": 11000,
+      "ai_full_pct": 100,
+      "ai_partial_pct": 0,
+      "ai_minimal_pct": 0,
+      "opportunity_score": 9.611,
+      "crowded_score": 2.372
+    },
+    {
+      "category": "Mystery & Unsolved",
+      "channels": 26,
+      "total_subscribers": 7519674,
+      "avg_subscribers": 289218.23,
+      "median_subscribers": 15500,
+      "ai_full_pct": 84.6,
+      "ai_partial_pct": 7.7,
+      "ai_minimal_pct": 7.7,
+      "opportunity_score": 9.028,
+      "crowded_score": 2.292
+    },
+    {
+      "category": "Sleep Stories",
+      "channels": 26,
+      "total_subscribers": 2947022,
+      "avg_subscribers": 113347,
+      "median_subscribers": 23250,
+      "ai_full_pct": 88.5,
+      "ai_partial_pct": 11.5,
+      "ai_minimal_pct": 0,
+      "opportunity_score": 8.601,
+      "crowded_score": 2.156
+    },
+    {
+      "category": "Art & Music",
+      "channels": 19,
+      "total_subscribers": 37491890,
+      "avg_subscribers": 1973257.37,
+      "median_subscribers": 21100,
+      "ai_full_pct": 100,
+      "ai_partial_pct": 0,
+      "ai_minimal_pct": 0,
+      "opportunity_score": 10.74,
+      "crowded_score": 2.525
+    },
+    {
+      "category": "Religious Stories",
+      "channels": 18,
+      "total_subscribers": 3597130,
+      "avg_subscribers": 199840.56,
+      "median_subscribers": 42150,
+      "ai_full_pct": 100,
+      "ai_partial_pct": 0,
+      "ai_minimal_pct": 0,
+      "opportunity_score": 9.338,
+      "crowded_score": 2.185
+    },
+    {
+      "category": "Content Creation",
+      "channels": 14,
+      "total_subscribers": 518090,
+      "avg_subscribers": 37006.43,
+      "median_subscribers": 28000,
+      "ai_full_pct": 85.7,
+      "ai_partial_pct": 14.3,
+      "ai_minimal_pct": 0,
+      "opportunity_score": 7.86,
+      "crowded_score": 1.905
+    },
+    {
+      "category": "Explainers & Facts",
+      "channels": 13,
+      "total_subscribers": 25794837,
+      "avg_subscribers": 1984218.23,
+      "median_subscribers": 42200,
+      "ai_full_pct": 61.5,
+      "ai_partial_pct": 30.8,
+      "ai_minimal_pct": 7.7,
+      "opportunity_score": 9.622,
+      "crowded_score": 2.471
+    },
+    {
+      "category": "Space & Science",
+      "channels": 12,
+      "total_subscribers": 7011759,
+      "avg_subscribers": 584313.25,
+      "median_subscribers": 12100,
+      "ai_full_pct": 58.3,
+      "ai_partial_pct": 41.7,
+      "ai_minimal_pct": 0,
+      "opportunity_score": 8.672,
+      "crowded_score": 2.282
+    },
+    {
+      "category": "Motivation & Self-Improvement",
+      "channels": 12,
+      "total_subscribers": 1377076,
+      "avg_subscribers": 114756.33,
+      "median_subscribers": 387,
+      "ai_full_pct": 75,
+      "ai_partial_pct": 16.7,
+      "ai_minimal_pct": 8.3,
+      "opportunity_score": 7.734,
+      "crowded_score": 2.046
+    },
+    {
+      "category": "Kids Sleep Stories",
+      "channels": 11,
+      "total_subscribers": 746668,
+      "avg_subscribers": 67878.91,
+      "median_subscribers": 14000,
+      "ai_full_pct": 100,
+      "ai_partial_pct": 0,
+      "ai_minimal_pct": 0,
+      "opportunity_score": 8.491,
+      "crowded_score": 1.958
+    },
+    {
+      "category": "Hypnosis & Relaxation",
+      "channels": 9,
+      "total_subscribers": 220180,
+      "avg_subscribers": 24464.44,
+      "median_subscribers": 7930,
+      "ai_full_pct": 100,
+      "ai_partial_pct": 0,
+      "ai_minimal_pct": 0,
+      "opportunity_score": 7.753,
+      "crowded_score": 1.781
+    },
+    {
+      "category": "AI & Tech",
+      "channels": 8,
+      "total_subscribers": 142896,
+      "avg_subscribers": 17862,
+      "median_subscribers": 7820,
+      "ai_full_pct": 100,
+      "ai_partial_pct": 0,
+      "ai_minimal_pct": 0,
+      "opportunity_score": 7.546,
+      "crowded_score": 1.718
+    },
+    {
+      "category": "News & Pop Culture",
+      "channels": 7,
+      "total_subscribers": 2598789,
+      "avg_subscribers": 371255.57,
+      "median_subscribers": 1070,
+      "ai_full_pct": 85.7,
+      "ai_partial_pct": 0,
+      "ai_minimal_pct": 14.3,
+      "opportunity_score": 8.865,
+      "crowded_score": 2.138
+    },
+    {
+      "category": "Lifestyle",
+      "channels": 7,
+      "total_subscribers": 2670360,
+      "avg_subscribers": 381480,
+      "median_subscribers": 11600,
+      "ai_full_pct": 85.7,
+      "ai_partial_pct": 14.3,
+      "ai_minimal_pct": 0,
+      "opportunity_score": 9.192,
+      "crowded_score": 2.142
+    },
+    {
+      "category": "Kids stories",
+      "channels": 6,
+      "total_subscribers": 2726060,
+      "avg_subscribers": 454343.33,
+      "median_subscribers": 3885,
+      "ai_full_pct": 100,
+      "ai_partial_pct": 0,
+      "ai_minimal_pct": 0,
+      "opportunity_score": 9.563,
+      "crowded_score": 2.145
+    },
+    {
+      "category": "True Crime & Mysteries",
+      "channels": 4,
+      "total_subscribers": 245643,
+      "avg_subscribers": 61410.75,
+      "median_subscribers": 3260,
+      "ai_full_pct": 75,
+      "ai_partial_pct": 25,
+      "ai_minimal_pct": 0,
+      "opportunity_score": 7.638,
+      "crowded_score": 1.797
+    },
+    {
+      "category": "Finance",
+      "channels": 3,
+      "total_subscribers": 546500,
+      "avg_subscribers": 182166.67,
+      "median_subscribers": 126000,
+      "ai_full_pct": 33.3,
+      "ai_partial_pct": 33.3,
+      "ai_minimal_pct": 33.3,
+      "opportunity_score": 7.666,
+      "crowded_score": 1.913
+    },
+    {
+      "category": "Health & Fitness",
+      "channels": 3,
+      "total_subscribers": 221600,
+      "avg_subscribers": 73866.67,
+      "median_subscribers": 4400,
+      "ai_full_pct": 66.7,
+      "ai_partial_pct": 33.3,
+      "ai_minimal_pct": 0,
+      "opportunity_score": 7.585,
+      "crowded_score": 1.782
+    },
+    {
+      "category": "Sleep Science",
+      "channels": 1,
+      "total_subscribers": 201000,
+      "avg_subscribers": 201000,
+      "median_subscribers": 201000,
+      "ai_full_pct": 100,
+      "ai_partial_pct": 0,
+      "ai_minimal_pct": 0,
+      "opportunity_score": 9.546,
+      "crowded_score": 1.768
+    },
+    {
+      "category": "Accidents & Disasters",
+      "channels": 1,
+      "total_subscribers": 134000,
+      "avg_subscribers": 134000,
+      "median_subscribers": 134000,
+      "ai_full_pct": 0,
+      "ai_partial_pct": 100,
+      "ai_minimal_pct": 0,
+      "opportunity_score": 6.665,
+      "crowded_score": 1.709
+    },
+    {
+      "category": "Humanoid Medical Facts",
+      "channels": 1,
+      "total_subscribers": 44800,
+      "avg_subscribers": 44800,
+      "median_subscribers": 44800,
+      "ai_full_pct": 100,
+      "ai_partial_pct": 0,
+      "ai_minimal_pct": 0,
+      "opportunity_score": 8.372,
+      "crowded_score": 1.55
+    },
+    {
+      "category": "Astrology & Spirituality",
+      "channels": 1,
+      "total_subscribers": 1150,
+      "avg_subscribers": 1150,
+      "median_subscribers": 1150,
+      "ai_full_pct": 100,
+      "ai_partial_pct": 0,
+      "ai_minimal_pct": 0,
+      "opportunity_score": 5.51,
+      "crowded_score": 1.02
+    }
+  ],
+  "subscriber_buckets": [
+    {
+      "bucket": "0-10k",
+      "count": 157,
+      "full": 151,
+      "partial": 6,
+      "minimal": 0,
+      "unknown": 0
+    },
+    {
+      "bucket": "10k-50k",
+      "count": 65,
+      "full": 63,
+      "partial": 2,
+      "minimal": 0,
+      "unknown": 0
+    },
+    {
+      "bucket": "50k-100k",
+      "count": 28,
+      "full": 22,
+      "partial": 5,
+      "minimal": 1,
+      "unknown": 0
+    },
+    {
+      "bucket": "100k-500k",
+      "count": 57,
+      "full": 41,
+      "partial": 11,
+      "minimal": 5,
+      "unknown": 0
+    },
+    {
+      "bucket": "500k-1M",
+      "count": 12,
+      "full": 8,
+      "partial": 3,
+      "minimal": 1,
+      "unknown": 0
+    },
+    {
+      "bucket": "1M-5M",
+      "count": 16,
+      "full": 6,
+      "partial": 7,
+      "minimal": 3,
+      "unknown": 0
+    },
+    {
+      "bucket": "5M+",
+      "count": 3,
+      "full": 1,
+      "partial": 1,
+      "minimal": 1,
+      "unknown": 0
+    }
+  ],
+  "rank_curve": [
+    {
+      "rank": 1,
+      "percentile": 0.3,
+      "subscribers": 35600000
+    },
+    {
+      "rank": 2,
+      "percentile": 0.59,
+      "subscribers": 15300000
+    },
+    {
+      "rank": 3,
+      "percentile": 0.89,
+      "subscribers": 5140000
+    },
+    {
+      "rank": 4,
+      "percentile": 1.18,
+      "subscribers": 4900000
+    },
+    {
+      "rank": 5,
+      "percentile": 1.48,
+      "subscribers": 3900000
+    },
+    {
+      "rank": 6,
+      "percentile": 1.78,
+      "subscribers": 3200000
+    },
+    {
+      "rank": 7,
+      "percentile": 2.07,
+      "subscribers": 3140000
+    },
+    {
+      "rank": 8,
+      "percentile": 2.37,
+      "subscribers": 3100000
+    },
+    {
+      "rank": 9,
+      "percentile": 2.66,
+      "subscribers": 3090000
+    },
+    {
+      "rank": 10,
+      "percentile": 2.96,
+      "subscribers": 2700000
+    },
+    {
+      "rank": 11,
+      "percentile": 3.25,
+      "subscribers": 2700000
+    },
+    {
+      "rank": 12,
+      "percentile": 3.55,
+      "subscribers": 2590000
+    },
+    {
+      "rank": 13,
+      "percentile": 3.85,
+      "subscribers": 2520000
+    },
+    {
+      "rank": 14,
+      "percentile": 4.14,
+      "subscribers": 2170000
+    },
+    {
+      "rank": 15,
+      "percentile": 4.44,
+      "subscribers": 1850000
+    },
+    {
+      "rank": 16,
+      "percentile": 4.73,
+      "subscribers": 1400000
+    },
+    {
+      "rank": 17,
+      "percentile": 5.03,
+      "subscribers": 1330000
+    },
+    {
+      "rank": 18,
+      "percentile": 5.33,
+      "subscribers": 1120000
+    },
+    {
+      "rank": 19,
+      "percentile": 5.62,
+      "subscribers": 1070000
+    },
+    {
+      "rank": 20,
+      "percentile": 5.92,
+      "subscribers": 881000
+    },
+    {
+      "rank": 21,
+      "percentile": 6.21,
+      "subscribers": 825000
+    },
+    {
+      "rank": 22,
+      "percentile": 6.51,
+      "subscribers": 779000
+    },
+    {
+      "rank": 23,
+      "percentile": 6.8,
+      "subscribers": 733000
+    },
+    {
+      "rank": 24,
+      "percentile": 7.1,
+      "subscribers": 689000
+    },
+    {
+      "rank": 25,
+      "percentile": 7.4,
+      "subscribers": 684000
+    },
+    {
+      "rank": 26,
+      "percentile": 7.69,
+      "subscribers": 668000
+    },
+    {
+      "rank": 27,
+      "percentile": 7.99,
+      "subscribers": 631000
+    },
+    {
+      "rank": 28,
+      "percentile": 8.28,
+      "subscribers": 600000
+    },
+    {
+      "rank": 29,
+      "percentile": 8.58,
+      "subscribers": 594000
+    },
+    {
+      "rank": 30,
+      "percentile": 8.88,
+      "subscribers": 537000
+    },
+    {
+      "rank": 31,
+      "percentile": 9.17,
+      "subscribers": 503000
+    },
+    {
+      "rank": 32,
+      "percentile": 9.47,
+      "subscribers": 481000
+    },
+    {
+      "rank": 33,
+      "percentile": 9.76,
+      "subscribers": 478000
+    },
+    {
+      "rank": 34,
+      "percentile": 10.06,
+      "subscribers": 438000
+    },
+    {
+      "rank": 35,
+      "percentile": 10.36,
+      "subscribers": 416000
+    },
+    {
+      "rank": 36,
+      "percentile": 10.65,
+      "subscribers": 398000
+    },
+    {
+      "rank": 37,
+      "percentile": 10.95,
+      "subscribers": 394000
+    },
+    {
+      "rank": 38,
+      "percentile": 11.24,
+      "subscribers": 386000
+    },
+    {
+      "rank": 39,
+      "percentile": 11.54,
+      "subscribers": 383000
+    },
+    {
+      "rank": 40,
+      "percentile": 11.83,
+      "subscribers": 356000
+    },
+    {
+      "rank": 41,
+      "percentile": 12.13,
+      "subscribers": 326000
+    },
+    {
+      "rank": 42,
+      "percentile": 12.43,
+      "subscribers": 321000
+    },
+    {
+      "rank": 43,
+      "percentile": 12.72,
+      "subscribers": 319000
+    },
+    {
+      "rank": 44,
+      "percentile": 13.02,
+      "subscribers": 318000
+    },
+    {
+      "rank": 45,
+      "percentile": 13.31,
+      "subscribers": 298000
+    },
+    {
+      "rank": 46,
+      "percentile": 13.61,
+      "subscribers": 292000
+    },
+    {
+      "rank": 47,
+      "percentile": 13.91,
+      "subscribers": 291000
+    },
+    {
+      "rank": 48,
+      "percentile": 14.2,
+      "subscribers": 275000
+    },
+    {
+      "rank": 49,
+      "percentile": 14.5,
+      "subscribers": 265000
+    },
+    {
+      "rank": 50,
+      "percentile": 14.79,
+      "subscribers": 259000
+    },
+    {
+      "rank": 51,
+      "percentile": 15.09,
+      "subscribers": 257000
+    },
+    {
+      "rank": 52,
+      "percentile": 15.38,
+      "subscribers": 255000
+    },
+    {
+      "rank": 53,
+      "percentile": 15.68,
+      "subscribers": 252000
+    },
+    {
+      "rank": 54,
+      "percentile": 15.98,
+      "subscribers": 240000
+    },
+    {
+      "rank": 55,
+      "percentile": 16.27,
+      "subscribers": 239000
+    },
+    {
+      "rank": 56,
+      "percentile": 16.57,
+      "subscribers": 238000
+    },
+    {
+      "rank": 57,
+      "percentile": 16.86,
+      "subscribers": 226000
+    },
+    {
+      "rank": 58,
+      "percentile": 17.16,
+      "subscribers": 221000
+    },
+    {
+      "rank": 59,
+      "percentile": 17.46,
+      "subscribers": 220000
+    },
+    {
+      "rank": 60,
+      "percentile": 17.75,
+      "subscribers": 216000
+    },
+    {
+      "rank": 61,
+      "percentile": 18.05,
+      "subscribers": 216000
+    },
+    {
+      "rank": 62,
+      "percentile": 18.34,
+      "subscribers": 215000
+    },
+    {
+      "rank": 63,
+      "percentile": 18.64,
+      "subscribers": 212000
+    },
+    {
+      "rank": 64,
+      "percentile": 18.93,
+      "subscribers": 207000
+    },
+    {
+      "rank": 65,
+      "percentile": 19.23,
+      "subscribers": 201000
+    },
+    {
+      "rank": 66,
+      "percentile": 19.53,
+      "subscribers": 197000
+    },
+    {
+      "rank": 67,
+      "percentile": 19.82,
+      "subscribers": 196000
+    },
+    {
+      "rank": 68,
+      "percentile": 20.12,
+      "subscribers": 185000
+    },
+    {
+      "rank": 69,
+      "percentile": 20.41,
+      "subscribers": 179000
+    },
+    {
+      "rank": 70,
+      "percentile": 20.71,
+      "subscribers": 169000
+    },
+    {
+      "rank": 71,
+      "percentile": 21.01,
+      "subscribers": 166000
+    },
+    {
+      "rank": 72,
+      "percentile": 21.3,
+      "subscribers": 165000
+    },
+    {
+      "rank": 73,
+      "percentile": 21.6,
+      "subscribers": 164000
+    },
+    {
+      "rank": 74,
+      "percentile": 21.89,
+      "subscribers": 160000
+    },
+    {
+      "rank": 75,
+      "percentile": 22.19,
+      "subscribers": 157000
+    },
+    {
+      "rank": 76,
+      "percentile": 22.49,
+      "subscribers": 154000
+    },
+    {
+      "rank": 77,
+      "percentile": 22.78,
+      "subscribers": 153000
+    },
+    {
+      "rank": 78,
+      "percentile": 23.08,
+      "subscribers": 140000
+    },
+    {
+      "rank": 79,
+      "percentile": 23.37,
+      "subscribers": 136000
+    },
+    {
+      "rank": 80,
+      "percentile": 23.67,
+      "subscribers": 134000
+    },
+    {
+      "rank": 81,
+      "percentile": 23.96,
+      "subscribers": 134000
+    },
+    {
+      "rank": 82,
+      "percentile": 24.26,
+      "subscribers": 126000
+    },
+    {
+      "rank": 83,
+      "percentile": 24.56,
+      "subscribers": 119000
+    },
+    {
+      "rank": 84,
+      "percentile": 24.85,
+      "subscribers": 116000
+    },
+    {
+      "rank": 85,
+      "percentile": 25.15,
+      "subscribers": 109000
+    },
+    {
+      "rank": 86,
+      "percentile": 25.44,
+      "subscribers": 106000
+    },
+    {
+      "rank": 87,
+      "percentile": 25.74,
+      "subscribers": 102000
+    },
+    {
+      "rank": 88,
+      "percentile": 26.04,
+      "subscribers": 100000
+    },
+    {
+      "rank": 89,
+      "percentile": 26.33,
+      "subscribers": 96700
+    },
+    {
+      "rank": 90,
+      "percentile": 26.63,
+      "subscribers": 92400
+    },
+    {
+      "rank": 91,
+      "percentile": 26.92,
+      "subscribers": 91300
+    },
+    {
+      "rank": 92,
+      "percentile": 27.22,
+      "subscribers": 89400
+    },
+    {
+      "rank": 93,
+      "percentile": 27.51,
+      "subscribers": 84800
+    },
+    {
+      "rank": 94,
+      "percentile": 27.81,
+      "subscribers": 83300
+    },
+    {
+      "rank": 95,
+      "percentile": 28.11,
+      "subscribers": 83100
+    },
+    {
+      "rank": 96,
+      "percentile": 28.4,
+      "subscribers": 82500
+    },
+    {
+      "rank": 97,
+      "percentile": 28.7,
+      "subscribers": 78800
+    },
+    {
+      "rank": 98,
+      "percentile": 28.99,
+      "subscribers": 77800
+    },
+    {
+      "rank": 99,
+      "percentile": 29.29,
+      "subscribers": 76000
+    },
+    {
+      "rank": 100,
+      "percentile": 29.59,
+      "subscribers": 74700
+    },
+    {
+      "rank": 101,
+      "percentile": 29.88,
+      "subscribers": 74100
+    },
+    {
+      "rank": 102,
+      "percentile": 30.18,
+      "subscribers": 73800
+    },
+    {
+      "rank": 103,
+      "percentile": 30.47,
+      "subscribers": 71200
+    },
+    {
+      "rank": 104,
+      "percentile": 30.77,
+      "subscribers": 67700
+    },
+    {
+      "rank": 105,
+      "percentile": 31.07,
+      "subscribers": 64500
+    },
+    {
+      "rank": 106,
+      "percentile": 31.36,
+      "subscribers": 62800
+    },
+    {
+      "rank": 107,
+      "percentile": 31.66,
+      "subscribers": 62200
+    },
+    {
+      "rank": 108,
+      "percentile": 31.95,
+      "subscribers": 61000
+    },
+    {
+      "rank": 109,
+      "percentile": 32.25,
+      "subscribers": 59600
+    },
+    {
+      "rank": 110,
+      "percentile": 32.54,
+      "subscribers": 58800
+    },
+    {
+      "rank": 111,
+      "percentile": 32.84,
+      "subscribers": 58100
+    },
+    {
+      "rank": 112,
+      "percentile": 33.14,
+      "subscribers": 56700
+    },
+    {
+      "rank": 113,
+      "percentile": 33.43,
+      "subscribers": 56600
+    },
+    {
+      "rank": 114,
+      "percentile": 33.73,
+      "subscribers": 53400
+    },
+    {
+      "rank": 115,
+      "percentile": 34.02,
+      "subscribers": 52000
+    },
+    {
+      "rank": 116,
+      "percentile": 34.32,
+      "subscribers": 50000
+    },
+    {
+      "rank": 117,
+      "percentile": 34.62,
+      "subscribers": 49000
+    },
+    {
+      "rank": 118,
+      "percentile": 34.91,
+      "subscribers": 48400
+    },
+    {
+      "rank": 119,
+      "percentile": 35.21,
+      "subscribers": 44800
+    },
+    {
+      "rank": 120,
+      "percentile": 35.5,
+      "subscribers": 43000
+    },
+    {
+      "rank": 121,
+      "percentile": 35.8,
+      "subscribers": 42900
+    },
+    {
+      "rank": 122,
+      "percentile": 36.09,
+      "subscribers": 42200
+    },
+    {
+      "rank": 123,
+      "percentile": 36.39,
+      "subscribers": 41400
+    },
+    {
+      "rank": 124,
+      "percentile": 36.69,
+      "subscribers": 39100
+    },
+    {
+      "rank": 125,
+      "percentile": 36.98,
+      "subscribers": 38800
+    },
+    {
+      "rank": 126,
+      "percentile": 37.28,
+      "subscribers": 37800
+    },
+    {
+      "rank": 127,
+      "percentile": 37.57,
+      "subscribers": 37400
+    },
+    {
+      "rank": 128,
+      "percentile": 37.87,
+      "subscribers": 37400
+    },
+    {
+      "rank": 129,
+      "percentile": 38.17,
+      "subscribers": 34300
+    },
+    {
+      "rank": 130,
+      "percentile": 38.46,
+      "subscribers": 33900
+    },
+    {
+      "rank": 131,
+      "percentile": 38.76,
+      "subscribers": 33300
+    },
+    {
+      "rank": 132,
+      "percentile": 39.05,
+      "subscribers": 32300
+    },
+    {
+      "rank": 133,
+      "percentile": 39.35,
+      "subscribers": 32000
+    },
+    {
+      "rank": 134,
+      "percentile": 39.64,
+      "subscribers": 31700
+    },
+    {
+      "rank": 135,
+      "percentile": 39.94,
+      "subscribers": 31700
+    },
+    {
+      "rank": 136,
+      "percentile": 40.24,
+      "subscribers": 31000
+    },
+    {
+      "rank": 137,
+      "percentile": 40.53,
+      "subscribers": 30000
+    },
+    {
+      "rank": 138,
+      "percentile": 40.83,
+      "subscribers": 28700
+    },
+    {
+      "rank": 139,
+      "percentile": 41.12,
+      "subscribers": 27300
+    },
+    {
+      "rank": 140,
+      "percentile": 41.42,
+      "subscribers": 26600
+    },
+    {
+      "rank": 141,
+      "percentile": 41.72,
+      "subscribers": 24500
+    },
+    {
+      "rank": 142,
+      "percentile": 42.01,
+      "subscribers": 23700
+    },
+    {
+      "rank": 143,
+      "percentile": 42.31,
+      "subscribers": 23300
+    },
+    {
+      "rank": 144,
+      "percentile": 42.6,
+      "subscribers": 23000
+    },
+    {
+      "rank": 145,
+      "percentile": 42.9,
+      "subscribers": 22800
+    },
+    {
+      "rank": 146,
+      "percentile": 43.2,
+      "subscribers": 22700
+    },
+    {
+      "rank": 147,
+      "percentile": 43.49,
+      "subscribers": 21200
+    },
+    {
+      "rank": 148,
+      "percentile": 43.79,
+      "subscribers": 21100
+    },
+    {
+      "rank": 149,
+      "percentile": 44.08,
+      "subscribers": 19900
+    },
+    {
+      "rank": 150,
+      "percentile": 44.38,
+      "subscribers": 19900
+    },
+    {
+      "rank": 151,
+      "percentile": 44.67,
+      "subscribers": 19400
+    },
+    {
+      "rank": 152,
+      "percentile": 44.97,
+      "subscribers": 19000
+    },
+    {
+      "rank": 153,
+      "percentile": 45.27,
+      "subscribers": 18400
+    },
+    {
+      "rank": 154,
+      "percentile": 45.56,
+      "subscribers": 18100
+    },
+    {
+      "rank": 155,
+      "percentile": 45.86,
+      "subscribers": 17800
+    },
+    {
+      "rank": 156,
+      "percentile": 46.15,
+      "subscribers": 17500
+    },
+    {
+      "rank": 157,
+      "percentile": 46.45,
+      "subscribers": 16900
+    },
+    {
+      "rank": 158,
+      "percentile": 46.75,
+      "subscribers": 16800
+    },
+    {
+      "rank": 159,
+      "percentile": 47.04,
+      "subscribers": 16300
+    },
+    {
+      "rank": 160,
+      "percentile": 47.34,
+      "subscribers": 16000
+    },
+    {
+      "rank": 161,
+      "percentile": 47.63,
+      "subscribers": 14800
+    },
+    {
+      "rank": 162,
+      "percentile": 47.93,
+      "subscribers": 14600
+    },
+    {
+      "rank": 163,
+      "percentile": 48.22,
+      "subscribers": 14400
+    },
+    {
+      "rank": 164,
+      "percentile": 48.52,
+      "subscribers": 14400
+    },
+    {
+      "rank": 165,
+      "percentile": 48.82,
+      "subscribers": 14000
+    },
+    {
+      "rank": 166,
+      "percentile": 49.11,
+      "subscribers": 13800
+    },
+    {
+      "rank": 167,
+      "percentile": 49.41,
+      "subscribers": 13700
+    },
+    {
+      "rank": 168,
+      "percentile": 49.7,
+      "subscribers": 13000
+    },
+    {
+      "rank": 169,
+      "percentile": 50,
+      "subscribers": 12900
+    },
+    {
+      "rank": 170,
+      "percentile": 50.3,
+      "subscribers": 12900
+    },
+    {
+      "rank": 171,
+      "percentile": 50.59,
+      "subscribers": 12200
+    },
+    {
+      "rank": 172,
+      "percentile": 50.89,
+      "subscribers": 12100
+    },
+    {
+      "rank": 173,
+      "percentile": 51.18,
+      "subscribers": 12100
+    },
+    {
+      "rank": 174,
+      "percentile": 51.48,
+      "subscribers": 12100
+    },
+    {
+      "rank": 175,
+      "percentile": 51.78,
+      "subscribers": 11800
+    },
+    {
+      "rank": 176,
+      "percentile": 52.07,
+      "subscribers": 11800
+    },
+    {
+      "rank": 177,
+      "percentile": 52.37,
+      "subscribers": 11600
+    },
+    {
+      "rank": 178,
+      "percentile": 52.66,
+      "subscribers": 11300
+    },
+    {
+      "rank": 179,
+      "percentile": 52.96,
+      "subscribers": 11000
+    },
+    {
+      "rank": 180,
+      "percentile": 53.25,
+      "subscribers": 10800
+    },
+    {
+      "rank": 181,
+      "percentile": 53.55,
+      "subscribers": 10000
+    },
+    {
+      "rank": 182,
+      "percentile": 53.85,
+      "subscribers": 9170
+    },
+    {
+      "rank": 183,
+      "percentile": 54.14,
+      "subscribers": 9160
+    },
+    {
+      "rank": 184,
+      "percentile": 54.44,
+      "subscribers": 9160
+    },
+    {
+      "rank": 185,
+      "percentile": 54.73,
+      "subscribers": 8910
+    },
+    {
+      "rank": 186,
+      "percentile": 55.03,
+      "subscribers": 8200
+    },
+    {
+      "rank": 187,
+      "percentile": 55.33,
+      "subscribers": 8090
+    },
+    {
+      "rank": 188,
+      "percentile": 55.62,
+      "subscribers": 7940
+    },
+    {
+      "rank": 189,
+      "percentile": 55.92,
+      "subscribers": 7930
+    },
+    {
+      "rank": 190,
+      "percentile": 56.21,
+      "subscribers": 7900
+    },
+    {
+      "rank": 191,
+      "percentile": 56.51,
+      "subscribers": 7890
+    },
+    {
+      "rank": 192,
+      "percentile": 56.8,
+      "subscribers": 7820
+    },
+    {
+      "rank": 193,
+      "percentile": 57.1,
+      "subscribers": 7640
+    },
+    {
+      "rank": 194,
+      "percentile": 57.4,
+      "subscribers": 7520
+    },
+    {
+      "rank": 195,
+      "percentile": 57.69,
+      "subscribers": 6970
+    },
+    {
+      "rank": 196,
+      "percentile": 57.99,
+      "subscribers": 6880
+    },
+    {
+      "rank": 197,
+      "percentile": 58.28,
+      "subscribers": 6780
+    },
+    {
+      "rank": 198,
+      "percentile": 58.58,
+      "subscribers": 6730
+    },
+    {
+      "rank": 199,
+      "percentile": 58.88,
+      "subscribers": 6530
+    },
+    {
+      "rank": 200,
+      "percentile": 59.17,
+      "subscribers": 6350
+    },
+    {
+      "rank": 201,
+      "percentile": 59.47,
+      "subscribers": 6310
+    },
+    {
+      "rank": 202,
+      "percentile": 59.76,
+      "subscribers": 6060
+    },
+    {
+      "rank": 203,
+      "percentile": 60.06,
+      "subscribers": 5530
+    },
+    {
+      "rank": 204,
+      "percentile": 60.36,
+      "subscribers": 5310
+    },
+    {
+      "rank": 205,
+      "percentile": 60.65,
+      "subscribers": 5130
+    },
+    {
+      "rank": 206,
+      "percentile": 60.95,
+      "subscribers": 4950
+    },
+    {
+      "rank": 207,
+      "percentile": 61.24,
+      "subscribers": 4860
+    },
+    {
+      "rank": 208,
+      "percentile": 61.54,
+      "subscribers": 4650
+    },
+    {
+      "rank": 209,
+      "percentile": 61.83,
+      "subscribers": 4560
+    },
+    {
+      "rank": 210,
+      "percentile": 62.13,
+      "subscribers": 4480
+    },
+    {
+      "rank": 211,
+      "percentile": 62.43,
+      "subscribers": 4400
+    },
+    {
+      "rank": 212,
+      "percentile": 62.72,
+      "subscribers": 4400
+    },
+    {
+      "rank": 213,
+      "percentile": 63.02,
+      "subscribers": 4250
+    },
+    {
+      "rank": 214,
+      "percentile": 63.31,
+      "subscribers": 4240
+    },
+    {
+      "rank": 215,
+      "percentile": 63.61,
+      "subscribers": 4220
+    },
+    {
+      "rank": 216,
+      "percentile": 63.91,
+      "subscribers": 4010
+    },
+    {
+      "rank": 217,
+      "percentile": 64.2,
+      "subscribers": 3970
+    },
+    {
+      "rank": 218,
+      "percentile": 64.5,
+      "subscribers": 3900
+    },
+    {
+      "rank": 219,
+      "percentile": 64.79,
+      "subscribers": 3900
+    },
+    {
+      "rank": 220,
+      "percentile": 65.09,
+      "subscribers": 3800
+    },
+    {
+      "rank": 221,
+      "percentile": 65.38,
+      "subscribers": 3770
+    },
+    {
+      "rank": 222,
+      "percentile": 65.68,
+      "subscribers": 3760
+    },
+    {
+      "rank": 223,
+      "percentile": 65.98,
+      "subscribers": 3730
+    },
+    {
+      "rank": 224,
+      "percentile": 66.27,
+      "subscribers": 3610
+    },
+    {
+      "rank": 225,
+      "percentile": 66.57,
+      "subscribers": 3490
+    },
+    {
+      "rank": 226,
+      "percentile": 66.86,
+      "subscribers": 3440
+    },
+    {
+      "rank": 227,
+      "percentile": 67.16,
+      "subscribers": 3370
+    },
+    {
+      "rank": 228,
+      "percentile": 67.46,
+      "subscribers": 3200
+    },
+    {
+      "rank": 229,
+      "percentile": 67.75,
+      "subscribers": 3190
+    },
+    {
+      "rank": 230,
+      "percentile": 68.05,
+      "subscribers": 3150
+    },
+    {
+      "rank": 231,
+      "percentile": 68.34,
+      "subscribers": 3110
+    },
+    {
+      "rank": 232,
+      "percentile": 68.64,
+      "subscribers": 3030
+    },
+    {
+      "rank": 233,
+      "percentile": 68.93,
+      "subscribers": 2860
+    },
+    {
+      "rank": 234,
+      "percentile": 69.23,
+      "subscribers": 2820
+    },
+    {
+      "rank": 235,
+      "percentile": 69.53,
+      "subscribers": 2700
+    },
+    {
+      "rank": 236,
+      "percentile": 69.82,
+      "subscribers": 2690
+    },
+    {
+      "rank": 237,
+      "percentile": 70.12,
+      "subscribers": 2690
+    },
+    {
+      "rank": 238,
+      "percentile": 70.41,
+      "subscribers": 2660
+    },
+    {
+      "rank": 239,
+      "percentile": 70.71,
+      "subscribers": 2630
+    },
+    {
+      "rank": 240,
+      "percentile": 71.01,
+      "subscribers": 2610
+    },
+    {
+      "rank": 241,
+      "percentile": 71.3,
+      "subscribers": 2550
+    },
+    {
+      "rank": 242,
+      "percentile": 71.6,
+      "subscribers": 2540
+    },
+    {
+      "rank": 243,
+      "percentile": 71.89,
+      "subscribers": 2440
+    },
+    {
+      "rank": 244,
+      "percentile": 72.19,
+      "subscribers": 2380
+    },
+    {
+      "rank": 245,
+      "percentile": 72.49,
+      "subscribers": 2280
+    },
+    {
+      "rank": 246,
+      "percentile": 72.78,
+      "subscribers": 2270
+    },
+    {
+      "rank": 247,
+      "percentile": 73.08,
+      "subscribers": 2130
+    },
+    {
+      "rank": 248,
+      "percentile": 73.37,
+      "subscribers": 2066
+    },
+    {
+      "rank": 249,
+      "percentile": 73.67,
+      "subscribers": 2060
+    },
+    {
+      "rank": 250,
+      "percentile": 73.96,
+      "subscribers": 2010
+    },
+    {
+      "rank": 251,
+      "percentile": 74.26,
+      "subscribers": 1980
+    },
+    {
+      "rank": 252,
+      "percentile": 74.56,
+      "subscribers": 1830
+    },
+    {
+      "rank": 253,
+      "percentile": 74.85,
+      "subscribers": 1800
+    },
+    {
+      "rank": 254,
+      "percentile": 75.15,
+      "subscribers": 1750
+    },
+    {
+      "rank": 255,
+      "percentile": 75.44,
+      "subscribers": 1700
+    },
+    {
+      "rank": 256,
+      "percentile": 75.74,
+      "subscribers": 1680
+    },
+    {
+      "rank": 257,
+      "percentile": 76.04,
+      "subscribers": 1680
+    },
+    {
+      "rank": 258,
+      "percentile": 76.33,
+      "subscribers": 1640
+    },
+    {
+      "rank": 259,
+      "percentile": 76.63,
+      "subscribers": 1620
+    },
+    {
+      "rank": 260,
+      "percentile": 76.92,
+      "subscribers": 1520
+    },
+    {
+      "rank": 261,
+      "percentile": 77.22,
+      "subscribers": 1480
+    },
+    {
+      "rank": 262,
+      "percentile": 77.51,
+      "subscribers": 1460
+    },
+    {
+      "rank": 263,
+      "percentile": 77.81,
+      "subscribers": 1410
+    },
+    {
+      "rank": 264,
+      "percentile": 78.11,
+      "subscribers": 1390
+    },
+    {
+      "rank": 265,
+      "percentile": 78.4,
+      "subscribers": 1380
+    },
+    {
+      "rank": 266,
+      "percentile": 78.7,
+      "subscribers": 1370
+    },
+    {
+      "rank": 267,
+      "percentile": 78.99,
+      "subscribers": 1360
+    },
+    {
+      "rank": 268,
+      "percentile": 79.29,
+      "subscribers": 1310
+    },
+    {
+      "rank": 269,
+      "percentile": 79.59,
+      "subscribers": 1210
+    },
+    {
+      "rank": 270,
+      "percentile": 79.88,
+      "subscribers": 1210
+    },
+    {
+      "rank": 271,
+      "percentile": 80.18,
+      "subscribers": 1200
+    },
+    {
+      "rank": 272,
+      "percentile": 80.47,
+      "subscribers": 1190
+    },
+    {
+      "rank": 273,
+      "percentile": 80.77,
+      "subscribers": 1190
+    },
+    {
+      "rank": 274,
+      "percentile": 81.07,
+      "subscribers": 1190
+    },
+    {
+      "rank": 275,
+      "percentile": 81.36,
+      "subscribers": 1150
+    },
+    {
+      "rank": 276,
+      "percentile": 81.66,
+      "subscribers": 1130
+    },
+    {
+      "rank": 277,
+      "percentile": 81.95,
+      "subscribers": 1110
+    },
+    {
+      "rank": 278,
+      "percentile": 82.25,
+      "subscribers": 1100
+    },
+    {
+      "rank": 279,
+      "percentile": 82.54,
+      "subscribers": 1100
+    },
+    {
+      "rank": 280,
+      "percentile": 82.84,
+      "subscribers": 1090
+    },
+    {
+      "rank": 281,
+      "percentile": 83.14,
+      "subscribers": 1070
+    },
+    {
+      "rank": 282,
+      "percentile": 83.43,
+      "subscribers": 1030
+    },
+    {
+      "rank": 283,
+      "percentile": 83.73,
+      "subscribers": 1010
+    },
+    {
+      "rank": 284,
+      "percentile": 84.02,
+      "subscribers": 1000
+    },
+    {
+      "rank": 285,
+      "percentile": 84.32,
+      "subscribers": 1000
+    },
+    {
+      "rank": 286,
+      "percentile": 84.62,
+      "subscribers": 867
+    },
+    {
+      "rank": 287,
+      "percentile": 84.91,
+      "subscribers": 839
+    },
+    {
+      "rank": 288,
+      "percentile": 85.21,
+      "subscribers": 736
+    },
+    {
+      "rank": 289,
+      "percentile": 85.5,
+      "subscribers": 701
+    },
+    {
+      "rank": 290,
+      "percentile": 85.8,
+      "subscribers": 682
+    },
+    {
+      "rank": 291,
+      "percentile": 86.09,
+      "subscribers": 652
+    },
+    {
+      "rank": 292,
+      "percentile": 86.39,
+      "subscribers": 611
+    },
+    {
+      "rank": 293,
+      "percentile": 86.69,
+      "subscribers": 602
+    },
+    {
+      "rank": 294,
+      "percentile": 86.98,
+      "subscribers": 594
+    },
+    {
+      "rank": 295,
+      "percentile": 87.28,
+      "subscribers": 582
+    },
+    {
+      "rank": 296,
+      "percentile": 87.57,
+      "subscribers": 526
+    },
+    {
+      "rank": 297,
+      "percentile": 87.87,
+      "subscribers": 364
+    },
+    {
+      "rank": 298,
+      "percentile": 88.17,
+      "subscribers": 299
+    },
+    {
+      "rank": 299,
+      "percentile": 88.46,
+      "subscribers": 185
+    },
+    {
+      "rank": 300,
+      "percentile": 88.76,
+      "subscribers": 176
+    },
+    {
+      "rank": 301,
+      "percentile": 89.05,
+      "subscribers": 172
+    },
+    {
+      "rank": 302,
+      "percentile": 89.35,
+      "subscribers": 166
+    },
+    {
+      "rank": 303,
+      "percentile": 89.64,
+      "subscribers": 145
+    },
+    {
+      "rank": 304,
+      "percentile": 89.94,
+      "subscribers": 144
+    },
+    {
+      "rank": 305,
+      "percentile": 90.24,
+      "subscribers": 123
+    },
+    {
+      "rank": 306,
+      "percentile": 90.53,
+      "subscribers": 121
+    },
+    {
+      "rank": 307,
+      "percentile": 90.83,
+      "subscribers": 121
+    },
+    {
+      "rank": 308,
+      "percentile": 91.12,
+      "subscribers": 106
+    },
+    {
+      "rank": 309,
+      "percentile": 91.42,
+      "subscribers": 99
+    },
+    {
+      "rank": 310,
+      "percentile": 91.72,
+      "subscribers": 90
+    },
+    {
+      "rank": 311,
+      "percentile": 92.01,
+      "subscribers": 89
+    },
+    {
+      "rank": 312,
+      "percentile": 92.31,
+      "subscribers": 84
+    },
+    {
+      "rank": 313,
+      "percentile": 92.6,
+      "subscribers": 80
+    },
+    {
+      "rank": 314,
+      "percentile": 92.9,
+      "subscribers": 74
+    },
+    {
+      "rank": 315,
+      "percentile": 93.2,
+      "subscribers": 59
+    },
+    {
+      "rank": 316,
+      "percentile": 93.49,
+      "subscribers": 56
+    },
+    {
+      "rank": 317,
+      "percentile": 93.79,
+      "subscribers": 54
+    },
+    {
+      "rank": 318,
+      "percentile": 94.08,
+      "subscribers": 51
+    },
+    {
+      "rank": 319,
+      "percentile": 94.38,
+      "subscribers": 46
+    },
+    {
+      "rank": 320,
+      "percentile": 94.67,
+      "subscribers": 45
+    },
+    {
+      "rank": 321,
+      "percentile": 94.97,
+      "subscribers": 43
+    },
+    {
+      "rank": 322,
+      "percentile": 95.27,
+      "subscribers": 42
+    },
+    {
+      "rank": 323,
+      "percentile": 95.56,
+      "subscribers": 38
+    },
+    {
+      "rank": 324,
+      "percentile": 95.86,
+      "subscribers": 37
+    },
+    {
+      "rank": 325,
+      "percentile": 96.15,
+      "subscribers": 36
+    },
+    {
+      "rank": 326,
+      "percentile": 96.45,
+      "subscribers": 25
+    },
+    {
+      "rank": 327,
+      "percentile": 96.75,
+      "subscribers": 24
+    },
+    {
+      "rank": 328,
+      "percentile": 97.04,
+      "subscribers": 23
+    },
+    {
+      "rank": 329,
+      "percentile": 97.34,
+      "subscribers": 14
+    },
+    {
+      "rank": 330,
+      "percentile": 97.63,
+      "subscribers": 14
+    },
+    {
+      "rank": 331,
+      "percentile": 97.93,
+      "subscribers": 11
+    },
+    {
+      "rank": 332,
+      "percentile": 98.22,
+      "subscribers": 8
+    },
+    {
+      "rank": 333,
+      "percentile": 98.52,
+      "subscribers": 6
+    },
+    {
+      "rank": 334,
+      "percentile": 98.82,
+      "subscribers": 4
+    },
+    {
+      "rank": 335,
+      "percentile": 99.11,
+      "subscribers": 2
+    },
+    {
+      "rank": 336,
+      "percentile": 99.41,
+      "subscribers": 1
+    },
+    {
+      "rank": 337,
+      "percentile": 99.7,
+      "subscribers": 1
+    },
+    {
+      "rank": 338,
+      "percentile": 100,
+      "subscribers": 0
+    }
+  ],
+  "collection_trend": [
+    {
+      "index": 1,
+      "subscribers": 35600000,
+      "rolling_avg_subscribers": 35600000
+    },
+    {
+      "index": 2,
+      "subscribers": 15300000,
+      "rolling_avg_subscribers": 25450000
+    },
+    {
+      "index": 3,
+      "subscribers": 5140000,
+      "rolling_avg_subscribers": 18680000
+    },
+    {
+      "index": 4,
+      "subscribers": 4900000,
+      "rolling_avg_subscribers": 15235000
+    },
+    {
+      "index": 5,
+      "subscribers": 3900000,
+      "rolling_avg_subscribers": 12968000
+    },
+    {
+      "index": 6,
+      "subscribers": 3200000,
+      "rolling_avg_subscribers": 11340000
+    },
+    {
+      "index": 7,
+      "subscribers": 3140000,
+      "rolling_avg_subscribers": 10168571.43
+    },
+    {
+      "index": 8,
+      "subscribers": 3100000,
+      "rolling_avg_subscribers": 9285000
+    },
+    {
+      "index": 9,
+      "subscribers": 3090000,
+      "rolling_avg_subscribers": 8596666.67
+    },
+    {
+      "index": 10,
+      "subscribers": 2700000,
+      "rolling_avg_subscribers": 8007000
+    },
+    {
+      "index": 11,
+      "subscribers": 2700000,
+      "rolling_avg_subscribers": 4717000
+    },
+    {
+      "index": 12,
+      "subscribers": 2590000,
+      "rolling_avg_subscribers": 3446000
+    },
+    {
+      "index": 13,
+      "subscribers": 2520000,
+      "rolling_avg_subscribers": 3184000
+    },
+    {
+      "index": 14,
+      "subscribers": 2170000,
+      "rolling_avg_subscribers": 2911000
+    },
+    {
+      "index": 15,
+      "subscribers": 1850000,
+      "rolling_avg_subscribers": 2706000
+    },
+    {
+      "index": 16,
+      "subscribers": 1400000,
+      "rolling_avg_subscribers": 2526000
+    },
+    {
+      "index": 17,
+      "subscribers": 1330000,
+      "rolling_avg_subscribers": 2345000
+    },
+    {
+      "index": 18,
+      "subscribers": 1120000,
+      "rolling_avg_subscribers": 2147000
+    },
+    {
+      "index": 19,
+      "subscribers": 1070000,
+      "rolling_avg_subscribers": 1945000
+    },
+    {
+      "index": 20,
+      "subscribers": 881000,
+      "rolling_avg_subscribers": 1763100
+    },
+    {
+      "index": 21,
+      "subscribers": 825000,
+      "rolling_avg_subscribers": 1575600
+    },
+    {
+      "index": 22,
+      "subscribers": 779000,
+      "rolling_avg_subscribers": 1394500
+    },
+    {
+      "index": 23,
+      "subscribers": 733000,
+      "rolling_avg_subscribers": 1215800
+    },
+    {
+      "index": 24,
+      "subscribers": 689000,
+      "rolling_avg_subscribers": 1067700
+    },
+    {
+      "index": 25,
+      "subscribers": 684000,
+      "rolling_avg_subscribers": 951100
+    },
+    {
+      "index": 26,
+      "subscribers": 668000,
+      "rolling_avg_subscribers": 877900
+    },
+    {
+      "index": 27,
+      "subscribers": 631000,
+      "rolling_avg_subscribers": 808000
+    },
+    {
+      "index": 28,
+      "subscribers": 600000,
+      "rolling_avg_subscribers": 756000
+    },
+    {
+      "index": 29,
+      "subscribers": 594000,
+      "rolling_avg_subscribers": 708400
+    },
+    {
+      "index": 30,
+      "subscribers": 537000,
+      "rolling_avg_subscribers": 674000
+    },
+    {
+      "index": 31,
+      "subscribers": 503000,
+      "rolling_avg_subscribers": 641800
+    },
+    {
+      "index": 32,
+      "subscribers": 481000,
+      "rolling_avg_subscribers": 612000
+    },
+    {
+      "index": 33,
+      "subscribers": 478000,
+      "rolling_avg_subscribers": 586500
+    },
+    {
+      "index": 34,
+      "subscribers": 438000,
+      "rolling_avg_subscribers": 561400
+    },
+    {
+      "index": 35,
+      "subscribers": 416000,
+      "rolling_avg_subscribers": 534600
+    },
+    {
+      "index": 36,
+      "subscribers": 398000,
+      "rolling_avg_subscribers": 507600
+    },
+    {
+      "index": 37,
+      "subscribers": 394000,
+      "rolling_avg_subscribers": 483900
+    },
+    {
+      "index": 38,
+      "subscribers": 386000,
+      "rolling_avg_subscribers": 462500
+    },
+    {
+      "index": 39,
+      "subscribers": 383000,
+      "rolling_avg_subscribers": 441400
+    },
+    {
+      "index": 40,
+      "subscribers": 356000,
+      "rolling_avg_subscribers": 423300
+    },
+    {
+      "index": 41,
+      "subscribers": 326000,
+      "rolling_avg_subscribers": 405600
+    },
+    {
+      "index": 42,
+      "subscribers": 321000,
+      "rolling_avg_subscribers": 389600
+    },
+    {
+      "index": 43,
+      "subscribers": 319000,
+      "rolling_avg_subscribers": 373700
+    },
+    {
+      "index": 44,
+      "subscribers": 318000,
+      "rolling_avg_subscribers": 361700
+    },
+    {
+      "index": 45,
+      "subscribers": 298000,
+      "rolling_avg_subscribers": 349900
+    },
+    {
+      "index": 46,
+      "subscribers": 292000,
+      "rolling_avg_subscribers": 339300
+    },
+    {
+      "index": 47,
+      "subscribers": 291000,
+      "rolling_avg_subscribers": 329000
+    },
+    {
+      "index": 48,
+      "subscribers": 275000,
+      "rolling_avg_subscribers": 317900
+    },
+    {
+      "index": 49,
+      "subscribers": 265000,
+      "rolling_avg_subscribers": 306100
+    },
+    {
+      "index": 50,
+      "subscribers": 259000,
+      "rolling_avg_subscribers": 296400
+    },
+    {
+      "index": 51,
+      "subscribers": 257000,
+      "rolling_avg_subscribers": 289500
+    },
+    {
+      "index": 52,
+      "subscribers": 255000,
+      "rolling_avg_subscribers": 282900
+    },
+    {
+      "index": 53,
+      "subscribers": 252000,
+      "rolling_avg_subscribers": 276200
+    },
+    {
+      "index": 54,
+      "subscribers": 240000,
+      "rolling_avg_subscribers": 268400
+    },
+    {
+      "index": 55,
+      "subscribers": 239000,
+      "rolling_avg_subscribers": 262500
+    },
+    {
+      "index": 56,
+      "subscribers": 238000,
+      "rolling_avg_subscribers": 257100
+    },
+    {
+      "index": 57,
+      "subscribers": 226000,
+      "rolling_avg_subscribers": 250600
+    },
+    {
+      "index": 58,
+      "subscribers": 221000,
+      "rolling_avg_subscribers": 245200
+    },
+    {
+      "index": 59,
+      "subscribers": 220000,
+      "rolling_avg_subscribers": 240700
+    },
+    {
+      "index": 60,
+      "subscribers": 216000,
+      "rolling_avg_subscribers": 236400
+    },
+    {
+      "index": 61,
+      "subscribers": 216000,
+      "rolling_avg_subscribers": 232300
+    },
+    {
+      "index": 62,
+      "subscribers": 215000,
+      "rolling_avg_subscribers": 228300
+    },
+    {
+      "index": 63,
+      "subscribers": 212000,
+      "rolling_avg_subscribers": 224300
+    },
+    {
+      "index": 64,
+      "subscribers": 207000,
+      "rolling_avg_subscribers": 221000
+    },
+    {
+      "index": 65,
+      "subscribers": 201000,
+      "rolling_avg_subscribers": 217200
+    },
+    {
+      "index": 66,
+      "subscribers": 197000,
+      "rolling_avg_subscribers": 213100
+    },
+    {
+      "index": 67,
+      "subscribers": 196000,
+      "rolling_avg_subscribers": 210100
+    },
+    {
+      "index": 68,
+      "subscribers": 185000,
+      "rolling_avg_subscribers": 206500
+    },
+    {
+      "index": 69,
+      "subscribers": 179000,
+      "rolling_avg_subscribers": 202400
+    },
+    {
+      "index": 70,
+      "subscribers": 169000,
+      "rolling_avg_subscribers": 197700
+    },
+    {
+      "index": 71,
+      "subscribers": 166000,
+      "rolling_avg_subscribers": 192700
+    },
+    {
+      "index": 72,
+      "subscribers": 165000,
+      "rolling_avg_subscribers": 187700
+    },
+    {
+      "index": 73,
+      "subscribers": 164000,
+      "rolling_avg_subscribers": 182900
+    },
+    {
+      "index": 74,
+      "subscribers": 160000,
+      "rolling_avg_subscribers": 178200
+    },
+    {
+      "index": 75,
+      "subscribers": 157000,
+      "rolling_avg_subscribers": 173800
+    },
+    {
+      "index": 76,
+      "subscribers": 154000,
+      "rolling_avg_subscribers": 169500
+    },
+    {
+      "index": 77,
+      "subscribers": 153000,
+      "rolling_avg_subscribers": 165200
+    },
+    {
+      "index": 78,
+      "subscribers": 140000,
+      "rolling_avg_subscribers": 160700
+    },
+    {
+      "index": 79,
+      "subscribers": 136000,
+      "rolling_avg_subscribers": 156400
+    },
+    {
+      "index": 80,
+      "subscribers": 134000,
+      "rolling_avg_subscribers": 152900
+    },
+    {
+      "index": 81,
+      "subscribers": 134000,
+      "rolling_avg_subscribers": 149700
+    },
+    {
+      "index": 82,
+      "subscribers": 126000,
+      "rolling_avg_subscribers": 145800
+    },
+    {
+      "index": 83,
+      "subscribers": 119000,
+      "rolling_avg_subscribers": 141300
+    },
+    {
+      "index": 84,
+      "subscribers": 116000,
+      "rolling_avg_subscribers": 136900
+    },
+    {
+      "index": 85,
+      "subscribers": 109000,
+      "rolling_avg_subscribers": 132100
+    },
+    {
+      "index": 86,
+      "subscribers": 106000,
+      "rolling_avg_subscribers": 127300
+    },
+    {
+      "index": 87,
+      "subscribers": 102000,
+      "rolling_avg_subscribers": 122200
+    },
+    {
+      "index": 88,
+      "subscribers": 100000,
+      "rolling_avg_subscribers": 118200
+    },
+    {
+      "index": 89,
+      "subscribers": 96700,
+      "rolling_avg_subscribers": 114270
+    },
+    {
+      "index": 90,
+      "subscribers": 92400,
+      "rolling_avg_subscribers": 110110
+    },
+    {
+      "index": 91,
+      "subscribers": 91300,
+      "rolling_avg_subscribers": 105840
+    },
+    {
+      "index": 92,
+      "subscribers": 89400,
+      "rolling_avg_subscribers": 102180
+    },
+    {
+      "index": 93,
+      "subscribers": 84800,
+      "rolling_avg_subscribers": 98760
+    },
+    {
+      "index": 94,
+      "subscribers": 83300,
+      "rolling_avg_subscribers": 95490
+    },
+    {
+      "index": 95,
+      "subscribers": 83100,
+      "rolling_avg_subscribers": 92900
+    },
+    {
+      "index": 96,
+      "subscribers": 82500,
+      "rolling_avg_subscribers": 90550
+    },
+    {
+      "index": 97,
+      "subscribers": 78800,
+      "rolling_avg_subscribers": 88230
+    },
+    {
+      "index": 98,
+      "subscribers": 77800,
+      "rolling_avg_subscribers": 86010
+    },
+    {
+      "index": 99,
+      "subscribers": 76000,
+      "rolling_avg_subscribers": 83940
+    },
+    {
+      "index": 100,
+      "subscribers": 74700,
+      "rolling_avg_subscribers": 82170
+    },
+    {
+      "index": 101,
+      "subscribers": 74100,
+      "rolling_avg_subscribers": 80450
+    },
+    {
+      "index": 102,
+      "subscribers": 73800,
+      "rolling_avg_subscribers": 78890
+    },
+    {
+      "index": 103,
+      "subscribers": 71200,
+      "rolling_avg_subscribers": 77530
+    },
+    {
+      "index": 104,
+      "subscribers": 67700,
+      "rolling_avg_subscribers": 75970
+    },
+    {
+      "index": 105,
+      "subscribers": 64500,
+      "rolling_avg_subscribers": 74110
+    },
+    {
+      "index": 106,
+      "subscribers": 62800,
+      "rolling_avg_subscribers": 72140
+    },
+    {
+      "index": 107,
+      "subscribers": 62200,
+      "rolling_avg_subscribers": 70480
+    },
+    {
+      "index": 108,
+      "subscribers": 61000,
+      "rolling_avg_subscribers": 68800
+    },
+    {
+      "index": 109,
+      "subscribers": 59600,
+      "rolling_avg_subscribers": 67160
+    },
+    {
+      "index": 110,
+      "subscribers": 58800,
+      "rolling_avg_subscribers": 65570
+    },
+    {
+      "index": 111,
+      "subscribers": 58100,
+      "rolling_avg_subscribers": 63970
+    },
+    {
+      "index": 112,
+      "subscribers": 56700,
+      "rolling_avg_subscribers": 62260
+    },
+    {
+      "index": 113,
+      "subscribers": 56600,
+      "rolling_avg_subscribers": 60800
+    },
+    {
+      "index": 114,
+      "subscribers": 53400,
+      "rolling_avg_subscribers": 59370
+    },
+    {
+      "index": 115,
+      "subscribers": 52000,
+      "rolling_avg_subscribers": 58120
+    },
+    {
+      "index": 116,
+      "subscribers": 50000,
+      "rolling_avg_subscribers": 56840
+    },
+    {
+      "index": 117,
+      "subscribers": 49000,
+      "rolling_avg_subscribers": 55520
+    },
+    {
+      "index": 118,
+      "subscribers": 48400,
+      "rolling_avg_subscribers": 54260
+    },
+    {
+      "index": 119,
+      "subscribers": 44800,
+      "rolling_avg_subscribers": 52780
+    },
+    {
+      "index": 120,
+      "subscribers": 43000,
+      "rolling_avg_subscribers": 51200
+    },
+    {
+      "index": 121,
+      "subscribers": 42900,
+      "rolling_avg_subscribers": 49680
+    },
+    {
+      "index": 122,
+      "subscribers": 42200,
+      "rolling_avg_subscribers": 48230
+    },
+    {
+      "index": 123,
+      "subscribers": 41400,
+      "rolling_avg_subscribers": 46710
+    },
+    {
+      "index": 124,
+      "subscribers": 39100,
+      "rolling_avg_subscribers": 45280
+    },
+    {
+      "index": 125,
+      "subscribers": 38800,
+      "rolling_avg_subscribers": 43960
+    },
+    {
+      "index": 126,
+      "subscribers": 37800,
+      "rolling_avg_subscribers": 42740
+    },
+    {
+      "index": 127,
+      "subscribers": 37400,
+      "rolling_avg_subscribers": 41580
+    },
+    {
+      "index": 128,
+      "subscribers": 37400,
+      "rolling_avg_subscribers": 40480
+    },
+    {
+      "index": 129,
+      "subscribers": 34300,
+      "rolling_avg_subscribers": 39430
+    },
+    {
+      "index": 130,
+      "subscribers": 33900,
+      "rolling_avg_subscribers": 38520
+    },
+    {
+      "index": 131,
+      "subscribers": 33300,
+      "rolling_avg_subscribers": 37560
+    },
+    {
+      "index": 132,
+      "subscribers": 32300,
+      "rolling_avg_subscribers": 36570
+    },
+    {
+      "index": 133,
+      "subscribers": 32000,
+      "rolling_avg_subscribers": 35630
+    },
+    {
+      "index": 134,
+      "subscribers": 31700,
+      "rolling_avg_subscribers": 34890
+    },
+    {
+      "index": 135,
+      "subscribers": 31700,
+      "rolling_avg_subscribers": 34180
+    },
+    {
+      "index": 136,
+      "subscribers": 31000,
+      "rolling_avg_subscribers": 33500
+    },
+    {
+      "index": 137,
+      "subscribers": 30000,
+      "rolling_avg_subscribers": 32760
+    },
+    {
+      "index": 138,
+      "subscribers": 28700,
+      "rolling_avg_subscribers": 31890
+    },
+    {
+      "index": 139,
+      "subscribers": 27300,
+      "rolling_avg_subscribers": 31190
+    },
+    {
+      "index": 140,
+      "subscribers": 26600,
+      "rolling_avg_subscribers": 30460
+    },
+    {
+      "index": 141,
+      "subscribers": 24500,
+      "rolling_avg_subscribers": 29580
+    },
+    {
+      "index": 142,
+      "subscribers": 23700,
+      "rolling_avg_subscribers": 28720
+    },
+    {
+      "index": 143,
+      "subscribers": 23300,
+      "rolling_avg_subscribers": 27850
+    },
+    {
+      "index": 144,
+      "subscribers": 23000,
+      "rolling_avg_subscribers": 26980
+    },
+    {
+      "index": 145,
+      "subscribers": 22800,
+      "rolling_avg_subscribers": 26090
+    },
+    {
+      "index": 146,
+      "subscribers": 22700,
+      "rolling_avg_subscribers": 25260
+    },
+    {
+      "index": 147,
+      "subscribers": 21200,
+      "rolling_avg_subscribers": 24380
+    },
+    {
+      "index": 148,
+      "subscribers": 21100,
+      "rolling_avg_subscribers": 23620
+    },
+    {
+      "index": 149,
+      "subscribers": 19900,
+      "rolling_avg_subscribers": 22880
+    },
+    {
+      "index": 150,
+      "subscribers": 19900,
+      "rolling_avg_subscribers": 22210
+    },
+    {
+      "index": 151,
+      "subscribers": 19400,
+      "rolling_avg_subscribers": 21700
+    },
+    {
+      "index": 152,
+      "subscribers": 19000,
+      "rolling_avg_subscribers": 21230
+    },
+    {
+      "index": 153,
+      "subscribers": 18400,
+      "rolling_avg_subscribers": 20740
+    },
+    {
+      "index": 154,
+      "subscribers": 18100,
+      "rolling_avg_subscribers": 20250
+    },
+    {
+      "index": 155,
+      "subscribers": 17800,
+      "rolling_avg_subscribers": 19750
+    },
+    {
+      "index": 156,
+      "subscribers": 17500,
+      "rolling_avg_subscribers": 19230
+    },
+    {
+      "index": 157,
+      "subscribers": 16900,
+      "rolling_avg_subscribers": 18800
+    },
+    {
+      "index": 158,
+      "subscribers": 16800,
+      "rolling_avg_subscribers": 18370
+    },
+    {
+      "index": 159,
+      "subscribers": 16300,
+      "rolling_avg_subscribers": 18010
+    },
+    {
+      "index": 160,
+      "subscribers": 16000,
+      "rolling_avg_subscribers": 17620
+    },
+    {
+      "index": 161,
+      "subscribers": 14800,
+      "rolling_avg_subscribers": 17160
+    },
+    {
+      "index": 162,
+      "subscribers": 14600,
+      "rolling_avg_subscribers": 16720
+    },
+    {
+      "index": 163,
+      "subscribers": 14400,
+      "rolling_avg_subscribers": 16320
+    },
+    {
+      "index": 164,
+      "subscribers": 14400,
+      "rolling_avg_subscribers": 15950
+    },
+    {
+      "index": 165,
+      "subscribers": 14000,
+      "rolling_avg_subscribers": 15570
+    },
+    {
+      "index": 166,
+      "subscribers": 13800,
+      "rolling_avg_subscribers": 15200
+    },
+    {
+      "index": 167,
+      "subscribers": 13700,
+      "rolling_avg_subscribers": 14880
+    },
+    {
+      "index": 168,
+      "subscribers": 13000,
+      "rolling_avg_subscribers": 14500
+    },
+    {
+      "index": 169,
+      "subscribers": 12900,
+      "rolling_avg_subscribers": 14160
+    },
+    {
+      "index": 170,
+      "subscribers": 12900,
+      "rolling_avg_subscribers": 13850
+    },
+    {
+      "index": 171,
+      "subscribers": 12200,
+      "rolling_avg_subscribers": 13590
+    },
+    {
+      "index": 172,
+      "subscribers": 12100,
+      "rolling_avg_subscribers": 13340
+    },
+    {
+      "index": 173,
+      "subscribers": 12100,
+      "rolling_avg_subscribers": 13110
+    },
+    {
+      "index": 174,
+      "subscribers": 12100,
+      "rolling_avg_subscribers": 12880
+    },
+    {
+      "index": 175,
+      "subscribers": 11800,
+      "rolling_avg_subscribers": 12660
+    },
+    {
+      "index": 176,
+      "subscribers": 11800,
+      "rolling_avg_subscribers": 12460
+    },
+    {
+      "index": 177,
+      "subscribers": 11600,
+      "rolling_avg_subscribers": 12250
+    },
+    {
+      "index": 178,
+      "subscribers": 11300,
+      "rolling_avg_subscribers": 12080
+    },
+    {
+      "index": 179,
+      "subscribers": 11000,
+      "rolling_avg_subscribers": 11890
+    },
+    {
+      "index": 180,
+      "subscribers": 10800,
+      "rolling_avg_subscribers": 11680
+    },
+    {
+      "index": 181,
+      "subscribers": 10000,
+      "rolling_avg_subscribers": 11460
+    },
+    {
+      "index": 182,
+      "subscribers": 9170,
+      "rolling_avg_subscribers": 11167
+    },
+    {
+      "index": 183,
+      "subscribers": 9160,
+      "rolling_avg_subscribers": 10873
+    },
+    {
+      "index": 184,
+      "subscribers": 9160,
+      "rolling_avg_subscribers": 10579
+    },
+    {
+      "index": 185,
+      "subscribers": 8910,
+      "rolling_avg_subscribers": 10290
+    },
+    {
+      "index": 186,
+      "subscribers": 8200,
+      "rolling_avg_subscribers": 9930
+    },
+    {
+      "index": 187,
+      "subscribers": 8090,
+      "rolling_avg_subscribers": 9579
+    },
+    {
+      "index": 188,
+      "subscribers": 7940,
+      "rolling_avg_subscribers": 9243
+    },
+    {
+      "index": 189,
+      "subscribers": 7930,
+      "rolling_avg_subscribers": 8936
+    },
+    {
+      "index": 190,
+      "subscribers": 7900,
+      "rolling_avg_subscribers": 8646
+    },
+    {
+      "index": 191,
+      "subscribers": 7890,
+      "rolling_avg_subscribers": 8435
+    },
+    {
+      "index": 192,
+      "subscribers": 7820,
+      "rolling_avg_subscribers": 8300
+    },
+    {
+      "index": 193,
+      "subscribers": 7640,
+      "rolling_avg_subscribers": 8148
+    },
+    {
+      "index": 194,
+      "subscribers": 7520,
+      "rolling_avg_subscribers": 7984
+    },
+    {
+      "index": 195,
+      "subscribers": 6970,
+      "rolling_avg_subscribers": 7790
+    },
+    {
+      "index": 196,
+      "subscribers": 6880,
+      "rolling_avg_subscribers": 7658
+    },
+    {
+      "index": 197,
+      "subscribers": 6780,
+      "rolling_avg_subscribers": 7527
+    },
+    {
+      "index": 198,
+      "subscribers": 6730,
+      "rolling_avg_subscribers": 7406
+    },
+    {
+      "index": 199,
+      "subscribers": 6530,
+      "rolling_avg_subscribers": 7266
+    },
+    {
+      "index": 200,
+      "subscribers": 6350,
+      "rolling_avg_subscribers": 7111
+    },
+    {
+      "index": 201,
+      "subscribers": 6310,
+      "rolling_avg_subscribers": 6953
+    },
+    {
+      "index": 202,
+      "subscribers": 6060,
+      "rolling_avg_subscribers": 6777
+    },
+    {
+      "index": 203,
+      "subscribers": 5530,
+      "rolling_avg_subscribers": 6566
+    },
+    {
+      "index": 204,
+      "subscribers": 5310,
+      "rolling_avg_subscribers": 6345
+    },
+    {
+      "index": 205,
+      "subscribers": 5130,
+      "rolling_avg_subscribers": 6161
+    },
+    {
+      "index": 206,
+      "subscribers": 4950,
+      "rolling_avg_subscribers": 5968
+    },
+    {
+      "index": 207,
+      "subscribers": 4860,
+      "rolling_avg_subscribers": 5776
+    },
+    {
+      "index": 208,
+      "subscribers": 4650,
+      "rolling_avg_subscribers": 5568
+    },
+    {
+      "index": 209,
+      "subscribers": 4560,
+      "rolling_avg_subscribers": 5371
+    },
+    {
+      "index": 210,
+      "subscribers": 4480,
+      "rolling_avg_subscribers": 5184
+    },
+    {
+      "index": 211,
+      "subscribers": 4400,
+      "rolling_avg_subscribers": 4993
+    },
+    {
+      "index": 212,
+      "subscribers": 4400,
+      "rolling_avg_subscribers": 4827
+    },
+    {
+      "index": 213,
+      "subscribers": 4250,
+      "rolling_avg_subscribers": 4699
+    },
+    {
+      "index": 214,
+      "subscribers": 4240,
+      "rolling_avg_subscribers": 4592
+    },
+    {
+      "index": 215,
+      "subscribers": 4220,
+      "rolling_avg_subscribers": 4501
+    },
+    {
+      "index": 216,
+      "subscribers": 4010,
+      "rolling_avg_subscribers": 4407
+    },
+    {
+      "index": 217,
+      "subscribers": 3970,
+      "rolling_avg_subscribers": 4318
+    },
+    {
+      "index": 218,
+      "subscribers": 3900,
+      "rolling_avg_subscribers": 4243
+    },
+    {
+      "index": 219,
+      "subscribers": 3900,
+      "rolling_avg_subscribers": 4177
+    },
+    {
+      "index": 220,
+      "subscribers": 3800,
+      "rolling_avg_subscribers": 4109
+    },
+    {
+      "index": 221,
+      "subscribers": 3770,
+      "rolling_avg_subscribers": 4046
+    },
+    {
+      "index": 222,
+      "subscribers": 3760,
+      "rolling_avg_subscribers": 3982
+    },
+    {
+      "index": 223,
+      "subscribers": 3730,
+      "rolling_avg_subscribers": 3930
+    },
+    {
+      "index": 224,
+      "subscribers": 3610,
+      "rolling_avg_subscribers": 3867
+    },
+    {
+      "index": 225,
+      "subscribers": 3490,
+      "rolling_avg_subscribers": 3794
+    },
+    {
+      "index": 226,
+      "subscribers": 3440,
+      "rolling_avg_subscribers": 3737
+    },
+    {
+      "index": 227,
+      "subscribers": 3370,
+      "rolling_avg_subscribers": 3677
+    },
+    {
+      "index": 228,
+      "subscribers": 3200,
+      "rolling_avg_subscribers": 3607
+    },
+    {
+      "index": 229,
+      "subscribers": 3190,
+      "rolling_avg_subscribers": 3536
+    },
+    {
+      "index": 230,
+      "subscribers": 3150,
+      "rolling_avg_subscribers": 3471
+    },
+    {
+      "index": 231,
+      "subscribers": 3110,
+      "rolling_avg_subscribers": 3405
+    },
+    {
+      "index": 232,
+      "subscribers": 3030,
+      "rolling_avg_subscribers": 3332
+    },
+    {
+      "index": 233,
+      "subscribers": 2860,
+      "rolling_avg_subscribers": 3245
+    },
+    {
+      "index": 234,
+      "subscribers": 2820,
+      "rolling_avg_subscribers": 3166
+    },
+    {
+      "index": 235,
+      "subscribers": 2700,
+      "rolling_avg_subscribers": 3087
+    },
+    {
+      "index": 236,
+      "subscribers": 2690,
+      "rolling_avg_subscribers": 3012
+    },
+    {
+      "index": 237,
+      "subscribers": 2690,
+      "rolling_avg_subscribers": 2944
+    },
+    {
+      "index": 238,
+      "subscribers": 2660,
+      "rolling_avg_subscribers": 2890
+    },
+    {
+      "index": 239,
+      "subscribers": 2630,
+      "rolling_avg_subscribers": 2834
+    },
+    {
+      "index": 240,
+      "subscribers": 2610,
+      "rolling_avg_subscribers": 2780
+    },
+    {
+      "index": 241,
+      "subscribers": 2550,
+      "rolling_avg_subscribers": 2724
+    },
+    {
+      "index": 242,
+      "subscribers": 2540,
+      "rolling_avg_subscribers": 2675
+    },
+    {
+      "index": 243,
+      "subscribers": 2440,
+      "rolling_avg_subscribers": 2633
+    },
+    {
+      "index": 244,
+      "subscribers": 2380,
+      "rolling_avg_subscribers": 2589
+    },
+    {
+      "index": 245,
+      "subscribers": 2280,
+      "rolling_avg_subscribers": 2547
+    },
+    {
+      "index": 246,
+      "subscribers": 2270,
+      "rolling_avg_subscribers": 2505
+    },
+    {
+      "index": 247,
+      "subscribers": 2130,
+      "rolling_avg_subscribers": 2449
+    },
+    {
+      "index": 248,
+      "subscribers": 2066,
+      "rolling_avg_subscribers": 2389.6
+    },
+    {
+      "index": 249,
+      "subscribers": 2060,
+      "rolling_avg_subscribers": 2332.6
+    },
+    {
+      "index": 250,
+      "subscribers": 2010,
+      "rolling_avg_subscribers": 2272.6
+    },
+    {
+      "index": 251,
+      "subscribers": 1980,
+      "rolling_avg_subscribers": 2215.6
+    },
+    {
+      "index": 252,
+      "subscribers": 1830,
+      "rolling_avg_subscribers": 2144.6
+    },
+    {
+      "index": 253,
+      "subscribers": 1800,
+      "rolling_avg_subscribers": 2080.6
+    },
+    {
+      "index": 254,
+      "subscribers": 1750,
+      "rolling_avg_subscribers": 2017.6
+    },
+    {
+      "index": 255,
+      "subscribers": 1700,
+      "rolling_avg_subscribers": 1959.6
+    },
+    {
+      "index": 256,
+      "subscribers": 1680,
+      "rolling_avg_subscribers": 1900.6
+    },
+    {
+      "index": 257,
+      "subscribers": 1680,
+      "rolling_avg_subscribers": 1855.6
+    },
+    {
+      "index": 258,
+      "subscribers": 1640,
+      "rolling_avg_subscribers": 1813
+    },
+    {
+      "index": 259,
+      "subscribers": 1620,
+      "rolling_avg_subscribers": 1769
+    },
+    {
+      "index": 260,
+      "subscribers": 1520,
+      "rolling_avg_subscribers": 1720
+    },
+    {
+      "index": 261,
+      "subscribers": 1480,
+      "rolling_avg_subscribers": 1670
+    },
+    {
+      "index": 262,
+      "subscribers": 1460,
+      "rolling_avg_subscribers": 1633
+    },
+    {
+      "index": 263,
+      "subscribers": 1410,
+      "rolling_avg_subscribers": 1594
+    },
+    {
+      "index": 264,
+      "subscribers": 1390,
+      "rolling_avg_subscribers": 1558
+    },
+    {
+      "index": 265,
+      "subscribers": 1380,
+      "rolling_avg_subscribers": 1526
+    },
+    {
+      "index": 266,
+      "subscribers": 1370,
+      "rolling_avg_subscribers": 1495
+    },
+    {
+      "index": 267,
+      "subscribers": 1360,
+      "rolling_avg_subscribers": 1463
+    },
+    {
+      "index": 268,
+      "subscribers": 1310,
+      "rolling_avg_subscribers": 1430
+    },
+    {
+      "index": 269,
+      "subscribers": 1210,
+      "rolling_avg_subscribers": 1389
+    },
+    {
+      "index": 270,
+      "subscribers": 1210,
+      "rolling_avg_subscribers": 1358
+    },
+    {
+      "index": 271,
+      "subscribers": 1200,
+      "rolling_avg_subscribers": 1330
+    },
+    {
+      "index": 272,
+      "subscribers": 1190,
+      "rolling_avg_subscribers": 1303
+    },
+    {
+      "index": 273,
+      "subscribers": 1190,
+      "rolling_avg_subscribers": 1281
+    },
+    {
+      "index": 274,
+      "subscribers": 1190,
+      "rolling_avg_subscribers": 1261
+    },
+    {
+      "index": 275,
+      "subscribers": 1150,
+      "rolling_avg_subscribers": 1238
+    },
+    {
+      "index": 276,
+      "subscribers": 1130,
+      "rolling_avg_subscribers": 1214
+    },
+    {
+      "index": 277,
+      "subscribers": 1110,
+      "rolling_avg_subscribers": 1189
+    },
+    {
+      "index": 278,
+      "subscribers": 1100,
+      "rolling_avg_subscribers": 1168
+    },
+    {
+      "index": 279,
+      "subscribers": 1100,
+      "rolling_avg_subscribers": 1157
+    },
+    {
+      "index": 280,
+      "subscribers": 1090,
+      "rolling_avg_subscribers": 1145
+    },
+    {
+      "index": 281,
+      "subscribers": 1070,
+      "rolling_avg_subscribers": 1132
+    },
+    {
+      "index": 282,
+      "subscribers": 1030,
+      "rolling_avg_subscribers": 1116
+    },
+    {
+      "index": 283,
+      "subscribers": 1010,
+      "rolling_avg_subscribers": 1098
+    },
+    {
+      "index": 284,
+      "subscribers": 1000,
+      "rolling_avg_subscribers": 1079
+    },
+    {
+      "index": 285,
+      "subscribers": 1000,
+      "rolling_avg_subscribers": 1064
+    },
+    {
+      "index": 286,
+      "subscribers": 867,
+      "rolling_avg_subscribers": 1037.7
+    },
+    {
+      "index": 287,
+      "subscribers": 839,
+      "rolling_avg_subscribers": 1010.6
+    },
+    {
+      "index": 288,
+      "subscribers": 736,
+      "rolling_avg_subscribers": 974.2
+    },
+    {
+      "index": 289,
+      "subscribers": 701,
+      "rolling_avg_subscribers": 934.3
+    },
+    {
+      "index": 290,
+      "subscribers": 682,
+      "rolling_avg_subscribers": 893.5
+    },
+    {
+      "index": 291,
+      "subscribers": 652,
+      "rolling_avg_subscribers": 851.7
+    },
+    {
+      "index": 292,
+      "subscribers": 611,
+      "rolling_avg_subscribers": 809.8
+    },
+    {
+      "index": 293,
+      "subscribers": 602,
+      "rolling_avg_subscribers": 769
+    },
+    {
+      "index": 294,
+      "subscribers": 594,
+      "rolling_avg_subscribers": 728.4
+    },
+    {
+      "index": 295,
+      "subscribers": 582,
+      "rolling_avg_subscribers": 686.6
+    },
+    {
+      "index": 296,
+      "subscribers": 526,
+      "rolling_avg_subscribers": 652.5
+    },
+    {
+      "index": 297,
+      "subscribers": 364,
+      "rolling_avg_subscribers": 605
+    },
+    {
+      "index": 298,
+      "subscribers": 299,
+      "rolling_avg_subscribers": 561.3
+    },
+    {
+      "index": 299,
+      "subscribers": 185,
+      "rolling_avg_subscribers": 509.7
+    },
+    {
+      "index": 300,
+      "subscribers": 176,
+      "rolling_avg_subscribers": 459.1
+    },
+    {
+      "index": 301,
+      "subscribers": 172,
+      "rolling_avg_subscribers": 411.1
+    },
+    {
+      "index": 302,
+      "subscribers": 166,
+      "rolling_avg_subscribers": 366.6
+    },
+    {
+      "index": 303,
+      "subscribers": 145,
+      "rolling_avg_subscribers": 320.9
+    },
+    {
+      "index": 304,
+      "subscribers": 144,
+      "rolling_avg_subscribers": 275.9
+    },
+    {
+      "index": 305,
+      "subscribers": 123,
+      "rolling_avg_subscribers": 230
+    },
+    {
+      "index": 306,
+      "subscribers": 121,
+      "rolling_avg_subscribers": 189.5
+    },
+    {
+      "index": 307,
+      "subscribers": 121,
+      "rolling_avg_subscribers": 165.2
+    },
+    {
+      "index": 308,
+      "subscribers": 106,
+      "rolling_avg_subscribers": 145.9
+    },
+    {
+      "index": 309,
+      "subscribers": 99,
+      "rolling_avg_subscribers": 137.3
+    },
+    {
+      "index": 310,
+      "subscribers": 90,
+      "rolling_avg_subscribers": 128.7
+    },
+    {
+      "index": 311,
+      "subscribers": 89,
+      "rolling_avg_subscribers": 120.4
+    },
+    {
+      "index": 312,
+      "subscribers": 84,
+      "rolling_avg_subscribers": 112.2
+    },
+    {
+      "index": 313,
+      "subscribers": 80,
+      "rolling_avg_subscribers": 105.7
+    },
+    {
+      "index": 314,
+      "subscribers": 74,
+      "rolling_avg_subscribers": 98.7
+    },
+    {
+      "index": 315,
+      "subscribers": 59,
+      "rolling_avg_subscribers": 92.3
+    },
+    {
+      "index": 316,
+      "subscribers": 56,
+      "rolling_avg_subscribers": 85.8
+    },
+    {
+      "index": 317,
+      "subscribers": 54,
+      "rolling_avg_subscribers": 79.1
+    },
+    {
+      "index": 318,
+      "subscribers": 51,
+      "rolling_avg_subscribers": 73.6
+    },
+    {
+      "index": 319,
+      "subscribers": 46,
+      "rolling_avg_subscribers": 68.3
+    },
+    {
+      "index": 320,
+      "subscribers": 45,
+      "rolling_avg_subscribers": 63.8
+    },
+    {
+      "index": 321,
+      "subscribers": 43,
+      "rolling_avg_subscribers": 59.2
+    },
+    {
+      "index": 322,
+      "subscribers": 42,
+      "rolling_avg_subscribers": 55
+    },
+    {
+      "index": 323,
+      "subscribers": 38,
+      "rolling_avg_subscribers": 50.8
+    },
+    {
+      "index": 324,
+      "subscribers": 37,
+      "rolling_avg_subscribers": 47.1
+    },
+    {
+      "index": 325,
+      "subscribers": 36,
+      "rolling_avg_subscribers": 44.8
+    },
+    {
+      "index": 326,
+      "subscribers": 25,
+      "rolling_avg_subscribers": 41.7
+    },
+    {
+      "index": 327,
+      "subscribers": 24,
+      "rolling_avg_subscribers": 38.7
+    },
+    {
+      "index": 328,
+      "subscribers": 23,
+      "rolling_avg_subscribers": 35.9
+    },
+    {
+      "index": 329,
+      "subscribers": 14,
+      "rolling_avg_subscribers": 32.7
+    },
+    {
+      "index": 330,
+      "subscribers": 14,
+      "rolling_avg_subscribers": 29.6
+    },
+    {
+      "index": 331,
+      "subscribers": 11,
+      "rolling_avg_subscribers": 26.4
+    },
+    {
+      "index": 332,
+      "subscribers": 8,
+      "rolling_avg_subscribers": 23
+    },
+    {
+      "index": 333,
+      "subscribers": 6,
+      "rolling_avg_subscribers": 19.8
+    },
+    {
+      "index": 334,
+      "subscribers": 4,
+      "rolling_avg_subscribers": 16.5
+    },
+    {
+      "index": 335,
+      "subscribers": 2,
+      "rolling_avg_subscribers": 13.1
+    },
+    {
+      "index": 336,
+      "subscribers": 1,
+      "rolling_avg_subscribers": 10.7
+    },
+    {
+      "index": 337,
+      "subscribers": 1,
+      "rolling_avg_subscribers": 8.4
+    },
+    {
+      "index": 338,
+      "subscribers": 0,
+      "rolling_avg_subscribers": 6.1
+    }
+  ],
+  "channels": [
+    {
+      "channel": "https://www.youtube.com/@MastersOfProphecy",
+      "ai_use": "Full",
+      "subscribers": 35600000,
+      "category": "Art & Music",
+      "description": "AI music with synths and high-octane beats",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@TheInfographicsShow",
+      "ai_use": "Minimal",
+      "subscribers": 15300000,
+      "category": "Explainers & Facts",
+      "description": "animated infographic explainers and facts",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@coldfusion",
+      "ai_use": "Partial",
+      "subscribers": 5140000,
+      "category": "Explainers & Facts",
+      "description": "tech and history documentaries about business and society",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@Alphageographi",
+      "ai_use": "Full",
+      "subscribers": 4900000,
+      "category": "Animals",
+      "description": "animal rescue stories and welfare content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@storys.meowia",
+      "ai_use": "Full",
+      "subscribers": 3900000,
+      "category": "Animals",
+      "description": "cat stories and shorts",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@melodysheep",
+      "ai_use": "Partial",
+      "subscribers": 3200000,
+      "category": "Space & Science",
+      "description": "space and science music videos with visual storytelling",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@BandarApnaDost",
+      "ai_use": "Full",
+      "subscribers": 3140000,
+      "category": "Animals",
+      "description": "funny social commentary skits involving a monkey",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@nickcrowley",
+      "ai_use": "Minimal",
+      "subscribers": 3100000,
+      "category": "Mystery & Unsolved",
+      "description": "dark documentary videos about disturbing topics",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@topfives",
+      "ai_use": "Partial",
+      "subscribers": 3090000,
+      "category": "Explainers & Facts",
+      "description": "top five list videos about mysteries and facts",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@astrumspace",
+      "ai_use": "Partial",
+      "subscribers": 2700000,
+      "category": "Space & Science",
+      "description": "space documentaries and astronomy explainers",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AiCartoonKidsStoryEnglishWorld",
+      "ai_use": "Full",
+      "subscribers": 2700000,
+      "category": "Kids stories",
+      "description": "animated cartoon stories for kids in English",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@watchmojo",
+      "ai_use": "Minimal",
+      "subscribers": 2590000,
+      "category": "News & Pop Culture",
+      "description": "pop culture list videos and rankings",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@HomeDesign365",
+      "ai_use": "Full",
+      "subscribers": 2520000,
+      "category": "Lifestyle",
+      "description": "home design and interior inspiration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@top5unknowns",
+      "ai_use": "Partial",
+      "subscribers": 2170000,
+      "category": "Mystery & Unsolved",
+      "description": "top 5 mystery and unknown compilation videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@lifesbiggestquestions",
+      "ai_use": "Partial",
+      "subscribers": 1850000,
+      "category": "Explainers & Facts",
+      "description": "animated science and philosophy question videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@fascinatinghorror",
+      "ai_use": "Partial",
+      "subscribers": 1400000,
+      "category": "History",
+      "description": "narrated historical disasters and horror events",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@extinctzoo",
+      "ai_use": "Partial",
+      "subscribers": 1330000,
+      "category": "History",
+      "description": "animated history and science documentary videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@VooksStorybooks",
+      "ai_use": "Minimal",
+      "subscribers": 1120000,
+      "category": "Animation & Storytelling",
+      "description": "animated storybooks and kids read-aloud videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@thebiblestoryofai",
+      "ai_use": "Full",
+      "subscribers": 1070000,
+      "category": "Religious Stories",
+      "description": "bible stories and biblical narratives",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@historypiece",
+      "ai_use": "Full",
+      "subscribers": 881000,
+      "category": "History",
+      "description": "Historical storytelling with cinematic production",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@LoFiLulla",
+      "ai_use": "Full",
+      "subscribers": 825000,
+      "category": "Art & Music",
+      "description": "lofi lullaby music",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@ryv",
+      "ai_use": "Partial",
+      "subscribers": 779000,
+      "category": "Space & Science",
+      "description": "videos about space, science, and interesting facts",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@ReligiousStoryTV",
+      "ai_use": "Full",
+      "subscribers": 733000,
+      "category": "Religious Stories",
+      "description": "religious stories and spiritual tales animated",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/Suibhne",
+      "ai_use": "Minimal",
+      "subscribers": 689000,
+      "category": "History",
+      "description": "animated histories of countries",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@SleeplessHistorian",
+      "ai_use": "Full",
+      "subscribers": 684000,
+      "category": "Sleep Stories",
+      "description": "narrated stories and documentaries for relaxation",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@getsleepypod",
+      "ai_use": "Full",
+      "subscribers": 668000,
+      "category": "Sleep Stories",
+      "description": "sleep stories and guided relaxation podcast content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@ancientarchitects",
+      "ai_use": "Partial",
+      "subscribers": 631000,
+      "category": "History",
+      "description": "ancient civilizations and mysteries",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.instagram.com/animatedlifetips/",
+      "ai_use": "Partial",
+      "subscribers": 600000,
+      "category": "Motivation & Self-Improvement",
+      "description": "animated life tips and motivational advice",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@mysteryhistory",
+      "ai_use": "Full",
+      "subscribers": 594000,
+      "category": "Mystery & Unsolved",
+      "description": "mystery history videos and ancient enigmas",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@AIHistorianOfficial",
+      "ai_use": "Full",
+      "subscribers": 537000,
+      "category": "History",
+      "description": "historical content and storytelling about the past and future",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@secretoriginsofficial",
+      "ai_use": "Full",
+      "subscribers": 503000,
+      "category": "History",
+      "description": "documentary videos about mysteries and origins",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@sasakiandi?si=pBQA96x206U9woFC",
+      "ai_use": "Full",
+      "subscribers": 481000,
+      "category": "Art & Music",
+      "description": "AI suno artist",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@the_secretsoftheBibleAI",
+      "ai_use": "Full",
+      "subscribers": 478000,
+      "category": "Religious Stories",
+      "description": "biblical secrets and mysteries exploration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@inspiraggio",
+      "ai_use": "Minimal",
+      "subscribers": 438000,
+      "category": "Motivation & Self-Improvement",
+      "description": "inspirational videos and motivational storytelling",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@mysterious5s",
+      "ai_use": "Minimal",
+      "subscribers": 416000,
+      "category": "Mystery & Unsolved",
+      "description": "mystery compilation videos about strange events",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@HistoryNutshells",
+      "ai_use": "Full",
+      "subscribers": 398000,
+      "category": "History",
+      "description": "history explainers in short format",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@BibleChroniclesAnimation",
+      "ai_use": "Full",
+      "subscribers": 394000,
+      "category": "Religious Stories",
+      "description": "animated Bible stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@TheAIBibleOfficial",
+      "ai_use": "Full",
+      "subscribers": 386000,
+      "category": "Religious Stories",
+      "description": "bible verses brought to life with art generators",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@NrecapsAnimationOfficial",
+      "ai_use": "Full",
+      "subscribers": 383000,
+      "category": "Animation & Storytelling",
+      "description": "animation recaps and stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@wallstreetmillennial",
+      "ai_use": "Minimal",
+      "subscribers": 356000,
+      "category": "Finance",
+      "description": "finance commentary and investing explainers",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@theaihistory22",
+      "ai_use": "Full",
+      "subscribers": 326000,
+      "category": "History",
+      "description": "historical content and visualizations",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@historyforgranite",
+      "ai_use": "Partial",
+      "subscribers": 321000,
+      "category": "History",
+      "description": "ancient history videos focused on egypt and stonework",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AfricanCoreVideos",
+      "ai_use": "Full",
+      "subscribers": 319000,
+      "category": "History",
+      "description": "african history and culture documentary videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@BabySleepMusic79",
+      "ai_use": "Full",
+      "subscribers": 318000,
+      "category": "Kids Sleep Stories",
+      "description": "sleep music for kids",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@pastperplex",
+      "ai_use": "Minimal",
+      "subscribers": 298000,
+      "category": "History",
+      "description": "history mysteries and ancient civilization videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@Stephen_Dalton",
+      "ai_use": "Partial",
+      "subscribers": 292000,
+      "category": "Sleep Stories",
+      "description": "sleep meditation and calming narrated relaxation",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@GoodKnightSleep",
+      "ai_use": "Full",
+      "subscribers": 291000,
+      "category": "Sleep Stories",
+      "description": "sleep stories and bedtime narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@astrumearth",
+      "ai_use": "Partial",
+      "subscribers": 275000,
+      "category": "Space & Science",
+      "description": "earth and space documentary videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@DanePavitt",
+      "ai_use": "Minimal",
+      "subscribers": 265000,
+      "category": "History",
+      "description": "documentary-style videos about history and mysteries",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@narrative8206",
+      "ai_use": "Partial",
+      "subscribers": 259000,
+      "category": "Explainers & Facts",
+      "description": "narrative documentaries and story explainers",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@shortsparksenglish",
+      "ai_use": "Partial",
+      "subscribers": 257000,
+      "category": "History",
+      "description": "ancient history and mythology storytelling",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AIAnimationWorld.2",
+      "ai_use": "Full",
+      "subscribers": 255000,
+      "category": "Animation & Storytelling",
+      "description": "animated shorts - family stories and adventures",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@MysteriousChroniclesMC",
+      "ai_use": "Full",
+      "subscribers": 252000,
+      "category": "Mystery & Unsolved",
+      "description": "narrated mysteries and strange history chronicles",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@judahsketchanimation",
+      "ai_use": "Full",
+      "subscribers": 240000,
+      "category": "Animation & Storytelling",
+      "description": "sketch animation stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@criminalcoreyt",
+      "ai_use": "Partial",
+      "subscribers": 239000,
+      "category": "True Crime & Mysteries",
+      "description": "true crime and real-life mystery videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@theunchartedmysteries",
+      "ai_use": "Full",
+      "subscribers": 238000,
+      "category": "Mystery & Unsolved",
+      "description": "history mysteries and unexplained phenomena",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@NosConfunden",
+      "ai_use": "Full",
+      "subscribers": 226000,
+      "category": "Mystery & Unsolved",
+      "description": "spanish videos about mysteries and conspiracies",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@PsychologyIsSimplified",
+      "ai_use": "Full",
+      "subscribers": 221000,
+      "category": "Motivation & Self-Improvement",
+      "description": "AI psychology explainer content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@simpleaichannel4",
+      "ai_use": "Full",
+      "subscribers": 220000,
+      "category": "Animation & Storytelling",
+      "description": "entertainment content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@evolveandbuild",
+      "ai_use": "Partial",
+      "subscribers": 216000,
+      "category": "Health & Fitness",
+      "description": "health, fitness, and gym tips",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@TheChristianSeed",
+      "ai_use": "Full",
+      "subscribers": 216000,
+      "category": "Religious Stories",
+      "description": "Christian faith animated stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@Dark5AncientMysteries",
+      "ai_use": "Partial",
+      "subscribers": 215000,
+      "category": "Mystery & Unsolved",
+      "description": "mysteries about history, archaeology, mythology and the ancients",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@KellyBoeschAIArt",
+      "ai_use": "Full",
+      "subscribers": 212000,
+      "category": "Art & Music",
+      "description": "visual art showcase and digital creations inspired by beauty and elegance",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@alphaakki",
+      "ai_use": "Full",
+      "subscribers": 207000,
+      "category": "Animation & Storytelling",
+      "description": "animated stories and shorts",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@sleepysciencechannel",
+      "ai_use": "Full",
+      "subscribers": 201000,
+      "category": "Sleep Science",
+      "description": "generative workflows)",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@HistorianSleepy",
+      "ai_use": "Full",
+      "subscribers": 197000,
+      "category": "Sleep Stories",
+      "description": "AI-generated sleepy history content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AICraftyCat",
+      "ai_use": "Full",
+      "subscribers": 196000,
+      "category": "Animals",
+      "description": "crafty cat stories and adventures",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@jaydonehistory",
+      "ai_use": "Partial",
+      "subscribers": 185000,
+      "category": "History",
+      "description": "history storytelling and documentary narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@gatesofimagination",
+      "ai_use": "Full",
+      "subscribers": 179000,
+      "category": "Sleep Stories",
+      "description": "human-narrated audiobooks and bedtime stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@DozingDragonASMR",
+      "ai_use": "Full",
+      "subscribers": 169000,
+      "category": "Sleep Stories",
+      "description": "asmr sleep stories and relaxing narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AnimatedHorrorFlicks",
+      "ai_use": "Full",
+      "subscribers": 166000,
+      "category": "Animation & Storytelling",
+      "description": "animated horror stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@CatStoryShort109",
+      "ai_use": "Full",
+      "subscribers": 165000,
+      "category": "Animals",
+      "description": "cat story shorts",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@PuppyTalesAI-video",
+      "ai_use": "Full",
+      "subscribers": 164000,
+      "category": "Animals",
+      "description": "puppy tales and heartwarming dog stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@TheZinnyStudio",
+      "ai_use": "Full",
+      "subscribers": 160000,
+      "category": "Content Creation",
+      "description": "animation tutorials and faceless YouTube channel guides",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@hootsandtales",
+      "ai_use": "Partial",
+      "subscribers": 157000,
+      "category": "Sleep Stories",
+      "description": "bedtime stories and cozy sleep narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@koalamoonfm",
+      "ai_use": "Full",
+      "subscribers": 154000,
+      "category": "Kids Sleep Stories",
+      "description": "sleep stories and guided relaxation audio",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@Lextragon",
+      "ai_use": "Full",
+      "subscribers": 153000,
+      "category": "Art & Music",
+      "description": "music production and creative visual content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@DanJonesHypnosis",
+      "ai_use": "Full",
+      "subscribers": 140000,
+      "category": "Hypnosis & Relaxation",
+      "description": "hypnosis sessions and guided relaxation",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AI_WILD_Wonders",
+      "ai_use": "Full",
+      "subscribers": 136000,
+      "category": "Animals",
+      "description": "wildlife wonders and nature stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@storified1",
+      "ai_use": "Partial",
+      "subscribers": 134000,
+      "category": "Accidents & Disasters",
+      "description": "horror documentaries and internet culture stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@Animated_Stories",
+      "ai_use": "Full",
+      "subscribers": 134000,
+      "category": "Animation & Storytelling",
+      "description": "animated moral stories and fairy tales",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@CryptoCareer",
+      "ai_use": "Full",
+      "subscribers": 126000,
+      "category": "Finance",
+      "description": "crypto career guides and investment content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AICatStory-y6k",
+      "ai_use": "Full",
+      "subscribers": 119000,
+      "category": "Animals",
+      "description": "cat story shorts",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@powerfulstoichabits",
+      "ai_use": "Full",
+      "subscribers": 116000,
+      "category": "Motivation & Self-Improvement",
+      "description": "stoic philosophy habits and motivational content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@AIBIBLESAGAS",
+      "ai_use": "Full",
+      "subscribers": 109000,
+      "category": "Religious Stories",
+      "description": "Bible sagas and stories reimagined with animation",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@ClanoftheCuriouss",
+      "ai_use": "Full",
+      "subscribers": 106000,
+      "category": "Mystery & Unsolved",
+      "description": "curiosity-driven content for inquisitive minds",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@HorrorStoryAI-n6z9d",
+      "ai_use": "Full",
+      "subscribers": 102000,
+      "category": "Mystery & Unsolved",
+      "description": "horror stories with cinematic narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AInaturecabin",
+      "ai_use": "Full",
+      "subscribers": 100000,
+      "category": "Animals",
+      "description": "nature cabin ambience and wildlife content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AIMagicalFamily",
+      "ai_use": "Full",
+      "subscribers": 96700,
+      "category": "Lifestyle",
+      "description": "Family AI-generated family/kids content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@DerKommandantenglish",
+      "ai_use": "Partial",
+      "subscribers": 92400,
+      "category": "History",
+      "description": "military documentaries with narration (English version)",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@bedtimestoryco",
+      "ai_use": "Full",
+      "subscribers": 91300,
+      "category": "Kids Sleep Stories",
+      "description": "bedtime stories for kids and families",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.instagram.com/hunk_hooves_/",
+      "ai_use": "Partial",
+      "subscribers": 89400,
+      "category": "Animation & Storytelling",
+      "description": "animated short stories with sound effects",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@FoxAndSheepKids",
+      "ai_use": "Full",
+      "subscribers": 84800,
+      "category": "Kids Sleep Stories",
+      "description": "animated kids stories and bedtime content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@Timeportalss",
+      "ai_use": "Full",
+      "subscribers": 83300,
+      "category": "History",
+      "description": "historical visualization videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@SuperHeroStoryAI",
+      "ai_use": "Full",
+      "subscribers": 83100,
+      "category": "Animation & Storytelling",
+      "description": "superhero stories and animated shorts",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@aibibletamil",
+      "ai_use": "Full",
+      "subscribers": 82500,
+      "category": "Religious Stories",
+      "description": "Bible stories in Tamil",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@Snugglekids",
+      "ai_use": "Full",
+      "subscribers": 78800,
+      "category": "Kids Sleep Stories",
+      "description": "historical documentaries and deep dives",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@mr_datavisuals",
+      "ai_use": "Full",
+      "subscribers": 77800,
+      "category": "Explainers & Facts",
+      "description": "science-based stories about parasites",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@AuralisDocs",
+      "ai_use": "Full",
+      "subscribers": 76000,
+      "category": "History",
+      "description": "toxins",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@BigfootFeed",
+      "ai_use": "Full",
+      "subscribers": 74700,
+      "category": "Animation & Storytelling",
+      "description": "animated trailers",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@MaxRiven",
+      "ai_use": "Full",
+      "subscribers": 74100,
+      "category": "Animation & Storytelling",
+      "description": "short films",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@digitalsculler",
+      "ai_use": "Partial",
+      "subscribers": 73800,
+      "category": "Content Creation",
+      "description": "and cinematic parodies of internet culture",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@AImaskman",
+      "ai_use": "Full",
+      "subscribers": 71200,
+      "category": "AI & Tech",
+      "description": "business and economics explainers",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@sleepytimehistoryyt",
+      "ai_use": "Full",
+      "subscribers": 67700,
+      "category": "Sleep Stories",
+      "description": "3d-animated historical battle recreations",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@EstablishedContext",
+      "ai_use": "Partial",
+      "subscribers": 64500,
+      "category": "Finance",
+      "description": "ai-assisted business and economics explainers",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@MaximusKhan",
+      "ai_use": "Minimal",
+      "subscribers": 62800,
+      "category": "History",
+      "description": "videos on history, mystery, adventure, and intrigue",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@historybattles3D",
+      "ai_use": "Full",
+      "subscribers": 62200,
+      "category": "History",
+      "description": "3d ai-animated historical battle recreations",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@ksceveryday",
+      "ai_use": "Full",
+      "subscribers": 61000,
+      "category": "Content Creation",
+      "description": "building faceless youtube channels with automation tools",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@CatcuteAIshorts",
+      "ai_use": "Full",
+      "subscribers": 59600,
+      "category": "Animals",
+      "description": "cute cat shorts",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@aiConvoYT",
+      "ai_use": "Full",
+      "subscribers": 58800,
+      "category": "Animation & Storytelling",
+      "description": "chatbot-to-chatbot conversations and interactions",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@aiTrends-channel",
+      "ai_use": "Full",
+      "subscribers": 58100,
+      "category": "Content Creation",
+      "description": "building faceless youtube channels with ai tools",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@cinematichistorytales",
+      "ai_use": "Full",
+      "subscribers": 56700,
+      "category": "History",
+      "description": "cinematic historical storytelling and documentaries",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@TheDreamoria",
+      "ai_use": "Full",
+      "subscribers": 56600,
+      "category": "Sleep Stories",
+      "description": "dreamy bedtime stories and sleep narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@lazychillzone",
+      "ai_use": "Partial",
+      "subscribers": 53400,
+      "category": "Sleep Stories",
+      "description": "relaxing ambient videos and chill content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@HistoryandSleep",
+      "ai_use": "Full",
+      "subscribers": 52000,
+      "category": "Sleep Stories",
+      "description": "and discovery for sleep",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@mysticvideoai",
+      "ai_use": "Full",
+      "subscribers": 50000,
+      "category": "Art & Music",
+      "description": "music videos blending visuals and sound",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@whispersofthewildofficial",
+      "ai_use": "Full",
+      "subscribers": 49000,
+      "category": "Animals",
+      "description": "wildlife and nature stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@kazu-en",
+      "ai_use": "Full",
+      "subscribers": 48400,
+      "category": "History",
+      "description": "forgotten stories brought to life with animation",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@tgbid",
+      "ai_use": "Full",
+      "subscribers": 44800,
+      "category": "Humanoid Medical Facts",
+      "description": "illustration videos and visual art storytelling",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@HistoryinMotion3",
+      "ai_use": "Full",
+      "subscribers": 43000,
+      "category": "History",
+      "description": "narrated movie and series recaps",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@sanatanlegendsai",
+      "ai_use": "Full",
+      "subscribers": 42900,
+      "category": "Religious Stories",
+      "description": "hindu mythology and legends",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@EternalRecaps-b1f",
+      "ai_use": "Full",
+      "subscribers": 42200,
+      "category": "Explainers & Facts",
+      "description": "ai-narrated movie and series recaps",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@TheBibleInBlack",
+      "ai_use": "Full",
+      "subscribers": 41400,
+      "category": "Religious Stories",
+      "description": "colorized and restored historical photos and footage",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@aiva1828",
+      "ai_use": "Full",
+      "subscribers": 39100,
+      "category": "Art & Music",
+      "description": "original music compositions and performances",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@syraxverse",
+      "ai_use": "Full",
+      "subscribers": 38800,
+      "category": "Content Creation",
+      "description": "youtube and content creation tips",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@HistoryReborn47",
+      "ai_use": "Full",
+      "subscribers": 37800,
+      "category": "History",
+      "description": "ai colorized and restored historical photos and footage",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@geekbotai",
+      "ai_use": "Full",
+      "subscribers": 37400,
+      "category": "AI & Tech",
+      "description": "youtube and ai content creation tips",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AIASMRCreationsByIva",
+      "ai_use": "Full",
+      "subscribers": 37400,
+      "category": "Hypnosis & Relaxation",
+      "description": "ASMR creations and calming visual content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AI_Film_Forge",
+      "ai_use": "Full",
+      "subscribers": 34300,
+      "category": "Animation & Storytelling",
+      "description": "short films and cinematic content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@Stephen-Y.G",
+      "ai_use": "Full",
+      "subscribers": 33900,
+      "category": "Art & Music",
+      "description": "music videos and visual productions",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@CookingWithAi",
+      "ai_use": "Full",
+      "subscribers": 33300,
+      "category": "Lifestyle",
+      "description": "cooking content and recipes",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@ZigZagProductionStudio",
+      "ai_use": "Full",
+      "subscribers": 32300,
+      "category": "Animation & Storytelling",
+      "description": "story videos and narrated content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@neuralframes",
+      "ai_use": "Full",
+      "subscribers": 32000,
+      "category": "Art & Music",
+      "description": "generative animations for musicians and creatives via neuralframes.com",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@Sword_And_Pen_Official45",
+      "ai_use": "Full",
+      "subscribers": 31700,
+      "category": "History",
+      "description": "military and political power narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@cataishorts353",
+      "ai_use": "Full",
+      "subscribers": 31700,
+      "category": "Animals",
+      "description": "cat shorts",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@kirtopchannel",
+      "ai_use": "Full",
+      "subscribers": 31000,
+      "category": "Content Creation",
+      "description": "workflow tutorials and automation guides",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@ClickyAI",
+      "ai_use": "Partial",
+      "subscribers": 30000,
+      "category": "Animation & Storytelling",
+      "description": "ranking and list videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@AIFlowOfficial",
+      "ai_use": "Full",
+      "subscribers": 28700,
+      "category": "Content Creation",
+      "description": "impossible true stories with cinematic narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@LoveMeetsArt",
+      "ai_use": "Full",
+      "subscribers": 27300,
+      "category": "Content Creation",
+      "description": "tutorials on creating art and visual content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@sleepyhistoryforsleepai",
+      "ai_use": "Full",
+      "subscribers": 26600,
+      "category": "Sleep Stories",
+      "description": "calm history storytelling with painted visuals for sleep",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@ImpossibleTales96",
+      "ai_use": "Full",
+      "subscribers": 24500,
+      "category": "Mystery & Unsolved",
+      "description": "impossible true stories with cinematic ai narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@hindianimationai-v9u",
+      "ai_use": "Full",
+      "subscribers": 23700,
+      "category": "Animation & Storytelling",
+      "description": "Hindi animated stories and shorts",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@MasteringtheUnknown",
+      "ai_use": "Full",
+      "subscribers": 23300,
+      "category": "History",
+      "description": "Historical storytelling with cinematic production",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@TheMainverse",
+      "ai_use": "Full",
+      "subscribers": 23000,
+      "category": "Animation & Storytelling",
+      "description": "cinematic entertainment using Sora",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AI_Filmss",
+      "ai_use": "Full",
+      "subscribers": 22800,
+      "category": "Animation & Storytelling",
+      "description": "short films and cinematic stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@PawRescueStoriesAI",
+      "ai_use": "Full",
+      "subscribers": 22700,
+      "category": "Animals",
+      "description": "animal rescue stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@BibleBrickStories",
+      "ai_use": "Full",
+      "subscribers": 21200,
+      "category": "Religious Stories",
+      "description": "lego-style Bible story animations",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@ELEVENZAIMUSICLAB",
+      "ai_use": "Full",
+      "subscribers": 21100,
+      "category": "Art & Music",
+      "description": "skibidi toilet and meme content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@LicbeAIMedia",
+      "ai_use": "Full",
+      "subscribers": 19900,
+      "category": "Animation & Storytelling",
+      "description": "media and storytelling",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@SereneVideoAI",
+      "ai_use": "Full",
+      "subscribers": 19900,
+      "category": "Sleep Stories",
+      "description": "calming music videos with soothing visuals and peaceful soundscapes",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@bonsai-effect",
+      "ai_use": "Full",
+      "subscribers": 19400,
+      "category": "Art & Music",
+      "description": "exploring the world of digital art and creative visual showcases",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@DreamsofDisclosure",
+      "ai_use": "Full",
+      "subscribers": 19000,
+      "category": "Mystery & Unsolved",
+      "description": "fully automated slideshow videos via scripting and image generation",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@CommonHub",
+      "ai_use": "Full",
+      "subscribers": 18400,
+      "category": "Explainers & Facts",
+      "description": "educational content across multiple subjects",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@DreamRealm37",
+      "ai_use": "Full",
+      "subscribers": 18100,
+      "category": "Mystery & Unsolved",
+      "description": "ai-narrated mystery and unexplained phenomena stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@wildeyes00",
+      "ai_use": "Full",
+      "subscribers": 17800,
+      "category": "Animals",
+      "description": "breathtaking 4K African wildlife and nature content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@story-ai-78",
+      "ai_use": "Full",
+      "subscribers": 17500,
+      "category": "Animation & Storytelling",
+      "description": "animated stories and short narratives",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@LatentTelevision",
+      "ai_use": "Full",
+      "subscribers": 16900,
+      "category": "Animation & Storytelling",
+      "description": "comedy and experimental content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@Historydad_ai",
+      "ai_use": "Full",
+      "subscribers": 16800,
+      "category": "History",
+      "description": "ai-written comedy history shorts and stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@ciudadtrendy",
+      "ai_use": "Partial",
+      "subscribers": 16300,
+      "category": "Content Creation",
+      "description": "tools tips and tricks for passive income",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@cosmhush",
+      "ai_use": "Full",
+      "subscribers": 16000,
+      "category": "Space & Science",
+      "description": "videos about space discoveries",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@clovakStudioai",
+      "ai_use": "Full",
+      "subscribers": 14800,
+      "category": "AI & Tech",
+      "description": "ai tools tips and tricks for passive income",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@kidsHaven-KH",
+      "ai_use": "Full",
+      "subscribers": 14600,
+      "category": "Kids stories",
+      "description": "Fun kids videos lessons and adventures channel.",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@NovaEclipseAI",
+      "ai_use": "Full",
+      "subscribers": 14400,
+      "category": "Animation & Storytelling",
+      "description": "unhinged creative content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AuraAnimalsAA",
+      "ai_use": "Full",
+      "subscribers": 14400,
+      "category": "Animals",
+      "description": "Animal videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@Moonbeam_Tales",
+      "ai_use": "Full",
+      "subscribers": 14000,
+      "category": "Kids Sleep Stories",
+      "description": "bedtime stories and calming narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@hindiaianimationkahani",
+      "ai_use": "Full",
+      "subscribers": 13800,
+      "category": "Animation & Storytelling",
+      "description": "Hindi animated stories and folktales",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@animatedai",
+      "ai_use": "Full",
+      "subscribers": 13700,
+      "category": "Animation & Storytelling",
+      "description": "animations",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@StoryHoodAI-r8o",
+      "ai_use": "Full",
+      "subscribers": 13000,
+      "category": "Animation & Storytelling",
+      "description": "neighborhood and urban stories animated",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@thetimelessmysteriess",
+      "ai_use": "Full",
+      "subscribers": 12900,
+      "category": "Mystery & Unsolved",
+      "description": "narrated horror stories and creepy content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@asmrLunai",
+      "ai_use": "Full",
+      "subscribers": 12900,
+      "category": "Hypnosis & Relaxation",
+      "description": "ASMR lunar-themed relaxation content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@TheSleepyHistorianHistory",
+      "ai_use": "Full",
+      "subscribers": 12200,
+      "category": "Sleep Stories",
+      "description": "calm sleep history storytelling for late nights",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@SpaceSleepDOC",
+      "ai_use": "Full",
+      "subscribers": 12100,
+      "category": "Space & Science",
+      "description": "space sleep documentary narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@SpaceMysteriesMorganFreeman",
+      "ai_use": "Full",
+      "subscribers": 12100,
+      "category": "Space & Science",
+      "description": "space mysteries narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@PureNatureDOC",
+      "ai_use": "Full",
+      "subscribers": 12100,
+      "category": "Animals",
+      "description": "nature documentary narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@AIVlogWithEna",
+      "ai_use": "Full",
+      "subscribers": 11800,
+      "category": "Animation & Storytelling",
+      "description": "movie and pop culture breakdowns",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@WarEchoes9",
+      "ai_use": "Full",
+      "subscribers": 11800,
+      "category": "History",
+      "description": "war history documentaries and battle stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AiCooksForYou",
+      "ai_use": "Full",
+      "subscribers": 11600,
+      "category": "Lifestyle",
+      "description": "cooking recipe videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@BitterSnake",
+      "ai_use": "Full",
+      "subscribers": 11300,
+      "category": "Mystery & Unsolved",
+      "description": "ai-narrated horror stories and creepy content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@wildlifeai.07",
+      "ai_use": "Full",
+      "subscribers": 11000,
+      "category": "Animals",
+      "description": "wildlife content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@ThinkverseAI1",
+      "ai_use": "Full",
+      "subscribers": 10800,
+      "category": "Content Creation",
+      "description": "tools for animations and creative content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@ASMRAIbyClara",
+      "ai_use": "Full",
+      "subscribers": 10000,
+      "category": "Hypnosis & Relaxation",
+      "description": "ASMR relaxation and calming triggers",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@spacefactory0769",
+      "ai_use": "Full",
+      "subscribers": 9170,
+      "category": "Space & Science",
+      "description": "space documentary content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@hashemalghaili",
+      "ai_use": "Full",
+      "subscribers": 9160,
+      "category": "Animation & Storytelling",
+      "description": "dark cinematic series and sci-fi short films",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@Quizvideousa",
+      "ai_use": "Full",
+      "subscribers": 9160,
+      "category": "Explainers & Facts",
+      "description": "quiz videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@AIcaptainYT",
+      "ai_use": "Full",
+      "subscribers": 8910,
+      "category": "AI & Tech",
+      "description": "ai tools for animations and creative content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@EpicAiStudioYT",
+      "ai_use": "Full",
+      "subscribers": 8200,
+      "category": "Animation & Storytelling",
+      "description": "ai-powered dark cinematic series and sci-fi short films",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@CatStoriesAi-z4z",
+      "ai_use": "Full",
+      "subscribers": 8090,
+      "category": "Animals",
+      "description": "cat stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AiAnimalRescueStorieshub",
+      "ai_use": "Full",
+      "subscribers": 7940,
+      "category": "Animals",
+      "description": "animal rescue stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@NatureMeditationAmbience",
+      "ai_use": "Full",
+      "subscribers": 7930,
+      "category": "Hypnosis & Relaxation",
+      "description": "nature meditation sounds and ambient relaxation",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@Vihannah-AIARTvibes",
+      "ai_use": "Full",
+      "subscribers": 7900,
+      "category": "Art & Music",
+      "description": "art vibes and visual content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@TheMidnightReaderYT",
+      "ai_use": "Full",
+      "subscribers": 7890,
+      "category": "Sleep Stories",
+      "description": "videos about bizarre mysteries",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@SunoZoneAIs",
+      "ai_use": "Full",
+      "subscribers": 7820,
+      "category": "Art & Music",
+      "description": "faceless narrated explainer videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@beyondbizarrew",
+      "ai_use": "Full",
+      "subscribers": 7640,
+      "category": "Mystery & Unsolved",
+      "description": "monetization strategies and faceless channel tips",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@Savantics",
+      "ai_use": "Full",
+      "subscribers": 7520,
+      "category": "Explainers & Facts",
+      "description": "podcast with five synthetic voices exploring big questions",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AIPuppyStoryz",
+      "ai_use": "Full",
+      "subscribers": 6970,
+      "category": "Animals",
+      "description": "puppy stories and heartwarming dog tales",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@AICashTom0",
+      "ai_use": "Full",
+      "subscribers": 6880,
+      "category": "Content Creation",
+      "description": "hustle culture and making money online",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@miraclecatstories1",
+      "ai_use": "Full",
+      "subscribers": 6780,
+      "category": "Animals",
+      "description": "emotional cat rescue and miracle stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@APodcastRunByAI",
+      "ai_use": "Full",
+      "subscribers": 6730,
+      "category": "AI & Tech",
+      "description": "podcast with five ai voices exploring big questions",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@AiDarkFiles",
+      "ai_use": "Full",
+      "subscribers": 6530,
+      "category": "Mystery & Unsolved",
+      "description": "dark technology and shadow side of innovation content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@AIPlayground-o9e",
+      "ai_use": "Full",
+      "subscribers": 6350,
+      "category": "Animation & Storytelling",
+      "description": "experimental content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@snoozetorian",
+      "ai_use": "Full",
+      "subscribers": 6310,
+      "category": "Sleep Stories",
+      "description": "AI-generated sleep history narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@particlepanic",
+      "ai_use": "Partial",
+      "subscribers": 6060,
+      "category": "Animation & Storytelling",
+      "description": "cinematic short films",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@natashadelgado-p6o",
+      "ai_use": "Partial",
+      "subscribers": 5530,
+      "category": "Lifestyle",
+      "description": "personal content and lifestyle videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@GrimTalesCrimeFiles",
+      "ai_use": "Full",
+      "subscribers": 5310,
+      "category": "True Crime & Mysteries",
+      "description": "narrated physics and universe explainers",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@EmotionalAIAnimals",
+      "ai_use": "Full",
+      "subscribers": 5130,
+      "category": "Animals",
+      "description": "emotional animal stories and rescue tales",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@DeepSeaHarvests",
+      "ai_use": "Full",
+      "subscribers": 4950,
+      "category": "Animals",
+      "description": "deep sea and ocean harvesting content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@TheAIBible-Stories",
+      "ai_use": "Full",
+      "subscribers": 4860,
+      "category": "Religious Stories",
+      "description": "bible story visualizations",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@VikingLegends-c1y",
+      "ai_use": "Full",
+      "subscribers": 4650,
+      "category": "History",
+      "description": "Viking legends and Norse mythology stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AI-SUPERHEROSSTUDIO",
+      "ai_use": "Full",
+      "subscribers": 4560,
+      "category": "Animation & Storytelling",
+      "description": "superhero animated stories and shorts",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@SanatanAIFilms",
+      "ai_use": "Full",
+      "subscribers": 4480,
+      "category": "Religious Stories",
+      "description": "Hindu mythology and Sanatan dharma animated films",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@Meooww.storiess",
+      "ai_use": "Full",
+      "subscribers": 4400,
+      "category": "Animals",
+      "description": "cat stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@healthwithai6",
+      "ai_use": "Full",
+      "subscribers": 4400,
+      "category": "Health & Fitness",
+      "description": "health and wellness content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@CryptoAINews",
+      "ai_use": "Full",
+      "subscribers": 4250,
+      "category": "News & Pop Culture",
+      "description": "crypto and technology news updates",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AI-SurvivalTales-25",
+      "ai_use": "Full",
+      "subscribers": 4240,
+      "category": "Animation & Storytelling",
+      "description": "survival stories and dramatic tales",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@ASMRAiLabs",
+      "ai_use": "Full",
+      "subscribers": 4220,
+      "category": "Hypnosis & Relaxation",
+      "description": "ASMR experiments and relaxation labs",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@FeynmanAnalysis",
+      "ai_use": "Full",
+      "subscribers": 4010,
+      "category": "Space & Science",
+      "description": "ai-narrated physics and universe explainers",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@salem.and.ghanem",
+      "ai_use": "Full",
+      "subscribers": 3970,
+      "category": "Kids stories",
+      "description": "Arabic kids educational stories and nasheed without music",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@BibleStoriesAI-w8k",
+      "ai_use": "Full",
+      "subscribers": 3900,
+      "category": "Religious Stories",
+      "description": "bible stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@AIBIBLEMOVIES",
+      "ai_use": "Full",
+      "subscribers": 3900,
+      "category": "Religious Stories",
+      "description": "bible movie content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@ai.princessstories",
+      "ai_use": "Full",
+      "subscribers": 3800,
+      "category": "Kids stories",
+      "description": "princess fairy tale stories for kids",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@aistorystudies",
+      "ai_use": "Full",
+      "subscribers": 3770,
+      "category": "Animation & Storytelling",
+      "description": "story studies and narrated tales",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@relexa_relax",
+      "ai_use": "Full",
+      "subscribers": 3760,
+      "category": "Hypnosis & Relaxation",
+      "description": "sleep meditations and inner growth",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@Aicatstory11-c9j",
+      "ai_use": "Full",
+      "subscribers": 3730,
+      "category": "Animals",
+      "description": "animated stories and shorts",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@zoonikai",
+      "ai_use": "Full",
+      "subscribers": 3610,
+      "category": "Animation & Storytelling",
+      "description": "animated content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@Epicmovieai",
+      "ai_use": "Full",
+      "subscribers": 3490,
+      "category": "Animation & Storytelling",
+      "description": "epic movie-style cinematic stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AICatStoriesss",
+      "ai_use": "Full",
+      "subscribers": 3440,
+      "category": "Animals",
+      "description": "cat short stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@aicat-story21",
+      "ai_use": "Full",
+      "subscribers": 3370,
+      "category": "Animals",
+      "description": "cat stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@thespacebrief1",
+      "ai_use": "Partial",
+      "subscribers": 3200,
+      "category": "Space & Science",
+      "description": "space news and astronomy explainers",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@BibleNutshells",
+      "ai_use": "Full",
+      "subscribers": 3190,
+      "category": "Religious Stories",
+      "description": "bible stories in nutshell format",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@RelaxingHistory",
+      "ai_use": "Full",
+      "subscribers": 3150,
+      "category": "Sleep Stories",
+      "description": "relaxing narration content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@PrimeCinematicAI",
+      "ai_use": "Full",
+      "subscribers": 3110,
+      "category": "Animation & Storytelling",
+      "description": "cinematic short films and visual stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@epicloreai",
+      "ai_use": "Full",
+      "subscribers": 3030,
+      "category": "Animation & Storytelling",
+      "description": "epic lore and legendary fantasy stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@ClassicStoriesAIFilms",
+      "ai_use": "Full",
+      "subscribers": 2860,
+      "category": "Animation & Storytelling",
+      "description": "classic stories adapted into film-style videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@airescuesoul",
+      "ai_use": "Full",
+      "subscribers": 2820,
+      "category": "Animals",
+      "description": "animal rescue stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@leo_Ai",
+      "ai_use": "Full",
+      "subscribers": 2700,
+      "category": "Animation & Storytelling",
+      "description": "creative content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@MoonMellowKids",
+      "ai_use": "Full",
+      "subscribers": 2690,
+      "category": "Kids Sleep Stories",
+      "description": "tech tutorials making complex topics accessible",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@rockmist7405",
+      "ai_use": "Full",
+      "subscribers": 2690,
+      "category": "Art & Music",
+      "description": "art and music videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@JournalJourney123",
+      "ai_use": "Full",
+      "subscribers": 2660,
+      "category": "Kids stories",
+      "description": "fairy tales",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@artsq_channel",
+      "ai_use": "Partial",
+      "subscribers": 2630,
+      "category": "History",
+      "description": "history and fun random facts about things around the world",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AndRelax9309",
+      "ai_use": "Full",
+      "subscribers": 2610,
+      "category": "Hypnosis & Relaxation",
+      "description": "relaxation and ambient sleep content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AIcutshortsstories",
+      "ai_use": "Full",
+      "subscribers": 2550,
+      "category": "Animals",
+      "description": "cat short stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@EsmileAi",
+      "ai_use": "Full",
+      "subscribers": 2540,
+      "category": "AI & Tech",
+      "description": "tech and ai tutorials making complex topics accessible",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@BoringHistoryBites",
+      "ai_use": "Full",
+      "subscribers": 2440,
+      "category": "History",
+      "description": "history storytelling and documentary narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@Vd_AI",
+      "ai_use": "Full",
+      "subscribers": 2380,
+      "category": "Animation & Storytelling",
+      "description": "animated stories with narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@wrAIth-AI",
+      "ai_use": "Full",
+      "subscribers": 2280,
+      "category": "Art & Music",
+      "description": "music and videos with creative production",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@AiFacelessChannel",
+      "ai_use": "Full",
+      "subscribers": 2270,
+      "category": "Content Creation",
+      "description": "ai tools tutorials for faceless content creation",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AiCanCook",
+      "ai_use": "Full",
+      "subscribers": 2130,
+      "category": "Lifestyle",
+      "description": "cooking content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.instagram.com/hooves_stories/",
+      "ai_use": "Partial",
+      "subscribers": 2066,
+      "category": "Animation & Storytelling",
+      "description": "animated stories with ai-style narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@TwinkleTalesTime1",
+      "ai_use": "Full",
+      "subscribers": 2060,
+      "category": "Kids Sleep Stories",
+      "description": "children stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@madebyaistudio",
+      "ai_use": "Full",
+      "subscribers": 2010,
+      "category": "Animation & Storytelling",
+      "description": "studio films and shorts",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AINewsDailyUpdate",
+      "ai_use": "Full",
+      "subscribers": 1980,
+      "category": "News & Pop Culture",
+      "description": "daily news updates",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@NovaJuliet",
+      "ai_use": "Full",
+      "subscribers": 1830,
+      "category": "Animation & Storytelling",
+      "description": "creative videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@VoicesOfHannah",
+      "ai_use": "Full",
+      "subscribers": 1800,
+      "category": "Sleep Stories",
+      "description": "making money with social media and automation",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@VideoMax_AI",
+      "ai_use": "Full",
+      "subscribers": 1750,
+      "category": "Animation & Storytelling",
+      "description": "video content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@MovieDigest-YKL",
+      "ai_use": "Full",
+      "subscribers": 1700,
+      "category": "Animation & Storytelling",
+      "description": "movie digest recaps",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@alchrix",
+      "ai_use": "Full",
+      "subscribers": 1680,
+      "category": "Content Creation",
+      "description": "making money with social media and ai",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AncientAILegacy",
+      "ai_use": "Full",
+      "subscribers": 1680,
+      "category": "History",
+      "description": "ancient history and legacy content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AiRecap-y1l",
+      "ai_use": "Full",
+      "subscribers": 1640,
+      "category": "Animation & Storytelling",
+      "description": "movie and show recaps",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@Wardocuments26",
+      "ai_use": "Full",
+      "subscribers": 1620,
+      "category": "History",
+      "description": "war documentaries and historical footage",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@Aiherouniverse-d6l",
+      "ai_use": "Full",
+      "subscribers": 1520,
+      "category": "Animation & Storytelling",
+      "description": "hero universe animated stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@theancienttrails",
+      "ai_use": "Full",
+      "subscribers": 1480,
+      "category": "History",
+      "description": "videos about ancient mysteries",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@africaamaze",
+      "ai_use": "Full",
+      "subscribers": 1460,
+      "category": "Content Creation",
+      "description": "content creation tips and tricks",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@aimythologyworld",
+      "ai_use": "Full",
+      "subscribers": 1410,
+      "category": "Religious Stories",
+      "description": "mythology stories and ancient legends",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@Divineoceanai",
+      "ai_use": "Full",
+      "subscribers": 1390,
+      "category": "Religious Stories",
+      "description": "divine and spiritual ocean-themed stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@Aimusic_legends",
+      "ai_use": "Full",
+      "subscribers": 1380,
+      "category": "Art & Music",
+      "description": "music production and legendary tracks",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@TheAIgorithm",
+      "ai_use": "Full",
+      "subscribers": 1370,
+      "category": "Animation & Storytelling",
+      "description": "fully automated slideshow videos via scripting and image generation",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AIrelaxroom",
+      "ai_use": "Full",
+      "subscribers": 1360,
+      "category": "Hypnosis & Relaxation",
+      "description": "relaxation room ambience and calming content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AIrescuetales-k5r",
+      "ai_use": "Full",
+      "subscribers": 1310,
+      "category": "Animals",
+      "description": "rescue tales",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@Ai_podcastofficial",
+      "ai_use": "Full",
+      "subscribers": 1210,
+      "category": "AI & Tech",
+      "description": "ai podcasts and news",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@MidnighMafiaStories",
+      "ai_use": "Full",
+      "subscribers": 1210,
+      "category": "True Crime & Mysteries",
+      "description": "midnight mafia and crime stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@ZenFitJourneyYT",
+      "ai_use": "Full",
+      "subscribers": 1200,
+      "category": "Health & Fitness",
+      "description": "AI fitness/wellness content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@OneNastyCowgirl",
+      "ai_use": "Full",
+      "subscribers": 1190,
+      "category": "Art & Music",
+      "description": "suno AI musician's music videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@InspiredMindsAI",
+      "ai_use": "Full",
+      "subscribers": 1190,
+      "category": "Motivation & Self-Improvement",
+      "description": "motivational stories and life lessons",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@aicatstory3r-adii",
+      "ai_use": "Full",
+      "subscribers": 1190,
+      "category": "Animals",
+      "description": "cat stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@Astrologyzodiac1",
+      "ai_use": "Full",
+      "subscribers": 1150,
+      "category": "Astrology & Spirituality",
+      "description": "astrology and zodiac content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AIMusicWorld-now",
+      "ai_use": "Full",
+      "subscribers": 1130,
+      "category": "Art & Music",
+      "description": "original music production",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@funwithai1313",
+      "ai_use": "Full",
+      "subscribers": 1110,
+      "category": "Animation & Storytelling",
+      "description": "fun animated stories and entertainment",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@squirrelempire1",
+      "ai_use": "Full",
+      "subscribers": 1100,
+      "category": "Animation & Storytelling",
+      "description": "narrated story videos and internet storytelling",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@Aivillagecooking",
+      "ai_use": "Full",
+      "subscribers": 1100,
+      "category": "Lifestyle",
+      "description": "village cooking videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@nextspaceai",
+      "ai_use": "Full",
+      "subscribers": 1090,
+      "category": "Space & Science",
+      "description": "space content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AINEWSTODAY01",
+      "ai_use": "Full",
+      "subscribers": 1070,
+      "category": "News & Pop Culture",
+      "description": "news today",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@Aifairytalekids",
+      "ai_use": "Full",
+      "subscribers": 1030,
+      "category": "Kids stories",
+      "description": "fairy tales for kids",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AIRescueTales999",
+      "ai_use": "Full",
+      "subscribers": 1010,
+      "category": "Animals",
+      "description": "animal rescue tales and emotional stories",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@cocolabx",
+      "ai_use": "Full",
+      "subscribers": 1000,
+      "category": "Art & Music",
+      "description": "AI video content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AiBadri",
+      "ai_use": "Full",
+      "subscribers": 1000,
+      "category": "Animation & Storytelling",
+      "description": "animated stories and entertainment",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@NepaliHistorian",
+      "ai_use": "Full",
+      "subscribers": 867,
+      "category": "History",
+      "description": "Historical storytelling with cinematic production",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@relic4948",
+      "ai_use": "Full",
+      "subscribers": 839,
+      "category": "News & Pop Culture",
+      "description": "random news and skits over gameplay footage",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@latesleep-01",
+      "ai_use": "Full",
+      "subscribers": 736,
+      "category": "Sleep Stories",
+      "description": "sleep stories about ancient civilizations",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@SweetheartProWrestling",
+      "ai_use": "Full",
+      "subscribers": 701,
+      "category": "Animation & Storytelling",
+      "description": "Improvised comedy wrestling dramedy featuring AI-generated characters and storylines",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@Tiiny-Taless",
+      "ai_use": "Full",
+      "subscribers": 682,
+      "category": "Kids Sleep Stories",
+      "description": "kids bedtime stories and short tales",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@kayireacts1911",
+      "ai_use": "Full",
+      "subscribers": 652,
+      "category": "History",
+      "description": "reactions to historical shows and dramas",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@SleepyHistoryStories7",
+      "ai_use": "Full",
+      "subscribers": 611,
+      "category": "Sleep Stories",
+      "description": "oil-painting visuals with calm narration for sleep",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@Dreams_2_Destiny",
+      "ai_use": "Full",
+      "subscribers": 602,
+      "category": "Motivation & Self-Improvement",
+      "description": "motivational content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@NewsFlash24-7",
+      "ai_use": "Full",
+      "subscribers": 594,
+      "category": "News & Pop Culture",
+      "description": "news and current events coverage",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@chinesehistoryforsleep",
+      "ai_use": "Full",
+      "subscribers": 582,
+      "category": "Sleep Stories",
+      "description": "Chinese history narration for sleep",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@thedeepdiveanalysis",
+      "ai_use": "Full",
+      "subscribers": 526,
+      "category": "Explainers & Facts",
+      "description": "story content and narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@historyfallasleep-h1s",
+      "ai_use": "Full",
+      "subscribers": 364,
+      "category": "Sleep Stories",
+      "description": "sleep stories for relaxation and bedtime listening",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@Storytv71",
+      "ai_use": "Full",
+      "subscribers": 299,
+      "category": "Kids Sleep Stories",
+      "description": "AI-generated story content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@relivedlives",
+      "ai_use": "Full",
+      "subscribers": 185,
+      "category": "Explainers & Facts",
+      "description": "Skeleton explainers and facts",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.instagram.com/world.of.monarchs?igsh=MzRlODBiNWFlZA==",
+      "ai_use": "Full",
+      "subscribers": 176,
+      "category": "History",
+      "description": "history content about monarchs and royal families",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@mindbytefocus2",
+      "ai_use": "Partial",
+      "subscribers": 172,
+      "category": "Motivation & Self-Improvement",
+      "description": "self-improvement and mindset videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@midnight_archives77",
+      "ai_use": "Full",
+      "subscribers": 166,
+      "category": "Mystery & Unsolved",
+      "description": "creepy mysteries and midnight archive storytelling",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@bizarreancientmysteries",
+      "ai_use": "Full",
+      "subscribers": 145,
+      "category": "History",
+      "description": "videos about ancient mysteries and the unexplained",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@noxium-d2h",
+      "ai_use": "Full",
+      "subscribers": 144,
+      "category": "Mystery & Unsolved",
+      "description": "dark mystery videos and short storytelling",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@mystery.and.madness.666",
+      "ai_use": "Full",
+      "subscribers": 123,
+      "category": "True Crime & Mysteries",
+      "description": "True crime deep dives and cold case analysis",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@forgottencivilization5",
+      "ai_use": "Full",
+      "subscribers": 121,
+      "category": "History",
+      "description": "forgotten stories about history and lost civilizations",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@archaeon2025",
+      "ai_use": "Full",
+      "subscribers": 121,
+      "category": "History",
+      "description": "forbidden history, lost civilizations, and the ancient gods",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@AICreatorCollective",
+      "ai_use": "Full",
+      "subscribers": 106,
+      "category": "AI & Tech",
+      "description": "global collective sharing storytelling workflows",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@SleepStoriesAudioBook",
+      "ai_use": "Full",
+      "subscribers": 99,
+      "category": "Sleep Stories",
+      "description": "audiobook-style bedtime narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@pastmyst-l2o",
+      "ai_use": "Full",
+      "subscribers": 90,
+      "category": "Mystery & Unsolved",
+      "description": "history mystery videos and ancient enigmas",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@huddlevideos1",
+      "ai_use": "Full",
+      "subscribers": 89,
+      "category": "Space & Science",
+      "description": "Stories where science and history collide",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@ancientdilemma",
+      "ai_use": "Full",
+      "subscribers": 84,
+      "category": "History",
+      "description": "Lost civilizations and ancient mysteries",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.instagram.com/timetosleepstories/",
+      "ai_use": "Full",
+      "subscribers": 80,
+      "category": "Sleep Stories",
+      "description": "bedtime stories and sleep narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@chronoscurator",
+      "ai_use": "Full",
+      "subscribers": 74,
+      "category": "Mystery & Unsolved",
+      "description": "shorts",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@Foundational.Facts.Official",
+      "ai_use": "Full",
+      "subscribers": 59,
+      "category": "Mystery & Unsolved",
+      "description": "mystery and conspiracy videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@render_report",
+      "ai_use": "Full",
+      "subscribers": 56,
+      "category": "News & Pop Culture",
+      "description": "and viral clips",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@tomb_of_truth",
+      "ai_use": "Full",
+      "subscribers": 54,
+      "category": "Mystery & Unsolved",
+      "description": "ai-generated mystery and conspiracy videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@quiettyrant",
+      "ai_use": "Full",
+      "subscribers": 51,
+      "category": "Mystery & Unsolved",
+      "description": "short mystery videos and storytelling",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@what.is.it9",
+      "ai_use": "Full",
+      "subscribers": 46,
+      "category": "Explainers & Facts",
+      "description": "short explainers about strange facts",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@historicalsand1",
+      "ai_use": "Full",
+      "subscribers": 45,
+      "category": "History",
+      "description": "short history facts and historical narration",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@MidnightMurmer2",
+      "ai_use": "Full",
+      "subscribers": 43,
+      "category": "Mystery & Unsolved",
+      "description": "creepypasta-style stories and midnight scares",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@AncientX_Official",
+      "ai_use": "Full",
+      "subscribers": 42,
+      "category": "History",
+      "description": "Ancient civilizations lost tech and mystery discoveries.",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@Ascent.Academy.Official",
+      "ai_use": "Full",
+      "subscribers": 38,
+      "category": "Motivation & Self-Improvement",
+      "description": "discipline and mindset content for personal growth",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@DoodleTuness",
+      "ai_use": "Full",
+      "subscribers": 37,
+      "category": "Kids Sleep Stories",
+      "description": "sleep stories for kids",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@DoodleTuness",
+      "ai_use": "Full",
+      "subscribers": 36,
+      "category": "History",
+      "description": "Historical storytelling with cinematic production",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@obsidianparadox-official3",
+      "ai_use": "Full",
+      "subscribers": 25,
+      "category": "Motivation & Self-Improvement",
+      "description": "psychology, human behavior, and mental clarity",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@echoesofexcellence123",
+      "ai_use": "Full",
+      "subscribers": 24,
+      "category": "Motivation & Self-Improvement",
+      "description": "dark psychology, manipulation, and power dynamics",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@mythveil-q4e",
+      "ai_use": "Full",
+      "subscribers": 23,
+      "category": "Mystery & Unsolved",
+      "description": "myth and mystery storytelling videos",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@anundream",
+      "ai_use": "Full",
+      "subscribers": 14,
+      "category": "History",
+      "description": "Historical storytelling with cinematic production",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@TheOracleofFortune",
+      "ai_use": "Full",
+      "subscribers": 14,
+      "category": "Motivation & Self-Improvement",
+      "description": "Motivation and guru advice",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@entfaltedeingehirn",
+      "ai_use": "Full",
+      "subscribers": 11,
+      "category": "Motivation & Self-Improvement",
+      "description": "German neuroscience and personal growth (Gerald Hüther)",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@RolelyStories",
+      "ai_use": "Full",
+      "subscribers": 8,
+      "category": "Animation & Storytelling",
+      "description": "animated childrens stories and family classics",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@tripletimeline",
+      "ai_use": "Full",
+      "subscribers": 6,
+      "category": "History",
+      "description": "timeline videos covering topics and events",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@historyscribehq",
+      "ai_use": "Full",
+      "subscribers": 4,
+      "category": "History",
+      "description": "historical content",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://www.youtube.com/@planetabestial1",
+      "ai_use": "Full",
+      "subscribers": 2,
+      "category": "Animals",
+      "description": "national geographic-style animal and wildlife documentaries",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@zenit2_comua",
+      "ai_use": "Full",
+      "subscribers": 1,
+      "category": "History",
+      "description": "mysteries about the ancient universe",
+      "corrected_description": ""
+    },
+    {
+      "channel": "https://youtube.com/@the_el_goran",
+      "ai_use": "Full",
+      "subscribers": 1,
+      "category": "History",
+      "description": "ancient mysteries and historical civilizations",
+      "corrected_description": ""
+    }
+  ]
+}
