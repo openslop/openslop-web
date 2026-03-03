@@ -10,7 +10,7 @@
     "Description",
     "Emails"
   ],
-  "record_count": 338,
+  "record_count": 340,
   "records": [
     {
       "row_number": 4,
@@ -1760,7 +1760,7 @@
     },
     {
       "row_number": 101,
-      "channel": "https://www.youtube.com/@mr_datavisuals",
+      "channel": "https://www.youtube.com/@mr_datavisuals ",
       "ai_use": "Full",
       "subscribers_raw": "77,800",
       "category_raw": "Explainers & Facts",
@@ -1768,7 +1768,7 @@
       "emails_raw": "",
       "corrected_description_raw": "",
       "raw_cells": [
-        "https://www.youtube.com/@mr_datavisuals",
+        "https://www.youtube.com/@mr_datavisuals ",
         "Full",
         "77,800",
         "Explainers & Facts",
@@ -6093,6 +6093,42 @@
         "0",
         "Sleep Stories",
         "exploring ideas at their foundations - knowledge",
+        ""
+      ]
+    },
+    {
+      "row_number": 342,
+      "channel": "https://www.youtube.com/@60sShift",
+      "ai_use": "Full",
+      "subscribers_raw": "12",
+      "category_raw": "Motivation & Self-Improvement",
+      "description_raw": "mindset shifts and self-improvement habits",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@60sShift",
+        "Full",
+        "12",
+        "Motivation & Self-Improvement",
+        "mindset shifts and self-improvement habits",
+        ""
+      ]
+    },
+    {
+      "row_number": 343,
+      "channel": "https://www.youtube.com/@longstoriesai",
+      "ai_use": "Full",
+      "subscribers_raw": "212",
+      "category_raw": "Animation & Storytelling",
+      "description_raw": "AI animated stories and dinosaur adventure series",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@longstoriesai",
+        "Full",
+        "212",
+        "Animation & Storytelling",
+        "AI animated stories and dinosaur adventure series",
         ""
       ]
     }

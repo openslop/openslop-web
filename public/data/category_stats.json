@@ -1,15 +1,15 @@
 [
   {
     "category": "Animation & Storytelling",
-    "channels": 54,
-    "total_subscribers": 3473525,
-    "avg_subscribers": 64324.54,
-    "median_subscribers": 10480,
-    "ai_full_pct": 90.7,
-    "ai_partial_pct": 7.4,
-    "ai_minimal_pct": 1.9,
-    "opportunity_score": 8.195,
-    "crowded_score": 2.18
+    "channels": 55,
+    "total_subscribers": 3473737,
+    "avg_subscribers": 63158.85,
+    "median_subscribers": 9160,
+    "ai_full_pct": 90.91,
+    "ai_partial_pct": 7.27,
+    "ai_minimal_pct": 1.82,
+    "opportunity_score": 8.32,
+    "crowded_score": 1.86
   },
   {
     "category": "History",
@@ -17,11 +17,11 @@
     "total_subscribers": 9003015,
     "avg_subscribers": 183735,
     "median_subscribers": 31700,
-    "ai_full_pct": 75.5,
-    "ai_partial_pct": 16.3,
-    "ai_minimal_pct": 8.2,
-    "opportunity_score": 8.602,
-    "crowded_score": 2.318
+    "ai_full_pct": 75.51,
+    "ai_partial_pct": 16.33,
+    "ai_minimal_pct": 8.16,
+    "opportunity_score": 8.91,
+    "crowded_score": 2.01
   },
   {
     "category": "Animals",
@@ -32,8 +32,8 @@
     "ai_full_pct": 100,
     "ai_partial_pct": 0,
     "ai_minimal_pct": 0,
-    "opportunity_score": 9.611,
-    "crowded_score": 2.372
+    "opportunity_score": 6.71,
+    "crowded_score": 2.14
   },
   {
     "category": "Mystery & Unsolved",
@@ -41,11 +41,11 @@
     "total_subscribers": 7519674,
     "avg_subscribers": 289218.23,
     "median_subscribers": 15500,
-    "ai_full_pct": 84.6,
-    "ai_partial_pct": 7.7,
-    "ai_minimal_pct": 7.7,
-    "opportunity_score": 9.028,
-    "crowded_score": 2.292
+    "ai_full_pct": 84.62,
+    "ai_partial_pct": 7.69,
+    "ai_minimal_pct": 7.69,
+    "opportunity_score": 6.37,
+    "crowded_score": 1.85
   },
   {
     "category": "Sleep Stories",
@@ -53,11 +53,11 @@
     "total_subscribers": 2947022,
     "avg_subscribers": 113347,
     "median_subscribers": 23250,
-    "ai_full_pct": 88.5,
-    "ai_partial_pct": 11.5,
+    "ai_full_pct": 88.46,
+    "ai_partial_pct": 11.54,
     "ai_minimal_pct": 0,
-    "opportunity_score": 8.601,
-    "crowded_score": 2.156
+    "opportunity_score": 6.64,
+    "crowded_score": 1.59
   },
   {
     "category": "Art & Music",
@@ -68,8 +68,8 @@
     "ai_full_pct": 100,
     "ai_partial_pct": 0,
     "ai_minimal_pct": 0,
-    "opportunity_score": 10.74,
-    "crowded_score": 2.525
+    "opportunity_score": 5.97,
+    "crowded_score": 3.87
   },
   {
     "category": "Religious Stories",
@@ -80,8 +80,8 @@
     "ai_full_pct": 100,
     "ai_partial_pct": 0,
     "ai_minimal_pct": 0,
-    "opportunity_score": 9.338,
-    "crowded_score": 2.185
+    "opportunity_score": 6.29,
+    "crowded_score": 1.53
   },
   {
     "category": "Content Creation",
@@ -89,11 +89,11 @@
     "total_subscribers": 518090,
     "avg_subscribers": 37006.43,
     "median_subscribers": 28000,
-    "ai_full_pct": 85.7,
-    "ai_partial_pct": 14.3,
+    "ai_full_pct": 85.71,
+    "ai_partial_pct": 14.29,
     "ai_minimal_pct": 0,
-    "opportunity_score": 7.86,
-    "crowded_score": 1.905
+    "opportunity_score": 5.69,
+    "crowded_score": 1.22
   },
   {
     "category": "Explainers & Facts",
@@ -101,11 +101,23 @@
     "total_subscribers": 25794837,
     "avg_subscribers": 1984218.23,
     "median_subscribers": 42200,
-    "ai_full_pct": 61.5,
-    "ai_partial_pct": 30.8,
-    "ai_minimal_pct": 7.7,
-    "opportunity_score": 9.622,
-    "crowded_score": 2.471
+    "ai_full_pct": 61.54,
+    "ai_partial_pct": 30.77,
+    "ai_minimal_pct": 7.69,
+    "opportunity_score": 5.83,
+    "crowded_score": 3.42
+  },
+  {
+    "category": "Motivation & Self-Improvement",
+    "channels": 13,
+    "total_subscribers": 1377088,
+    "avg_subscribers": 105929.85,
+    "median_subscribers": 172,
+    "ai_full_pct": 76.92,
+    "ai_partial_pct": 15.38,
+    "ai_minimal_pct": 7.69,
+    "opportunity_score": 2.82,
+    "crowded_score": 1.27
   },
   {
     "category": "Space & Science",
@@ -113,23 +125,11 @@
     "total_subscribers": 7011759,
     "avg_subscribers": 584313.25,
     "median_subscribers": 12100,
-    "ai_full_pct": 58.3,
-    "ai_partial_pct": 41.7,
+    "ai_full_pct": 58.33,
+    "ai_partial_pct": 41.67,
     "ai_minimal_pct": 0,
-    "opportunity_score": 8.672,
-    "crowded_score": 2.282
-  },
-  {
-    "category": "Motivation & Self-Improvement",
-    "channels": 12,
-    "total_subscribers": 1377076,
-    "avg_subscribers": 114756.33,
-    "median_subscribers": 387,
-    "ai_full_pct": 75,
-    "ai_partial_pct": 16.7,
-    "ai_minimal_pct": 8.3,
-    "opportunity_score": 7.734,
-    "crowded_score": 2.046
+    "opportunity_score": 5.06,
+    "crowded_score": 1.76
   },
   {
     "category": "Kids Sleep Stories",
@@ -140,8 +140,8 @@
     "ai_full_pct": 100,
     "ai_partial_pct": 0,
     "ai_minimal_pct": 0,
-    "opportunity_score": 8.491,
-    "crowded_score": 1.958
+    "opportunity_score": 5.06,
+    "crowded_score": 1.15
   },
   {
     "category": "Hypnosis & Relaxation",
@@ -152,8 +152,8 @@
     "ai_full_pct": 100,
     "ai_partial_pct": 0,
     "ai_minimal_pct": 0,
-    "opportunity_score": 7.753,
-    "crowded_score": 1.781
+    "opportunity_score": 4.6,
+    "crowded_score": 1.02
   },
   {
     "category": "AI & Tech",
@@ -164,8 +164,8 @@
     "ai_full_pct": 100,
     "ai_partial_pct": 0,
     "ai_minimal_pct": 0,
-    "opportunity_score": 7.546,
-    "crowded_score": 1.718
+    "opportunity_score": 4.52,
+    "crowded_score": 0.97
   },
   {
     "category": "News & Pop Culture",
@@ -173,11 +173,11 @@
     "total_subscribers": 2598789,
     "avg_subscribers": 371255.57,
     "median_subscribers": 1070,
-    "ai_full_pct": 85.7,
+    "ai_full_pct": 85.71,
     "ai_partial_pct": 0,
-    "ai_minimal_pct": 14.3,
-    "opportunity_score": 8.865,
-    "crowded_score": 2.138
+    "ai_minimal_pct": 14.29,
+    "opportunity_score": 3.45,
+    "crowded_score": 1.24
   },
   {
     "category": "Lifestyle",
@@ -185,11 +185,11 @@
     "total_subscribers": 2670360,
     "avg_subscribers": 381480,
     "median_subscribers": 11600,
-    "ai_full_pct": 85.7,
-    "ai_partial_pct": 14.3,
+    "ai_full_pct": 85.71,
+    "ai_partial_pct": 14.29,
     "ai_minimal_pct": 0,
-    "opportunity_score": 9.192,
-    "crowded_score": 2.142
+    "opportunity_score": 4.63,
+    "crowded_score": 1.25
   },
   {
     "category": "Kids stories",
@@ -200,8 +200,8 @@
     "ai_full_pct": 100,
     "ai_partial_pct": 0,
     "ai_minimal_pct": 0,
-    "opportunity_score": 9.563,
-    "crowded_score": 2.145
+    "opportunity_score": 4.02,
+    "crowded_score": 1.23
   },
   {
     "category": "True Crime & Mysteries",
@@ -212,8 +212,8 @@
     "ai_full_pct": 75,
     "ai_partial_pct": 25,
     "ai_minimal_pct": 0,
-    "opportunity_score": 7.638,
-    "crowded_score": 1.797
+    "opportunity_score": 3.79,
+    "crowded_score": 0.74
   },
   {
     "category": "Finance",
@@ -221,11 +221,11 @@
     "total_subscribers": 546500,
     "avg_subscribers": 182166.67,
     "median_subscribers": 126000,
-    "ai_full_pct": 33.3,
-    "ai_partial_pct": 33.3,
-    "ai_minimal_pct": 33.3,
-    "opportunity_score": 7.666,
-    "crowded_score": 1.913
+    "ai_full_pct": 33.33,
+    "ai_partial_pct": 33.33,
+    "ai_minimal_pct": 33.33,
+    "opportunity_score": 5.41,
+    "crowded_score": 0.71
   },
   {
     "category": "Health & Fitness",
@@ -233,11 +233,11 @@
     "total_subscribers": 221600,
     "avg_subscribers": 73866.67,
     "median_subscribers": 4400,
-    "ai_full_pct": 66.7,
-    "ai_partial_pct": 33.3,
+    "ai_full_pct": 66.67,
+    "ai_partial_pct": 33.33,
     "ai_minimal_pct": 0,
-    "opportunity_score": 7.585,
-    "crowded_score": 1.782
+    "opportunity_score": 3.86,
+    "crowded_score": 0.65
   },
   {
     "category": "Sleep Science",
@@ -248,8 +248,8 @@
     "ai_full_pct": 100,
     "ai_partial_pct": 0,
     "ai_minimal_pct": 0,
-    "opportunity_score": 9.546,
-    "crowded_score": 1.768
+    "opportunity_score": 5.41,
+    "crowded_score": 0.36
   },
   {
     "category": "Accidents & Disasters",
@@ -260,8 +260,8 @@
     "ai_full_pct": 0,
     "ai_partial_pct": 100,
     "ai_minimal_pct": 0,
-    "opportunity_score": 6.665,
-    "crowded_score": 1.709
+    "opportunity_score": 5.23,
+    "crowded_score": 0.34
   },
   {
     "category": "Humanoid Medical Facts",
@@ -272,8 +272,8 @@
     "ai_full_pct": 100,
     "ai_partial_pct": 0,
     "ai_minimal_pct": 0,
-    "opportunity_score": 8.372,
-    "crowded_score": 1.55
+    "opportunity_score": 4.74,
+    "crowded_score": 0.31
   },
   {
     "category": "Astrology & Spirituality",
@@ -284,7 +284,7 @@
     "ai_full_pct": 100,
     "ai_partial_pct": 0,
     "ai_minimal_pct": 0,
-    "opportunity_score": 5.51,
-    "crowded_score": 1.02
+    "opportunity_score": 3.12,
+    "crowded_score": 0.3
   }
 ]
