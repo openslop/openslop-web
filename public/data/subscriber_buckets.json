@@ -9,8 +9,8 @@
   },
   {
     "bucket": "10k-50k",
-    "count": 65,
-    "full": 63,
+    "count": 64,
+    "full": 62,
     "partial": 2,
     "minimal": 0,
     "unknown": 0
@@ -40,19 +40,11 @@
     "unknown": 0
   },
   {
-    "bucket": "1M-5M",
-    "count": 16,
-    "full": 6,
-    "partial": 7,
-    "minimal": 3,
-    "unknown": 0
-  },
-  {
-    "bucket": "5M+",
-    "count": 3,
-    "full": 1,
-    "partial": 1,
-    "minimal": 1,
+    "bucket": "1M+",
+    "count": 19,
+    "full": 7,
+    "partial": 8,
+    "minimal": 4,
     "unknown": 0
   }
 ]

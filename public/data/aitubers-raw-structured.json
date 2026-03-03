@@ -10,7 +10,7 @@
     "Description",
     "Emails"
   ],
-  "record_count": 340,
+  "record_count": 339,
   "records": [
     {
       "row_number": 4,
@@ -1760,7 +1760,7 @@
     },
     {
       "row_number": 101,
-      "channel": "https://www.youtube.com/@mr_datavisuals ",
+      "channel": "https://www.youtube.com/@mr_datavisuals",
       "ai_use": "Full",
       "subscribers_raw": "77,800",
       "category_raw": "Explainers & Facts",
@@ -1768,7 +1768,7 @@
       "emails_raw": "",
       "corrected_description_raw": "",
       "raw_cells": [
-        "https://www.youtube.com/@mr_datavisuals ",
+        "https://www.youtube.com/@mr_datavisuals",
         "Full",
         "77,800",
         "Explainers & Facts",
@@ -2349,24 +2349,6 @@
         "33,900",
         "Art & Music",
         "music videos and visual productions",
-        ""
-      ]
-    },
-    {
-      "row_number": 134,
-      "channel": "https://www.youtube.com/@CookingWithAi",
-      "ai_use": "Full",
-      "subscribers_raw": "33,300",
-      "category_raw": "Lifestyle",
-      "description_raw": "cooking content and recipes",
-      "emails_raw": "",
-      "corrected_description_raw": "",
-      "raw_cells": [
-        "https://www.youtube.com/@CookingWithAi",
-        "Full",
-        "33,300",
-        "Lifestyle",
-        "cooking content and recipes",
         ""
       ]
     },
