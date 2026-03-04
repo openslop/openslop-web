@@ -32,7 +32,7 @@
   {
     "index": 7,
     "subscribers": 3140000,
-    "rolling_avg_subscribers": 10168571.43
+    "rolling_avg_subscribers": 10168571
   },
   {
     "index": 8,
@@ -42,7 +42,7 @@
   {
     "index": 9,
     "subscribers": 3090000,
-    "rolling_avg_subscribers": 8596666.67
+    "rolling_avg_subscribers": 8596667
   },
   {
     "index": 10,
@@ -52,12 +52,12 @@
   {
     "index": 11,
     "subscribers": 2700000,
-    "rolling_avg_subscribers": 7524545.45
+    "rolling_avg_subscribers": 7524545
   },
   {
     "index": 12,
     "subscribers": 2590000,
-    "rolling_avg_subscribers": 7113333.33
+    "rolling_avg_subscribers": 7113333
   },
   {
     "index": 13,
@@ -67,12 +67,12 @@
   {
     "index": 14,
     "subscribers": 2170000,
-    "rolling_avg_subscribers": 6432142.86
+    "rolling_avg_subscribers": 6432143
   },
   {
     "index": 15,
     "subscribers": 1850000,
-    "rolling_avg_subscribers": 6126666.67
+    "rolling_avg_subscribers": 6126667
   },
   {
     "index": 16,
@@ -82,1611 +82,1621 @@
   {
     "index": 17,
     "subscribers": 1330000,
-    "rolling_avg_subscribers": 5566470.59
+    "rolling_avg_subscribers": 5566471
   },
   {
     "index": 18,
     "subscribers": 1120000,
-    "rolling_avg_subscribers": 5319444.44
+    "rolling_avg_subscribers": 5319444
   },
   {
     "index": 19,
-    "subscribers": 1070000,
-    "rolling_avg_subscribers": 5095789.47
+    "subscribers": 1090000,
+    "rolling_avg_subscribers": 5096842
   },
   {
     "index": 20,
-    "subscribers": 881000,
-    "rolling_avg_subscribers": 4885050
+    "subscribers": 1070000,
+    "rolling_avg_subscribers": 4895500
   },
   {
     "index": 21,
-    "subscribers": 825000,
-    "rolling_avg_subscribers": 4691714.29
+    "subscribers": 881000,
+    "rolling_avg_subscribers": 4704333
   },
   {
     "index": 22,
-    "subscribers": 779000,
-    "rolling_avg_subscribers": 4513863.64
+    "subscribers": 825000,
+    "rolling_avg_subscribers": 4528000
   },
   {
     "index": 23,
-    "subscribers": 733000,
-    "rolling_avg_subscribers": 4349478.26
+    "subscribers": 779000,
+    "rolling_avg_subscribers": 4365000
   },
   {
     "index": 24,
-    "subscribers": 689000,
-    "rolling_avg_subscribers": 4196958.33
+    "subscribers": 733000,
+    "rolling_avg_subscribers": 4213667
   },
   {
     "index": 25,
-    "subscribers": 684000,
-    "rolling_avg_subscribers": 4056440
+    "subscribers": 689000,
+    "rolling_avg_subscribers": 4072680
   },
   {
     "index": 26,
-    "subscribers": 668000,
-    "rolling_avg_subscribers": 3926115.38
+    "subscribers": 684000,
+    "rolling_avg_subscribers": 3942346
   },
   {
     "index": 27,
-    "subscribers": 631000,
-    "rolling_avg_subscribers": 3804074.07
+    "subscribers": 668000,
+    "rolling_avg_subscribers": 3821074
   },
   {
     "index": 28,
-    "subscribers": 600000,
-    "rolling_avg_subscribers": 3689642.86
+    "subscribers": 631000,
+    "rolling_avg_subscribers": 3707143
   },
   {
     "index": 29,
-    "subscribers": 594000,
-    "rolling_avg_subscribers": 3582896.55
+    "subscribers": 600000,
+    "rolling_avg_subscribers": 3600000
   },
   {
     "index": 30,
-    "subscribers": 537000,
-    "rolling_avg_subscribers": 3481366.67
+    "subscribers": 594000,
+    "rolling_avg_subscribers": 3499800
   },
   {
     "index": 31,
-    "subscribers": 503000,
-    "rolling_avg_subscribers": 3385290.32
+    "subscribers": 537000,
+    "rolling_avg_subscribers": 3404226
   },
   {
     "index": 32,
-    "subscribers": 481000,
-    "rolling_avg_subscribers": 3294531.25
+    "subscribers": 503000,
+    "rolling_avg_subscribers": 3313562
   },
   {
     "index": 33,
-    "subscribers": 478000,
-    "rolling_avg_subscribers": 3209181.82
+    "subscribers": 481000,
+    "rolling_avg_subscribers": 3227727
   },
   {
     "index": 34,
-    "subscribers": 438000,
-    "rolling_avg_subscribers": 3127676.47
+    "subscribers": 478000,
+    "rolling_avg_subscribers": 3146853
   },
   {
     "index": 35,
-    "subscribers": 416000,
-    "rolling_avg_subscribers": 3050200
+    "subscribers": 438000,
+    "rolling_avg_subscribers": 3069457
   },
   {
     "index": 36,
-    "subscribers": 398000,
-    "rolling_avg_subscribers": 2976527.78
+    "subscribers": 416000,
+    "rolling_avg_subscribers": 2995750
   },
   {
     "index": 37,
-    "subscribers": 394000,
-    "rolling_avg_subscribers": 2906729.73
+    "subscribers": 398000,
+    "rolling_avg_subscribers": 2925541
   },
   {
     "index": 38,
-    "subscribers": 386000,
-    "rolling_avg_subscribers": 2840394.74
+    "subscribers": 394000,
+    "rolling_avg_subscribers": 2858921
   },
   {
     "index": 39,
-    "subscribers": 383000,
-    "rolling_avg_subscribers": 2777384.62
+    "subscribers": 386000,
+    "rolling_avg_subscribers": 2795513
   },
   {
     "index": 40,
-    "subscribers": 356000,
-    "rolling_avg_subscribers": 2716850
+    "subscribers": 383000,
+    "rolling_avg_subscribers": 2735200
   },
   {
     "index": 41,
-    "subscribers": 326000,
-    "rolling_avg_subscribers": 2658536.59
+    "subscribers": 356000,
+    "rolling_avg_subscribers": 2677171
   },
   {
     "index": 42,
-    "subscribers": 321000,
-    "rolling_avg_subscribers": 2602880.95
+    "subscribers": 326000,
+    "rolling_avg_subscribers": 2621190
   },
   {
     "index": 43,
-    "subscribers": 319000,
-    "rolling_avg_subscribers": 2549767.44
+    "subscribers": 321000,
+    "rolling_avg_subscribers": 2567698
   },
   {
     "index": 44,
-    "subscribers": 318000,
-    "rolling_avg_subscribers": 2499045.45
+    "subscribers": 319000,
+    "rolling_avg_subscribers": 2516591
   },
   {
     "index": 45,
-    "subscribers": 298000,
-    "rolling_avg_subscribers": 2450133.33
+    "subscribers": 318000,
+    "rolling_avg_subscribers": 2467733
   },
   {
     "index": 46,
-    "subscribers": 292000,
-    "rolling_avg_subscribers": 2403217.39
+    "subscribers": 298000,
+    "rolling_avg_subscribers": 2420565
   },
   {
     "index": 47,
-    "subscribers": 291000,
-    "rolling_avg_subscribers": 2358276.6
+    "subscribers": 292000,
+    "rolling_avg_subscribers": 2375277
   },
   {
     "index": 48,
-    "subscribers": 275000,
-    "rolling_avg_subscribers": 2314875
+    "subscribers": 291000,
+    "rolling_avg_subscribers": 2331854
   },
   {
     "index": 49,
-    "subscribers": 265000,
-    "rolling_avg_subscribers": 2273040.82
+    "subscribers": 275000,
+    "rolling_avg_subscribers": 2289878
   },
   {
     "index": 50,
-    "subscribers": 259000,
-    "rolling_avg_subscribers": 2232760
+    "subscribers": 265000,
+    "rolling_avg_subscribers": 2249380
   },
   {
     "index": 51,
-    "subscribers": 257000,
-    "rolling_avg_subscribers": 2194019.61
+    "subscribers": 259000,
+    "rolling_avg_subscribers": 2210353
   },
   {
     "index": 52,
-    "subscribers": 255000,
-    "rolling_avg_subscribers": 2156730.77
+    "subscribers": 257000,
+    "rolling_avg_subscribers": 2172788
   },
   {
     "index": 53,
-    "subscribers": 252000,
-    "rolling_avg_subscribers": 2120792.45
+    "subscribers": 255000,
+    "rolling_avg_subscribers": 2136604
   },
   {
     "index": 54,
-    "subscribers": 240000,
-    "rolling_avg_subscribers": 2085962.96
+    "subscribers": 252000,
+    "rolling_avg_subscribers": 2101704
   },
   {
     "index": 55,
-    "subscribers": 239000,
-    "rolling_avg_subscribers": 2052381.82
+    "subscribers": 240000,
+    "rolling_avg_subscribers": 2067855
   },
   {
     "index": 56,
-    "subscribers": 238000,
-    "rolling_avg_subscribers": 2019982.14
+    "subscribers": 239000,
+    "rolling_avg_subscribers": 2035196
   },
   {
     "index": 57,
-    "subscribers": 226000,
-    "rolling_avg_subscribers": 1988508.77
+    "subscribers": 238000,
+    "rolling_avg_subscribers": 2003667
   },
   {
     "index": 58,
-    "subscribers": 221000,
-    "rolling_avg_subscribers": 1958034.48
+    "subscribers": 226000,
+    "rolling_avg_subscribers": 1973017
   },
   {
     "index": 59,
-    "subscribers": 220000,
-    "rolling_avg_subscribers": 1928576.27
+    "subscribers": 221000,
+    "rolling_avg_subscribers": 1943322
   },
   {
     "index": 60,
-    "subscribers": 216000,
-    "rolling_avg_subscribers": 1900033.33
+    "subscribers": 220000,
+    "rolling_avg_subscribers": 1914600
   },
   {
     "index": 61,
     "subscribers": 216000,
-    "rolling_avg_subscribers": 1872426.23
+    "rolling_avg_subscribers": 1886754
   },
   {
     "index": 62,
-    "subscribers": 215000,
-    "rolling_avg_subscribers": 1845693.55
+    "subscribers": 216000,
+    "rolling_avg_subscribers": 1859806
   },
   {
     "index": 63,
-    "subscribers": 212000,
-    "rolling_avg_subscribers": 1819761.9
+    "subscribers": 215000,
+    "rolling_avg_subscribers": 1833698
   },
   {
     "index": 64,
-    "subscribers": 207000,
-    "rolling_avg_subscribers": 1794562.5
+    "subscribers": 212000,
+    "rolling_avg_subscribers": 1808359
   },
   {
     "index": 65,
-    "subscribers": 201000,
-    "rolling_avg_subscribers": 1770046.15
+    "subscribers": 207000,
+    "rolling_avg_subscribers": 1783723
   },
   {
     "index": 66,
-    "subscribers": 197000,
-    "rolling_avg_subscribers": 1746212.12
+    "subscribers": 201000,
+    "rolling_avg_subscribers": 1759742
   },
   {
     "index": 67,
-    "subscribers": 196000,
-    "rolling_avg_subscribers": 1723074.63
+    "subscribers": 197000,
+    "rolling_avg_subscribers": 1736418
   },
   {
     "index": 68,
-    "subscribers": 185000,
-    "rolling_avg_subscribers": 1700455.88
+    "subscribers": 196000,
+    "rolling_avg_subscribers": 1713765
   },
   {
     "index": 69,
-    "subscribers": 179000,
-    "rolling_avg_subscribers": 1678405.8
+    "subscribers": 185000,
+    "rolling_avg_subscribers": 1691609
   },
   {
     "index": 70,
-    "subscribers": 169000,
-    "rolling_avg_subscribers": 1656842.86
+    "subscribers": 179000,
+    "rolling_avg_subscribers": 1670000
   },
   {
     "index": 71,
-    "subscribers": 166000,
-    "rolling_avg_subscribers": 1635845.07
+    "subscribers": 169000,
+    "rolling_avg_subscribers": 1648859
   },
   {
     "index": 72,
-    "subscribers": 165000,
-    "rolling_avg_subscribers": 1615416.67
+    "subscribers": 166000,
+    "rolling_avg_subscribers": 1628264
   },
   {
     "index": 73,
-    "subscribers": 164000,
-    "rolling_avg_subscribers": 1595534.25
+    "subscribers": 165000,
+    "rolling_avg_subscribers": 1608219
   },
   {
     "index": 74,
-    "subscribers": 160000,
-    "rolling_avg_subscribers": 1576135.14
+    "subscribers": 164000,
+    "rolling_avg_subscribers": 1588703
   },
   {
     "index": 75,
-    "subscribers": 157000,
-    "rolling_avg_subscribers": 1557213.33
+    "subscribers": 160000,
+    "rolling_avg_subscribers": 1569653
   },
   {
     "index": 76,
-    "subscribers": 154000,
-    "rolling_avg_subscribers": 1538750
+    "subscribers": 157000,
+    "rolling_avg_subscribers": 1551066
   },
   {
     "index": 77,
-    "subscribers": 153000,
-    "rolling_avg_subscribers": 1520753.25
+    "subscribers": 154000,
+    "rolling_avg_subscribers": 1532922
   },
   {
     "index": 78,
-    "subscribers": 140000,
-    "rolling_avg_subscribers": 1503051.28
+    "subscribers": 153000,
+    "rolling_avg_subscribers": 1515231
   },
   {
     "index": 79,
-    "subscribers": 136000,
-    "rolling_avg_subscribers": 1485746.84
+    "subscribers": 140000,
+    "rolling_avg_subscribers": 1497823
   },
   {
     "index": 80,
-    "subscribers": 134000,
-    "rolling_avg_subscribers": 1468850
+    "subscribers": 136000,
+    "rolling_avg_subscribers": 1480800
   },
   {
     "index": 81,
     "subscribers": 134000,
-    "rolling_avg_subscribers": 1452370.37
+    "rolling_avg_subscribers": 1464173
   },
   {
     "index": 82,
-    "subscribers": 126000,
-    "rolling_avg_subscribers": 1436195.12
+    "subscribers": 134000,
+    "rolling_avg_subscribers": 1447951
   },
   {
     "index": 83,
-    "subscribers": 119000,
-    "rolling_avg_subscribers": 1420325.3
+    "subscribers": 126000,
+    "rolling_avg_subscribers": 1432024
   },
   {
     "index": 84,
-    "subscribers": 116000,
-    "rolling_avg_subscribers": 1404797.62
+    "subscribers": 119000,
+    "rolling_avg_subscribers": 1416393
   },
   {
     "index": 85,
-    "subscribers": 109000,
-    "rolling_avg_subscribers": 1389552.94
+    "subscribers": 116000,
+    "rolling_avg_subscribers": 1401094
   },
   {
     "index": 86,
-    "subscribers": 106000,
-    "rolling_avg_subscribers": 1374627.91
+    "subscribers": 109000,
+    "rolling_avg_subscribers": 1386070
   },
   {
     "index": 87,
-    "subscribers": 102000,
-    "rolling_avg_subscribers": 1360000
+    "subscribers": 106000,
+    "rolling_avg_subscribers": 1371356
   },
   {
     "index": 88,
-    "subscribers": 100000,
-    "rolling_avg_subscribers": 1345681.82
+    "subscribers": 102000,
+    "rolling_avg_subscribers": 1356932
   },
   {
     "index": 89,
-    "subscribers": 96700,
-    "rolling_avg_subscribers": 1331648.31
+    "subscribers": 100000,
+    "rolling_avg_subscribers": 1342809
   },
   {
     "index": 90,
-    "subscribers": 92400,
-    "rolling_avg_subscribers": 1317878.89
+    "subscribers": 96700,
+    "rolling_avg_subscribers": 1328963
   },
   {
     "index": 91,
-    "subscribers": 91300,
-    "rolling_avg_subscribers": 1304400
+    "subscribers": 92400,
+    "rolling_avg_subscribers": 1315375
   },
   {
     "index": 92,
-    "subscribers": 89400,
-    "rolling_avg_subscribers": 1291193.48
+    "subscribers": 91300,
+    "rolling_avg_subscribers": 1302070
   },
   {
     "index": 93,
-    "subscribers": 84800,
-    "rolling_avg_subscribers": 1278221.51
+    "subscribers": 89400,
+    "rolling_avg_subscribers": 1289030
   },
   {
     "index": 94,
-    "subscribers": 83300,
-    "rolling_avg_subscribers": 1265509.57
+    "subscribers": 84800,
+    "rolling_avg_subscribers": 1276219
   },
   {
     "index": 95,
-    "subscribers": 83100,
-    "rolling_avg_subscribers": 1253063.16
+    "subscribers": 83300,
+    "rolling_avg_subscribers": 1263662
   },
   {
     "index": 96,
-    "subscribers": 82500,
-    "rolling_avg_subscribers": 1240869.79
+    "subscribers": 83100,
+    "rolling_avg_subscribers": 1251365
   },
   {
     "index": 97,
-    "subscribers": 78800,
-    "rolling_avg_subscribers": 1228889.69
+    "subscribers": 82500,
+    "rolling_avg_subscribers": 1239314
   },
   {
     "index": 98,
-    "subscribers": 77800,
-    "rolling_avg_subscribers": 1217143.88
+    "subscribers": 78800,
+    "rolling_avg_subscribers": 1227472
   },
   {
     "index": 99,
-    "subscribers": 76000,
-    "rolling_avg_subscribers": 1205617.17
+    "subscribers": 77800,
+    "rolling_avg_subscribers": 1215860
   },
   {
     "index": 100,
-    "subscribers": 74700,
-    "rolling_avg_subscribers": 1194308
+    "subscribers": 76000,
+    "rolling_avg_subscribers": 1204461
   },
   {
     "index": 101,
-    "subscribers": 74100,
-    "rolling_avg_subscribers": 1183216.83
+    "subscribers": 74700,
+    "rolling_avg_subscribers": 1193275
   },
   {
     "index": 102,
-    "subscribers": 73800,
-    "rolling_avg_subscribers": 1172340.2
+    "subscribers": 74100,
+    "rolling_avg_subscribers": 1182303
   },
   {
     "index": 103,
-    "subscribers": 71200,
-    "rolling_avg_subscribers": 1161649.51
+    "subscribers": 73800,
+    "rolling_avg_subscribers": 1171541
   },
   {
     "index": 104,
-    "subscribers": 67700,
-    "rolling_avg_subscribers": 1151130.77
+    "subscribers": 71200,
+    "rolling_avg_subscribers": 1160961
   },
   {
     "index": 105,
-    "subscribers": 64500,
-    "rolling_avg_subscribers": 1140781.9
+    "subscribers": 67700,
+    "rolling_avg_subscribers": 1150549
   },
   {
     "index": 106,
-    "subscribers": 62800,
-    "rolling_avg_subscribers": 1130612.26
+    "subscribers": 64500,
+    "rolling_avg_subscribers": 1140303
   },
   {
     "index": 107,
-    "subscribers": 62200,
-    "rolling_avg_subscribers": 1120627.1
+    "subscribers": 62800,
+    "rolling_avg_subscribers": 1130233
   },
   {
     "index": 108,
-    "subscribers": 61000,
-    "rolling_avg_subscribers": 1110815.74
+    "subscribers": 62200,
+    "rolling_avg_subscribers": 1120344
   },
   {
     "index": 109,
-    "subscribers": 59600,
-    "rolling_avg_subscribers": 1101171.56
+    "subscribers": 61000,
+    "rolling_avg_subscribers": 1110625
   },
   {
     "index": 110,
-    "subscribers": 58800,
-    "rolling_avg_subscribers": 1091695.45
+    "subscribers": 59600,
+    "rolling_avg_subscribers": 1101070
   },
   {
     "index": 111,
-    "subscribers": 58100,
-    "rolling_avg_subscribers": 1082383.78
+    "subscribers": 58800,
+    "rolling_avg_subscribers": 1091680
   },
   {
     "index": 112,
-    "subscribers": 56700,
-    "rolling_avg_subscribers": 1073225.89
+    "subscribers": 58100,
+    "rolling_avg_subscribers": 1082452
   },
   {
     "index": 113,
-    "subscribers": 56600,
-    "rolling_avg_subscribers": 1064229.2
+    "subscribers": 56700,
+    "rolling_avg_subscribers": 1073374
   },
   {
     "index": 114,
-    "subscribers": 53400,
-    "rolling_avg_subscribers": 1055362.28
+    "subscribers": 56600,
+    "rolling_avg_subscribers": 1064455
   },
   {
     "index": 115,
-    "subscribers": 52000,
-    "rolling_avg_subscribers": 1046637.39
+    "subscribers": 53400,
+    "rolling_avg_subscribers": 1055663
   },
   {
     "index": 116,
-    "subscribers": 50000,
-    "rolling_avg_subscribers": 1038045.69
+    "subscribers": 52000,
+    "rolling_avg_subscribers": 1047011
   },
   {
     "index": 117,
-    "subscribers": 49000,
-    "rolling_avg_subscribers": 1029592.31
+    "subscribers": 50000,
+    "rolling_avg_subscribers": 1038490
   },
   {
     "index": 118,
-    "subscribers": 48400,
-    "rolling_avg_subscribers": 1021277.12
+    "subscribers": 49000,
+    "rolling_avg_subscribers": 1030104
   },
   {
     "index": 119,
-    "subscribers": 44800,
-    "rolling_avg_subscribers": 1013071.43
+    "subscribers": 48400,
+    "rolling_avg_subscribers": 1021855
   },
   {
     "index": 120,
-    "subscribers": 43000,
-    "rolling_avg_subscribers": 1004987.5
+    "subscribers": 44800,
+    "rolling_avg_subscribers": 1013712
   },
   {
     "index": 121,
-    "subscribers": 42900,
-    "rolling_avg_subscribers": 997036.36
+    "subscribers": 43000,
+    "rolling_avg_subscribers": 1005690
   },
   {
     "index": 122,
-    "subscribers": 42200,
-    "rolling_avg_subscribers": 989209.84
+    "subscribers": 42900,
+    "rolling_avg_subscribers": 997798
   },
   {
     "index": 123,
-    "subscribers": 41400,
-    "rolling_avg_subscribers": 981504.07
+    "subscribers": 42200,
+    "rolling_avg_subscribers": 990029
   },
   {
     "index": 124,
-    "subscribers": 39100,
-    "rolling_avg_subscribers": 973904.03
+    "subscribers": 41400,
+    "rolling_avg_subscribers": 982379
   },
   {
     "index": 125,
-    "subscribers": 38800,
-    "rolling_avg_subscribers": 966423.2
+    "subscribers": 39100,
+    "rolling_avg_subscribers": 974833
   },
   {
     "index": 126,
-    "subscribers": 37800,
-    "rolling_avg_subscribers": 959053.17
+    "subscribers": 38800,
+    "rolling_avg_subscribers": 967404
   },
   {
     "index": 127,
-    "subscribers": 37400,
-    "rolling_avg_subscribers": 951796.06
+    "subscribers": 37800,
+    "rolling_avg_subscribers": 960084
   },
   {
     "index": 128,
     "subscribers": 37400,
-    "rolling_avg_subscribers": 944652.34
+    "rolling_avg_subscribers": 952876
   },
   {
     "index": 129,
-    "subscribers": 34300,
-    "rolling_avg_subscribers": 937595.35
+    "subscribers": 37400,
+    "rolling_avg_subscribers": 945779
   },
   {
     "index": 130,
-    "subscribers": 33900,
-    "rolling_avg_subscribers": 930643.85
+    "subscribers": 34300,
+    "rolling_avg_subscribers": 938768
   },
   {
     "index": 131,
-    "subscribers": 32300,
-    "rolling_avg_subscribers": 923786.26
+    "subscribers": 33900,
+    "rolling_avg_subscribers": 931860
   },
   {
     "index": 132,
-    "subscribers": 32000,
-    "rolling_avg_subscribers": 917030.3
+    "subscribers": 32300,
+    "rolling_avg_subscribers": 925045
   },
   {
     "index": 133,
-    "subscribers": 31700,
-    "rolling_avg_subscribers": 910373.68
+    "subscribers": 32000,
+    "rolling_avg_subscribers": 918331
   },
   {
     "index": 134,
     "subscribers": 31700,
-    "rolling_avg_subscribers": 903816.42
+    "rolling_avg_subscribers": 911714
   },
   {
     "index": 135,
-    "subscribers": 31000,
-    "rolling_avg_subscribers": 897351.11
+    "subscribers": 31700,
+    "rolling_avg_subscribers": 905196
   },
   {
     "index": 136,
-    "subscribers": 30000,
-    "rolling_avg_subscribers": 890973.53
+    "subscribers": 31000,
+    "rolling_avg_subscribers": 898768
   },
   {
     "index": 137,
-    "subscribers": 28700,
-    "rolling_avg_subscribers": 884679.56
+    "subscribers": 30000,
+    "rolling_avg_subscribers": 892426
   },
   {
     "index": 138,
-    "subscribers": 27300,
-    "rolling_avg_subscribers": 878466.67
+    "subscribers": 28700,
+    "rolling_avg_subscribers": 886167
   },
   {
     "index": 139,
-    "subscribers": 26600,
-    "rolling_avg_subscribers": 872338.13
+    "subscribers": 27300,
+    "rolling_avg_subscribers": 879988
   },
   {
     "index": 140,
-    "subscribers": 24500,
-    "rolling_avg_subscribers": 866282.14
+    "subscribers": 26600,
+    "rolling_avg_subscribers": 873893
   },
   {
     "index": 141,
-    "subscribers": 23700,
-    "rolling_avg_subscribers": 860306.38
+    "subscribers": 24500,
+    "rolling_avg_subscribers": 867869
   },
   {
     "index": 142,
-    "subscribers": 23300,
-    "rolling_avg_subscribers": 854411.97
+    "subscribers": 23700,
+    "rolling_avg_subscribers": 861924
   },
   {
     "index": 143,
-    "subscribers": 23000,
-    "rolling_avg_subscribers": 848597.9
+    "subscribers": 23300,
+    "rolling_avg_subscribers": 856059
   },
   {
     "index": 144,
-    "subscribers": 22800,
-    "rolling_avg_subscribers": 842863.19
+    "subscribers": 23000,
+    "rolling_avg_subscribers": 850274
   },
   {
     "index": 145,
-    "subscribers": 22700,
-    "rolling_avg_subscribers": 837206.9
+    "subscribers": 22800,
+    "rolling_avg_subscribers": 844568
   },
   {
     "index": 146,
-    "subscribers": 21200,
-    "rolling_avg_subscribers": 831617.81
+    "subscribers": 22700,
+    "rolling_avg_subscribers": 838938
   },
   {
     "index": 147,
-    "subscribers": 21100,
-    "rolling_avg_subscribers": 826104.08
+    "subscribers": 21200,
+    "rolling_avg_subscribers": 833376
   },
   {
     "index": 148,
-    "subscribers": 19900,
-    "rolling_avg_subscribers": 820656.76
+    "subscribers": 21100,
+    "rolling_avg_subscribers": 827887
   },
   {
     "index": 149,
     "subscribers": 19900,
-    "rolling_avg_subscribers": 815282.55
+    "rolling_avg_subscribers": 822464
   },
   {
     "index": 150,
-    "subscribers": 19400,
-    "rolling_avg_subscribers": 809976.67
+    "subscribers": 19900,
+    "rolling_avg_subscribers": 817114
   },
   {
     "index": 151,
-    "subscribers": 19000,
-    "rolling_avg_subscribers": 804738.41
+    "subscribers": 19400,
+    "rolling_avg_subscribers": 811831
   },
   {
     "index": 152,
-    "subscribers": 18400,
-    "rolling_avg_subscribers": 799565.13
+    "subscribers": 19000,
+    "rolling_avg_subscribers": 806615
   },
   {
     "index": 153,
-    "subscribers": 18100,
-    "rolling_avg_subscribers": 794457.52
+    "subscribers": 18400,
+    "rolling_avg_subscribers": 801463
   },
   {
     "index": 154,
-    "subscribers": 17800,
-    "rolling_avg_subscribers": 789414.29
+    "subscribers": 18100,
+    "rolling_avg_subscribers": 796377
   },
   {
     "index": 155,
-    "subscribers": 17500,
-    "rolling_avg_subscribers": 784434.19
+    "subscribers": 17800,
+    "rolling_avg_subscribers": 791354
   },
   {
     "index": 156,
-    "subscribers": 16900,
-    "rolling_avg_subscribers": 779514.1
+    "subscribers": 17500,
+    "rolling_avg_subscribers": 786393
   },
   {
     "index": 157,
-    "subscribers": 16800,
-    "rolling_avg_subscribers": 774656.05
+    "subscribers": 16900,
+    "rolling_avg_subscribers": 781492
   },
   {
     "index": 158,
-    "subscribers": 16300,
-    "rolling_avg_subscribers": 769856.33
+    "subscribers": 16800,
+    "rolling_avg_subscribers": 776652
   },
   {
     "index": 159,
-    "subscribers": 16000,
-    "rolling_avg_subscribers": 765115.09
+    "subscribers": 16300,
+    "rolling_avg_subscribers": 771870
   },
   {
     "index": 160,
-    "subscribers": 14800,
-    "rolling_avg_subscribers": 760425.63
+    "subscribers": 16000,
+    "rolling_avg_subscribers": 767146
   },
   {
     "index": 161,
-    "subscribers": 14600,
-    "rolling_avg_subscribers": 755793.17
+    "subscribers": 14800,
+    "rolling_avg_subscribers": 762473
   },
   {
     "index": 162,
-    "subscribers": 14400,
-    "rolling_avg_subscribers": 751216.67
+    "subscribers": 14600,
+    "rolling_avg_subscribers": 757856
   },
   {
     "index": 163,
     "subscribers": 14400,
-    "rolling_avg_subscribers": 746696.32
+    "rolling_avg_subscribers": 753295
   },
   {
     "index": 164,
-    "subscribers": 14000,
-    "rolling_avg_subscribers": 742228.66
+    "subscribers": 14400,
+    "rolling_avg_subscribers": 748790
   },
   {
     "index": 165,
-    "subscribers": 13800,
-    "rolling_avg_subscribers": 737813.94
+    "subscribers": 14000,
+    "rolling_avg_subscribers": 744336
   },
   {
     "index": 166,
-    "subscribers": 13700,
-    "rolling_avg_subscribers": 733451.81
+    "subscribers": 13800,
+    "rolling_avg_subscribers": 739936
   },
   {
     "index": 167,
-    "subscribers": 13000,
-    "rolling_avg_subscribers": 729137.72
+    "subscribers": 13700,
+    "rolling_avg_subscribers": 735587
   },
   {
     "index": 168,
-    "subscribers": 12900,
-    "rolling_avg_subscribers": 724874.4
+    "subscribers": 13000,
+    "rolling_avg_subscribers": 731286
   },
   {
     "index": 169,
     "subscribers": 12900,
-    "rolling_avg_subscribers": 720661.54
+    "rolling_avg_subscribers": 727035
   },
   {
     "index": 170,
-    "subscribers": 12200,
-    "rolling_avg_subscribers": 716494.12
+    "subscribers": 12900,
+    "rolling_avg_subscribers": 722834
   },
   {
     "index": 171,
-    "subscribers": 12100,
-    "rolling_avg_subscribers": 712374.85
+    "subscribers": 12200,
+    "rolling_avg_subscribers": 718678
   },
   {
     "index": 172,
     "subscribers": 12100,
-    "rolling_avg_subscribers": 708303.49
+    "rolling_avg_subscribers": 714570
   },
   {
     "index": 173,
     "subscribers": 12100,
-    "rolling_avg_subscribers": 704279.19
+    "rolling_avg_subscribers": 710510
   },
   {
     "index": 174,
-    "subscribers": 11800,
-    "rolling_avg_subscribers": 700299.43
+    "subscribers": 12100,
+    "rolling_avg_subscribers": 706496
   },
   {
     "index": 175,
     "subscribers": 11800,
-    "rolling_avg_subscribers": 696365.14
+    "rolling_avg_subscribers": 702526
   },
   {
     "index": 176,
-    "subscribers": 11600,
-    "rolling_avg_subscribers": 692474.43
+    "subscribers": 11800,
+    "rolling_avg_subscribers": 698602
   },
   {
     "index": 177,
-    "subscribers": 11300,
-    "rolling_avg_subscribers": 688625.99
+    "subscribers": 11600,
+    "rolling_avg_subscribers": 694720
   },
   {
     "index": 178,
-    "subscribers": 11000,
-    "rolling_avg_subscribers": 684819.1
+    "subscribers": 11300,
+    "rolling_avg_subscribers": 690881
   },
   {
     "index": 179,
-    "subscribers": 10800,
-    "rolling_avg_subscribers": 681053.63
+    "subscribers": 11000,
+    "rolling_avg_subscribers": 687083
   },
   {
     "index": 180,
-    "subscribers": 10000,
-    "rolling_avg_subscribers": 677325.56
+    "subscribers": 10800,
+    "rolling_avg_subscribers": 683326
   },
   {
     "index": 181,
-    "subscribers": 9170,
-    "rolling_avg_subscribers": 673634.09
+    "subscribers": 10000,
+    "rolling_avg_subscribers": 679606
   },
   {
     "index": 182,
-    "subscribers": 9160,
-    "rolling_avg_subscribers": 669983.13
+    "subscribers": 9170,
+    "rolling_avg_subscribers": 675922
   },
   {
     "index": 183,
     "subscribers": 9160,
-    "rolling_avg_subscribers": 666372.08
+    "rolling_avg_subscribers": 672278
   },
   {
     "index": 184,
-    "subscribers": 8910,
-    "rolling_avg_subscribers": 662798.91
+    "subscribers": 9160,
+    "rolling_avg_subscribers": 668674
   },
   {
     "index": 185,
-    "subscribers": 8200,
-    "rolling_avg_subscribers": 659260.54
+    "subscribers": 8910,
+    "rolling_avg_subscribers": 665108
   },
   {
     "index": 186,
-    "subscribers": 8090,
-    "rolling_avg_subscribers": 655759.62
+    "subscribers": 8200,
+    "rolling_avg_subscribers": 661576
   },
   {
     "index": 187,
-    "subscribers": 7940,
-    "rolling_avg_subscribers": 652295.35
+    "subscribers": 8090,
+    "rolling_avg_subscribers": 658082
   },
   {
     "index": 188,
-    "subscribers": 7930,
-    "rolling_avg_subscribers": 648867.87
+    "subscribers": 7940,
+    "rolling_avg_subscribers": 654624
   },
   {
     "index": 189,
-    "subscribers": 7900,
-    "rolling_avg_subscribers": 645476.51
+    "subscribers": 7930,
+    "rolling_avg_subscribers": 651202
   },
   {
     "index": 190,
-    "subscribers": 7890,
-    "rolling_avg_subscribers": 642120.79
+    "subscribers": 7900,
+    "rolling_avg_subscribers": 647816
   },
   {
     "index": 191,
-    "subscribers": 7820,
-    "rolling_avg_subscribers": 638799.84
+    "subscribers": 7890,
+    "rolling_avg_subscribers": 644466
   },
   {
     "index": 192,
-    "subscribers": 7640,
-    "rolling_avg_subscribers": 635512.55
+    "subscribers": 7820,
+    "rolling_avg_subscribers": 641150
   },
   {
     "index": 193,
-    "subscribers": 7520,
-    "rolling_avg_subscribers": 632258.7
+    "subscribers": 7640,
+    "rolling_avg_subscribers": 637867
   },
   {
     "index": 194,
-    "subscribers": 6970,
-    "rolling_avg_subscribers": 629035.57
+    "subscribers": 7520,
+    "rolling_avg_subscribers": 634618
   },
   {
     "index": 195,
-    "subscribers": 6880,
-    "rolling_avg_subscribers": 625845.03
+    "subscribers": 6970,
+    "rolling_avg_subscribers": 631399
   },
   {
     "index": 196,
-    "subscribers": 6780,
-    "rolling_avg_subscribers": 622686.53
+    "subscribers": 6880,
+    "rolling_avg_subscribers": 628213
   },
   {
     "index": 197,
-    "subscribers": 6730,
-    "rolling_avg_subscribers": 619559.85
+    "subscribers": 6780,
+    "rolling_avg_subscribers": 625059
   },
   {
     "index": 198,
-    "subscribers": 6530,
-    "rolling_avg_subscribers": 616463.74
+    "subscribers": 6730,
+    "rolling_avg_subscribers": 621936
   },
   {
     "index": 199,
-    "subscribers": 6350,
-    "rolling_avg_subscribers": 613397.84
+    "subscribers": 6530,
+    "rolling_avg_subscribers": 618843
   },
   {
     "index": 200,
-    "subscribers": 6310,
-    "rolling_avg_subscribers": 610362.4
+    "subscribers": 6350,
+    "rolling_avg_subscribers": 615781
   },
   {
     "index": 201,
-    "subscribers": 6060,
-    "rolling_avg_subscribers": 607355.92
+    "subscribers": 6310,
+    "rolling_avg_subscribers": 612749
   },
   {
     "index": 202,
-    "subscribers": 5530,
-    "rolling_avg_subscribers": 604376.58
+    "subscribers": 6060,
+    "rolling_avg_subscribers": 609745
   },
   {
     "index": 203,
-    "subscribers": 5310,
-    "rolling_avg_subscribers": 601425.52
+    "subscribers": 5530,
+    "rolling_avg_subscribers": 606769
   },
   {
     "index": 204,
-    "subscribers": 5130,
-    "rolling_avg_subscribers": 598502.5
+    "subscribers": 5310,
+    "rolling_avg_subscribers": 603820
   },
   {
     "index": 205,
-    "subscribers": 4950,
-    "rolling_avg_subscribers": 595607.12
+    "subscribers": 5130,
+    "rolling_avg_subscribers": 600900
   },
   {
     "index": 206,
-    "subscribers": 4860,
-    "rolling_avg_subscribers": 592739.42
+    "subscribers": 4950,
+    "rolling_avg_subscribers": 598007
   },
   {
     "index": 207,
-    "subscribers": 4650,
-    "rolling_avg_subscribers": 589898.41
+    "subscribers": 4860,
+    "rolling_avg_subscribers": 595142
   },
   {
     "index": 208,
-    "subscribers": 4560,
-    "rolling_avg_subscribers": 587084.28
+    "subscribers": 4650,
+    "rolling_avg_subscribers": 592303
   },
   {
     "index": 209,
-    "subscribers": 4480,
-    "rolling_avg_subscribers": 584296.7
+    "subscribers": 4560,
+    "rolling_avg_subscribers": 589491
   },
   {
     "index": 210,
-    "subscribers": 4400,
-    "rolling_avg_subscribers": 581535.29
+    "subscribers": 4480,
+    "rolling_avg_subscribers": 586705
   },
   {
     "index": 211,
     "subscribers": 4400,
-    "rolling_avg_subscribers": 578800.05
+    "rolling_avg_subscribers": 583945
   },
   {
     "index": 212,
-    "subscribers": 4250,
-    "rolling_avg_subscribers": 576089.91
+    "subscribers": 4400,
+    "rolling_avg_subscribers": 581211
   },
   {
     "index": 213,
-    "subscribers": 4240,
-    "rolling_avg_subscribers": 573405.16
+    "subscribers": 4250,
+    "rolling_avg_subscribers": 578503
   },
   {
     "index": 214,
-    "subscribers": 4220,
-    "rolling_avg_subscribers": 570745.42
+    "subscribers": 4240,
+    "rolling_avg_subscribers": 575819
   },
   {
     "index": 215,
-    "subscribers": 4010,
-    "rolling_avg_subscribers": 568109.44
+    "subscribers": 4220,
+    "rolling_avg_subscribers": 573161
   },
   {
     "index": 216,
-    "subscribers": 3970,
-    "rolling_avg_subscribers": 565497.69
+    "subscribers": 4010,
+    "rolling_avg_subscribers": 570526
   },
   {
     "index": 217,
-    "subscribers": 3900,
-    "rolling_avg_subscribers": 562909.68
+    "subscribers": 3970,
+    "rolling_avg_subscribers": 567915
   },
   {
     "index": 218,
     "subscribers": 3900,
-    "rolling_avg_subscribers": 560345.41
+    "rolling_avg_subscribers": 565328
   },
   {
     "index": 219,
-    "subscribers": 3800,
-    "rolling_avg_subscribers": 557804.11
+    "subscribers": 3900,
+    "rolling_avg_subscribers": 562764
   },
   {
     "index": 220,
-    "subscribers": 3770,
-    "rolling_avg_subscribers": 555285.77
+    "subscribers": 3800,
+    "rolling_avg_subscribers": 560223
   },
   {
     "index": 221,
-    "subscribers": 3760,
-    "rolling_avg_subscribers": 552790.18
+    "subscribers": 3770,
+    "rolling_avg_subscribers": 557705
   },
   {
     "index": 222,
-    "subscribers": 3730,
-    "rolling_avg_subscribers": 550316.94
+    "subscribers": 3760,
+    "rolling_avg_subscribers": 555210
   },
   {
     "index": 223,
-    "subscribers": 3610,
-    "rolling_avg_subscribers": 547865.34
+    "subscribers": 3730,
+    "rolling_avg_subscribers": 552737
   },
   {
     "index": 224,
-    "subscribers": 3490,
-    "rolling_avg_subscribers": 545435.09
+    "subscribers": 3610,
+    "rolling_avg_subscribers": 550286
   },
   {
     "index": 225,
-    "subscribers": 3440,
-    "rolling_avg_subscribers": 543026.22
+    "subscribers": 3490,
+    "rolling_avg_subscribers": 547855
   },
   {
     "index": 226,
-    "subscribers": 3370,
-    "rolling_avg_subscribers": 540638.36
+    "subscribers": 3440,
+    "rolling_avg_subscribers": 545446
   },
   {
     "index": 227,
-    "subscribers": 3200,
-    "rolling_avg_subscribers": 538270.79
+    "subscribers": 3370,
+    "rolling_avg_subscribers": 543058
   },
   {
     "index": 228,
-    "subscribers": 3190,
-    "rolling_avg_subscribers": 535923.95
+    "subscribers": 3200,
+    "rolling_avg_subscribers": 540691
   },
   {
     "index": 229,
-    "subscribers": 3150,
-    "rolling_avg_subscribers": 533597.42
+    "subscribers": 3190,
+    "rolling_avg_subscribers": 538343
   },
   {
     "index": 230,
-    "subscribers": 3110,
-    "rolling_avg_subscribers": 531290.96
+    "subscribers": 3150,
+    "rolling_avg_subscribers": 536017
   },
   {
     "index": 231,
-    "subscribers": 3030,
-    "rolling_avg_subscribers": 529004.11
+    "subscribers": 3110,
+    "rolling_avg_subscribers": 533710
   },
   {
     "index": 232,
-    "subscribers": 2860,
-    "rolling_avg_subscribers": 526736.25
+    "subscribers": 3030,
+    "rolling_avg_subscribers": 531422
   },
   {
     "index": 233,
-    "subscribers": 2820,
-    "rolling_avg_subscribers": 524487.68
+    "subscribers": 2860,
+    "rolling_avg_subscribers": 529154
   },
   {
     "index": 234,
-    "subscribers": 2700,
-    "rolling_avg_subscribers": 522257.82
+    "subscribers": 2820,
+    "rolling_avg_subscribers": 526904
   },
   {
     "index": 235,
-    "subscribers": 2690,
-    "rolling_avg_subscribers": 520046.89
+    "subscribers": 2700,
+    "rolling_avg_subscribers": 524674
   },
   {
     "index": 236,
     "subscribers": 2690,
-    "rolling_avg_subscribers": 517854.7
+    "rolling_avg_subscribers": 522462
   },
   {
     "index": 237,
-    "subscribers": 2660,
-    "rolling_avg_subscribers": 515680.89
+    "subscribers": 2690,
+    "rolling_avg_subscribers": 520269
   },
   {
     "index": 238,
-    "subscribers": 2630,
-    "rolling_avg_subscribers": 513525.21
+    "subscribers": 2660,
+    "rolling_avg_subscribers": 518094
   },
   {
     "index": 239,
-    "subscribers": 2610,
-    "rolling_avg_subscribers": 511387.49
+    "subscribers": 2630,
+    "rolling_avg_subscribers": 515937
   },
   {
     "index": 240,
-    "subscribers": 2550,
-    "rolling_avg_subscribers": 509267.33
+    "subscribers": 2610,
+    "rolling_avg_subscribers": 513798
   },
   {
     "index": 241,
-    "subscribers": 2540,
-    "rolling_avg_subscribers": 507164.73
+    "subscribers": 2550,
+    "rolling_avg_subscribers": 511677
   },
   {
     "index": 242,
-    "subscribers": 2440,
-    "rolling_avg_subscribers": 505079.09
+    "subscribers": 2540,
+    "rolling_avg_subscribers": 509573
   },
   {
     "index": 243,
-    "subscribers": 2380,
-    "rolling_avg_subscribers": 503010.37
+    "subscribers": 2440,
+    "rolling_avg_subscribers": 507486
   },
   {
     "index": 244,
-    "subscribers": 2280,
-    "rolling_avg_subscribers": 500958.2
+    "subscribers": 2380,
+    "rolling_avg_subscribers": 505416
   },
   {
     "index": 245,
-    "subscribers": 2270,
-    "rolling_avg_subscribers": 498922.73
+    "subscribers": 2280,
+    "rolling_avg_subscribers": 503362
   },
   {
     "index": 246,
-    "subscribers": 2130,
-    "rolling_avg_subscribers": 496903.25
+    "subscribers": 2270,
+    "rolling_avg_subscribers": 501325
   },
   {
     "index": 247,
-    "subscribers": 2066,
-    "rolling_avg_subscribers": 494899.86
+    "subscribers": 2130,
+    "rolling_avg_subscribers": 499304
   },
   {
     "index": 248,
-    "subscribers": 2060,
-    "rolling_avg_subscribers": 492912.6
+    "subscribers": 2066,
+    "rolling_avg_subscribers": 497299
   },
   {
     "index": 249,
-    "subscribers": 2010,
-    "rolling_avg_subscribers": 490941.11
+    "subscribers": 2060,
+    "rolling_avg_subscribers": 495311
   },
   {
     "index": 250,
-    "subscribers": 1980,
-    "rolling_avg_subscribers": 488985.26
+    "subscribers": 2010,
+    "rolling_avg_subscribers": 493337
   },
   {
     "index": 251,
-    "subscribers": 1830,
-    "rolling_avg_subscribers": 487044.41
+    "subscribers": 1980,
+    "rolling_avg_subscribers": 491380
   },
   {
     "index": 252,
-    "subscribers": 1800,
-    "rolling_avg_subscribers": 485118.83
+    "subscribers": 1830,
+    "rolling_avg_subscribers": 489437
   },
   {
     "index": 253,
-    "subscribers": 1750,
-    "rolling_avg_subscribers": 483208.28
+    "subscribers": 1800,
+    "rolling_avg_subscribers": 487510
   },
   {
     "index": 254,
-    "subscribers": 1700,
-    "rolling_avg_subscribers": 481312.58
+    "subscribers": 1750,
+    "rolling_avg_subscribers": 485597
   },
   {
     "index": 255,
-    "subscribers": 1680,
-    "rolling_avg_subscribers": 479431.67
+    "subscribers": 1700,
+    "rolling_avg_subscribers": 483700
   },
   {
     "index": 256,
     "subscribers": 1680,
-    "rolling_avg_subscribers": 477565.45
+    "rolling_avg_subscribers": 481817
   },
   {
     "index": 257,
-    "subscribers": 1640,
-    "rolling_avg_subscribers": 475713.6
+    "subscribers": 1680,
+    "rolling_avg_subscribers": 479948
   },
   {
     "index": 258,
-    "subscribers": 1620,
-    "rolling_avg_subscribers": 473876.03
+    "subscribers": 1640,
+    "rolling_avg_subscribers": 478095
   },
   {
     "index": 259,
-    "subscribers": 1520,
-    "rolling_avg_subscribers": 472052.26
+    "subscribers": 1620,
+    "rolling_avg_subscribers": 476255
   },
   {
     "index": 260,
-    "subscribers": 1480,
-    "rolling_avg_subscribers": 470242.37
+    "subscribers": 1520,
+    "rolling_avg_subscribers": 474429
   },
   {
     "index": 261,
-    "subscribers": 1460,
-    "rolling_avg_subscribers": 468446.27
+    "subscribers": 1480,
+    "rolling_avg_subscribers": 472617
   },
   {
     "index": 262,
-    "subscribers": 1410,
-    "rolling_avg_subscribers": 466663.69
+    "subscribers": 1460,
+    "rolling_avg_subscribers": 470819
   },
   {
     "index": 263,
-    "subscribers": 1390,
-    "rolling_avg_subscribers": 464894.59
+    "subscribers": 1410,
+    "rolling_avg_subscribers": 469034
   },
   {
     "index": 264,
-    "subscribers": 1380,
-    "rolling_avg_subscribers": 463138.85
+    "subscribers": 1390,
+    "rolling_avg_subscribers": 467262
   },
   {
     "index": 265,
-    "subscribers": 1370,
-    "rolling_avg_subscribers": 461396.32
+    "subscribers": 1380,
+    "rolling_avg_subscribers": 465504
   },
   {
     "index": 266,
-    "subscribers": 1360,
-    "rolling_avg_subscribers": 459666.86
+    "subscribers": 1370,
+    "rolling_avg_subscribers": 463759
   },
   {
     "index": 267,
-    "subscribers": 1310,
-    "rolling_avg_subscribers": 457950.17
+    "subscribers": 1360,
+    "rolling_avg_subscribers": 462028
   },
   {
     "index": 268,
-    "subscribers": 1210,
-    "rolling_avg_subscribers": 456245.92
+    "subscribers": 1310,
+    "rolling_avg_subscribers": 460309
   },
   {
     "index": 269,
     "subscribers": 1210,
-    "rolling_avg_subscribers": 454554.33
+    "rolling_avg_subscribers": 458602
   },
   {
     "index": 270,
-    "subscribers": 1200,
-    "rolling_avg_subscribers": 452875.24
+    "subscribers": 1210,
+    "rolling_avg_subscribers": 456908
   },
   {
     "index": 271,
-    "subscribers": 1190,
-    "rolling_avg_subscribers": 451208.51
+    "subscribers": 1200,
+    "rolling_avg_subscribers": 455226
   },
   {
     "index": 272,
     "subscribers": 1190,
-    "rolling_avg_subscribers": 449554.03
+    "rolling_avg_subscribers": 453557
   },
   {
     "index": 273,
     "subscribers": 1190,
-    "rolling_avg_subscribers": 447911.67
+    "rolling_avg_subscribers": 451900
   },
   {
     "index": 274,
-    "subscribers": 1150,
-    "rolling_avg_subscribers": 446281.15
+    "subscribers": 1190,
+    "rolling_avg_subscribers": 450255
   },
   {
     "index": 275,
-    "subscribers": 1130,
-    "rolling_avg_subscribers": 444662.42
+    "subscribers": 1150,
+    "rolling_avg_subscribers": 448622
   },
   {
     "index": 276,
-    "subscribers": 1110,
-    "rolling_avg_subscribers": 443055.35
+    "subscribers": 1130,
+    "rolling_avg_subscribers": 447001
   },
   {
     "index": 277,
-    "subscribers": 1100,
-    "rolling_avg_subscribers": 441459.84
+    "subscribers": 1110,
+    "rolling_avg_subscribers": 445391
   },
   {
     "index": 278,
     "subscribers": 1100,
-    "rolling_avg_subscribers": 439875.81
+    "rolling_avg_subscribers": 443793
   },
   {
     "index": 279,
-    "subscribers": 1090,
-    "rolling_avg_subscribers": 438303.1
+    "subscribers": 1100,
+    "rolling_avg_subscribers": 442206
   },
   {
     "index": 280,
-    "subscribers": 1070,
-    "rolling_avg_subscribers": 436741.56
+    "subscribers": 1090,
+    "rolling_avg_subscribers": 440631
   },
   {
     "index": 281,
-    "subscribers": 1030,
-    "rolling_avg_subscribers": 435190.98
+    "subscribers": 1070,
+    "rolling_avg_subscribers": 439066
   },
   {
     "index": 282,
-    "subscribers": 1010,
-    "rolling_avg_subscribers": 433651.33
+    "subscribers": 1030,
+    "rolling_avg_subscribers": 437513
   },
   {
     "index": 283,
-    "subscribers": 1000,
-    "rolling_avg_subscribers": 432122.53
+    "subscribers": 1010,
+    "rolling_avg_subscribers": 435971
   },
   {
     "index": 284,
     "subscribers": 1000,
-    "rolling_avg_subscribers": 430604.49
+    "rolling_avg_subscribers": 434439
   },
   {
     "index": 285,
-    "subscribers": 867,
-    "rolling_avg_subscribers": 429096.64
+    "subscribers": 1000,
+    "rolling_avg_subscribers": 432918
   },
   {
     "index": 286,
-    "subscribers": 839,
-    "rolling_avg_subscribers": 427599.24
+    "subscribers": 867,
+    "rolling_avg_subscribers": 431407
   },
   {
     "index": 287,
-    "subscribers": 736,
-    "rolling_avg_subscribers": 426111.91
+    "subscribers": 839,
+    "rolling_avg_subscribers": 429907
   },
   {
     "index": 288,
-    "subscribers": 701,
-    "rolling_avg_subscribers": 424634.79
+    "subscribers": 736,
+    "rolling_avg_subscribers": 428417
   },
   {
     "index": 289,
-    "subscribers": 682,
-    "rolling_avg_subscribers": 423167.82
+    "subscribers": 701,
+    "rolling_avg_subscribers": 426937
   },
   {
     "index": 290,
-    "subscribers": 652,
-    "rolling_avg_subscribers": 421710.87
+    "subscribers": 682,
+    "rolling_avg_subscribers": 425467
   },
   {
     "index": 291,
-    "subscribers": 611,
-    "rolling_avg_subscribers": 420263.79
+    "subscribers": 652,
+    "rolling_avg_subscribers": 424007
   },
   {
     "index": 292,
-    "subscribers": 602,
-    "rolling_avg_subscribers": 418826.6
+    "subscribers": 611,
+    "rolling_avg_subscribers": 422557
   },
   {
     "index": 293,
-    "subscribers": 594,
-    "rolling_avg_subscribers": 417399.18
+    "subscribers": 602,
+    "rolling_avg_subscribers": 421117
   },
   {
     "index": 294,
-    "subscribers": 582,
-    "rolling_avg_subscribers": 415981.44
+    "subscribers": 594,
+    "rolling_avg_subscribers": 419687
   },
   {
     "index": 295,
-    "subscribers": 526,
-    "rolling_avg_subscribers": 414573.11
+    "subscribers": 582,
+    "rolling_avg_subscribers": 418266
   },
   {
     "index": 296,
-    "subscribers": 364,
-    "rolling_avg_subscribers": 413173.76
+    "subscribers": 526,
+    "rolling_avg_subscribers": 416855
   },
   {
     "index": 297,
-    "subscribers": 299,
-    "rolling_avg_subscribers": 411783.61
+    "subscribers": 364,
+    "rolling_avg_subscribers": 415453
   },
   {
     "index": 298,
-    "subscribers": 212,
-    "rolling_avg_subscribers": 410402.49
+    "subscribers": 299,
+    "rolling_avg_subscribers": 414060
   },
   {
     "index": 299,
-    "subscribers": 185,
-    "rolling_avg_subscribers": 409030.53
+    "subscribers": 212,
+    "rolling_avg_subscribers": 412675
   },
   {
     "index": 300,
-    "subscribers": 176,
-    "rolling_avg_subscribers": 407667.68
+    "subscribers": 185,
+    "rolling_avg_subscribers": 411300
   },
   {
     "index": 301,
-    "subscribers": 172,
-    "rolling_avg_subscribers": 406313.87
+    "subscribers": 176,
+    "rolling_avg_subscribers": 409935
   },
   {
     "index": 302,
-    "subscribers": 166,
-    "rolling_avg_subscribers": 404969.01
+    "subscribers": 172,
+    "rolling_avg_subscribers": 408578
   },
   {
     "index": 303,
-    "subscribers": 145,
-    "rolling_avg_subscribers": 403632.96
+    "subscribers": 166,
+    "rolling_avg_subscribers": 407230
   },
   {
     "index": 304,
-    "subscribers": 144,
-    "rolling_avg_subscribers": 402305.69
+    "subscribers": 145,
+    "rolling_avg_subscribers": 405891
   },
   {
     "index": 305,
-    "subscribers": 123,
-    "rolling_avg_subscribers": 400987.06
+    "subscribers": 144,
+    "rolling_avg_subscribers": 404560
   },
   {
     "index": 306,
-    "subscribers": 121,
-    "rolling_avg_subscribers": 399677.04
+    "subscribers": 123,
+    "rolling_avg_subscribers": 403239
   },
   {
     "index": 307,
     "subscribers": 121,
-    "rolling_avg_subscribers": 398375.56
+    "rolling_avg_subscribers": 401926
   },
   {
     "index": 308,
-    "subscribers": 106,
-    "rolling_avg_subscribers": 397082.47
+    "subscribers": 121,
+    "rolling_avg_subscribers": 400621
   },
   {
     "index": 309,
-    "subscribers": 99,
-    "rolling_avg_subscribers": 395797.74
+    "subscribers": 106,
+    "rolling_avg_subscribers": 399325
   },
   {
     "index": 310,
-    "subscribers": 90,
-    "rolling_avg_subscribers": 394521.26
+    "subscribers": 99,
+    "rolling_avg_subscribers": 398037
   },
   {
     "index": 311,
-    "subscribers": 89,
-    "rolling_avg_subscribers": 393252.99
+    "subscribers": 90,
+    "rolling_avg_subscribers": 396758
   },
   {
     "index": 312,
-    "subscribers": 84,
-    "rolling_avg_subscribers": 391992.83
+    "subscribers": 89,
+    "rolling_avg_subscribers": 395486
   },
   {
     "index": 313,
-    "subscribers": 80,
-    "rolling_avg_subscribers": 390740.72
+    "subscribers": 84,
+    "rolling_avg_subscribers": 394223
   },
   {
     "index": 314,
-    "subscribers": 74,
-    "rolling_avg_subscribers": 389496.55
+    "subscribers": 80,
+    "rolling_avg_subscribers": 392968
   },
   {
     "index": 315,
-    "subscribers": 59,
-    "rolling_avg_subscribers": 388260.24
+    "subscribers": 74,
+    "rolling_avg_subscribers": 391720
   },
   {
     "index": 316,
-    "subscribers": 56,
-    "rolling_avg_subscribers": 387031.75
+    "subscribers": 59,
+    "rolling_avg_subscribers": 390481
   },
   {
     "index": 317,
-    "subscribers": 54,
-    "rolling_avg_subscribers": 385811
+    "subscribers": 56,
+    "rolling_avg_subscribers": 389249
   },
   {
     "index": 318,
-    "subscribers": 51,
-    "rolling_avg_subscribers": 384597.92
+    "subscribers": 54,
+    "rolling_avg_subscribers": 388025
   },
   {
     "index": 319,
-    "subscribers": 46,
-    "rolling_avg_subscribers": 383392.43
+    "subscribers": 51,
+    "rolling_avg_subscribers": 386809
   },
   {
     "index": 320,
-    "subscribers": 45,
-    "rolling_avg_subscribers": 382194.47
+    "subscribers": 46,
+    "rolling_avg_subscribers": 385601
   },
   {
     "index": 321,
-    "subscribers": 43,
-    "rolling_avg_subscribers": 381003.96
+    "subscribers": 45,
+    "rolling_avg_subscribers": 384399
   },
   {
     "index": 322,
-    "subscribers": 42,
-    "rolling_avg_subscribers": 379820.85
+    "subscribers": 43,
+    "rolling_avg_subscribers": 383206
   },
   {
     "index": 323,
-    "subscribers": 38,
-    "rolling_avg_subscribers": 378645.05
+    "subscribers": 42,
+    "rolling_avg_subscribers": 382020
   },
   {
     "index": 324,
-    "subscribers": 37,
-    "rolling_avg_subscribers": 377476.51
+    "subscribers": 38,
+    "rolling_avg_subscribers": 380841
   },
   {
     "index": 325,
-    "subscribers": 36,
-    "rolling_avg_subscribers": 376315.15
+    "subscribers": 37,
+    "rolling_avg_subscribers": 379669
   },
   {
     "index": 326,
-    "subscribers": 25,
-    "rolling_avg_subscribers": 375160.89
+    "subscribers": 36,
+    "rolling_avg_subscribers": 378504
   },
   {
     "index": 327,
-    "subscribers": 24,
-    "rolling_avg_subscribers": 374013.68
+    "subscribers": 25,
+    "rolling_avg_subscribers": 377347
   },
   {
     "index": 328,
-    "subscribers": 23,
-    "rolling_avg_subscribers": 372873.47
+    "subscribers": 24,
+    "rolling_avg_subscribers": 376197
   },
   {
     "index": 329,
-    "subscribers": 14,
-    "rolling_avg_subscribers": 371740.16
+    "subscribers": 23,
+    "rolling_avg_subscribers": 375053
   },
   {
     "index": 330,
     "subscribers": 14,
-    "rolling_avg_subscribers": 370613.71
+    "rolling_avg_subscribers": 373917
   },
   {
     "index": 331,
-    "subscribers": 12,
-    "rolling_avg_subscribers": 369494.07
+    "subscribers": 14,
+    "rolling_avg_subscribers": 372787
   },
   {
     "index": 332,
-    "subscribers": 11,
-    "rolling_avg_subscribers": 368381.17
+    "subscribers": 12,
+    "rolling_avg_subscribers": 371664
   },
   {
     "index": 333,
-    "subscribers": 8,
-    "rolling_avg_subscribers": 367274.94
+    "subscribers": 11,
+    "rolling_avg_subscribers": 370548
   },
   {
     "index": 334,
-    "subscribers": 6,
-    "rolling_avg_subscribers": 366175.34
+    "subscribers": 8,
+    "rolling_avg_subscribers": 369439
   },
   {
     "index": 335,
-    "subscribers": 4,
-    "rolling_avg_subscribers": 365082.29
+    "subscribers": 6,
+    "rolling_avg_subscribers": 368336
   },
   {
     "index": 336,
-    "subscribers": 2,
-    "rolling_avg_subscribers": 363995.74
+    "subscribers": 4,
+    "rolling_avg_subscribers": 367240
   },
   {
     "index": 337,
-    "subscribers": 1,
-    "rolling_avg_subscribers": 362915.64
+    "subscribers": 2,
+    "rolling_avg_subscribers": 366150
   },
   {
     "index": 338,
     "subscribers": 1,
-    "rolling_avg_subscribers": 361841.92
+    "rolling_avg_subscribers": 365067
+  },
+  {
+    "index": 339,
+    "subscribers": 1,
+    "rolling_avg_subscribers": 363990
+  },
+  {
+    "index": 340,
+    "subscribers": 0,
+    "rolling_avg_subscribers": 362919
   }
 ]

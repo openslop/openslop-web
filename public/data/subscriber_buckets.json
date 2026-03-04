@@ -41,10 +41,10 @@
   },
   {
     "bucket": "1M+",
-    "count": 19,
+    "count": 20,
     "full": 7,
     "partial": 8,
-    "minimal": 4,
+    "minimal": 5,
     "unknown": 0
   }
 ]

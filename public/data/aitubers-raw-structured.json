@@ -1,6 +1,6 @@
 {
   "source_sheet_id": "1qeFJIdkKwMUp1OsXFwoMPtIXU8yEAU4cUed2T7Ewbqw",
-  "range": "Sheet1!A1:Z1035",
+  "range": "Sheet1!A1:Z343",
   "header_row_number": 3,
   "header": [
     "Channel",
@@ -10,7 +10,7 @@
     "Description",
     "Emails"
   ],
-  "record_count": 339,
+  "record_count": 340,
   "records": [
     {
       "row_number": 4,
@@ -2353,7 +2353,7 @@
       ]
     },
     {
-      "row_number": 135,
+      "row_number": 134,
       "channel": "https://youtube.com/@ZigZagProductionStudio",
       "ai_use": "Full",
       "subscribers_raw": "32,300",
@@ -2371,7 +2371,7 @@
       ]
     },
     {
-      "row_number": 136,
+      "row_number": 135,
       "channel": "https://www.youtube.com/@neuralframes",
       "ai_use": "Full",
       "subscribers_raw": "32,000",
@@ -2389,7 +2389,7 @@
       ]
     },
     {
-      "row_number": 137,
+      "row_number": 136,
       "channel": "https://youtube.com/@Sword_And_Pen_Official45",
       "ai_use": "Full",
       "subscribers_raw": "31,700",
@@ -2407,7 +2407,7 @@
       ]
     },
     {
-      "row_number": 138,
+      "row_number": 137,
       "channel": "https://www.youtube.com/@cataishorts353",
       "ai_use": "Full",
       "subscribers_raw": "31,700",
@@ -2425,7 +2425,7 @@
       ]
     },
     {
-      "row_number": 139,
+      "row_number": 138,
       "channel": "https://youtube.com/@kirtopchannel",
       "ai_use": "Full",
       "subscribers_raw": "31,000",
@@ -2443,7 +2443,7 @@
       ]
     },
     {
-      "row_number": 140,
+      "row_number": 139,
       "channel": "https://youtube.com/@ClickyAI",
       "ai_use": "Partial",
       "subscribers_raw": "30,000",
@@ -2461,7 +2461,7 @@
       ]
     },
     {
-      "row_number": 141,
+      "row_number": 140,
       "channel": "https://youtube.com/@AIFlowOfficial",
       "ai_use": "Full",
       "subscribers_raw": "28,700",
@@ -2479,7 +2479,7 @@
       ]
     },
     {
-      "row_number": 142,
+      "row_number": 141,
       "channel": "https://youtube.com/@LoveMeetsArt",
       "ai_use": "Full",
       "subscribers_raw": "27,300",
@@ -2497,7 +2497,7 @@
       ]
     },
     {
-      "row_number": 143,
+      "row_number": 142,
       "channel": "https://www.youtube.com/@sleepyhistoryforsleepai",
       "ai_use": "Full",
       "subscribers_raw": "26,600",
@@ -2515,7 +2515,7 @@
       ]
     },
     {
-      "row_number": 144,
+      "row_number": 143,
       "channel": "https://youtube.com/@ImpossibleTales96",
       "ai_use": "Full",
       "subscribers_raw": "24,500",
@@ -2533,7 +2533,7 @@
       ]
     },
     {
-      "row_number": 145,
+      "row_number": 144,
       "channel": "https://www.youtube.com/@hindianimationai-v9u",
       "ai_use": "Full",
       "subscribers_raw": "23,700",
@@ -2551,7 +2551,7 @@
       ]
     },
     {
-      "row_number": 146,
+      "row_number": 145,
       "channel": "https://youtube.com/@MasteringtheUnknown",
       "ai_use": "Full",
       "subscribers_raw": "23,300",
@@ -2569,7 +2569,7 @@
       ]
     },
     {
-      "row_number": 147,
+      "row_number": 146,
       "channel": "https://youtube.com/@TheMainverse",
       "ai_use": "Full",
       "subscribers_raw": "23,000",
@@ -2587,7 +2587,7 @@
       ]
     },
     {
-      "row_number": 148,
+      "row_number": 147,
       "channel": "https://www.youtube.com/@AI_Filmss",
       "ai_use": "Full",
       "subscribers_raw": "22,800",
@@ -2605,7 +2605,7 @@
       ]
     },
     {
-      "row_number": 149,
+      "row_number": 148,
       "channel": "https://www.youtube.com/@PawRescueStoriesAI",
       "ai_use": "Full",
       "subscribers_raw": "22,700",
@@ -2623,7 +2623,7 @@
       ]
     },
     {
-      "row_number": 150,
+      "row_number": 149,
       "channel": "https://youtube.com/@BibleBrickStories",
       "ai_use": "Full",
       "subscribers_raw": "21,200",
@@ -2641,7 +2641,7 @@
       ]
     },
     {
-      "row_number": 151,
+      "row_number": 150,
       "channel": "https://www.youtube.com/@ELEVENZAIMUSICLAB",
       "ai_use": "Full",
       "subscribers_raw": "21,100",
@@ -2659,7 +2659,7 @@
       ]
     },
     {
-      "row_number": 152,
+      "row_number": 151,
       "channel": "https://youtube.com/@LicbeAIMedia",
       "ai_use": "Full",
       "subscribers_raw": "19,900",
@@ -2677,7 +2677,7 @@
       ]
     },
     {
-      "row_number": 153,
+      "row_number": 152,
       "channel": "https://youtube.com/@SereneVideoAI",
       "ai_use": "Full",
       "subscribers_raw": "19,900",
@@ -2695,7 +2695,7 @@
       ]
     },
     {
-      "row_number": 154,
+      "row_number": 153,
       "channel": "https://youtube.com/@bonsai-effect",
       "ai_use": "Full",
       "subscribers_raw": "19,400",
@@ -2713,7 +2713,7 @@
       ]
     },
     {
-      "row_number": 155,
+      "row_number": 154,
       "channel": "https://www.youtube.com/@DreamsofDisclosure",
       "ai_use": "Full",
       "subscribers_raw": "19,000",
@@ -2731,7 +2731,7 @@
       ]
     },
     {
-      "row_number": 156,
+      "row_number": 155,
       "channel": "https://youtube.com/@CommonHub",
       "ai_use": "Full",
       "subscribers_raw": "18,400",
@@ -2749,7 +2749,7 @@
       ]
     },
     {
-      "row_number": 157,
+      "row_number": 156,
       "channel": "https://youtube.com/@DreamRealm37",
       "ai_use": "Full",
       "subscribers_raw": "18,100",
@@ -2767,7 +2767,7 @@
       ]
     },
     {
-      "row_number": 158,
+      "row_number": 157,
       "channel": "https://www.youtube.com/@wildeyes00",
       "ai_use": "Full",
       "subscribers_raw": "17,800",
@@ -2785,7 +2785,7 @@
       ]
     },
     {
-      "row_number": 159,
+      "row_number": 158,
       "channel": "https://www.youtube.com/@story-ai-78",
       "ai_use": "Full",
       "subscribers_raw": "17,500",
@@ -2803,7 +2803,7 @@
       ]
     },
     {
-      "row_number": 160,
+      "row_number": 159,
       "channel": "https://youtube.com/@LatentTelevision",
       "ai_use": "Full",
       "subscribers_raw": "16,900",
@@ -2821,7 +2821,7 @@
       ]
     },
     {
-      "row_number": 161,
+      "row_number": 160,
       "channel": "https://youtube.com/@Historydad_ai",
       "ai_use": "Full",
       "subscribers_raw": "16,800",
@@ -2839,7 +2839,7 @@
       ]
     },
     {
-      "row_number": 162,
+      "row_number": 161,
       "channel": "https://youtube.com/@ciudadtrendy",
       "ai_use": "Partial",
       "subscribers_raw": "16,300",
@@ -2857,7 +2857,7 @@
       ]
     },
     {
-      "row_number": 163,
+      "row_number": 162,
       "channel": "https://youtube.com/@cosmhush",
       "ai_use": "Full",
       "subscribers_raw": "16,000",
@@ -2875,7 +2875,7 @@
       ]
     },
     {
-      "row_number": 164,
+      "row_number": 163,
       "channel": "https://youtube.com/@clovakStudioai",
       "ai_use": "Full",
       "subscribers_raw": "14,800",
@@ -2893,7 +2893,7 @@
       ]
     },
     {
-      "row_number": 165,
+      "row_number": 164,
       "channel": "https://www.youtube.com/@kidsHaven-KH",
       "ai_use": "Full",
       "subscribers_raw": "14,600",
@@ -2911,7 +2911,7 @@
       ]
     },
     {
-      "row_number": 166,
+      "row_number": 165,
       "channel": "https://youtube.com/@NovaEclipseAI",
       "ai_use": "Full",
       "subscribers_raw": "14,400",
@@ -2929,7 +2929,7 @@
       ]
     },
     {
-      "row_number": 167,
+      "row_number": 166,
       "channel": "https://www.youtube.com/@AuraAnimalsAA",
       "ai_use": "Full",
       "subscribers_raw": "14,400",
@@ -2947,7 +2947,7 @@
       ]
     },
     {
-      "row_number": 168,
+      "row_number": 167,
       "channel": "https://www.youtube.com/@Moonbeam_Tales",
       "ai_use": "Full",
       "subscribers_raw": "14,000",
@@ -2965,7 +2965,7 @@
       ]
     },
     {
-      "row_number": 169,
+      "row_number": 168,
       "channel": "https://www.youtube.com/@hindiaianimationkahani",
       "ai_use": "Full",
       "subscribers_raw": "13,800",
@@ -2983,7 +2983,7 @@
       ]
     },
     {
-      "row_number": 170,
+      "row_number": 169,
       "channel": "https://youtube.com/@animatedai",
       "ai_use": "Full",
       "subscribers_raw": "13,700",
@@ -3001,7 +3001,7 @@
       ]
     },
     {
-      "row_number": 171,
+      "row_number": 170,
       "channel": "https://www.youtube.com/@StoryHoodAI-r8o",
       "ai_use": "Full",
       "subscribers_raw": "13,000",
@@ -3019,7 +3019,7 @@
       ]
     },
     {
-      "row_number": 172,
+      "row_number": 171,
       "channel": "https://youtube.com/@thetimelessmysteriess",
       "ai_use": "Full",
       "subscribers_raw": "12,900",
@@ -3037,7 +3037,7 @@
       ]
     },
     {
-      "row_number": 173,
+      "row_number": 172,
       "channel": "https://www.youtube.com/@asmrLunai",
       "ai_use": "Full",
       "subscribers_raw": "12,900",
@@ -3055,7 +3055,7 @@
       ]
     },
     {
-      "row_number": 174,
+      "row_number": 173,
       "channel": "https://www.youtube.com/@TheSleepyHistorianHistory",
       "ai_use": "Full",
       "subscribers_raw": "12,200",
@@ -3073,7 +3073,7 @@
       ]
     },
     {
-      "row_number": 175,
+      "row_number": 174,
       "channel": "https://www.youtube.com/@SpaceSleepDOC",
       "ai_use": "Full",
       "subscribers_raw": "12,100",
@@ -3091,7 +3091,7 @@
       ]
     },
     {
-      "row_number": 176,
+      "row_number": 175,
       "channel": "https://www.youtube.com/@SpaceMysteriesMorganFreeman",
       "ai_use": "Full",
       "subscribers_raw": "12,100",
@@ -3109,7 +3109,7 @@
       ]
     },
     {
-      "row_number": 177,
+      "row_number": 176,
       "channel": "https://www.youtube.com/@PureNatureDOC",
       "ai_use": "Full",
       "subscribers_raw": "12,100",
@@ -3127,7 +3127,7 @@
       ]
     },
     {
-      "row_number": 178,
+      "row_number": 177,
       "channel": "https://youtube.com/@AIVlogWithEna",
       "ai_use": "Full",
       "subscribers_raw": "11,800",
@@ -3145,7 +3145,7 @@
       ]
     },
     {
-      "row_number": 179,
+      "row_number": 178,
       "channel": "https://www.youtube.com/@WarEchoes9",
       "ai_use": "Full",
       "subscribers_raw": "11,800",
@@ -3163,7 +3163,7 @@
       ]
     },
     {
-      "row_number": 180,
+      "row_number": 179,
       "channel": "https://www.youtube.com/@AiCooksForYou",
       "ai_use": "Full",
       "subscribers_raw": "11,600",
@@ -3181,7 +3181,7 @@
       ]
     },
     {
-      "row_number": 181,
+      "row_number": 180,
       "channel": "https://youtube.com/@BitterSnake",
       "ai_use": "Full",
       "subscribers_raw": "11,300",
@@ -3199,7 +3199,7 @@
       ]
     },
     {
-      "row_number": 182,
+      "row_number": 181,
       "channel": "https://www.youtube.com/@wildlifeai.07",
       "ai_use": "Full",
       "subscribers_raw": "11,000",
@@ -3217,7 +3217,7 @@
       ]
     },
     {
-      "row_number": 183,
+      "row_number": 182,
       "channel": "https://youtube.com/@ThinkverseAI1",
       "ai_use": "Full",
       "subscribers_raw": "10,800",
@@ -3235,7 +3235,7 @@
       ]
     },
     {
-      "row_number": 184,
+      "row_number": 183,
       "channel": "https://www.youtube.com/@ASMRAIbyClara",
       "ai_use": "Full",
       "subscribers_raw": "10,000",
@@ -3253,7 +3253,7 @@
       ]
     },
     {
-      "row_number": 185,
+      "row_number": 184,
       "channel": "https://www.youtube.com/@spacefactory0769",
       "ai_use": "Full",
       "subscribers_raw": "9,170",
@@ -3271,7 +3271,7 @@
       ]
     },
     {
-      "row_number": 186,
+      "row_number": 185,
       "channel": "https://youtube.com/@hashemalghaili",
       "ai_use": "Full",
       "subscribers_raw": "9,160",
@@ -3289,7 +3289,7 @@
       ]
     },
     {
-      "row_number": 187,
+      "row_number": 186,
       "channel": "https://www.youtube.com/@Quizvideousa",
       "ai_use": "Full",
       "subscribers_raw": "9,160",
@@ -3307,7 +3307,7 @@
       ]
     },
     {
-      "row_number": 188,
+      "row_number": 187,
       "channel": "https://youtube.com/@AIcaptainYT",
       "ai_use": "Full",
       "subscribers_raw": "8,910",
@@ -3325,7 +3325,7 @@
       ]
     },
     {
-      "row_number": 189,
+      "row_number": 188,
       "channel": "https://youtube.com/@EpicAiStudioYT",
       "ai_use": "Full",
       "subscribers_raw": "8,200",
@@ -3343,7 +3343,7 @@
       ]
     },
     {
-      "row_number": 190,
+      "row_number": 189,
       "channel": "https://www.youtube.com/@CatStoriesAi-z4z",
       "ai_use": "Full",
       "subscribers_raw": "8,090",
@@ -3361,7 +3361,7 @@
       ]
     },
     {
-      "row_number": 191,
+      "row_number": 190,
       "channel": "https://www.youtube.com/@AiAnimalRescueStorieshub",
       "ai_use": "Full",
       "subscribers_raw": "7,940",
@@ -3379,7 +3379,7 @@
       ]
     },
     {
-      "row_number": 192,
+      "row_number": 191,
       "channel": "https://www.youtube.com/@NatureMeditationAmbience",
       "ai_use": "Full",
       "subscribers_raw": "7,930",
@@ -3397,7 +3397,7 @@
       ]
     },
     {
-      "row_number": 193,
+      "row_number": 192,
       "channel": "https://youtube.com/@Vihannah-AIARTvibes",
       "ai_use": "Full",
       "subscribers_raw": "7,900",
@@ -3415,7 +3415,7 @@
       ]
     },
     {
-      "row_number": 194,
+      "row_number": 193,
       "channel": "https://www.youtube.com/@TheMidnightReaderYT",
       "ai_use": "Full",
       "subscribers_raw": "7,890",
@@ -3433,7 +3433,7 @@
       ]
     },
     {
-      "row_number": 195,
+      "row_number": 194,
       "channel": "https://youtube.com/@SunoZoneAIs",
       "ai_use": "Full",
       "subscribers_raw": "7,820",
@@ -3451,7 +3451,7 @@
       ]
     },
     {
-      "row_number": 196,
+      "row_number": 195,
       "channel": "https://youtube.com/@beyondbizarrew",
       "ai_use": "Full",
       "subscribers_raw": "7,640",
@@ -3469,7 +3469,7 @@
       ]
     },
     {
-      "row_number": 197,
+      "row_number": 196,
       "channel": "https://youtube.com/@Savantics",
       "ai_use": "Full",
       "subscribers_raw": "7,520",
@@ -3487,7 +3487,7 @@
       ]
     },
     {
-      "row_number": 198,
+      "row_number": 197,
       "channel": "https://www.youtube.com/@AIPuppyStoryz",
       "ai_use": "Full",
       "subscribers_raw": "6,970",
@@ -3505,7 +3505,7 @@
       ]
     },
     {
-      "row_number": 199,
+      "row_number": 198,
       "channel": "https://youtube.com/@AICashTom0",
       "ai_use": "Full",
       "subscribers_raw": "6,880",
@@ -3523,7 +3523,7 @@
       ]
     },
     {
-      "row_number": 200,
+      "row_number": 199,
       "channel": "https://www.youtube.com/@miraclecatstories1",
       "ai_use": "Full",
       "subscribers_raw": "6,780",
@@ -3541,7 +3541,7 @@
       ]
     },
     {
-      "row_number": 201,
+      "row_number": 200,
       "channel": "https://youtube.com/@APodcastRunByAI",
       "ai_use": "Full",
       "subscribers_raw": "6,730",
@@ -3559,7 +3559,7 @@
       ]
     },
     {
-      "row_number": 202,
+      "row_number": 201,
       "channel": "https://youtube.com/@AiDarkFiles",
       "ai_use": "Full",
       "subscribers_raw": "6,530",
@@ -3577,7 +3577,7 @@
       ]
     },
     {
-      "row_number": 203,
+      "row_number": 202,
       "channel": "https://youtube.com/@AIPlayground-o9e",
       "ai_use": "Full",
       "subscribers_raw": "6,350",
@@ -3595,7 +3595,7 @@
       ]
     },
     {
-      "row_number": 204,
+      "row_number": 203,
       "channel": "https://www.youtube.com/@snoozetorian",
       "ai_use": "Full",
       "subscribers_raw": "6,310",
@@ -3613,7 +3613,7 @@
       ]
     },
     {
-      "row_number": 205,
+      "row_number": 204,
       "channel": "https://youtube.com/@particlepanic",
       "ai_use": "Partial",
       "subscribers_raw": "6,060",
@@ -3631,7 +3631,7 @@
       ]
     },
     {
-      "row_number": 206,
+      "row_number": 205,
       "channel": "https://youtube.com/@natashadelgado-p6o",
       "ai_use": "Partial",
       "subscribers_raw": "5,530",
@@ -3649,7 +3649,7 @@
       ]
     },
     {
-      "row_number": 207,
+      "row_number": 206,
       "channel": "https://youtube.com/@GrimTalesCrimeFiles",
       "ai_use": "Full",
       "subscribers_raw": "5,310",
@@ -3667,7 +3667,7 @@
       ]
     },
     {
-      "row_number": 208,
+      "row_number": 207,
       "channel": "https://www.youtube.com/@EmotionalAIAnimals",
       "ai_use": "Full",
       "subscribers_raw": "5,130",
@@ -3685,7 +3685,7 @@
       ]
     },
     {
-      "row_number": 209,
+      "row_number": 208,
       "channel": "https://www.youtube.com/@DeepSeaHarvests",
       "ai_use": "Full",
       "subscribers_raw": "4,950",
@@ -3703,7 +3703,7 @@
       ]
     },
     {
-      "row_number": 210,
+      "row_number": 209,
       "channel": "https://youtube.com/@TheAIBible-Stories",
       "ai_use": "Full",
       "subscribers_raw": "4,860",
@@ -3721,7 +3721,7 @@
       ]
     },
     {
-      "row_number": 211,
+      "row_number": 210,
       "channel": "https://www.youtube.com/@VikingLegends-c1y",
       "ai_use": "Full",
       "subscribers_raw": "4,650",
@@ -3739,7 +3739,7 @@
       ]
     },
     {
-      "row_number": 212,
+      "row_number": 211,
       "channel": "https://www.youtube.com/@AI-SUPERHEROSSTUDIO",
       "ai_use": "Full",
       "subscribers_raw": "4,560",
@@ -3757,7 +3757,7 @@
       ]
     },
     {
-      "row_number": 213,
+      "row_number": 212,
       "channel": "https://www.youtube.com/@SanatanAIFilms",
       "ai_use": "Full",
       "subscribers_raw": "4,480",
@@ -3775,7 +3775,7 @@
       ]
     },
     {
-      "row_number": 214,
+      "row_number": 213,
       "channel": "https://www.youtube.com/@Meooww.storiess",
       "ai_use": "Full",
       "subscribers_raw": "4,400",
@@ -3793,7 +3793,7 @@
       ]
     },
     {
-      "row_number": 215,
+      "row_number": 214,
       "channel": "https://www.youtube.com/@healthwithai6",
       "ai_use": "Full",
       "subscribers_raw": "4,400",
@@ -3811,7 +3811,7 @@
       ]
     },
     {
-      "row_number": 216,
+      "row_number": 215,
       "channel": "https://www.youtube.com/@CryptoAINews",
       "ai_use": "Full",
       "subscribers_raw": "4,250",
@@ -3829,7 +3829,7 @@
       ]
     },
     {
-      "row_number": 217,
+      "row_number": 216,
       "channel": "https://www.youtube.com/@AI-SurvivalTales-25",
       "ai_use": "Full",
       "subscribers_raw": "4,240",
@@ -3847,7 +3847,7 @@
       ]
     },
     {
-      "row_number": 218,
+      "row_number": 217,
       "channel": "https://www.youtube.com/@ASMRAiLabs",
       "ai_use": "Full",
       "subscribers_raw": "4,220",
@@ -3865,7 +3865,7 @@
       ]
     },
     {
-      "row_number": 219,
+      "row_number": 218,
       "channel": "https://youtube.com/@FeynmanAnalysis",
       "ai_use": "Full",
       "subscribers_raw": "4,010",
@@ -3883,7 +3883,7 @@
       ]
     },
     {
-      "row_number": 220,
+      "row_number": 219,
       "channel": "https://youtube.com/@salem.and.ghanem",
       "ai_use": "Full",
       "subscribers_raw": "3,970",
@@ -3901,7 +3901,7 @@
       ]
     },
     {
-      "row_number": 221,
+      "row_number": 220,
       "channel": "https://youtube.com/@BibleStoriesAI-w8k",
       "ai_use": "Full",
       "subscribers_raw": "3,900",
@@ -3919,7 +3919,7 @@
       ]
     },
     {
-      "row_number": 222,
+      "row_number": 221,
       "channel": "https://youtube.com/@AIBIBLEMOVIES",
       "ai_use": "Full",
       "subscribers_raw": "3,900",
@@ -3937,7 +3937,7 @@
       ]
     },
     {
-      "row_number": 223,
+      "row_number": 222,
       "channel": "https://www.youtube.com/@ai.princessstories",
       "ai_use": "Full",
       "subscribers_raw": "3,800",
@@ -3955,7 +3955,7 @@
       ]
     },
     {
-      "row_number": 224,
+      "row_number": 223,
       "channel": "https://www.youtube.com/@aistorystudies",
       "ai_use": "Full",
       "subscribers_raw": "3,770",
@@ -3973,7 +3973,7 @@
       ]
     },
     {
-      "row_number": 225,
+      "row_number": 224,
       "channel": "https://www.youtube.com/@relexa_relax",
       "ai_use": "Full",
       "subscribers_raw": "3,760",
@@ -3991,7 +3991,7 @@
       ]
     },
     {
-      "row_number": 226,
+      "row_number": 225,
       "channel": "https://www.youtube.com/@Aicatstory11-c9j",
       "ai_use": "Full",
       "subscribers_raw": "3,730",
@@ -4009,7 +4009,7 @@
       ]
     },
     {
-      "row_number": 227,
+      "row_number": 226,
       "channel": "https://youtube.com/@zoonikai",
       "ai_use": "Full",
       "subscribers_raw": "3,610",
@@ -4027,7 +4027,7 @@
       ]
     },
     {
-      "row_number": 228,
+      "row_number": 227,
       "channel": "https://www.youtube.com/@Epicmovieai",
       "ai_use": "Full",
       "subscribers_raw": "3,490",
@@ -4045,7 +4045,7 @@
       ]
     },
     {
-      "row_number": 229,
+      "row_number": 228,
       "channel": "https://www.youtube.com/@AICatStoriesss",
       "ai_use": "Full",
       "subscribers_raw": "3,440",
@@ -4063,7 +4063,7 @@
       ]
     },
     {
-      "row_number": 230,
+      "row_number": 229,
       "channel": "https://www.youtube.com/@aicat-story21",
       "ai_use": "Full",
       "subscribers_raw": "3,370",
@@ -4081,7 +4081,7 @@
       ]
     },
     {
-      "row_number": 231,
+      "row_number": 230,
       "channel": "https://youtube.com/@thespacebrief1",
       "ai_use": "Partial",
       "subscribers_raw": "3,200",
@@ -4099,7 +4099,7 @@
       ]
     },
     {
-      "row_number": 232,
+      "row_number": 231,
       "channel": "https://youtube.com/@BibleNutshells",
       "ai_use": "Full",
       "subscribers_raw": "3,190",
@@ -4117,7 +4117,7 @@
       ]
     },
     {
-      "row_number": 233,
+      "row_number": 232,
       "channel": "https://www.youtube.com/@RelaxingHistory",
       "ai_use": "Full",
       "subscribers_raw": "3,150",
@@ -4135,7 +4135,7 @@
       ]
     },
     {
-      "row_number": 234,
+      "row_number": 233,
       "channel": "https://www.youtube.com/@PrimeCinematicAI",
       "ai_use": "Full",
       "subscribers_raw": "3,110",
@@ -4153,7 +4153,7 @@
       ]
     },
     {
-      "row_number": 235,
+      "row_number": 234,
       "channel": "https://www.youtube.com/@epicloreai",
       "ai_use": "Full",
       "subscribers_raw": "3,030",
@@ -4171,7 +4171,7 @@
       ]
     },
     {
-      "row_number": 236,
+      "row_number": 235,
       "channel": "https://www.youtube.com/@ClassicStoriesAIFilms",
       "ai_use": "Full",
       "subscribers_raw": "2,860",
@@ -4189,7 +4189,7 @@
       ]
     },
     {
-      "row_number": 237,
+      "row_number": 236,
       "channel": "https://www.youtube.com/@airescuesoul",
       "ai_use": "Full",
       "subscribers_raw": "2,820",
@@ -4207,7 +4207,7 @@
       ]
     },
     {
-      "row_number": 238,
+      "row_number": 237,
       "channel": "https://youtube.com/@leo_Ai",
       "ai_use": "Full",
       "subscribers_raw": "2,700",
@@ -4225,7 +4225,7 @@
       ]
     },
     {
-      "row_number": 239,
+      "row_number": 238,
       "channel": "https://youtube.com/@MoonMellowKids",
       "ai_use": "Full",
       "subscribers_raw": "2,690",
@@ -4243,7 +4243,7 @@
       ]
     },
     {
-      "row_number": 240,
+      "row_number": 239,
       "channel": "https://www.youtube.com/@rockmist7405",
       "ai_use": "Full",
       "subscribers_raw": "2,690",
@@ -4261,7 +4261,7 @@
       ]
     },
     {
-      "row_number": 241,
+      "row_number": 240,
       "channel": "https://www.youtube.com/@JournalJourney123",
       "ai_use": "Full",
       "subscribers_raw": "2,660",
@@ -4279,7 +4279,7 @@
       ]
     },
     {
-      "row_number": 242,
+      "row_number": 241,
       "channel": "https://youtube.com/@artsq_channel",
       "ai_use": "Partial",
       "subscribers_raw": "2,630",
@@ -4297,7 +4297,7 @@
       ]
     },
     {
-      "row_number": 243,
+      "row_number": 242,
       "channel": "https://www.youtube.com/@AndRelax9309",
       "ai_use": "Full",
       "subscribers_raw": "2,610",
@@ -4315,7 +4315,7 @@
       ]
     },
     {
-      "row_number": 244,
+      "row_number": 243,
       "channel": "https://www.youtube.com/@AIcutshortsstories",
       "ai_use": "Full",
       "subscribers_raw": "2,550",
@@ -4333,7 +4333,7 @@
       ]
     },
     {
-      "row_number": 245,
+      "row_number": 244,
       "channel": "https://youtube.com/@EsmileAi",
       "ai_use": "Full",
       "subscribers_raw": "2,540",
@@ -4351,7 +4351,7 @@
       ]
     },
     {
-      "row_number": 246,
+      "row_number": 245,
       "channel": "https://www.youtube.com/@BoringHistoryBites",
       "ai_use": "Full",
       "subscribers_raw": "2,440",
@@ -4369,7 +4369,7 @@
       ]
     },
     {
-      "row_number": 247,
+      "row_number": 246,
       "channel": "https://youtube.com/@Vd_AI",
       "ai_use": "Full",
       "subscribers_raw": "2,380",
@@ -4387,7 +4387,7 @@
       ]
     },
     {
-      "row_number": 248,
+      "row_number": 247,
       "channel": "https://www.youtube.com/@wrAIth-AI",
       "ai_use": "Full",
       "subscribers_raw": "2,280",
@@ -4405,7 +4405,7 @@
       ]
     },
     {
-      "row_number": 249,
+      "row_number": 248,
       "channel": "https://youtube.com/@AiFacelessChannel",
       "ai_use": "Full",
       "subscribers_raw": "2,270",
@@ -4423,7 +4423,7 @@
       ]
     },
     {
-      "row_number": 250,
+      "row_number": 249,
       "channel": "https://www.youtube.com/@AiCanCook",
       "ai_use": "Full",
       "subscribers_raw": "2,130",
@@ -4441,7 +4441,7 @@
       ]
     },
     {
-      "row_number": 251,
+      "row_number": 250,
       "channel": "https://www.instagram.com/hooves_stories/",
       "ai_use": "Partial",
       "subscribers_raw": "2,066",
@@ -4459,7 +4459,7 @@
       ]
     },
     {
-      "row_number": 252,
+      "row_number": 251,
       "channel": "https://youtube.com/@TwinkleTalesTime1",
       "ai_use": "Full",
       "subscribers_raw": "2,060",
@@ -4477,7 +4477,7 @@
       ]
     },
     {
-      "row_number": 253,
+      "row_number": 252,
       "channel": "https://youtube.com/@madebyaistudio",
       "ai_use": "Full",
       "subscribers_raw": "2,010",
@@ -4495,7 +4495,7 @@
       ]
     },
     {
-      "row_number": 254,
+      "row_number": 253,
       "channel": "https://www.youtube.com/@AINewsDailyUpdate",
       "ai_use": "Full",
       "subscribers_raw": "1,980",
@@ -4513,7 +4513,7 @@
       ]
     },
     {
-      "row_number": 255,
+      "row_number": 254,
       "channel": "https://youtube.com/@NovaJuliet",
       "ai_use": "Full",
       "subscribers_raw": "1,830",
@@ -4531,7 +4531,7 @@
       ]
     },
     {
-      "row_number": 256,
+      "row_number": 255,
       "channel": "https://www.youtube.com/@VoicesOfHannah",
       "ai_use": "Full",
       "subscribers_raw": "1,800",
@@ -4549,7 +4549,7 @@
       ]
     },
     {
-      "row_number": 257,
+      "row_number": 256,
       "channel": "https://youtube.com/@VideoMax_AI",
       "ai_use": "Full",
       "subscribers_raw": "1,750",
@@ -4567,7 +4567,7 @@
       ]
     },
     {
-      "row_number": 258,
+      "row_number": 257,
       "channel": "https://www.youtube.com/@MovieDigest-YKL",
       "ai_use": "Full",
       "subscribers_raw": "1,700",
@@ -4585,7 +4585,7 @@
       ]
     },
     {
-      "row_number": 259,
+      "row_number": 258,
       "channel": "https://youtube.com/@alchrix",
       "ai_use": "Full",
       "subscribers_raw": "1,680",
@@ -4603,7 +4603,7 @@
       ]
     },
     {
-      "row_number": 260,
+      "row_number": 259,
       "channel": "https://www.youtube.com/@AncientAILegacy",
       "ai_use": "Full",
       "subscribers_raw": "1,680",
@@ -4621,7 +4621,7 @@
       ]
     },
     {
-      "row_number": 261,
+      "row_number": 260,
       "channel": "https://www.youtube.com/@AiRecap-y1l",
       "ai_use": "Full",
       "subscribers_raw": "1,640",
@@ -4639,7 +4639,7 @@
       ]
     },
     {
-      "row_number": 262,
+      "row_number": 261,
       "channel": "https://www.youtube.com/@Wardocuments26",
       "ai_use": "Full",
       "subscribers_raw": "1,620",
@@ -4657,7 +4657,7 @@
       ]
     },
     {
-      "row_number": 263,
+      "row_number": 262,
       "channel": "https://www.youtube.com/@Aiherouniverse-d6l",
       "ai_use": "Full",
       "subscribers_raw": "1,520",
@@ -4675,7 +4675,7 @@
       ]
     },
     {
-      "row_number": 264,
+      "row_number": 263,
       "channel": "https://youtube.com/@theancienttrails",
       "ai_use": "Full",
       "subscribers_raw": "1,480",
@@ -4693,7 +4693,7 @@
       ]
     },
     {
-      "row_number": 265,
+      "row_number": 264,
       "channel": "https://youtube.com/@africaamaze",
       "ai_use": "Full",
       "subscribers_raw": "1,460",
@@ -4711,7 +4711,7 @@
       ]
     },
     {
-      "row_number": 266,
+      "row_number": 265,
       "channel": "https://www.youtube.com/@aimythologyworld",
       "ai_use": "Full",
       "subscribers_raw": "1,410",
@@ -4729,7 +4729,7 @@
       ]
     },
     {
-      "row_number": 267,
+      "row_number": 266,
       "channel": "https://www.youtube.com/@Divineoceanai",
       "ai_use": "Full",
       "subscribers_raw": "1,390",
@@ -4747,7 +4747,7 @@
       ]
     },
     {
-      "row_number": 268,
+      "row_number": 267,
       "channel": "https://www.youtube.com/@Aimusic_legends",
       "ai_use": "Full",
       "subscribers_raw": "1,380",
@@ -4765,7 +4765,7 @@
       ]
     },
     {
-      "row_number": 269,
+      "row_number": 268,
       "channel": "https://www.youtube.com/@TheAIgorithm",
       "ai_use": "Full",
       "subscribers_raw": "1,370",
@@ -4783,7 +4783,7 @@
       ]
     },
     {
-      "row_number": 270,
+      "row_number": 269,
       "channel": "https://www.youtube.com/@AIrelaxroom",
       "ai_use": "Full",
       "subscribers_raw": "1,360",
@@ -4801,7 +4801,7 @@
       ]
     },
     {
-      "row_number": 271,
+      "row_number": 270,
       "channel": "https://www.youtube.com/@AIrescuetales-k5r",
       "ai_use": "Full",
       "subscribers_raw": "1,310",
@@ -4819,7 +4819,7 @@
       ]
     },
     {
-      "row_number": 272,
+      "row_number": 271,
       "channel": "https://youtube.com/@Ai_podcastofficial",
       "ai_use": "Full",
       "subscribers_raw": "1,210",
@@ -4837,7 +4837,7 @@
       ]
     },
     {
-      "row_number": 273,
+      "row_number": 272,
       "channel": "https://www.youtube.com/@MidnighMafiaStories",
       "ai_use": "Full",
       "subscribers_raw": "1,210",
@@ -4855,7 +4855,7 @@
       ]
     },
     {
-      "row_number": 274,
+      "row_number": 273,
       "channel": "https://www.youtube.com/@ZenFitJourneyYT",
       "ai_use": "Full",
       "subscribers_raw": "1,200",
@@ -4873,7 +4873,7 @@
       ]
     },
     {
-      "row_number": 275,
+      "row_number": 274,
       "channel": "https://youtube.com/@OneNastyCowgirl",
       "ai_use": "Full",
       "subscribers_raw": "1,190",
@@ -4891,7 +4891,7 @@
       ]
     },
     {
-      "row_number": 276,
+      "row_number": 275,
       "channel": "https://www.youtube.com/@InspiredMindsAI",
       "ai_use": "Full",
       "subscribers_raw": "1,190",
@@ -4909,7 +4909,7 @@
       ]
     },
     {
-      "row_number": 277,
+      "row_number": 276,
       "channel": "https://www.youtube.com/@aicatstory3r-adii",
       "ai_use": "Full",
       "subscribers_raw": "1,190",
@@ -4927,7 +4927,7 @@
       ]
     },
     {
-      "row_number": 278,
+      "row_number": 277,
       "channel": "https://www.youtube.com/@Astrologyzodiac1",
       "ai_use": "Full",
       "subscribers_raw": "1,150",
@@ -4945,7 +4945,7 @@
       ]
     },
     {
-      "row_number": 279,
+      "row_number": 278,
       "channel": "https://www.youtube.com/@AIMusicWorld-now",
       "ai_use": "Full",
       "subscribers_raw": "1,130",
@@ -4963,7 +4963,7 @@
       ]
     },
     {
-      "row_number": 280,
+      "row_number": 279,
       "channel": "https://www.youtube.com/@funwithai1313",
       "ai_use": "Full",
       "subscribers_raw": "1,110",
@@ -4981,7 +4981,7 @@
       ]
     },
     {
-      "row_number": 281,
+      "row_number": 280,
       "channel": "https://youtube.com/@squirrelempire1",
       "ai_use": "Full",
       "subscribers_raw": "1,100",
@@ -4999,7 +4999,7 @@
       ]
     },
     {
-      "row_number": 282,
+      "row_number": 281,
       "channel": "https://www.youtube.com/@Aivillagecooking",
       "ai_use": "Full",
       "subscribers_raw": "1,100",
@@ -5017,7 +5017,7 @@
       ]
     },
     {
-      "row_number": 283,
+      "row_number": 282,
       "channel": "https://www.youtube.com/@nextspaceai",
       "ai_use": "Full",
       "subscribers_raw": "1,090",
@@ -5035,7 +5035,7 @@
       ]
     },
     {
-      "row_number": 284,
+      "row_number": 283,
       "channel": "https://www.youtube.com/@AINEWSTODAY01",
       "ai_use": "Full",
       "subscribers_raw": "1,070",
@@ -5053,7 +5053,7 @@
       ]
     },
     {
-      "row_number": 285,
+      "row_number": 284,
       "channel": "https://www.youtube.com/@Aifairytalekids",
       "ai_use": "Full",
       "subscribers_raw": "1,030",
@@ -5071,7 +5071,7 @@
       ]
     },
     {
-      "row_number": 286,
+      "row_number": 285,
       "channel": "https://www.youtube.com/@AIRescueTales999",
       "ai_use": "Full",
       "subscribers_raw": "1,010",
@@ -5089,7 +5089,7 @@
       ]
     },
     {
-      "row_number": 287,
+      "row_number": 286,
       "channel": "https://www.youtube.com/@cocolabx",
       "ai_use": "Full",
       "subscribers_raw": "1,000",
@@ -5107,7 +5107,7 @@
       ]
     },
     {
-      "row_number": 288,
+      "row_number": 287,
       "channel": "https://www.youtube.com/@AiBadri",
       "ai_use": "Full",
       "subscribers_raw": "1,000",
@@ -5125,7 +5125,7 @@
       ]
     },
     {
-      "row_number": 289,
+      "row_number": 288,
       "channel": "https://youtube.com/@NepaliHistorian",
       "ai_use": "Full",
       "subscribers_raw": "867",
@@ -5143,7 +5143,7 @@
       ]
     },
     {
-      "row_number": 290,
+      "row_number": 289,
       "channel": "https://youtube.com/@relic4948",
       "ai_use": "Full",
       "subscribers_raw": "839",
@@ -5161,7 +5161,7 @@
       ]
     },
     {
-      "row_number": 291,
+      "row_number": 290,
       "channel": "https://youtube.com/@latesleep-01",
       "ai_use": "Full",
       "subscribers_raw": "736",
@@ -5179,7 +5179,7 @@
       ]
     },
     {
-      "row_number": 292,
+      "row_number": 291,
       "channel": "https://youtube.com/@SweetheartProWrestling",
       "ai_use": "Full",
       "subscribers_raw": "701",
@@ -5197,7 +5197,7 @@
       ]
     },
     {
-      "row_number": 293,
+      "row_number": 292,
       "channel": "https://www.youtube.com/@Tiiny-Taless",
       "ai_use": "Full",
       "subscribers_raw": "682",
@@ -5215,7 +5215,7 @@
       ]
     },
     {
-      "row_number": 294,
+      "row_number": 293,
       "channel": "https://www.youtube.com/@kayireacts1911",
       "ai_use": "Full",
       "subscribers_raw": "652",
@@ -5233,7 +5233,7 @@
       ]
     },
     {
-      "row_number": 295,
+      "row_number": 294,
       "channel": "https://www.youtube.com/@SleepyHistoryStories7",
       "ai_use": "Full",
       "subscribers_raw": "611",
@@ -5251,7 +5251,7 @@
       ]
     },
     {
-      "row_number": 296,
+      "row_number": 295,
       "channel": "https://youtube.com/@Dreams_2_Destiny",
       "ai_use": "Full",
       "subscribers_raw": "602",
@@ -5269,7 +5269,7 @@
       ]
     },
     {
-      "row_number": 297,
+      "row_number": 296,
       "channel": "https://www.youtube.com/@NewsFlash24-7",
       "ai_use": "Full",
       "subscribers_raw": "594",
@@ -5287,7 +5287,7 @@
       ]
     },
     {
-      "row_number": 298,
+      "row_number": 297,
       "channel": "https://www.youtube.com/@chinesehistoryforsleep",
       "ai_use": "Full",
       "subscribers_raw": "582",
@@ -5305,7 +5305,7 @@
       ]
     },
     {
-      "row_number": 299,
+      "row_number": 298,
       "channel": "https://youtube.com/@thedeepdiveanalysis",
       "ai_use": "Full",
       "subscribers_raw": "526",
@@ -5323,7 +5323,7 @@
       ]
     },
     {
-      "row_number": 300,
+      "row_number": 299,
       "channel": "https://www.youtube.com/@historyfallasleep-h1s",
       "ai_use": "Full",
       "subscribers_raw": "364",
@@ -5341,7 +5341,7 @@
       ]
     },
     {
-      "row_number": 301,
+      "row_number": 300,
       "channel": "https://www.youtube.com/@Storytv71",
       "ai_use": "Full",
       "subscribers_raw": "299",
@@ -5359,7 +5359,7 @@
       ]
     },
     {
-      "row_number": 302,
+      "row_number": 301,
       "channel": "https://youtube.com/@relivedlives",
       "ai_use": "Full",
       "subscribers_raw": "185",
@@ -5377,7 +5377,7 @@
       ]
     },
     {
-      "row_number": 303,
+      "row_number": 302,
       "channel": "https://www.instagram.com/world.of.monarchs?igsh=MzRlODBiNWFlZA==",
       "ai_use": "Full",
       "subscribers_raw": "176",
@@ -5395,7 +5395,7 @@
       ]
     },
     {
-      "row_number": 304,
+      "row_number": 303,
       "channel": "https://www.youtube.com/@mindbytefocus2",
       "ai_use": "Partial",
       "subscribers_raw": "172",
@@ -5413,7 +5413,7 @@
       ]
     },
     {
-      "row_number": 305,
+      "row_number": 304,
       "channel": "https://youtube.com/@midnight_archives77",
       "ai_use": "Full",
       "subscribers_raw": "166",
@@ -5431,7 +5431,7 @@
       ]
     },
     {
-      "row_number": 306,
+      "row_number": 305,
       "channel": "https://youtube.com/@bizarreancientmysteries",
       "ai_use": "Full",
       "subscribers_raw": "145",
@@ -5449,7 +5449,7 @@
       ]
     },
     {
-      "row_number": 307,
+      "row_number": 306,
       "channel": "https://youtube.com/@noxium-d2h",
       "ai_use": "Full",
       "subscribers_raw": "144",
@@ -5467,7 +5467,7 @@
       ]
     },
     {
-      "row_number": 308,
+      "row_number": 307,
       "channel": "https://youtube.com/@mystery.and.madness.666",
       "ai_use": "Full",
       "subscribers_raw": "123",
@@ -5485,7 +5485,7 @@
       ]
     },
     {
-      "row_number": 309,
+      "row_number": 308,
       "channel": "https://youtube.com/@forgottencivilization5",
       "ai_use": "Full",
       "subscribers_raw": "121",
@@ -5503,7 +5503,7 @@
       ]
     },
     {
-      "row_number": 310,
+      "row_number": 309,
       "channel": "https://youtube.com/@archaeon2025",
       "ai_use": "Full",
       "subscribers_raw": "121",
@@ -5521,7 +5521,7 @@
       ]
     },
     {
-      "row_number": 311,
+      "row_number": 310,
       "channel": "https://youtube.com/@AICreatorCollective",
       "ai_use": "Full",
       "subscribers_raw": "106",
@@ -5539,7 +5539,7 @@
       ]
     },
     {
-      "row_number": 312,
+      "row_number": 311,
       "channel": "https://www.youtube.com/@SleepStoriesAudioBook",
       "ai_use": "Full",
       "subscribers_raw": "99",
@@ -5557,7 +5557,7 @@
       ]
     },
     {
-      "row_number": 313,
+      "row_number": 312,
       "channel": "https://youtube.com/@pastmyst-l2o",
       "ai_use": "Full",
       "subscribers_raw": "90",
@@ -5575,7 +5575,7 @@
       ]
     },
     {
-      "row_number": 314,
+      "row_number": 313,
       "channel": "https://youtube.com/@huddlevideos1",
       "ai_use": "Full",
       "subscribers_raw": "89",
@@ -5593,7 +5593,7 @@
       ]
     },
     {
-      "row_number": 315,
+      "row_number": 314,
       "channel": "https://youtube.com/@ancientdilemma",
       "ai_use": "Full",
       "subscribers_raw": "84",
@@ -5611,7 +5611,7 @@
       ]
     },
     {
-      "row_number": 316,
+      "row_number": 315,
       "channel": "https://www.instagram.com/timetosleepstories/",
       "ai_use": "Full",
       "subscribers_raw": "80",
@@ -5629,7 +5629,7 @@
       ]
     },
     {
-      "row_number": 317,
+      "row_number": 316,
       "channel": "https://youtube.com/@chronoscurator",
       "ai_use": "Full",
       "subscribers_raw": "74",
@@ -5647,7 +5647,7 @@
       ]
     },
     {
-      "row_number": 318,
+      "row_number": 317,
       "channel": "https://youtube.com/@Foundational.Facts.Official",
       "ai_use": "Full",
       "subscribers_raw": "59",
@@ -5665,7 +5665,7 @@
       ]
     },
     {
-      "row_number": 319,
+      "row_number": 318,
       "channel": "https://youtube.com/@render_report",
       "ai_use": "Full",
       "subscribers_raw": "56",
@@ -5683,7 +5683,7 @@
       ]
     },
     {
-      "row_number": 320,
+      "row_number": 319,
       "channel": "https://youtube.com/@tomb_of_truth",
       "ai_use": "Full",
       "subscribers_raw": "54",
@@ -5701,7 +5701,7 @@
       ]
     },
     {
-      "row_number": 321,
+      "row_number": 320,
       "channel": "https://youtube.com/@quiettyrant",
       "ai_use": "Full",
       "subscribers_raw": "51",
@@ -5719,7 +5719,7 @@
       ]
     },
     {
-      "row_number": 322,
+      "row_number": 321,
       "channel": "https://youtube.com/@what.is.it9",
       "ai_use": "Full",
       "subscribers_raw": "46",
@@ -5737,7 +5737,7 @@
       ]
     },
     {
-      "row_number": 323,
+      "row_number": 322,
       "channel": "https://youtube.com/@historicalsand1",
       "ai_use": "Full",
       "subscribers_raw": "45",
@@ -5755,7 +5755,7 @@
       ]
     },
     {
-      "row_number": 324,
+      "row_number": 323,
       "channel": "https://www.youtube.com/@MidnightMurmer2",
       "ai_use": "Full",
       "subscribers_raw": "43",
@@ -5773,7 +5773,7 @@
       ]
     },
     {
-      "row_number": 325,
+      "row_number": 324,
       "channel": "https://www.youtube.com/@AncientX_Official",
       "ai_use": "Full",
       "subscribers_raw": "42",
@@ -5791,7 +5791,7 @@
       ]
     },
     {
-      "row_number": 326,
+      "row_number": 325,
       "channel": "https://youtube.com/@Ascent.Academy.Official",
       "ai_use": "Full",
       "subscribers_raw": "38",
@@ -5809,7 +5809,7 @@
       ]
     },
     {
-      "row_number": 327,
+      "row_number": 326,
       "channel": "https://www.youtube.com/@DoodleTuness",
       "ai_use": "Full",
       "subscribers_raw": "37",
@@ -5827,7 +5827,7 @@
       ]
     },
     {
-      "row_number": 328,
+      "row_number": 327,
       "channel": "https://youtube.com/@DoodleTuness",
       "ai_use": "Full",
       "subscribers_raw": "36",
@@ -5845,7 +5845,7 @@
       ]
     },
     {
-      "row_number": 329,
+      "row_number": 328,
       "channel": "https://youtube.com/@obsidianparadox-official3",
       "ai_use": "Full",
       "subscribers_raw": "25",
@@ -5863,7 +5863,7 @@
       ]
     },
     {
-      "row_number": 330,
+      "row_number": 329,
       "channel": "https://youtube.com/@echoesofexcellence123",
       "ai_use": "Full",
       "subscribers_raw": "24",
@@ -5881,7 +5881,7 @@
       ]
     },
     {
-      "row_number": 331,
+      "row_number": 330,
       "channel": "https://youtube.com/@mythveil-q4e",
       "ai_use": "Full",
       "subscribers_raw": "23",
@@ -5899,7 +5899,7 @@
       ]
     },
     {
-      "row_number": 332,
+      "row_number": 331,
       "channel": "https://youtube.com/@anundream",
       "ai_use": "Full",
       "subscribers_raw": "14",
@@ -5917,7 +5917,7 @@
       ]
     },
     {
-      "row_number": 333,
+      "row_number": 332,
       "channel": "https://youtube.com/@TheOracleofFortune",
       "ai_use": "Full",
       "subscribers_raw": "14",
@@ -5935,12 +5935,12 @@
       ]
     },
     {
-      "row_number": 334,
+      "row_number": 333,
       "channel": "https://youtube.com/@entfaltedeingehirn",
       "ai_use": "Full",
       "subscribers_raw": "11",
       "category_raw": "Motivation & Self-Improvement",
-      "description_raw": "German neuroscience and personal growth (Gerald Hüther)",
+      "description_raw": "German neuroscience and personal growth (Gerald H\u00fcther)",
       "emails_raw": "",
       "corrected_description_raw": "",
       "raw_cells": [
@@ -5948,12 +5948,12 @@
         "Full",
         "11",
         "Motivation & Self-Improvement",
-        "German neuroscience and personal growth (Gerald Hüther)",
+        "German neuroscience and personal growth (Gerald H\u00fcther)",
         ""
       ]
     },
     {
-      "row_number": 335,
+      "row_number": 334,
       "channel": "https://www.youtube.com/@RolelyStories",
       "ai_use": "Full",
       "subscribers_raw": "8",
@@ -5971,7 +5971,7 @@
       ]
     },
     {
-      "row_number": 336,
+      "row_number": 335,
       "channel": "https://youtube.com/@tripletimeline",
       "ai_use": "Full",
       "subscribers_raw": "6",
@@ -5989,7 +5989,7 @@
       ]
     },
     {
-      "row_number": 337,
+      "row_number": 336,
       "channel": "https://youtube.com/@historyscribehq",
       "ai_use": "Full",
       "subscribers_raw": "4",
@@ -6007,7 +6007,7 @@
       ]
     },
     {
-      "row_number": 338,
+      "row_number": 337,
       "channel": "https://www.youtube.com/@planetabestial1",
       "ai_use": "Full",
       "subscribers_raw": "2",
@@ -6025,7 +6025,7 @@
       ]
     },
     {
-      "row_number": 339,
+      "row_number": 338,
       "channel": "https://youtube.com/@zenit2_comua",
       "ai_use": "Full",
       "subscribers_raw": "1",
@@ -6043,7 +6043,7 @@
       ]
     },
     {
-      "row_number": 340,
+      "row_number": 339,
       "channel": "https://youtube.com/@the_el_goran",
       "ai_use": "Full",
       "subscribers_raw": "1",
@@ -6061,7 +6061,7 @@
       ]
     },
     {
-      "row_number": 341,
+      "row_number": 340,
       "channel": "https://youtube.com/@SleepCircuits",
       "ai_use": "Full",
       "subscribers_raw": "0",
@@ -6079,7 +6079,7 @@
       ]
     },
     {
-      "row_number": 342,
+      "row_number": 341,
       "channel": "https://www.youtube.com/@60sShift",
       "ai_use": "Full",
       "subscribers_raw": "12",
@@ -6097,7 +6097,7 @@
       ]
     },
     {
-      "row_number": 343,
+      "row_number": 342,
       "channel": "https://www.youtube.com/@longstoriesai",
       "ai_use": "Full",
       "subscribers_raw": "212",
@@ -6111,6 +6111,24 @@
         "212",
         "Animation & Storytelling",
         "AI animated stories and dinosaur adventure series",
+        ""
+      ]
+    },
+    {
+      "row_number": 343,
+      "channel": "https://www.youtube.com/@voicesofthepast",
+      "ai_use": "Minimal",
+      "subscribers_raw": "1090000",
+      "category_raw": "History/Education",
+      "description_raw": "Historical accounts and documents read aloud with narration",
+      "emails_raw": "",
+      "corrected_description_raw": "",
+      "raw_cells": [
+        "https://www.youtube.com/@voicesofthepast",
+        "Minimal",
+        "1090000",
+        "History/Education",
+        "Historical accounts and documents read aloud with narration",
         ""
       ]
     }
