@@ -6,6 +6,8 @@ import {
   Urbanist,
 } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
+import { REDDIT_PIXEL } from "@/lib/analytics/redditPixel";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -101,6 +103,13 @@ export default function RootLayout({
         <link
           href="https://api.fontshare.com/v2/css?f[]=sentient@400,500,600,700&f[]=satoshi@400,500,700&display=swap"
           rel="stylesheet"
+        />
+        <Script
+          id="reddit-pixel"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: REDDIT_PIXEL,
+          }}
         />
       </head>
       <body

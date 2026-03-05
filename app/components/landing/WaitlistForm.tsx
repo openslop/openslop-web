@@ -3,6 +3,7 @@
 import { useState, FormEvent } from "react";
 import confetti from "canvas-confetti";
 import Image from "next/image";
+import { redditInit } from "@/lib/analytics/redditPixel";
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -14,6 +15,8 @@ export default function WaitlistForm() {
   >("idle");
 
   async function handleSubmit(e: FormEvent) {
+    redditInit(email);
+
     e.preventDefault();
     setError("");
 
