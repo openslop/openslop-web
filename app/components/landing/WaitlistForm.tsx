@@ -1,11 +1,13 @@
 "use client";
 
-import { useState, FormEvent } from "react";
+import { useState, useEffect, useRef, FormEvent } from "react";
 import confetti from "canvas-confetti";
 import Image from "next/image";
+import { motion, AnimatePresence } from "framer-motion";
 import { redditInit } from "@/lib/analytics/redditPixel";
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const COUNT_UP_DURATION = 600;
 
 export default function WaitlistForm() {
   const [email, setEmail] = useState("");
@@ -13,6 +15,37 @@ export default function WaitlistForm() {
   const [status, setStatus] = useState<
     "idle" | "submitting" | "success" | "error"
   >("idle");
+  const [waitlistCount, setWaitlistCount] = useState<number | null>(null);
+  const [displayCount, setDisplayCount] = useState(0);
+  const [positionInLine, setPositionInLine] = useState<number | null>(null);
+  const animRef = useRef<number | null>(null);
+
+  useEffect(() => {
+    fetch("/api/waitlist")
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.count) setWaitlistCount(data.count);
+      })
+      .catch(() => {});
+  }, []);
+
+  useEffect(() => {
+    if (waitlistCount === null) return;
+    const start = performance.now();
+    const target = waitlistCount;
+    function step(now: number) {
+      const progress = Math.min((now - start) / COUNT_UP_DURATION, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      setDisplayCount(Math.round(eased * target));
+      if (progress < 1) {
+        animRef.current = requestAnimationFrame(step);
+      }
+    }
+    animRef.current = requestAnimationFrame(step);
+    return () => {
+      if (animRef.current) cancelAnimationFrame(animRef.current);
+    };
+  }, [waitlistCount]);
 
   async function handleSubmit(e: FormEvent) {
     redditInit(email);
@@ -47,6 +80,12 @@ export default function WaitlistForm() {
       }
 
       setStatus("success");
+      fetch("/api/waitlist")
+        .then((res) => res.json())
+        .then((data) => {
+          if (data.count) setPositionInLine(data.count);
+        })
+        .catch(() => {});
       confetti({ particleCount: 100, spread: 70, origin: { x: 0.3, y: 0.45 } });
     } catch {
       setError("Something went wrong. Please try again.");
@@ -61,6 +100,24 @@ export default function WaitlistForm() {
           <p className="text-lg font-semibold text-white">
             Thanks &mdash; we&apos;ll call you soon
           </p>
+          <div className="mt-1 min-h-5">
+            <AnimatePresence>
+              {positionInLine !== null && (
+                <motion.p
+                  initial={{ opacity: 0, y: 6, filter: "blur(4px)" }}
+                  animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                  transition={{ duration: 0.5, ease: "easeOut", delay: 1 }}
+                  className="text-sm text-zinc-400"
+                >
+                  You&apos;re{" "}
+                  <span className="text-white font-medium">
+                    #{positionInLine}
+                  </span>{" "}
+                  in line
+                </motion.p>
+              )}
+            </AnimatePresence>
+          </div>
           <div className="mt-3 flex flex-col sm:flex-row sm:items-center gap-3">
             <p className="text-sm text-zinc-400">Want priority access?</p>
             <a
@@ -139,8 +196,11 @@ export default function WaitlistForm() {
           ))}
         </div>
         <p className="text-sm text-zinc-400">
-          Join <span className="text-white font-medium">110+</span> creators on
-          the waitlist
+          Join{" "}
+          <span className="text-white font-medium">
+            {waitlistCount !== null ? `${displayCount}+` : ""}
+          </span>{" "}
+          creators on the waitlist
         </p>
       </div>
     </div>

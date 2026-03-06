@@ -3,6 +3,23 @@ import { createSupabaseClient } from "@/lib/supabase/server";
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
+export async function GET() {
+  const supabase = createSupabaseClient();
+
+  if (!supabase) {
+    return NextResponse.json({ error: "DB connection error" }, { status: 500 });
+  }
+
+  const { data, error } = await supabase.rpc("waitlist_count");
+
+  if (error) {
+    console.error(error);
+    return NextResponse.json({ count: 0 });
+  }
+
+  return NextResponse.json({ count: data });
+}
+
 export async function POST(request: Request) {
   let body: { email?: string };
   try {
