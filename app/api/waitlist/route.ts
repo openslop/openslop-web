@@ -1,22 +1,18 @@
 import { NextResponse } from "next/server";
-import { createSupabaseClient } from "@/lib/supabase/server";
+import { createSupabaseClient, createSupabaseServiceClient } from "@/lib/supabase/server";
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export async function GET() {
   const supabase = createSupabaseClient();
-
   if (!supabase) {
     return NextResponse.json({ error: "DB connection error" }, { status: 500 });
   }
-
   const { data, error } = await supabase.rpc("waitlist_count");
-
   if (error) {
     console.error(error);
     return NextResponse.json({ count: 0 });
   }
-
   return NextResponse.json({ count: data });
 }
 
@@ -43,18 +39,30 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "DB connection error" }, { status: 500 });
   }
 
+  // Insert; swallow duplicate conflict
   const { error } = await supabase.from("waitlist").insert({ email });
 
-  if (error) {
+  if (error && error.code !== "23505") {
     console.error(error);
-    if (error.code === "23505") {
-      return NextResponse.json({ message: "Joined waitlist" }, { status: 201 });
-    }
     return NextResponse.json(
       { error: "Something went wrong" },
       { status: 500 }
     );
   }
 
-  return NextResponse.json({ message: "Joined waitlist" }, { status: 201 });
+  // Lookup position using service role (bypasses RLS)
+  const serviceClient = createSupabaseServiceClient();
+  let position: number | null = null;
+
+  if (serviceClient) {
+    const { data } = await serviceClient.rpc("waitlist_position", {
+      lookup_email: email,
+    });
+    if (data) position = data;
+  }
+
+  return NextResponse.json(
+    { message: "Joined waitlist", position },
+    { status: 201 }
+  );
 }

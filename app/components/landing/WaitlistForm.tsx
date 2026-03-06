@@ -79,13 +79,9 @@ export default function WaitlistForm() {
         return;
       }
 
+      const data = await res.json();
       setStatus("success");
-      fetch("/api/waitlist")
-        .then((res) => res.json())
-        .then((data) => {
-          if (data.count) setPositionInLine(data.count);
-        })
-        .catch(() => {});
+      if (data.position) setPositionInLine(data.position);
       confetti({ particleCount: 100, spread: 70, origin: { x: 0.3, y: 0.45 } });
     } catch {
       setError("Something went wrong. Please try again.");
