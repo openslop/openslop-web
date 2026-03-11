@@ -1242,7 +1242,7 @@ function NicheRecommendations({ data }: { data: CategoryStat[] }) {
       value: d.efficiency,
       channels: d.channels,
       label: `${fmtNum(d.avg_subscribers)} avg / ${d.crowded_score.toFixed(
-        1
+        1,
       )} crowded`,
     }));
 
@@ -1313,7 +1313,7 @@ function useChartData() {
       fetch("/data/collection_trend.json").then((r) => r.json()),
       fetch("/data/aitubers-analysis-data.json").then((r) => r.json()),
     ]).then(([categories, buckets, rank, trend, full]) =>
-      setData({ categories, buckets, rank, trend, channels: full.channels })
+      setData({ categories, buckets, rank, trend, channels: full.channels }),
     );
   }, []);
 
@@ -1413,7 +1413,7 @@ export function KeyStatsBlock() {
   const minimalAi = data.channels.filter((c) => c.ai_use === "Minimal").length;
   const categories = new Set(data.channels.map((c) => c.category)).size;
   const topCategory = [...data.categories].sort(
-    (a, b) => b.opportunity_score - a.opportunity_score
+    (a, b) => b.opportunity_score - a.opportunity_score,
   )[0];
 
   const stats: { label: string; value: string; color: string }[] = [
@@ -2010,8 +2010,8 @@ function AiHeadroomScatter({ data }: { data: HeadroomRow[] }) {
                 t > 0.6
                   ? COLORS.emerald
                   : t > 0.3
-                  ? COLORS.cyan
-                  : COLORS.violet;
+                    ? COLORS.cyan
+                    : COLORS.violet;
               return (
                 <Cell
                   key={i}
@@ -2096,8 +2096,8 @@ function AiHeadroomRanking({ data }: { data: HeadroomRow[] }) {
                 t > 0.6
                   ? COLORS.emerald
                   : t > 0.3
-                  ? COLORS.cyan
-                  : COLORS.labelText;
+                    ? COLORS.cyan
+                    : COLORS.labelText;
               return <Cell key={i} fill={color} fillOpacity={0.8} />;
             })}
           </Bar>
@@ -2172,7 +2172,7 @@ function TopNonFullChannels({ channels }: { channels: RawChannel[] }) {
                   >
                     {h}
                   </th>
-                )
+                ),
               )}
             </tr>
           </thead>
@@ -3172,7 +3172,7 @@ function NicheMarimekko({
   } | null>(null);
 
   const sorted = [...data].sort(
-    (a, b) => b.total_subscribers - a.total_subscribers
+    (a, b) => b.total_subscribers - a.total_subscribers,
   );
   const totalChannels = sorted.reduce((a, c) => a + c.channels, 0);
   const maxSubs = Math.max(...sorted.map((c) => c.total_subscribers));

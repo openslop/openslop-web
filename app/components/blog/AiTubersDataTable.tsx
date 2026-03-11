@@ -111,7 +111,7 @@ export default function AiTubersDataTable() {
       .then((r) => r.json())
       .then((d: AnalysisData) => {
         const sorted = [...d.channels].sort(
-          (a, b) => b.subscribers - a.subscribers
+          (a, b) => b.subscribers - a.subscribers,
         );
         setData(sorted);
       });
@@ -290,12 +290,12 @@ export default function AiTubersDataTable() {
                   >
                     {h}
                   </th>
-                )
+                ),
               )}
             </tr>
           </thead>
           <tbody>
-            {visible.map((ch, i) => {
+            {visible.map((ch) => {
               const handle = extractHandle(ch.channel);
               const catColor = categoryColorMap[ch.category] || COLORS.slate;
               const aiColor = AI_COLORS[ch.ai_use] || COLORS.slate;
@@ -501,15 +501,19 @@ export default function AiTubersDataTable() {
               fontWeight: 500,
               fontFamily: "inherit",
               cursor: "pointer",
-              transition: "background 0.15s, border-color 0.15s",
+              transition:
+                "background 0.15s, border-color 0.15s, box-shadow 0.15s",
             }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.background = "rgba(167,139,250,0.18)";
-              e.currentTarget.style.borderColor = "rgba(167,139,250,0.4)";
+              e.currentTarget.style.background = "rgba(167,139,250,0.25)";
+              e.currentTarget.style.borderColor = "rgba(167,139,250,0.5)";
+              e.currentTarget.style.boxShadow =
+                "0 0 16px rgba(167,139,250,0.25)";
             }}
             onMouseLeave={(e) => {
               e.currentTarget.style.background = "rgba(167,139,250,0.1)";
               e.currentTarget.style.borderColor = "rgba(167,139,250,0.25)";
+              e.currentTarget.style.boxShadow = "none";
             }}
           >
             {expanded

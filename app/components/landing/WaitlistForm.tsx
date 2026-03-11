@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef, FormEvent } from "react";
-import confetti from "canvas-confetti";
+import type { CreateTypes as ConfettiCreateTypes } from "canvas-confetti";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { redditInit } from "@/lib/analytics/redditPixel";
@@ -82,7 +82,13 @@ export default function WaitlistForm() {
       const data = await res.json();
       setStatus("success");
       if (data.position) setPositionInLine(data.position);
-      confetti({ particleCount: 100, spread: 70, origin: { x: 0.3, y: 0.45 } });
+      import("canvas-confetti").then((mod) =>
+        (mod.default as unknown as ConfettiCreateTypes)({
+          particleCount: 100,
+          spread: 70,
+          origin: { x: 0.3, y: 0.45 },
+        }),
+      );
     } catch {
       setError("Something went wrong. Please try again.");
       setStatus("error");
@@ -120,11 +126,7 @@ export default function WaitlistForm() {
               href="https://form.typeform.com/to/WMzi15z4"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block rounded-xl px-6 py-3 font-semibold text-white transition-opacity hover:opacity-85 cursor-pointer"
-              style={{
-                backgroundImage:
-                  "linear-gradient(to right, #7c3aed -20%, #0891b2 120%)",
-              }}
+              className="cta-glow inline-block rounded-xl px-6 py-3 font-semibold text-white cursor-pointer"
             >
               Tell us more
               <svg
@@ -136,6 +138,7 @@ export default function WaitlistForm() {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 className="inline-block w-5 h-5 ml-1 -mt-0.5"
+                aria-hidden="true"
               >
                 <path d="M5 12h14M13 5l7 7-7 7" />
               </svg>
@@ -155,26 +158,25 @@ export default function WaitlistForm() {
         <div className="flex-1 min-w-0">
           <input
             type="email"
+            name="email"
+            autoComplete="email"
+            spellCheck={false}
             value={email}
             onChange={(e) => {
               setEmail(e.target.value);
               if (error) setError("");
             }}
-            placeholder="Enter your email"
-            className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-white placeholder-zinc-500 outline-none transition-colors focus:border-violet-500/50 focus:ring-1 focus:ring-violet-500/50"
+            placeholder="Enter your email…"
+            className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-white placeholder-zinc-500 outline-none transition-colors focus-visible:border-violet-500/50 focus-visible:ring-1 focus-visible:ring-violet-500/50"
           />
           {error && <p className="mt-1.5 text-sm text-red-400">{error}</p>}
         </div>
         <button
           type="submit"
           disabled={status === "submitting"}
-          className="shrink-0 rounded-xl px-6 py-3 font-semibold text-white transition-opacity hover:opacity-85 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
-          style={{
-            backgroundImage:
-              "linear-gradient(to right, #7c3aed -20%, #0891b2 120%)",
-          }}
+          className="cta-glow shrink-0 rounded-xl px-6 py-3 font-semibold text-white disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
         >
-          {status === "submitting" ? "Joining..." : "Join Beta"}
+          {status === "submitting" ? "Joining\u2026" : "Join Beta"}
         </button>
       </form>
 

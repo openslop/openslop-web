@@ -3,7 +3,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
-import { getAllPosts, getPostBySlug } from "@/lib/blog";
+import { getAllPosts, getPostBySlug, formatDate } from "@/lib/blog";
 import Footer from "@/app/components/landing/Footer";
 import BlogCTA from "@/app/components/blog/BlogCTA";
 import AiTubersCharts, {
@@ -72,14 +72,6 @@ export async function generateMetadata({
       canonical: `/blog/${post.slug}`,
     },
   };
-}
-
-function formatDate(dateStr: string) {
-  return new Date(dateStr).toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  });
 }
 
 export default async function BlogPostPage({ params }: { params: Params }) {

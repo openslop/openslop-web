@@ -44,8 +44,16 @@ export function getAllPosts(): BlogPostMeta[] {
   });
 
   return posts.sort(
-    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
   );
+}
+
+export function formatDate(dateStr: string) {
+  return new Date(dateStr).toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
 }
 
 export function getPostBySlug(slug: string): BlogPost | null {

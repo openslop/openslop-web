@@ -1,8 +1,7 @@
 "use client";
 
-import { useEffect, useState, useCallback, useMemo, useRef } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Spectral } from "next/font/google";
 import Image from "next/image";
 import {
   Music,
@@ -15,12 +14,6 @@ import {
   Settings,
   Sparkles,
 } from "lucide-react";
-
-const spectral = Spectral({
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  display: "swap",
-});
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -239,12 +232,22 @@ function PlayButton({ color }: { color: string }) {
     <div
       className={`w-7 h-7 rounded-full ${color} flex items-center justify-center flex-shrink-0`}
     >
-      <Play className="w-3 h-3 text-white fill-white ml-[1px]" />
+      <Play
+        className="w-3 h-3 text-white fill-white ml-[1px]"
+        aria-hidden="true"
+      />
     </div>
   );
 }
 
 // ─── Static Soundwave Bars ───────────────────────────────────────────────────
+
+function intHash(v: number) {
+  let h = v;
+  h = Math.imul(h ^ (h >>> 16), 0x45d9f3b);
+  h = Math.imul(h ^ (h >>> 13), 0x45d9f3b);
+  return (h ^ (h >>> 16)) >>> 0;
+}
 
 function StaticSoundwave({
   color,
@@ -253,12 +256,12 @@ function StaticSoundwave({
   color: string;
   barCount?: number;
 }) {
-  const bars = useMemo(() => {
-    return Array.from({ length: barCount }, (_, i) => ({
+  const [bars] = useState(() =>
+    Array.from({ length: barCount }, (_, i) => ({
       id: i,
-      h: 6 + Math.random() * 28,
-    }));
-  }, [barCount]);
+      h: 6 + ((intHash(i) % 29) + 1),
+    })),
+  );
 
   return (
     <div className="flex items-center gap-[2px] h-8 flex-1 min-w-0 overflow-hidden">
@@ -292,28 +295,19 @@ function AudioPreview({
   );
 }
 
-// ─── Mock Image Preview ──────────────────────────────────────────────────────
+// ─── Mock Media Preview (image / clip) ───────────────────────────────────────
 
-function MockImagePreview({ src }: { src: string }) {
+function MockMediaPreview({
+  src,
+  borderColor,
+}: {
+  src: string;
+  borderColor: string;
+}) {
   return (
-    <div className="relative w-full aspect-video rounded-lg overflow-hidden border border-cyan-500/30">
-      <video
-        src={src}
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="w-full h-full object-cover"
-      />
-    </div>
-  );
-}
-
-// ─── Mock Video Preview ──────────────────────────────────────────────────────
-
-function MockVideoPreview({ src }: { src: string }) {
-  return (
-    <div className="relative w-full aspect-video rounded-lg overflow-hidden border border-rose-500/30">
+    <div
+      className={`relative w-full aspect-video rounded-lg overflow-hidden border ${borderColor}`}
+    >
       <video
         src={src}
         autoPlay
@@ -528,9 +522,19 @@ function OutputPreview({ element }: { element: StoryElement }) {
         />
       );
     case "image":
-      return <MockImagePreview src={element.image!} />;
+      return (
+        <MockMediaPreview
+          src={element.image!}
+          borderColor="border-cyan-500/30"
+        />
+      );
     case "clip":
-      return <MockVideoPreview src={element.video!} />;
+      return (
+        <MockMediaPreview
+          src={element.video!}
+          borderColor="border-rose-500/30"
+        />
+      );
     case "character":
       return (
         <MockCharacterPreview
@@ -674,14 +678,14 @@ export default function ScriptEditorDemo() {
       for (let i = 0; i <= text.length; i++) {
         schedule(
           () => setCopilotText(text.slice(0, i)),
-          startDelay + i * speed
+          startDelay + i * speed,
         );
       }
       if (onDone) {
         schedule(onDone, startDelay + text.length * speed + 200);
       }
     },
-    [schedule]
+    [schedule],
   );
 
   const scrollToBottom = useCallback(() => {
@@ -731,10 +735,13 @@ export default function ScriptEditorDemo() {
     }, t);
 
     for (let i = 0; i < INITIAL_ELEMENTS.length; i++) {
-      schedule(() => {
-        setVisibleCount(i + 1);
-        scrollToBottom();
-      }, t + 400 + i * 1000);
+      schedule(
+        () => {
+          setVisibleCount(i + 1);
+          scrollToBottom();
+        },
+        t + 400 + i * 1000,
+      );
     }
     t += 400 + INITIAL_ELEMENTS.length * 1000 + 500;
 
@@ -765,8 +772,8 @@ export default function ScriptEditorDemo() {
                   attributes: { mood: "Epic", genre: "Orchestral" },
                   model: "Udio",
                 }
-              : el
-          )
+              : el,
+          ),
         );
         setMusicMorphPhase("revealing");
       }, 1600);
@@ -777,23 +784,32 @@ export default function ScriptEditorDemo() {
         setMusicMorphPhase(null);
       }, 1600 + revealDuration);
 
-      schedule(() => {
-        setElements((prev) => [...prev, RIVAL_CHARACTER]);
-        setVisibleCount((c) => c + 1);
-        scrollToBottom();
-      }, 1600 + revealDuration + 400);
+      schedule(
+        () => {
+          setElements((prev) => [...prev, RIVAL_CHARACTER]);
+          setVisibleCount((c) => c + 1);
+          scrollToBottom();
+        },
+        1600 + revealDuration + 400,
+      );
 
-      schedule(() => {
-        setElements((prev) => [...prev, POST_RIVAL_NARRATION]);
-        setVisibleCount((c) => c + 1);
-        scrollToBottom();
-      }, 1600 + revealDuration + 1200);
+      schedule(
+        () => {
+          setElements((prev) => [...prev, POST_RIVAL_NARRATION]);
+          setVisibleCount((c) => c + 1);
+          scrollToBottom();
+        },
+        1600 + revealDuration + 1200,
+      );
 
-      schedule(() => {
-        setElements((prev) => [...prev, POST_RIVAL_CHARACTER]);
-        setVisibleCount((c) => c + 1);
-        scrollToBottom();
-      }, 1600 + revealDuration + 2000);
+      schedule(
+        () => {
+          setElements((prev) => [...prev, POST_RIVAL_CHARACTER]);
+          setVisibleCount((c) => c + 1);
+          scrollToBottom();
+        },
+        1600 + revealDuration + 2000,
+      );
 
       schedule(() => setHighlightMusic(false), 1600 + revealDuration + 2800);
     });
@@ -864,15 +880,21 @@ export default function ScriptEditorDemo() {
         >
           {/* Top bar: Settings + Copilot + Generate — sticky */}
           <div className="sticky top-0 flex items-center gap-3 px-4 sm:px-6 pt-4 pb-3 z-20 bg-black/40 backdrop-blur-md shadow-[0_1px_3px_rgba(0,0,0,0.3),0_4px_12px_rgba(0,0,0,0.2)] rounded-2xl">
-            <button className="flex items-center gap-1.5 text-white/60 hover:text-white/80 transition-colors text-sm bg-white/5 px-2.5 py-2 rounded-lg border border-white/10 flex-shrink-0">
-              <Settings className="w-4 h-4" />
+            <button
+              aria-label="Settings"
+              className="flex items-center gap-1.5 text-white/60 hover:text-white hover:bg-white/10 hover:border-white/20 transition-all text-sm bg-white/5 px-2.5 py-2 rounded-lg border border-white/10 flex-shrink-0"
+            >
+              <Settings className="w-4 h-4" aria-hidden="true" />
               <span className="hidden sm:inline">Settings</span>
             </button>
 
             <CopilotInput text={copilotText} showCursor={showCursor} />
 
-            <button className="flex items-center gap-1.5 text-white bg-violet-600 hover:bg-violet-500 transition-colors text-sm px-3 py-2 rounded-lg font-medium shadow-lg shadow-violet-500/20 flex-shrink-0">
-              <Play className="w-4 h-4 fill-white" />
+            <button
+              aria-label="Generate"
+              className="flex items-center gap-1.5 text-white bg-violet-600 hover:bg-violet-500 hover:shadow-[0_0_20px_rgba(124,58,237,0.5)] transition-all text-sm px-3 py-2 rounded-lg font-medium shadow-lg shadow-violet-500/20 flex-shrink-0"
+            >
+              <Play className="w-4 h-4 fill-white" aria-hidden="true" />
               <span className="hidden sm:inline">Generate</span>
             </button>
           </div>

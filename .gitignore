@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude Code (user-specific files only; .agents/ and .claude/skills/ are shared)
+.claude/settings.local.json
+.claude/memory/
+.claude/plans/
+
+# Supabase CLI
+supabase/.temp/

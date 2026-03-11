@@ -1,5 +1,8 @@
 import { NextResponse } from "next/server";
-import { createSupabaseClient, createSupabaseServiceClient } from "@/lib/supabase/server";
+import {
+  createSupabaseClient,
+  createSupabaseServiceClient,
+} from "@/lib/supabase/server";
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -29,7 +32,7 @@ export async function POST(request: Request) {
   if (!email || !EMAIL_REGEX.test(email)) {
     return NextResponse.json(
       { error: "Invalid email address" },
-      { status: 400 }
+      { status: 400 },
     );
   }
 
@@ -46,7 +49,7 @@ export async function POST(request: Request) {
     console.error(error);
     return NextResponse.json(
       { error: "Something went wrong" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 
@@ -63,6 +66,6 @@ export async function POST(request: Request) {
 
   return NextResponse.json(
     { message: "Joined waitlist", position },
-    { status: 201 }
+    { status: 201 },
   );
 }

@@ -101,6 +101,11 @@ export default function RootLayout({
     <html lang="en" className="bg-[#0a0a0a]">
       <head>
         <link
+          rel="preconnect"
+          href="https://api.fontshare.com"
+          crossOrigin="anonymous"
+        />
+        <link
           href="https://api.fontshare.com/v2/css?f[]=sentient@400,500,600,700&f[]=satoshi@400,500,700&display=swap"
           rel="stylesheet"
         />

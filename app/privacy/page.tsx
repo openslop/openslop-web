@@ -122,9 +122,7 @@ export default function PrivacyPolicy() {
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold text-white">
-              7. Your Rights
-            </h2>
+            <h2 className="text-xl font-semibold text-white">7. Your Rights</h2>
             <p className="mt-2 leading-relaxed">
               Depending on your location, you may have the right to access,
               correct, delete, or port your personal data. To exercise these
@@ -144,9 +142,7 @@ export default function PrivacyPolicy() {
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold text-white">
-              9. Contact Us
-            </h2>
+            <h2 className="text-xl font-semibold text-white">9. Contact Us</h2>
             <p className="mt-2 leading-relaxed">
               If you have questions about this Privacy Policy, please contact us
               at{" "}
