@@ -300,6 +300,45 @@ body {
   margin-top: 0;
 }
 
+/* CTA button: animated gradient + glow on hover */
+.cta-glow {
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(90deg, #7c3aed, #0891b2, #a855f7, #7c3aed);
+  background-size: 300%;
+}
+
+.cta-glow:hover {
+  animation: cta-shift 8s linear infinite;
+}
+
+.cta-glow::before {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  z-index: -1;
+  background: linear-gradient(90deg, #7c3aed, #0891b2, #a855f7, #7c3aed);
+  background-size: 400%;
+  border-radius: inherit;
+  opacity: 0;
+  filter: blur(16px);
+  transition: opacity 0.4s;
+}
+
+.cta-glow:hover::before {
+  opacity: 1;
+  animation: cta-shift 8s linear infinite;
+}
+
+@keyframes cta-shift {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+
 @utility scrollbar-hide {
   -ms-overflow-style: none;
   scrollbar-width: none;

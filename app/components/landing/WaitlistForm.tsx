@@ -126,11 +126,7 @@ export default function WaitlistForm() {
               href="https://form.typeform.com/to/WMzi15z4"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block rounded-xl px-6 py-3 font-semibold text-white transition-all hover:brightness-110 hover:shadow-[0_0_20px_rgba(124,58,237,0.4)] cursor-pointer"
-              style={{
-                backgroundImage:
-                  "linear-gradient(to right, #7c3aed -20%, #0891b2 120%)",
-              }}
+              className="cta-glow inline-block rounded-xl px-6 py-3 font-semibold text-white cursor-pointer"
             >
               Tell us more
               <svg
@@ -178,11 +174,7 @@ export default function WaitlistForm() {
         <button
           type="submit"
           disabled={status === "submitting"}
-          className="shrink-0 rounded-xl px-6 py-3 font-semibold text-white transition-all hover:brightness-110 hover:shadow-[0_0_20px_rgba(124,58,237,0.4)] disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
-          style={{
-            backgroundImage:
-              "linear-gradient(to right, #7c3aed -20%, #0891b2 120%)",
-          }}
+          className="cta-glow shrink-0 rounded-xl px-6 py-3 font-semibold text-white disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
         >
           {status === "submitting" ? "Joining\u2026" : "Join Beta"}
         </button>
