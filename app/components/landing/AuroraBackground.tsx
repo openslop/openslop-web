@@ -50,6 +50,11 @@ export default function AuroraBackground({
           mix-blend-mode: difference;
           animation: ${animate ? "aurora-anim 60s linear infinite" : "none"};
         }
+        @media (prefers-reduced-motion: reduce) {
+          .aurora-layer::after {
+            animation: none;
+          }
+        }
       `}</style>
       <div className="absolute inset-0 overflow-hidden">
         <div

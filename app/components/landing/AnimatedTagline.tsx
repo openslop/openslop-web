@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 
 const words = [
   "youtube videos",
@@ -24,12 +24,15 @@ const words = [
 type Phase = "holding" | "erasing" | "pausing" | "typing";
 
 export default function AnimatedTagline() {
+  const reduced = useReducedMotion();
   const wordIndexRef = useRef(0);
   const [currentWord, setCurrentWord] = useState(words[0]);
   const [displayedChars, setDisplayedChars] = useState(words[0].length);
   const [phase, setPhase] = useState<Phase>("holding");
 
   useEffect(() => {
+    if (reduced) return;
+
     let timeout: NodeJS.Timeout;
 
     switch (phase) {
@@ -63,13 +66,13 @@ export default function AnimatedTagline() {
     }
 
     return () => clearTimeout(timeout);
-  }, [phase, displayedChars, currentWord]);
+  }, [phase, displayedChars, currentWord, reduced]);
 
   const visibleText = currentWord.slice(0, displayedChars);
 
   return (
     <h1
-      className="text-6xl lg:text-7xl text-white"
+      className="text-6xl lg:text-7xl text-white text-balance"
       style={{
         fontFamily: "var(--font-instrument-serif), serif",
         letterSpacing: "-0.02em",
@@ -82,15 +85,17 @@ export default function AnimatedTagline() {
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-cyan-400 italic pr-1">
           {visibleText}
         </span>
-        <motion.span
-          className="inline-block w-[3px] h-[0.9em] bg-gradient-to-b from-violet-400 to-cyan-400 align-middle ml-0.5 rounded-full"
-          animate={{ opacity: [1, 0] }}
-          transition={{
-            duration: 0.8,
-            repeat: Infinity,
-            repeatType: "reverse",
-          }}
-        />
+        {!reduced && (
+          <motion.span
+            className="inline-block w-[3px] h-[0.9em] bg-gradient-to-b from-violet-400 to-cyan-400 align-middle ml-0.5 rounded-full"
+            animate={{ opacity: [1, 0] }}
+            transition={{
+              duration: 0.8,
+              repeat: Infinity,
+              repeatType: "reverse",
+            }}
+          />
+        )}
       </span>
       <br />
       that don&apos;t insult

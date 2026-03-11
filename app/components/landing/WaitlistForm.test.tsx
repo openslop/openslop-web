@@ -85,7 +85,7 @@ function joinButton() {
 }
 
 function emailInput() {
-  return screen.getAllByPlaceholderText("Enter your email")[0];
+  return screen.getAllByPlaceholderText("Enter your email\u2026")[0];
 }
 
 describe("WaitlistForm", () => {

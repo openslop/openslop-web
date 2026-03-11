@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { getAllPosts } from "@/lib/blog";
+import { getAllPosts, formatDate } from "@/lib/blog";
 import Footer from "@/app/components/landing/Footer";
 import type { Metadata } from "next";
 import type { BlogPostMeta } from "@/lib/blog";
@@ -20,14 +20,6 @@ export const metadata: Metadata = {
     canonical: "/blog",
   },
 };
-
-function formatDate(dateStr: string) {
-  return new Date(dateStr).toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  });
-}
 
 function FeaturedTile({ post }: { post: BlogPostMeta }) {
   return (

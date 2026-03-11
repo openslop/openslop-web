@@ -2,7 +2,6 @@
 
 import { useEffect, useState, useCallback, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Spectral } from "next/font/google";
 import Image from "next/image";
 import {
   Music,
@@ -15,12 +14,6 @@ import {
   Settings,
   Sparkles,
 } from "lucide-react";
-
-const _spectral = Spectral({
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  display: "swap",
-});
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -239,7 +232,10 @@ function PlayButton({ color }: { color: string }) {
     <div
       className={`w-7 h-7 rounded-full ${color} flex items-center justify-center flex-shrink-0`}
     >
-      <Play className="w-3 h-3 text-white fill-white ml-[1px]" />
+      <Play
+        className="w-3 h-3 text-white fill-white ml-[1px]"
+        aria-hidden="true"
+      />
     </div>
   );
 }
@@ -299,28 +295,19 @@ function AudioPreview({
   );
 }
 
-// ─── Mock Image Preview ──────────────────────────────────────────────────────
+// ─── Mock Media Preview (image / clip) ───────────────────────────────────────
 
-function MockImagePreview({ src }: { src: string }) {
+function MockMediaPreview({
+  src,
+  borderColor,
+}: {
+  src: string;
+  borderColor: string;
+}) {
   return (
-    <div className="relative w-full aspect-video rounded-lg overflow-hidden border border-cyan-500/30">
-      <video
-        src={src}
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="w-full h-full object-cover"
-      />
-    </div>
-  );
-}
-
-// ─── Mock Video Preview ──────────────────────────────────────────────────────
-
-function MockVideoPreview({ src }: { src: string }) {
-  return (
-    <div className="relative w-full aspect-video rounded-lg overflow-hidden border border-rose-500/30">
+    <div
+      className={`relative w-full aspect-video rounded-lg overflow-hidden border ${borderColor}`}
+    >
       <video
         src={src}
         autoPlay
@@ -535,9 +522,19 @@ function OutputPreview({ element }: { element: StoryElement }) {
         />
       );
     case "image":
-      return <MockImagePreview src={element.image!} />;
+      return (
+        <MockMediaPreview
+          src={element.image!}
+          borderColor="border-cyan-500/30"
+        />
+      );
     case "clip":
-      return <MockVideoPreview src={element.video!} />;
+      return (
+        <MockMediaPreview
+          src={element.video!}
+          borderColor="border-rose-500/30"
+        />
+      );
     case "character":
       return (
         <MockCharacterPreview
@@ -883,15 +880,21 @@ export default function ScriptEditorDemo() {
         >
           {/* Top bar: Settings + Copilot + Generate — sticky */}
           <div className="sticky top-0 flex items-center gap-3 px-4 sm:px-6 pt-4 pb-3 z-20 bg-black/40 backdrop-blur-md shadow-[0_1px_3px_rgba(0,0,0,0.3),0_4px_12px_rgba(0,0,0,0.2)] rounded-2xl">
-            <button className="flex items-center gap-1.5 text-white/60 hover:text-white/80 transition-colors text-sm bg-white/5 px-2.5 py-2 rounded-lg border border-white/10 flex-shrink-0">
-              <Settings className="w-4 h-4" />
+            <button
+              aria-label="Settings"
+              className="flex items-center gap-1.5 text-white/60 hover:text-white hover:bg-white/10 hover:border-white/20 transition-all text-sm bg-white/5 px-2.5 py-2 rounded-lg border border-white/10 flex-shrink-0"
+            >
+              <Settings className="w-4 h-4" aria-hidden="true" />
               <span className="hidden sm:inline">Settings</span>
             </button>
 
             <CopilotInput text={copilotText} showCursor={showCursor} />
 
-            <button className="flex items-center gap-1.5 text-white bg-violet-600 hover:bg-violet-500 transition-colors text-sm px-3 py-2 rounded-lg font-medium shadow-lg shadow-violet-500/20 flex-shrink-0">
-              <Play className="w-4 h-4 fill-white" />
+            <button
+              aria-label="Generate"
+              className="flex items-center gap-1.5 text-white bg-violet-600 hover:bg-violet-500 hover:shadow-[0_0_20px_rgba(124,58,237,0.5)] transition-all text-sm px-3 py-2 rounded-lg font-medium shadow-lg shadow-violet-500/20 flex-shrink-0"
+            >
+              <Play className="w-4 h-4 fill-white" aria-hidden="true" />
               <span className="hidden sm:inline">Generate</span>
             </button>
           </div>
