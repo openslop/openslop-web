@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useCallback, useMemo, useRef } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Spectral } from "next/font/google";
 import Image from "next/image";
@@ -16,7 +16,7 @@ import {
   Sparkles,
 } from "lucide-react";
 
-const spectral = Spectral({
+const _spectral = Spectral({
   subsets: ["latin"],
   weight: ["400", "500", "600"],
   display: "swap",
@@ -246,6 +246,13 @@ function PlayButton({ color }: { color: string }) {
 
 // ─── Static Soundwave Bars ───────────────────────────────────────────────────
 
+function intHash(v: number) {
+  let h = v;
+  h = Math.imul(h ^ (h >>> 16), 0x45d9f3b);
+  h = Math.imul(h ^ (h >>> 13), 0x45d9f3b);
+  return (h ^ (h >>> 16)) >>> 0;
+}
+
 function StaticSoundwave({
   color,
   barCount = 24,
@@ -253,12 +260,12 @@ function StaticSoundwave({
   color: string;
   barCount?: number;
 }) {
-  const bars = useMemo(() => {
-    return Array.from({ length: barCount }, (_, i) => ({
+  const [bars] = useState(() =>
+    Array.from({ length: barCount }, (_, i) => ({
       id: i,
-      h: 6 + Math.random() * 28,
-    }));
-  }, [barCount]);
+      h: 6 + ((intHash(i) % 29) + 1),
+    })),
+  );
 
   return (
     <div className="flex items-center gap-[2px] h-8 flex-1 min-w-0 overflow-hidden">
@@ -674,14 +681,14 @@ export default function ScriptEditorDemo() {
       for (let i = 0; i <= text.length; i++) {
         schedule(
           () => setCopilotText(text.slice(0, i)),
-          startDelay + i * speed
+          startDelay + i * speed,
         );
       }
       if (onDone) {
         schedule(onDone, startDelay + text.length * speed + 200);
       }
     },
-    [schedule]
+    [schedule],
   );
 
   const scrollToBottom = useCallback(() => {
@@ -731,10 +738,13 @@ export default function ScriptEditorDemo() {
     }, t);
 
     for (let i = 0; i < INITIAL_ELEMENTS.length; i++) {
-      schedule(() => {
-        setVisibleCount(i + 1);
-        scrollToBottom();
-      }, t + 400 + i * 1000);
+      schedule(
+        () => {
+          setVisibleCount(i + 1);
+          scrollToBottom();
+        },
+        t + 400 + i * 1000,
+      );
     }
     t += 400 + INITIAL_ELEMENTS.length * 1000 + 500;
 
@@ -765,8 +775,8 @@ export default function ScriptEditorDemo() {
                   attributes: { mood: "Epic", genre: "Orchestral" },
                   model: "Udio",
                 }
-              : el
-          )
+              : el,
+          ),
         );
         setMusicMorphPhase("revealing");
       }, 1600);
@@ -777,23 +787,32 @@ export default function ScriptEditorDemo() {
         setMusicMorphPhase(null);
       }, 1600 + revealDuration);
 
-      schedule(() => {
-        setElements((prev) => [...prev, RIVAL_CHARACTER]);
-        setVisibleCount((c) => c + 1);
-        scrollToBottom();
-      }, 1600 + revealDuration + 400);
+      schedule(
+        () => {
+          setElements((prev) => [...prev, RIVAL_CHARACTER]);
+          setVisibleCount((c) => c + 1);
+          scrollToBottom();
+        },
+        1600 + revealDuration + 400,
+      );
 
-      schedule(() => {
-        setElements((prev) => [...prev, POST_RIVAL_NARRATION]);
-        setVisibleCount((c) => c + 1);
-        scrollToBottom();
-      }, 1600 + revealDuration + 1200);
+      schedule(
+        () => {
+          setElements((prev) => [...prev, POST_RIVAL_NARRATION]);
+          setVisibleCount((c) => c + 1);
+          scrollToBottom();
+        },
+        1600 + revealDuration + 1200,
+      );
 
-      schedule(() => {
-        setElements((prev) => [...prev, POST_RIVAL_CHARACTER]);
-        setVisibleCount((c) => c + 1);
-        scrollToBottom();
-      }, 1600 + revealDuration + 2000);
+      schedule(
+        () => {
+          setElements((prev) => [...prev, POST_RIVAL_CHARACTER]);
+          setVisibleCount((c) => c + 1);
+          scrollToBottom();
+        },
+        1600 + revealDuration + 2000,
+      );
 
       schedule(() => setHighlightMusic(false), 1600 + revealDuration + 2800);
     });

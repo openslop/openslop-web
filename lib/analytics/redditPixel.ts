@@ -1,6 +1,6 @@
 declare global {
   interface Window {
-    rdt?: (...args: any[]) => void;
+    rdt?: (...args: unknown[]) => void;
     redditNormalizeEmail?: (email: string) => string;
   }
 }
@@ -19,7 +19,7 @@ export function redditInit(email: string) {
   });
 }
 
-export function redditTrack(event: string, data?: Record<string, any>) {
+export function redditTrack(event: string, data?: Record<string, unknown>) {
   if (typeof window === "undefined") return;
   if (!window.rdt) return;
 

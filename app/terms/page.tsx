@@ -45,9 +45,7 @@ export default function TermsOfService() {
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold text-white">
-              3. Use License
-            </h2>
+            <h2 className="text-xl font-semibold text-white">3. Use License</h2>
             <p className="mt-2 leading-relaxed">
               Subject to these Terms, we grant you a limited, non-exclusive,
               non-transferable, revocable license to access and use the Service
@@ -120,9 +118,7 @@ export default function TermsOfService() {
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold text-white">
-              8. Contact Us
-            </h2>
+            <h2 className="text-xl font-semibold text-white">8. Contact Us</h2>
             <p className="mt-2 leading-relaxed">
               If you have questions about these Terms, please contact us at{" "}
               <a

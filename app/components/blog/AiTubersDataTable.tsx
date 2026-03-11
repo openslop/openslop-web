@@ -111,7 +111,7 @@ export default function AiTubersDataTable() {
       .then((r) => r.json())
       .then((d: AnalysisData) => {
         const sorted = [...d.channels].sort(
-          (a, b) => b.subscribers - a.subscribers
+          (a, b) => b.subscribers - a.subscribers,
         );
         setData(sorted);
       });
@@ -290,12 +290,12 @@ export default function AiTubersDataTable() {
                   >
                     {h}
                   </th>
-                )
+                ),
               )}
             </tr>
           </thead>
           <tbody>
-            {visible.map((ch, i) => {
+            {visible.map((ch) => {
               const handle = extractHandle(ch.channel);
               const catColor = categoryColorMap[ch.category] || COLORS.slate;
               const aiColor = AI_COLORS[ch.ai_use] || COLORS.slate;

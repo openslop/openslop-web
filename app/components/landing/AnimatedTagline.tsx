@@ -41,7 +41,7 @@ export default function AnimatedTagline() {
         if (displayedChars > 0) {
           timeout = setTimeout(() => setDisplayedChars((c) => c - 1), 80);
         } else {
-          setPhase("pausing");
+          timeout = setTimeout(() => setPhase("pausing"), 0);
         }
         break;
 
@@ -57,7 +57,7 @@ export default function AnimatedTagline() {
         if (displayedChars < currentWord.length) {
           timeout = setTimeout(() => setDisplayedChars((c) => c + 1), 100);
         } else {
-          setPhase("holding");
+          timeout = setTimeout(() => setPhase("holding"), 0);
         }
         break;
     }
