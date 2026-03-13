@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     template: "%s - OpenSlop",
   },
   description:
-    "Free open-source AI video pipeline. Single prompt to finished video for under $2. No GPU, no manual editing.",
+    "Free open-source AI video pipeline. Single prompt to finished video for free. No GPU, no manual editing.",
   keywords: [
     "AI video",
     "open source",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     siteName: "OpenSlop",
     title: "OpenSlop - Free Open-Source AI Content Creator",
     description:
-      "Free open-source AI video pipeline. Single prompt to finished video for under $2. No GPU, no manual editing.",
+      "Free open-source AI video pipeline. Single prompt to finished video for free. No GPU, no manual editing.",
     images: [
       {
         url: "/og-image.png",
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "OpenSlop - Free Open-Source AI Content Creator",
     description:
-      "Free open-source AI video pipeline. Single prompt to finished video for under $2.",
+      "Free open-source AI video pipeline. Single prompt to finished video for free.",
     images: ["/og-image.png"],
   },
   robots: {
