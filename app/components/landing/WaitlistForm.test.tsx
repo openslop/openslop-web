@@ -57,6 +57,7 @@ vi.mock("next/image", () => ({
 // Stub analytics
 vi.mock("@/lib/analytics/redditPixel", () => ({
   redditInit: vi.fn(),
+  redditTrack: vi.fn(),
 }));
 
 import WaitlistForm from "./WaitlistForm";
