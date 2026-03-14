@@ -4,7 +4,7 @@ import { useState, useEffect, useRef, FormEvent } from "react";
 import type { CreateTypes as ConfettiCreateTypes } from "canvas-confetti";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { redditInit } from "@/lib/analytics/redditPixel";
+import { redditInit, redditTrack } from "@/lib/analytics/redditPixel";
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const COUNT_UP_DURATION = 600;
@@ -81,6 +81,7 @@ export default function WaitlistForm() {
 
       const data = await res.json();
       setStatus("success");
+      redditTrack("SignUp", { email });
       if (data.position) setPositionInLine(data.position);
       import("canvas-confetti").then((mod) =>
         (mod.default as unknown as ConfettiCreateTypes)({
