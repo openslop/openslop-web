@@ -81,7 +81,7 @@ export default function WaitlistForm() {
 
       const data = await res.json();
       setStatus("success");
-      redditTrack("SignUp");
+      redditTrack("SignUp", { email });
       if (data.position) setPositionInLine(data.position);
       import("canvas-confetti").then((mod) =>
         (mod.default as unknown as ConfettiCreateTypes)({
