@@ -21,6 +21,22 @@ export interface BlogPost extends BlogPostMeta {
   content: string;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function parseMeta(slug: string, data: Record<string, any>): BlogPostMeta {
+  return {
+    slug,
+    title: data.title,
+    description: data.description,
+    date: data.date,
+    author: data.author,
+    authorAvatar: data.authorAvatar,
+    coverImage: data.coverImage,
+    coverGif: data.coverGif ?? undefined,
+    category: data.category ?? "",
+    tags: data.tags ?? [],
+  };
+}
+
 export function getAllPosts(): BlogPostMeta[] {
   const files = fs.readdirSync(BLOG_DIR).filter((f) => f.endsWith(".mdx"));
 
@@ -28,19 +44,7 @@ export function getAllPosts(): BlogPostMeta[] {
     const slug = filename.replace(/\.mdx$/, "");
     const raw = fs.readFileSync(path.join(BLOG_DIR, filename), "utf-8");
     const { data } = matter(raw);
-
-    return {
-      slug,
-      title: data.title,
-      description: data.description,
-      date: data.date,
-      author: data.author,
-      authorAvatar: data.authorAvatar,
-      coverImage: data.coverImage,
-      coverGif: data.coverGif ?? undefined,
-      category: data.category ?? "",
-      tags: data.tags ?? [],
-    } as BlogPostMeta;
+    return parseMeta(slug, data);
   });
 
   return posts.sort(
@@ -63,17 +67,5 @@ export function getPostBySlug(slug: string): BlogPost | null {
   const raw = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(raw);
 
-  return {
-    slug,
-    title: data.title,
-    description: data.description,
-    date: data.date,
-    author: data.author,
-    authorAvatar: data.authorAvatar,
-    coverImage: data.coverImage,
-    coverGif: data.coverGif ?? undefined,
-    category: data.category ?? "",
-    tags: data.tags ?? [],
-    content,
-  };
+  return { ...parseMeta(slug, data), content };
 }
