@@ -22,35 +22,13 @@ import {
   Pie,
 } from "recharts";
 
-// ── Theme tokens ──────────────────────────────────────────────────────────────
-
-const COLORS = {
-  bg: "rgba(255,255,255,0.03)",
-  border: "rgba(255,255,255,0.08)",
-  gridStroke: "rgba(255,255,255,0.06)",
-  axisText: "#71717a",
-  labelText: "#a1a1aa",
-  white: "#e4e4e7",
-  violet: "#a78bfa",
-  violetDim: "rgba(167,139,250,0.6)",
-  purple: "#7c3aed",
-  indigo: "#818cf8",
-  cyan: "#22d3ee",
-  emerald: "#34d399",
-  amber: "#fbbf24",
-  rose: "#fb7185",
-  fuchsia: "#e879f9",
-  slate: "#94a3b8",
-};
-
-const AI_COLORS = {
-  Full: COLORS.violet,
-  Partial: COLORS.cyan,
-  Minimal: COLORS.amber,
-  Unknown: COLORS.slate,
-};
-
-const FONT = "var(--font-geist-sans), sans-serif";
+import {
+  COLORS,
+  AI_COLORS,
+  FONT,
+  fmtNum,
+  buildCategoryColorMap,
+} from "./chartTheme";
 
 // ── Verdict box ──────────────────────────────────────────────────────────────
 
@@ -130,14 +108,6 @@ export function Verdict({
       )}
     </div>
   );
-}
-
-// ── Formatters ────────────────────────────────────────────────────────────────
-
-function fmtNum(n: number): string {
-  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
-  if (n >= 1_000) return `${(n / 1_000).toFixed(0)}k`;
-  return n.toLocaleString();
 }
 
 // ── Shared tooltip ────────────────────────────────────────────────────────────
@@ -710,41 +680,6 @@ function CollectionTrend({ data }: { data: TrendPoint[] }) {
   );
 }
 
-// ── Category color palette ────────────────────────────────────────────────────
-
-const CATEGORY_PALETTE = [
-  "#a78bfa",
-  "#22d3ee",
-  "#34d399",
-  "#fbbf24",
-  "#fb7185",
-  "#818cf8",
-  "#e879f9",
-  "#f97316",
-  "#38bdf8",
-  "#a3e635",
-  "#2dd4bf",
-  "#c084fc",
-  "#f472b6",
-  "#facc15",
-  "#60a5fa",
-  "#4ade80",
-  "#fb923c",
-  "#94a3b8",
-  "#a1a1aa",
-  "#d946ef",
-  "#67e8f9",
-];
-
-function buildCategoryColorMap(categories: string[]): Record<string, string> {
-  const sorted = [...categories].sort();
-  const map: Record<string, string> = {};
-  sorted.forEach((cat, i) => {
-    map[cat] = CATEGORY_PALETTE[i % CATEGORY_PALETTE.length];
-  });
-  return map;
-}
-
 // ── 6. Subscriber distribution per category (box plot) ────────────────────────
 
 interface DistributionRow {
@@ -831,6 +766,39 @@ function WhiskerBar(props: {
   );
 }
 
+function IqrBar({
+  x = 0,
+  y = 0,
+  width = 0,
+  height = 0,
+  category = "",
+  colorMap,
+  opacity,
+  radius,
+}: {
+  x?: number;
+  y?: number;
+  width?: number;
+  height?: number;
+  category?: string;
+  colorMap: Record<string, string>;
+  opacity: number;
+  radius: [number, number, number, number];
+}) {
+  if (width <= 0) return null;
+  return (
+    <Rectangle
+      x={x}
+      y={y + 2}
+      width={width}
+      height={height - 4}
+      fill={colorMap[category] || COLORS.violet}
+      fillOpacity={opacity}
+      radius={radius}
+    />
+  );
+}
+
 function SubDistributionChart({
   data,
   colorMap,
@@ -909,66 +877,28 @@ function SubDistributionChart({
             dataKey="p25ToMedian"
             stackId="dist"
             isAnimationActive={false}
-            shape={(props: {
-              x?: number;
-              y?: number;
-              width?: number;
-              height?: number;
-              category?: string;
-            }) => {
-              const {
-                x = 0,
-                y = 0,
-                width = 0,
-                height = 0,
-                category = "",
-              } = props;
-              if (width <= 0) return null;
-              return (
-                <Rectangle
-                  x={x}
-                  y={y + 2}
-                  width={width}
-                  height={height - 4}
-                  fill={colorMap[category] || COLORS.violet}
-                  fillOpacity={0.7}
-                  radius={[3, 0, 0, 3]}
-                />
-              );
-            }}
+            shape={(props) => (
+              <IqrBar
+                {...props}
+                colorMap={colorMap}
+                opacity={0.7}
+                radius={[3, 0, 0, 3]}
+              />
+            )}
           />
           {/* IQR: median to p75 */}
           <Bar
             dataKey="medianToP75"
             stackId="dist"
             isAnimationActive={false}
-            shape={(props: {
-              x?: number;
-              y?: number;
-              width?: number;
-              height?: number;
-              category?: string;
-            }) => {
-              const {
-                x = 0,
-                y = 0,
-                width = 0,
-                height = 0,
-                category = "",
-              } = props;
-              if (width <= 0) return null;
-              return (
-                <Rectangle
-                  x={x}
-                  y={y + 2}
-                  width={width}
-                  height={height - 4}
-                  fill={colorMap[category] || COLORS.violet}
-                  fillOpacity={0.4}
-                  radius={[0, 3, 3, 0]}
-                />
-              );
-            }}
+            shape={(props) => (
+              <IqrBar
+                {...props}
+                colorMap={colorMap}
+                opacity={0.4}
+                radius={[0, 3, 3, 0]}
+              />
+            )}
           />
           {/* Whisker: p75 to max */}
           <Bar

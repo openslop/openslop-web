@@ -3,8 +3,7 @@ import {
   createSupabaseClient,
   createSupabaseServiceClient,
 } from "@/lib/supabase/server";
-
-const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+import { EMAIL_REGEX } from "@/lib/validation";
 
 export async function GET() {
   const supabase = createSupabaseClient();

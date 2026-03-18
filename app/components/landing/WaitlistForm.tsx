@@ -5,8 +5,7 @@ import type { CreateTypes as ConfettiCreateTypes } from "canvas-confetti";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { redditInit, redditTrack } from "@/lib/analytics/redditPixel";
-
-const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+import { EMAIL_REGEX } from "@/lib/validation";
 const COUNT_UP_DURATION = 600;
 
 export default function WaitlistForm() {
