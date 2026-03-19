@@ -28,6 +28,7 @@ import {
   FONT,
   fmtNum,
   buildCategoryColorMap,
+  extractHandle,
 } from "./chartTheme";
 
 // ── Verdict box ──────────────────────────────────────────────────────────────
@@ -1226,25 +1227,40 @@ function NicheRecommendations({ data }: { data: CategoryStat[] }) {
 
 // ── Data loader + exports ─────────────────────────────────────────────────────
 
-function useChartData() {
-  const [data, setData] = useState<{
-    categories: CategoryStat[];
-    buckets: BucketStat[];
-    rank: RankPoint[];
-    trend: TrendPoint[];
-    channels: RawChannel[];
-  } | null>(null);
+interface ChartData {
+  categories: CategoryStat[];
+  buckets: BucketStat[];
+  rank: RankPoint[];
+  trend: TrendPoint[];
+  channels: RawChannel[];
+}
 
-  useEffect(() => {
-    Promise.all([
+let cachedPromise: Promise<ChartData> | null = null;
+
+function fetchChartData(): Promise<ChartData> {
+  if (!cachedPromise) {
+    cachedPromise = Promise.all([
       fetch("/data/category_stats.json").then((r) => r.json()),
       fetch("/data/subscriber_buckets.json").then((r) => r.json()),
       fetch("/data/rank_curve.json").then((r) => r.json()),
       fetch("/data/collection_trend.json").then((r) => r.json()),
       fetch("/data/aitubers-analysis-data.json").then((r) => r.json()),
-    ]).then(([categories, buckets, rank, trend, full]) =>
-      setData({ categories, buckets, rank, trend, channels: full.channels }),
-    );
+    ]).then(([categories, buckets, rank, trend, full]) => ({
+      categories,
+      buckets,
+      rank,
+      trend,
+      channels: full.channels,
+    }));
+  }
+  return cachedPromise;
+}
+
+function useChartData() {
+  const [data, setData] = useState<ChartData | null>(null);
+
+  useEffect(() => {
+    fetchChartData().then(setData);
   }, []);
 
   return data;
@@ -2042,13 +2058,6 @@ function TopNonFullChannels({ channels }: { channels: RawChannel[] }) {
     .filter((c) => c.ai_use === "Partial" || c.ai_use === "Minimal")
     .sort((a, b) => b.subscribers - a.subscribers)
     .slice(0, 15);
-
-  function extractHandle(url: string): string {
-    const match = url.match(/@(.+?)(?:[/?#]|$)/);
-    return match
-      ? match[1]
-      : url.replace(/https?:\/\/(www\.)?youtube\.com\//, "");
-  }
 
   return (
     <div
