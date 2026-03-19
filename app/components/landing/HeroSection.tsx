@@ -1,3 +1,4 @@
+import AccessCodeLink from "./AccessCodeLink";
 import AnimatedTagline from "./AnimatedTagline";
 import WaitlistForm from "./WaitlistForm";
 import ScriptEditorDemo from "@/app/demo/script-editor/ScriptEditorDemo";
@@ -24,6 +25,7 @@ export default function HeroSection() {
           </FadeIn>
           <FadeIn delay={0.3}>
             <WaitlistForm />
+            <AccessCodeLink />
           </FadeIn>
         </div>
 
