@@ -47,8 +47,6 @@ export default function WaitlistForm() {
   }, [waitlistCount]);
 
   async function handleSubmit(e: FormEvent) {
-    redditInit(email);
-
     e.preventDefault();
     setError("");
 
@@ -62,6 +60,7 @@ export default function WaitlistForm() {
       return;
     }
 
+    redditInit(trimmed);
     setStatus("submitting");
 
     try {
