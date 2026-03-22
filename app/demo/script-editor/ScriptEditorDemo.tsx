@@ -659,7 +659,6 @@ export default function ScriptEditorDemo() {
   const [cycle, setCycle] = useState(0);
   const timeoutsRef = useRef<NodeJS.Timeout[]>([]);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
-  const elementRefsMap = useRef<Map<string, HTMLDivElement>>(new Map());
 
   const clearTimeouts = useCallback(() => {
     timeoutsRef.current.forEach(clearTimeout);
@@ -910,13 +909,6 @@ export default function ScriptEditorDemo() {
                       key={el.id}
                       layout
                       className="flex items-stretch"
-                      ref={(node: HTMLDivElement | null) => {
-                        if (node) {
-                          elementRefsMap.current.set(el.id, node);
-                        } else {
-                          elementRefsMap.current.delete(el.id);
-                        }
-                      }}
                       initial={{ opacity: 0, y: 16, filter: "blur(4px)" }}
                       animate={{
                         opacity: isDragged ? 0.9 : 1,
