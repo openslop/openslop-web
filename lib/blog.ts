@@ -37,7 +37,11 @@ function parseMeta(slug: string, data: Record<string, any>): BlogPostMeta {
   };
 }
 
+let cachedPosts: BlogPostMeta[] | null = null;
+
 export function getAllPosts(): BlogPostMeta[] {
+  if (cachedPosts) return cachedPosts;
+
   const files = fs.readdirSync(BLOG_DIR).filter((f) => f.endsWith(".mdx"));
 
   const posts = files.map((filename) => {
@@ -47,9 +51,10 @@ export function getAllPosts(): BlogPostMeta[] {
     return parseMeta(slug, data);
   });
 
-  return posts.sort(
+  cachedPosts = posts.sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
   );
+  return cachedPosts;
 }
 
 export function formatDate(dateStr: string) {
@@ -60,12 +65,23 @@ export function formatDate(dateStr: string) {
   });
 }
 
+const postCache = new Map<string, BlogPost>();
+
 export function getPostBySlug(slug: string): BlogPost | null {
+  const cached = postCache.get(slug);
+  if (cached) return cached;
+
   const filePath = path.join(BLOG_DIR, `${slug}.mdx`);
-  if (!fs.existsSync(filePath)) return null;
 
-  const raw = fs.readFileSync(filePath, "utf-8");
+  let raw: string;
+  try {
+    raw = fs.readFileSync(filePath, "utf-8");
+  } catch {
+    return null;
+  }
+
   const { data, content } = matter(raw);
-
-  return { ...parseMeta(slug, data), content };
+  const post = { ...parseMeta(slug, data), content };
+  postCache.set(slug, post);
+  return post;
 }

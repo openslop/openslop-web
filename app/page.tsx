@@ -12,10 +12,7 @@ export default function Home() {
         delay={0}
         className="absolute top-3 left-3 sm:top-4 sm:left-4 z-50"
       >
-        <span
-          className="text-xl tracking-tight text-white"
-          style={{ fontFamily: "Sentient, serif" }}
-        >
+        <span className="text-xl tracking-tight text-white font-sentient">
           OpenSlop
         </span>
       </FadeIn>

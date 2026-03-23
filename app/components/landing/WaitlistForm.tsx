@@ -168,7 +168,11 @@ export default function WaitlistForm() {
             placeholder="Enter your email…"
             className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-white placeholder-zinc-500 outline-none transition-colors focus-visible:border-violet-500/50 focus-visible:ring-1 focus-visible:ring-violet-500/50"
           />
-          {error && <p className="mt-1.5 text-sm text-red-400">{error}</p>}
+          {error && (
+            <p className="mt-1.5 text-sm text-red-400" aria-live="polite">
+              {error}
+            </p>
+          )}
         </div>
         <button
           type="submit"
@@ -188,13 +192,13 @@ export default function WaitlistForm() {
               alt=""
               width={32}
               height={32}
-              className="rounded-full ring-2 ring-[#0a0a0a] object-cover"
+              className="rounded-full ring-2 ring-background object-cover"
             />
           ))}
         </div>
         <p className="text-sm text-zinc-400">
           Join{" "}
-          <span className="text-white font-medium">
+          <span className="text-white font-medium tabular-nums">
             {waitlistCount !== null ? `${displayCount}+` : ""}
           </span>{" "}
           creators on the waitlist

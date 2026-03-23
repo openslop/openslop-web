@@ -59,6 +59,13 @@ export function fmtNum(n: number): string {
   return n.toLocaleString();
 }
 
+export function extractHandle(url: string): string {
+  const match = url.match(/@(.+?)(?:[/?#]|$)/);
+  return match
+    ? match[1]
+    : url.replace(/https?:\/\/(www\.)?youtube\.com\//, "");
+}
+
 export function buildCategoryColorMap(
   categories: string[],
 ): Record<string, string> {

@@ -1,7 +1,14 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { COLORS, AI_COLORS, fmtNum, buildCategoryColorMap } from "./chartTheme";
+import {
+  COLORS,
+  AI_COLORS,
+  FONT,
+  fmtNum,
+  extractHandle,
+  buildCategoryColorMap,
+} from "./chartTheme";
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
@@ -19,11 +26,6 @@ interface AnalysisData {
 }
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
-
-function extractHandle(url: string): string {
-  const match = url.match(/@(.+?)(?:[/?#]|$)/);
-  return match ? match[1] : url;
-}
 
 function subColor(n: number): string {
   if (n >= 5_000_000) return "#a78bfa";
@@ -48,6 +50,19 @@ function subBgColor(n: number): string {
 // ── Component ─────────────────────────────────────────────────────────────────
 
 const COLLAPSED_ROWS = 5;
+
+const SELECT_STYLE: React.CSSProperties = {
+  background: "#1e1e22",
+  border: `1px solid ${COLORS.border}`,
+  borderRadius: 6,
+  color: COLORS.white,
+  colorScheme: "dark",
+  padding: "5px 10px",
+  fontSize: 12,
+  fontFamily: "inherit",
+  cursor: "pointer",
+  outline: "none",
+};
 
 export default function AiTubersDataTable() {
   const [data, setData] = useState<Channel[] | null>(null);
@@ -86,6 +101,11 @@ export default function AiTubersDataTable() {
     });
   }, [data, filterCategory, filterAi]);
 
+  const rankMap = useMemo(() => {
+    if (!data) return new Map<string, number>();
+    return new Map(data.map((ch, i) => [ch.channel, i + 1]));
+  }, [data]);
+
   const visible = expanded ? filtered : filtered.slice(0, COLLAPSED_ROWS);
   const hiddenCount = filtered.length - COLLAPSED_ROWS;
 
@@ -99,7 +119,7 @@ export default function AiTubersDataTable() {
           padding: 40,
           textAlign: "center",
           color: COLORS.axisText,
-          fontFamily: "var(--font-geist-sans), sans-serif",
+          fontFamily: FONT,
           fontSize: 14,
         }}
       >
@@ -115,7 +135,7 @@ export default function AiTubersDataTable() {
         border: `1px solid ${COLORS.border}`,
         borderRadius: 12,
         overflow: "hidden",
-        fontFamily: "var(--font-geist-sans), sans-serif",
+        fontFamily: FONT,
       }}
     >
       {/* Header + filters */}
@@ -156,18 +176,7 @@ export default function AiTubersDataTable() {
             setFilterCategory(e.target.value);
             setExpanded(false);
           }}
-          style={{
-            background: "#1e1e22",
-            border: `1px solid ${COLORS.border}`,
-            borderRadius: 6,
-            color: COLORS.white,
-            colorScheme: "dark",
-            padding: "5px 10px",
-            fontSize: 12,
-            fontFamily: "inherit",
-            cursor: "pointer",
-            outline: "none",
-          }}
+          style={SELECT_STYLE}
         >
           <option value="all">All categories</option>
           {categories.map((cat) => (
@@ -183,18 +192,7 @@ export default function AiTubersDataTable() {
             setFilterAi(e.target.value);
             setExpanded(false);
           }}
-          style={{
-            background: "#1e1e22",
-            border: `1px solid ${COLORS.border}`,
-            borderRadius: 6,
-            color: COLORS.white,
-            colorScheme: "dark",
-            padding: "5px 10px",
-            fontSize: 12,
-            fontFamily: "inherit",
-            cursor: "pointer",
-            outline: "none",
-          }}
+          style={SELECT_STYLE}
         >
           <option value="all">All AI use</option>
           <option value="Full">Full AI</option>
@@ -245,7 +243,7 @@ export default function AiTubersDataTable() {
               const handle = extractHandle(ch.channel);
               const catColor = categoryColorMap[ch.category] || COLORS.slate;
               const aiColor = AI_COLORS[ch.ai_use] || COLORS.slate;
-              const globalRank = data.indexOf(ch) + 1;
+              const globalRank = rankMap.get(ch.channel) ?? 0;
 
               return (
                 <tr

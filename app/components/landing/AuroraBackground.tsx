@@ -1,23 +1,13 @@
 import { ReactNode } from "react";
 
-interface AuroraBackgroundProps {
-  children: ReactNode;
-  showRadialGradient?: boolean;
-  animate?: boolean;
-}
-
 export default function AuroraBackground({
   children,
-  showRadialGradient = true,
-  animate = true,
-}: AuroraBackgroundProps) {
+}: {
+  children: ReactNode;
+}) {
   return (
-    <div className="relative min-h-screen bg-[#0a0a0a] text-white">
+    <div className="relative min-h-screen bg-background text-white">
       <style>{`
-        @keyframes aurora-anim {
-          from { background-position: 50% 50%, 50% 50%; }
-          to { background-position: 350% 50%, 350% 50%; }
-        }
         .aurora-layer {
           --dark-gradient: repeating-linear-gradient(
             100deg,
@@ -48,27 +38,18 @@ export default function AuroraBackground({
           background-size: 200% 100%;
           background-attachment: fixed;
           mix-blend-mode: difference;
-          animation: ${animate ? "aurora-anim 60s linear infinite" : "none"};
-        }
-        @media (prefers-reduced-motion: reduce) {
-          .aurora-layer::after {
-            animation: none;
-          }
+          animation: aurora 60s linear infinite;
         }
       `}</style>
       <div className="absolute inset-0 overflow-hidden">
         <div
           className="aurora-layer pointer-events-none absolute -inset-[10px] opacity-70 will-change-transform"
-          style={
-            showRadialGradient
-              ? {
-                  maskImage:
-                    "radial-gradient(ellipse at 100% 0%, black 10%, transparent 70%)",
-                  WebkitMaskImage:
-                    "radial-gradient(ellipse at 100% 0%, black 10%, transparent 70%)",
-                }
-              : undefined
-          }
+          style={{
+            maskImage:
+              "radial-gradient(ellipse at 100% 0%, black 10%, transparent 70%)",
+            WebkitMaskImage:
+              "radial-gradient(ellipse at 100% 0%, black 10%, transparent 70%)",
+          }}
         />
       </div>
       <div className="relative z-10">{children}</div>
