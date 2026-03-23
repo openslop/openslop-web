@@ -7,6 +7,7 @@ import {
 } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 import { REDDIT_PIXEL } from "@/lib/analytics/redditPixel";
 
 const geistSans = Geist({
@@ -121,6 +122,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} ${urbanist.variable} antialiased bg-[#0a0a0a] text-white`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
