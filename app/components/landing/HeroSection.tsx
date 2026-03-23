@@ -1,8 +1,13 @@
+import dynamic from "next/dynamic";
 import AccessCodeLink from "./AccessCodeLink";
 import AnimatedTagline from "./AnimatedTagline";
 import WaitlistForm from "./WaitlistForm";
-import ScriptEditorDemo from "@/app/demo/script-editor/ScriptEditorDemo";
 import FadeIn from "./FadeIn";
+
+const ScriptEditorDemo = dynamic(
+  () => import("@/app/demo/script-editor/ScriptEditorDemo"),
+  { ssr: false },
+);
 
 export default function HeroSection() {
   return (
