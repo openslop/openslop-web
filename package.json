@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.95.3",
+    "@vercel/analytics": "^2.0.1",
     "canvas-confetti": "^1.9.4",
     "feed": "^5.2.0",
     "framer-motion": "^12.34.0",
