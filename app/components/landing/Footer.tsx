@@ -31,7 +31,7 @@ const linkGroups = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/5 bg-[#0a0a0a] px-6 py-12">
+    <footer className="border-t border-white/5 bg-background px-6 py-12">
       <div className="mx-auto max-w-5xl">
         <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
           {linkGroups.map((group) => (
@@ -70,10 +70,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 flex flex-col items-center gap-2 border-t border-white/5 pt-6">
-          <span
-            className="text-lg tracking-tight text-white"
-            style={{ fontFamily: "Sentient, serif" }}
-          >
+          <span className="text-lg tracking-tight text-white font-sentient">
             OpenSlop
           </span>
           <p className="text-xs text-zinc-500">

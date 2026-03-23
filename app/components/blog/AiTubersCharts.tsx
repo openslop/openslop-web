@@ -27,6 +27,7 @@ import {
   AI_COLORS,
   FONT,
   fmtNum,
+  extractHandle,
   buildCategoryColorMap,
 } from "./chartTheme";
 
@@ -1226,25 +1227,41 @@ function NicheRecommendations({ data }: { data: CategoryStat[] }) {
 
 // ── Data loader + exports ─────────────────────────────────────────────────────
 
-function useChartData() {
-  const [data, setData] = useState<{
-    categories: CategoryStat[];
-    buckets: BucketStat[];
-    rank: RankPoint[];
-    trend: TrendPoint[];
-    channels: RawChannel[];
-  } | null>(null);
+interface ChartData {
+  categories: CategoryStat[];
+  buckets: BucketStat[];
+  rank: RankPoint[];
+  trend: TrendPoint[];
+  channels: RawChannel[];
+}
 
-  useEffect(() => {
-    Promise.all([
+// Module-level promise deduplicates fetches across all chart components
+let chartDataPromise: Promise<ChartData> | null = null;
+
+function fetchChartData(): Promise<ChartData> {
+  if (!chartDataPromise) {
+    chartDataPromise = Promise.all([
       fetch("/data/category_stats.json").then((r) => r.json()),
       fetch("/data/subscriber_buckets.json").then((r) => r.json()),
       fetch("/data/rank_curve.json").then((r) => r.json()),
       fetch("/data/collection_trend.json").then((r) => r.json()),
       fetch("/data/aitubers-analysis-data.json").then((r) => r.json()),
-    ]).then(([categories, buckets, rank, trend, full]) =>
-      setData({ categories, buckets, rank, trend, channels: full.channels }),
-    );
+    ]).then(([categories, buckets, rank, trend, full]) => ({
+      categories,
+      buckets,
+      rank,
+      trend,
+      channels: full.channels,
+    }));
+  }
+  return chartDataPromise;
+}
+
+function useChartData() {
+  const [data, setData] = useState<ChartData | null>(null);
+
+  useEffect(() => {
+    fetchChartData().then(setData);
   }, []);
 
   return data;
@@ -1962,6 +1979,7 @@ function AiHeadroomScatter({ data }: { data: HeadroomRow[] }) {
 
 function AiHeadroomRanking({ data }: { data: HeadroomRow[] }) {
   const sorted = [...data].sort((a, b) => b.headroom_score - a.headroom_score);
+  const maxHeadroom = Math.max(...sorted.map((d) => d.headroom_score));
   const chartHeight = Math.max(380, sorted.length * 34 + 60);
 
   return (
@@ -2019,9 +2037,7 @@ function AiHeadroomRanking({ data }: { data: HeadroomRow[] }) {
           />
           <Bar dataKey="headroom_score" radius={[0, 4, 4, 0]}>
             {sorted.map((entry, i) => {
-              const t =
-                entry.headroom_score /
-                Math.max(...sorted.map((d) => d.headroom_score));
+              const t = entry.headroom_score / maxHeadroom;
               const color =
                 t > 0.6
                   ? COLORS.emerald
@@ -2042,13 +2058,6 @@ function TopNonFullChannels({ channels }: { channels: RawChannel[] }) {
     .filter((c) => c.ai_use === "Partial" || c.ai_use === "Minimal")
     .sort((a, b) => b.subscribers - a.subscribers)
     .slice(0, 15);
-
-  function extractHandle(url: string): string {
-    const match = url.match(/@(.+?)(?:[/?#]|$)/);
-    return match
-      ? match[1]
-      : url.replace(/https?:\/\/(www\.)?youtube\.com\//, "");
-  }
 
   return (
     <div

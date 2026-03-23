@@ -9,6 +9,7 @@ import "./globals.css";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import { REDDIT_PIXEL } from "@/lib/analytics/redditPixel";
+import { SITE_URL } from "@/lib/constants";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,7 +33,7 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://openslop.ai"),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "OpenSlop - Free Open-Source AI Content Creator",
     template: "%s - OpenSlop",
@@ -48,12 +49,12 @@ export const metadata: Metadata = {
     "content creation",
     "text to video",
   ],
-  authors: [{ name: "OpenSlop", url: "https://openslop.ai" }],
+  authors: [{ name: "OpenSlop", url: SITE_URL }],
   creator: "OpenSlop",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://openslop.ai",
+    url: SITE_URL,
     siteName: "OpenSlop",
     title: "OpenSlop - Free Open-Source AI Content Creator",
     description:
@@ -91,6 +92,9 @@ export const metadata: Metadata = {
       "application/rss+xml": "/feed.xml",
     },
   },
+  other: {
+    "theme-color": "#0a0a0a",
+  },
 };
 
 export default function RootLayout({
@@ -99,7 +103,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-[#0a0a0a]">
+    <html lang="en" className="bg-background">
       <head>
         <link
           rel="preconnect"
@@ -119,7 +123,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} ${urbanist.variable} antialiased bg-[#0a0a0a] text-white`}
+        className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} ${urbanist.variable} antialiased bg-background text-white`}
       >
         {children}
         <Analytics />

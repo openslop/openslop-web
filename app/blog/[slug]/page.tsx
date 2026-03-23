@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
 import { getAllPosts, getPostBySlug, formatDate } from "@/lib/blog";
+import { SITE_URL } from "@/lib/constants";
 import Footer from "@/app/components/landing/Footer";
 import BlogCTA from "@/app/components/blog/BlogCTA";
 import AiTubersCharts, {
@@ -84,7 +85,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
     "@type": "BlogPosting",
     headline: post.title,
     description: post.description,
-    image: `https://openslop.ai${post.coverImage}`,
+    image: `${SITE_URL}${post.coverImage}`,
     datePublished: post.date,
     dateModified: post.date,
     author: {
@@ -94,11 +95,11 @@ export default async function BlogPostPage({ params }: { params: Params }) {
     publisher: {
       "@type": "Organization",
       name: "OpenSlop",
-      url: "https://openslop.ai",
+      url: SITE_URL,
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://openslop.ai/blog/${post.slug}`,
+      "@id": `${SITE_URL}/blog/${post.slug}`,
     },
     keywords: post.tags.join(", "),
   };
