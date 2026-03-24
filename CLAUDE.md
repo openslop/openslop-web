@@ -44,3 +44,7 @@ This is a **Next.js 16 App Router** project (React 19, TypeScript, Tailwind CSS 
 ### Static Assets
 
 Demo media files live in `public/*`.
+
+## Next.js gotchas
+
+- `next/dynamic` with `ssr: false` is a **Client Component API only**. Never use it in Server Components. If you need to lazy-load a client-only component from a Server Component, create a thin Client Component wrapper that does the dynamic import, then use that wrapper in the Server Component.
