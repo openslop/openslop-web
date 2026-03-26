@@ -27,23 +27,34 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Architecture
 
-This is a **Next.js 16 App Router** project (React 19, TypeScript, Tailwind CSS v4) serving as a frontend-only waitlist with a UI demo.
+**Next.js 16 App Router** marketing site (React 19, TypeScript, Tailwind CSS v4) with waitlist signup, blog, and interactive demo. Supabase backend for waitlist data.
 
 ### Key Pages
 
-- `/` (`app/page.tsx`) — Default landing page (stock Next.js template)
+- `/` (`app/page.tsx`) — Landing page: animated tagline, hero section, script editor demo, waitlist form, logo marquee
+- `/blog` (`app/blog/page.tsx`) — Blog listing with featured post + grid layout
+- `/blog/[slug]` (`app/blog/[slug]/page.tsx`) — Blog post reader (MDX + embedded Recharts visualizations)
+- `/about`, `/terms`, `/privacy` — Static info pages using shared `StaticPageLayout`
+- `/api/waitlist` (`app/api/waitlist/route.ts`) — GET count, POST join (Supabase)
+- `/feed.xml`, `/sitemap.xml`, `/robots.txt` — SEO/RSS metadata routes
+
+### Key Components
+
+- `app/demo/script-editor/ScriptEditorDemo.tsx` — Orchestrated 6-phase animation demo (client component)
+- `app/components/blog/AiTubersCharts.tsx` — 8+ interactive Recharts visualizations for niche analysis post
+- `app/components/blog/chartTheme.ts` — Shared chart colors, palettes, formatters
 
 ### Styling
 
 - Tailwind CSS v4 via PostCSS plugin
-- Dark mode via `prefers-color-scheme` CSS media query
+- Dark mode via `color-scheme: dark` (not class-based)
 - Element types are color-coded (violet for music, cyan for image, amber for narration, etc.)
-- Geist font family loaded via `next/font`
+- Fonts: Geist (next/font), Sentient + Satoshi (fontshare.com external stylesheet)
 - `@/*` path alias maps to project root
 
 ### Static Assets
 
-Demo media files live in `public/*`.
+Demo media (videos, images, avatars) in `public/demo/`. Blog chart data in `public/data/`.
 
 ## Next.js gotchas
 
