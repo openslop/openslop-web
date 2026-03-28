@@ -114,6 +114,11 @@ export default function RootLayout({
           href="https://api.fontshare.com/v2/css?f[]=sentient@400,500,600,700&f[]=satoshi@400,500,700&display=swap"
           rel="stylesheet"
         />
+      </head>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} ${urbanist.variable} antialiased bg-background text-white`}
+      >
+        {children}
         <Script
           id="reddit-pixel"
           strategy="afterInteractive"
@@ -121,11 +126,6 @@ export default function RootLayout({
             __html: REDDIT_PIXEL,
           }}
         />
-      </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} ${urbanist.variable} antialiased bg-background text-white`}
-      >
-        {children}
         <Analytics />
       </body>
     </html>
