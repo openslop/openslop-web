@@ -6,6 +6,7 @@ OpenSlop is built for YouTube creators who want to produce AI-generated videos a
 
 ## Blog
 
+- [How to Start an AI YouTube Channel in 2026](https://openslop.ai/blog/ai-youtube-niche-analysis-2026): Data-driven niche analysis of 340 faceless AI YouTube channels across 25 niches — what's crowded, what's underserved, and how much AI to use.
 - [Why Every AI Video Tool Feels Broken](https://openslop.ai/blog/why-every-ai-video-tool-feels-broken): Analysis of why current AI video tools fall short — quality caps, consistency failures, and the gap between marketing promises and actual output.
 - [The No-BS Guide to AI Video Creation at Scale](https://openslop.ai/blog/the-no-bs-guide-to-ai-video-creation-at-scale): Complete guide covering the video pipeline, tool stack, multi-pass scripting, character consistency, YouTube growth strategy, and monetization.
 - [Narrative Diffusion: The Multi-Pass Scripting Method](https://openslop.ai/blog/narrative-diffusion-the-multi-pass-scripting-method): Deep dive into the 5-pass scripting method that makes AI scripts sound human, with exact prompts, model rankings, and pro tips.
