@@ -60,6 +60,11 @@ vi.mock("@/lib/analytics/redditPixel", () => ({
   redditTrack: vi.fn(),
 }));
 
+vi.mock("@vercel/analytics", () => ({
+  track: vi.fn(),
+}));
+
+import { track } from "@vercel/analytics";
 import WaitlistForm from "./WaitlistForm";
 
 beforeEach(() => {
@@ -121,6 +126,20 @@ describe("WaitlistForm", () => {
       expect(screen.getAllByText(/thanks/i).length).toBeGreaterThan(0);
     });
     expect(screen.getAllByText("Tell us more").length).toBeGreaterThan(0);
+    expect(track).toHaveBeenCalledWith("Signup", { email: "test@example.com" });
+  });
+
+  it("tracks survey click in Vercel Analytics", async () => {
+    render(<WaitlistForm />);
+    fireEvent.change(emailInput(), { target: { value: "test@example.com" } });
+    fireEvent.click(joinButton());
+
+    await waitFor(() => {
+      expect(screen.getAllByText(/thanks/i).length).toBeGreaterThan(0);
+    });
+
+    fireEvent.click(screen.getByText("Tell us more"));
+    expect(track).toHaveBeenCalledWith("Survey Click");
   });
 
   it("shows error when API returns failure", async () => {
