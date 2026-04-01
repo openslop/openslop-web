@@ -4,6 +4,7 @@ import { useState, useEffect, useRef, FormEvent } from "react";
 import type { CreateTypes as ConfettiCreateTypes } from "canvas-confetti";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
+import { track } from "@vercel/analytics";
 import { redditInit, redditTrack } from "@/lib/analytics/redditPixel";
 import { EMAIL_REGEX } from "@/lib/validation";
 const COUNT_UP_DURATION = 600;
@@ -80,6 +81,7 @@ export default function WaitlistForm() {
       const data = await res.json();
       setStatus("success");
       redditTrack("SignUp", { email });
+      track("Signup", { email: trimmed });
       if (data.position) setPositionInLine(data.position);
       import("canvas-confetti").then((mod) =>
         (mod.default as unknown as ConfettiCreateTypes)({
@@ -125,6 +127,7 @@ export default function WaitlistForm() {
               href="https://form.typeform.com/to/WMzi15z4"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => track("Survey Click")}
               className="cta-glow inline-block rounded-xl px-6 py-3 font-semibold text-white cursor-pointer"
             >
               Tell us more
