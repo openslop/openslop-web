@@ -25,6 +25,11 @@ const linkGroups = [
         href: "https://discord.gg/zeP5482ced",
         external: true,
       },
+      {
+        label: "Contribute on GitHub",
+        href: "https://github.com/openslop/openslop",
+        external: true,
+      },
     ],
   },
 ];
