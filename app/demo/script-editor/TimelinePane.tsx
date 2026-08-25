@@ -13,7 +13,6 @@ import {
 import { Soundwave } from "./OutputPreview";
 import {
   ELEMENTS_BY_ID,
-  ELEMENT_CLIP_FILLS,
   ELEMENT_TINTS,
   PLAYBACK_MS,
   VISUAL_TYPES,
@@ -22,7 +21,6 @@ import {
 } from "./script";
 
 function Clip({ element }: { element: DemoElement }) {
-  const visual = Boolean(element.media);
   return (
     <motion.div
       layout
@@ -31,14 +29,12 @@ function Clip({ element }: { element: DemoElement }) {
       exit={{ opacity: 0, scale: 0.94 }}
       transition={{ duration: 0.4, ease: "easeOut" }}
       style={{ flexGrow: element.duration }}
-      className={`relative flex min-w-0 basis-0 flex-col overflow-hidden rounded-md border ${ELEMENT_CLIP_FILLS[element.type]}`}
+      className={`timeline-clip-surface relative flex min-w-0 basis-0 flex-col overflow-hidden rounded-md border border-current/35 ${ELEMENT_TINTS[element.type]}`}
     >
-      <span
-        className={`truncate px-1 pt-0.5 text-[8px] font-medium ${ELEMENT_TINTS[element.type]}`}
-      >
+      <span className="truncate px-1 pt-0.5 text-[8px] font-medium text-editor-fg">
         {element.name ? `${element.name}: ${element.text}` : element.text}
       </span>
-      {visual ? (
+      {element.media ? (
         <video
           src={`${element.media}#t=0.6`}
           muted
@@ -47,10 +43,8 @@ function Clip({ element }: { element: DemoElement }) {
           className="min-h-0 w-full flex-1 object-cover opacity-90"
         />
       ) : (
-        <div
-          className={`min-h-0 flex-1 px-1 pb-1 ${ELEMENT_TINTS[element.type]}`}
-        >
-          <Soundwave seed={element.duration * 13} bars={30} />
+        <div className="flex min-h-0 flex-1 px-1 pb-1">
+          <Soundwave seed={element.duration * 3} samples={64} />
         </div>
       )}
     </motion.div>
@@ -69,7 +63,7 @@ function Track({
   return (
     <div className={`flex items-stretch gap-1.5 ${className}`}>
       <span className="flex w-7 shrink-0 items-center justify-center">
-        <Icon className="h-3 w-3 text-white/30" aria-hidden />
+        <Icon className="h-3 w-3 text-editor-muted" aria-hidden />
       </span>
       <div className="flex min-w-0 flex-1 gap-1">
         <AnimatePresence mode="popLayout">
@@ -94,34 +88,50 @@ export default function TimelinePane({
     .filter((el): el is DemoElement => Boolean(el));
   const visuals = elements.filter((el) => VISUAL_TYPES.includes(el.type));
   const total = visuals.reduce((sum, el) => sum + el.duration, 0);
+  const sweep = {
+    animate: { left: playing ? "100%" : "0%" },
+    transition: { duration: PLAYBACK_MS / 1000, ease: "linear" as const },
+  };
 
   return (
-    <div className="hidden shrink-0 flex-col gap-1.5 border-t border-white/[0.07] p-2.5 sm:flex">
+    <div className="hidden shrink-0 flex-col gap-1.5 border-t border-editor-border p-2.5 sm:flex">
+      <div className="relative h-[3px] rounded-full bg-editor-track">
+        <div className="absolute inset-y-0 inset-x-[5px]">
+          <motion.span
+            className="absolute -inset-y-[3.5px] w-2.5 -translate-x-1/2 rounded-full bg-editor-fg"
+            {...sweep}
+          />
+        </div>
+      </div>
+
       <div className="flex items-center gap-3 px-1">
-        <span className="font-mono text-[10px] text-white/70">
+        <span className="font-mono text-[10px] text-editor-fg">
           0:00
-          <span className="text-white/25"> / {formatClock(total)}</span>
+          <span className="text-editor-muted"> / {formatClock(total)}</span>
         </span>
-        <span className="rounded border border-white/10 bg-white/5 px-1.5 py-0.5 text-[9px] text-white/50">
+        <span className="rounded-md border border-editor-border bg-editor-raised px-1.5 py-0.5 text-[9px] text-editor-panel">
           Scene 1
         </span>
         <span className="flex flex-1 items-center justify-center gap-3">
-          <ChevronsLeft className="h-3.5 w-3.5 text-white/35" aria-hidden />
+          <ChevronsLeft className="h-3.5 w-3.5 text-editor-muted" aria-hidden />
           {playing ? (
             <Pause
-              className="h-3.5 w-3.5 fill-white/80 text-white/80"
+              className="h-3.5 w-3.5 fill-editor-fg text-editor-fg"
               aria-hidden
             />
           ) : (
             <Play
-              className="h-3.5 w-3.5 fill-white/80 text-white/80"
+              className="h-3.5 w-3.5 fill-editor-fg text-editor-fg"
               aria-hidden
             />
           )}
-          <ChevronsRight className="h-3.5 w-3.5 text-white/35" aria-hidden />
+          <ChevronsRight
+            className="h-3.5 w-3.5 text-editor-muted"
+            aria-hidden
+          />
         </span>
         <Volume2
-          className="hidden h-3.5 w-3.5 text-white/35 lg:block"
+          className="hidden h-3.5 w-3.5 text-editor-muted lg:block"
           aria-hidden
         />
       </div>
@@ -135,9 +145,8 @@ export default function TimelinePane({
         />
         <div className="pointer-events-none absolute inset-y-0 right-0 left-[34px]">
           <motion.span
-            className="absolute inset-y-0 w-px bg-white/80"
-            animate={{ left: playing ? "100%" : "0%" }}
-            transition={{ duration: PLAYBACK_MS / 1000, ease: "linear" }}
+            className="absolute inset-y-0 w-px bg-editor-fg"
+            {...sweep}
           />
         </div>
       </div>

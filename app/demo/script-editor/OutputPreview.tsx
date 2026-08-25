@@ -3,55 +3,40 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Play } from "lucide-react";
+import { SOUNDWAVE_MASK_STYLE, demoWaveMask } from "./soundwave";
 import { ELEMENT_TINTS, type DemoElement } from "./script";
 
-/** Deterministic bar heights so the waveform is stable across renders. */
-const hash = (n: number) => {
-  let h = Math.imul(n ^ (n >>> 16), 0x45d9f3b);
-  h = Math.imul(h ^ (h >>> 13), 0x45d9f3b);
-  return (h ^ (h >>> 16)) >>> 0;
-};
-
+/** The editor's waveform: a mirrored envelope painted through a CSS mask. */
 export function Soundwave({
-  seed = 0,
-  bars = 26,
+  seed,
+  samples,
   className = "",
 }: {
-  seed?: number;
-  bars?: number;
+  seed: number;
+  samples?: number;
   className?: string;
 }) {
+  const mask = demoWaveMask(seed, samples);
   return (
     <div
-      className={`flex h-full min-w-0 flex-1 items-center gap-px overflow-hidden ${className}`}
       aria-hidden
-    >
-      {Array.from({ length: bars }, (_, i) => (
-        <span
-          key={i}
-          className="w-px flex-1 rounded-full bg-current opacity-55"
-          style={{ height: `${18 + (hash(seed + i) % 70)}%` }}
-        />
-      ))}
-    </div>
-  );
-}
-
-function Slot({ children }: { children: React.ReactNode }) {
-  return (
-    <div className="aspect-video w-full overflow-hidden rounded-lg border border-white/[0.07] bg-black/40">
-      {children}
-    </div>
+      className={`min-w-0 flex-1 bg-current ${className}`}
+      style={{
+        ...SOUNDWAVE_MASK_STYLE,
+        maskImage: mask,
+        WebkitMaskImage: mask,
+      }}
+    />
   );
 }
 
 function Generating({ tint }: { tint: string }) {
   return (
     <div
-      className={`relative flex aspect-video w-full items-center justify-center overflow-hidden rounded-lg border border-dashed bg-black/40 ${tint} border-current/40`}
+      className={`relative flex aspect-video w-full items-center justify-center overflow-hidden rounded-md border border-current/40 border-dashed bg-editor-bg ${tint}`}
     >
       <motion.div
-        className="absolute inset-y-0 w-1/3 bg-gradient-to-r from-transparent via-white/10 to-transparent"
+        className="absolute inset-y-0 w-1/3 bg-gradient-to-r from-transparent via-editor-fg/10 to-transparent"
         animate={{ x: ["-120%", "420%"] }}
         transition={{ duration: 1.4, repeat: Infinity, ease: "linear" }}
       />
@@ -75,7 +60,7 @@ export default function OutputPreview({
 
   if (element.media) {
     return (
-      <Slot>
+      <div className="aspect-video w-full overflow-hidden rounded-md border border-editor-border bg-editor-bg">
         <video
           src={element.media}
           autoPlay
@@ -84,14 +69,12 @@ export default function OutputPreview({
           playsInline
           className="h-full w-full object-cover"
         />
-      </Slot>
+      </div>
     );
   }
 
   return (
-    <div
-      className={`flex h-11 items-center gap-2 overflow-hidden rounded-lg border border-white/[0.07] bg-black/30 px-2 ${tint}`}
-    >
+    <div className="flex h-11 items-center gap-2 overflow-hidden rounded-md border border-editor-border bg-editor-bg px-2">
       {element.avatar ? (
         <Image
           src={element.avatar}
@@ -101,15 +84,25 @@ export default function OutputPreview({
           className="h-7 w-7 shrink-0 rounded-full object-cover"
         />
       ) : (
-        <Play className="h-3 w-3 shrink-0 fill-current" aria-hidden />
+        <Play
+          className="h-3 w-3 shrink-0 fill-editor-panel text-editor-panel"
+          aria-hidden
+        />
       )}
       {element.name && (
-        <span className="truncate text-[11px] font-medium">{element.name}</span>
+        <span className={`truncate text-[11px] font-medium ${tint}`}>
+          {element.name}
+        </span>
       )}
-      <Soundwave seed={element.duration * 7} />
-      <span className="hidden shrink-0 font-mono text-[9px] text-white/35 sm:inline">
-        0:{String(element.duration).padStart(2, "0")}
-      </span>
+      <Soundwave
+        seed={element.duration}
+        className={`h-5 min-w-8 ${element.avatar ? tint : "text-editor-muted"}`}
+      />
+      {!element.avatar && (
+        <span className="hidden shrink-0 font-mono text-[9px] text-editor-muted sm:inline">
+          0:{String(element.duration).padStart(2, "0")}
+        </span>
+      )}
     </div>
   );
 }

@@ -14,6 +14,47 @@
   --animate-aurora: aurora 60s linear infinite;
 }
 
+/* Editor demo surfaces — the OpenSlop app's dark tokens, so the hero mock
+   reads as the product rather than as marketing chrome. */
+@theme {
+  --color-editor-bg: #140e11;
+  --color-editor-scene: #191317;
+  --color-editor-card: #231e21;
+  --color-editor-raised: #251e21;
+  --color-editor-input: #2e282b;
+  --color-editor-secondary: #261c1f;
+  --color-editor-border: #b8a5ad2e;
+  --color-editor-fg: #f1eaed;
+  --color-editor-panel: #e0dbde;
+  --color-editor-label: #f9e6f6;
+  --color-editor-muted: #9d8b93;
+  --color-editor-accent: #7a79d6;
+  --color-editor-generate: #e2dde0;
+  --color-editor-track: #656264;
+  --color-media-music: #a78bfa;
+  --color-media-image: #22d3ee;
+  --color-media-clip: #818cf8;
+  --color-media-animated: #e879f9;
+  --color-media-sound: #34d399;
+  --color-media-character: #fbbf24;
+  --color-media-narration: #9d8b93;
+}
+
+/* A clip's own colour, tinted onto the element-card surface — the same recipe
+   the editor's timeline uses. */
+@utility timeline-clip-surface {
+  background-color: color-mix(
+    in oklab,
+    currentColor 22%,
+    var(--color-editor-card)
+  );
+}
+
+/* The editor's canvas backdrop: a repeating "+" dot grid. */
+@utility dot-grid-bg {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6' height='6' viewBox='0 0 12 12'%3E%3Cpath fill='%23f1eaed' fill-opacity='0.08' d='M3 2h2v1H3v2H2V3H0V2h2V0h1z'/%3E%3C/svg%3E");
+}
+
 @keyframes aurora {
   from {
     background-position:

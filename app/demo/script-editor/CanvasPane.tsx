@@ -25,19 +25,19 @@ const ASSETS = [
 function AssetChip({ label, icon: Icon, src }: (typeof ASSETS)[number]) {
   return (
     <div className="flex w-11 shrink-0 flex-col items-center gap-1">
-      <div className="relative h-11 w-11 overflow-hidden rounded-lg border border-dashed border-white/15 bg-black/25">
+      <div className="relative h-11 w-11 overflow-hidden rounded-md border border-editor-border border-dashed bg-editor-card">
         {src ? (
           <Image src={src} alt="" fill sizes="44px" className="object-cover" />
         ) : (
           Icon && (
             <Icon
-              className="absolute inset-0 m-auto h-4 w-4 text-white/25"
+              className="absolute inset-0 m-auto h-4 w-4 text-editor-muted"
               aria-hidden
             />
           )
         )}
       </div>
-      <span className="w-full truncate text-center text-[9px] text-white/35">
+      <span className="w-full truncate text-center text-[9px] text-editor-muted">
         {label}
       </span>
     </div>
@@ -97,9 +97,9 @@ export default function CanvasPane({
       ref={scroller}
       className="scrollbar-hide min-h-0 flex-1 overflow-y-auto p-3 [mask-image:linear-gradient(to_bottom,transparent,black_14px)]"
     >
-      <h3 className="text-base font-semibold text-white/90">Neon Drift</h3>
+      <h3 className="text-base font-semibold text-editor-fg">Neon Drift</h3>
 
-      <p className="mt-2 mb-1.5 text-[9px] text-white/35">Assets</p>
+      <p className="mt-2 mb-1.5 text-[9px] text-editor-muted">Assets</p>
       <div className="scrollbar-hide flex gap-2 overflow-x-auto pb-1">
         {ASSETS.map((asset) => (
           <AssetChip key={asset.label} {...asset} />
@@ -115,13 +115,13 @@ export default function CanvasPane({
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, ease: "easeOut" }}
-              className="space-y-2 rounded-xl border border-white/[0.06] p-2"
+              className="space-y-2 rounded-xl border border-editor-border bg-editor-scene p-2"
             >
               <div className="flex items-center gap-2 px-0.5">
-                <span className="text-[10px] font-medium text-white/70">
+                <span className="text-[10px] font-medium text-editor-fg">
                   {scene.name}
                 </span>
-                <span className="font-mono text-[9px] text-white/30">
+                <span className="font-mono text-[9px] text-editor-muted">
                   {formatClock(scene.start)}–{formatClock(scene.end)}
                 </span>
               </div>

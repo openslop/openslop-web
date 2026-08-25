@@ -50,22 +50,12 @@ export const ELEMENT_ICONS: Record<ElementType, LucideIcon> = {
 
 /** Media-type tints, mirroring the editor's dark-theme palette. */
 export const ELEMENT_TINTS: Record<ElementType, string> = {
-  music: "text-violet-400",
-  image: "text-cyan-400",
-  clip: "text-indigo-400",
-  narration: "text-zinc-400",
-  sound: "text-emerald-400",
-  character: "text-amber-400",
-};
-
-/** Clip fills, keyed the same way — Tailwind needs the literal class names. */
-export const ELEMENT_CLIP_FILLS: Record<ElementType, string> = {
-  music: "bg-violet-500/15 border-violet-400/30",
-  image: "bg-cyan-500/15 border-cyan-400/30",
-  clip: "bg-indigo-500/15 border-indigo-400/30",
-  narration: "bg-zinc-500/15 border-zinc-400/25",
-  sound: "bg-emerald-500/15 border-emerald-400/30",
-  character: "bg-amber-500/15 border-amber-400/30",
+  music: "text-media-music",
+  image: "text-media-image",
+  clip: "text-media-clip",
+  narration: "text-media-narration",
+  sound: "text-media-sound",
+  character: "text-media-character",
 };
 
 export const VISUAL_TYPES: ElementType[] = ["image", "clip"];

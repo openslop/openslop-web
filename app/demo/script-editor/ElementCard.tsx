@@ -16,11 +16,11 @@ function ShimmerLines() {
       {[1, 0.75].map((w, i) => (
         <div
           key={i}
-          className="h-2 overflow-hidden rounded-full bg-white/10"
+          className="h-2 overflow-hidden rounded-full bg-editor-input"
           style={{ width: `${w * 100}%` }}
         >
           <motion.div
-            className="h-full w-1/2 bg-gradient-to-r from-transparent via-white/25 to-transparent"
+            className="h-full w-1/2 bg-gradient-to-r from-transparent via-editor-fg/25 to-transparent"
             animate={{ x: ["-100%", "300%"] }}
             transition={{
               duration: 1,
@@ -84,10 +84,10 @@ export default function ElementCard({
         scale: dragging ? 1.015 : 1,
       }}
       transition={{ duration: 0.45, ease: "easeOut" }}
-      className={`relative flex gap-3 rounded-xl border bg-white/[0.035] p-2.5 ${
+      className={`relative flex gap-3 rounded-xl border bg-editor-card p-2.5 ${
         dragging
-          ? "z-10 border-violet-400/50 shadow-2xl shadow-black/50"
-          : "border-white/[0.07]"
+          ? "z-10 border-editor-accent/60 shadow-2xl shadow-black/50"
+          : "border-editor-border"
       }`}
     >
       <div className="flex min-w-0 flex-1 flex-col gap-2">
@@ -100,13 +100,13 @@ export default function ElementCard({
               {ELEMENT_LABELS[element.type]}
             </span>
           </span>
-          <span className="hidden min-w-0 items-center gap-1 text-[10px] text-white/40 sm:inline-flex">
+          <span className="hidden min-w-0 items-center gap-1 text-[10px] text-editor-muted sm:inline-flex">
             <Box className="h-2.5 w-2.5 shrink-0" aria-hidden />
             <span className="truncate">{model}</span>
             <ChevronDown className="h-2.5 w-2.5 shrink-0" aria-hidden />
           </span>
         </div>
-        <div className="rounded-md bg-black/25 p-2 text-[11px] leading-relaxed text-white/70">
+        <div className="rounded-md bg-editor-input p-2 text-[11px] leading-relaxed text-editor-panel">
           {morphing ? (
             <ShimmerLines />
           ) : revealing ? (
@@ -117,7 +117,7 @@ export default function ElementCard({
         </div>
       </div>
 
-      <div className="w-[38%] shrink-0 self-center border-l border-white/[0.07] pl-3">
+      <div className="w-[38%] shrink-0 self-center border-l border-editor-border pl-3">
         <OutputPreview element={element} generating={generating} />
       </div>
     </motion.div>
