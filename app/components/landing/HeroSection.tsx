@@ -7,7 +7,7 @@ import FadeIn from "./FadeIn";
 export default function HeroSection() {
   return (
     <section className="relative pt-16 pb-2 lg:pt-16 lg:pb-2">
-      <div className="flex flex-col lg:flex-row gap-12 lg:gap-12 items-center">
+      <div className="flex flex-col lg:flex-row gap-6 lg:gap-8 items-center">
         {/* Left column — fixed width */}
         <div className="w-full lg:w-[580px] lg:shrink-0 px-4 sm:px-6 lg:pl-16 space-y-8">
           <FadeIn delay={0.1}>

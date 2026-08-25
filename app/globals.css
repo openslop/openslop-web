@@ -50,6 +50,60 @@
   );
 }
 
+/* The editor's two shimmers: one clipped to text for in-flight labels, one for
+   skeleton surfaces. */
+@keyframes shimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, #9d8b93 30%, transparent) 0%,
+    color-mix(in srgb, #9d8b93 60%, transparent) 50%,
+    color-mix(in srgb, #9d8b93 30%, transparent) 100%
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 2s linear infinite;
+}
+
+.shimmer-surface {
+  background: linear-gradient(
+    90deg,
+    #261c1f 0%,
+    color-mix(in srgb, #9d8b93 14%, #261c1f) 50%,
+    #261c1f 100%
+  );
+  background-size: 200% auto;
+  animation: shimmer 2s linear infinite;
+}
+
+/* Subtle film grain, painted behind the content of a raised surface. */
+@utility grain {
+  isolation: isolate;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background-image: url("/grain.png");
+    background-size: 50px 50px;
+    background-repeat: repeat;
+    opacity: 0.26;
+    pointer-events: none;
+    z-index: 1;
+  }
+}
+
 /* The editor's canvas backdrop: a repeating "+" dot grid. */
 @utility dot-grid-bg {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6' height='6' viewBox='0 0 12 12'%3E%3Cpath fill='%23f1eaed' fill-opacity='0.08' d='M3 2h2v1H3v2H2V3H0V2h2V0h1z'/%3E%3C/svg%3E");

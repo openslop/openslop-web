@@ -14,7 +14,7 @@ import {
 export type Turn =
   | { kind: "user"; text: string }
   | { kind: "tool"; type: ElementType; label: string }
-  | { kind: "reply"; lines: string[] };
+  | { kind: "reply"; lines: string[]; seconds: number };
 
 type State = {
   composer: string;
@@ -89,7 +89,10 @@ function reducer(state: State, action: Action): State {
     case "reply":
       return {
         ...state,
-        turns: [...state.turns, { kind: "reply", lines: action.lines }],
+        turns: [
+          ...state.turns,
+          { kind: "reply", lines: action.lines, seconds: action.seconds },
+        ],
         thinking: false,
       };
     case "edit":

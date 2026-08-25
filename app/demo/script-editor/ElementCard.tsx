@@ -13,23 +13,12 @@ import {
 function ShimmerLines() {
   return (
     <div className="space-y-1.5 py-1">
-      {[1, 0.75].map((w, i) => (
+      {[1, 0.75].map((w) => (
         <div
-          key={i}
-          className="h-2 overflow-hidden rounded-full bg-editor-input"
+          key={w}
+          className="shimmer-surface h-2 rounded-md"
           style={{ width: `${w * 100}%` }}
-        >
-          <motion.div
-            className="h-full w-1/2 bg-gradient-to-r from-transparent via-editor-fg/25 to-transparent"
-            animate={{ x: ["-100%", "300%"] }}
-            transition={{
-              duration: 1,
-              repeat: Infinity,
-              ease: "easeInOut",
-              delay: i * 0.15,
-            }}
-          />
-        </div>
+        />
       ))}
     </div>
   );
@@ -84,13 +73,13 @@ export default function ElementCard({
         scale: dragging ? 1.015 : 1,
       }}
       transition={{ duration: 0.45, ease: "easeOut" }}
-      className={`relative flex gap-3 rounded-xl border bg-editor-card p-2.5 ${
+      className={`grain relative flex gap-3 rounded-xl border bg-editor-card p-2.5 ${
         dragging
           ? "z-10 border-editor-accent/60 shadow-2xl shadow-black/50"
           : "border-editor-border"
       }`}
     >
-      <div className="flex min-w-0 flex-1 flex-col gap-2">
+      <div className="relative z-10 flex min-w-0 flex-1 flex-col gap-2">
         <div className="flex min-w-0 items-center gap-1.5">
           <span
             className={`inline-flex shrink-0 items-center gap-1 rounded-full bg-current/15 px-1.5 py-0.5 ${tint}`}
@@ -117,7 +106,7 @@ export default function ElementCard({
         </div>
       </div>
 
-      <div className="w-[38%] shrink-0 self-center border-l border-editor-border pl-3">
+      <div className="relative z-10 w-[38%] shrink-0 self-center border-l border-editor-border pl-3">
         <OutputPreview element={element} generating={generating} />
       </div>
     </motion.div>

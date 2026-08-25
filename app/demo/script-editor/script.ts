@@ -26,6 +26,8 @@ export type DemoElement = {
   duration: number;
   /** Video source for image/clip elements. */
   media?: string;
+  /** object-position for the 9:16 player crop, when centre cuts the subject. */
+  focus?: string;
   avatar?: string;
   name?: string;
 };
@@ -173,7 +175,7 @@ export type Step =
   | { at: number; do: "reveal"; id: string }
   | { at: number; do: "add"; id: string; generating?: boolean }
   | { at: number; do: "resolve"; id: string }
-  | { at: number; do: "reply"; lines: string[] }
+  | { at: number; do: "reply"; lines: string[]; seconds: number }
   | { at: number; do: "grab"; id: string }
   | { at: number; do: "drop"; id: string; by: number }
   | { at: number; do: "play" }
@@ -204,6 +206,7 @@ export const STEPS: Step[] = [
   {
     at: 10000,
     do: "reply",
+    seconds: 22,
     lines: [
       "done. the music is orchestral now — taiko under a screeching guitar line.",
       "ryu's in scene 2 with one line. she reads menacing, which is what you wanted.",
@@ -225,6 +228,7 @@ export const STEPS: Step[] = [
   {
     at: 25800,
     do: "reply",
+    seconds: 34,
     lines: [
       "scene 3 is in — the screech, the handbrake beat, the drift shot and a slow-mo clip to land it.",
       "three new clips on the timeline. drag them around if the pacing feels off.",
@@ -238,6 +242,9 @@ export const STEPS: Step[] = [
 
 export const PLAYBACK_MS = 12000;
 
+/** Tick intervals the ruler picks from, as the editor's timeline does. */
+export const TICK_STEPS = [1, 2, 5, 10, 15, 30, 60];
+
 export const formatClock = (seconds: number) =>
   `${Math.floor(seconds / 60)}:${String(Math.round(seconds) % 60).padStart(2, "0")}`;
 
@@ -246,6 +253,7 @@ export const OPENING_TURNS = [
   { kind: "user" as const, text: "a tokyo street race short, 45 seconds" },
   {
     kind: "reply" as const,
+    seconds: 12,
     lines: [
       "on it. drafted two scenes — the neon street establish, then takeshi in the car.",
       "music and narration are in. want me to punch it up?",

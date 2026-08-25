@@ -90,13 +90,13 @@ export default function OutputPreview({
         />
       )}
       {element.name && (
-        <span className={`truncate text-[11px] font-medium ${tint}`}>
+        <span className={`shrink-0 truncate text-[11px] font-medium ${tint}`}>
           {element.name}
         </span>
       )}
       <Soundwave
         seed={element.duration}
-        className={`h-5 min-w-8 ${element.avatar ? tint : "text-editor-muted"}`}
+        className={`h-5 ${element.avatar ? tint : "text-editor-muted"}`}
       />
       {!element.avatar && (
         <span className="hidden shrink-0 font-mono text-[9px] text-editor-muted sm:inline">

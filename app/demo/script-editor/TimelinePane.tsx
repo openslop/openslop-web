@@ -15,6 +15,7 @@ import {
   ELEMENTS_BY_ID,
   ELEMENT_TINTS,
   PLAYBACK_MS,
+  TICK_STEPS,
   VISUAL_TYPES,
   formatClock,
   type DemoElement,
@@ -48,6 +49,43 @@ function Clip({ element }: { element: DemoElement }) {
         </div>
       )}
     </motion.div>
+  );
+}
+
+/**
+ * The editor's timecode strip: subdivision dots painted as a background, with
+ * a label centred on every tick.
+ */
+function TimeStrip({ total }: { total: number }) {
+  const interval = TICK_STEPS.find((step) => step / total >= 0.16) ?? 60;
+  const ticks = Array.from(
+    { length: Math.floor(total / interval) + 1 },
+    (_, i) => i * interval,
+  );
+
+  return (
+    <div
+      className="relative min-w-0 flex-1 text-editor-border"
+      style={{
+        backgroundImage: "radial-gradient(currentColor 1px, transparent 1px)",
+        backgroundSize: `${((interval / total) * 100) / 4}% 100%`,
+        backgroundPosition: "0 center",
+      }}
+    >
+      {ticks.map((seconds, i) => (
+        <span
+          key={seconds}
+          aria-hidden
+          className="absolute top-1/2 font-mono text-[8px] tabular-nums text-editor-muted"
+          style={{
+            left: `${(seconds / total) * 100}%`,
+            transform: i === 0 ? "translateY(-50%)" : "translate(-50%, -50%)",
+          }}
+        >
+          {formatClock(seconds)}
+        </span>
+      ))}
+    </div>
   );
 }
 
@@ -94,7 +132,7 @@ export default function TimelinePane({
   };
 
   return (
-    <div className="hidden shrink-0 flex-col gap-1.5 border-t border-editor-border p-2.5 sm:flex">
+    <div className="hidden shrink-0 flex-col gap-1.5 border-t border-editor-border p-2.5 pt-2 sm:flex">
       <div className="relative h-[3px] rounded-full bg-editor-track">
         <div className="absolute inset-y-0 inset-x-[5px]">
           <motion.span
@@ -137,6 +175,10 @@ export default function TimelinePane({
       </div>
 
       <div className="relative flex flex-col gap-1">
+        <div className="flex h-4 items-stretch gap-1.5">
+          <span className="w-7 shrink-0" />
+          <TimeStrip total={total} />
+        </div>
         <Track icon={Film} elements={visuals} className="h-11" />
         <Track
           icon={AudioLines}
