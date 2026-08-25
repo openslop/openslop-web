@@ -863,7 +863,12 @@ export default function ScriptEditorDemo() {
   const visibleElements = elements.slice(0, visibleCount);
 
   return (
-    <div className="relative h-full overflow-hidden">
+    /* data-cycle lets scripts/capture-demo.mjs record exactly one loop */
+    <div
+      data-demo="script-editor"
+      data-cycle={cycle}
+      className="relative h-full overflow-hidden"
+    >
       <AnimatedBorder>
         <motion.div
           ref={scrollContainerRef}
