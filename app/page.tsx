@@ -1,3 +1,4 @@
+import Wordmark from "./components/Wordmark";
 import HeroSection from "./components/landing/HeroSection";
 import LogoMarquee from "./components/landing/LogoMarquee";
 import AuroraBackground from "./components/landing/AuroraBackground";
@@ -12,9 +13,7 @@ export default function Home() {
         delay={0}
         className="absolute top-3 left-3 sm:top-4 sm:left-4 z-50"
       >
-        <span className="text-xl tracking-tight text-white font-sentient">
-          OpenSlop
-        </span>
+        <Wordmark className="text-xl" />
       </FadeIn>
 
       <HeroSection />

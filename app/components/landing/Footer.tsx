@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Wordmark from "../Wordmark";
 
 const linkGroups = [
   {
@@ -75,9 +76,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 flex flex-col items-center gap-2 border-t border-white/5 pt-6">
-          <span className="text-lg tracking-tight text-white font-sentient">
-            OpenSlop
-          </span>
+          <Wordmark className="text-lg" />
           <p className="text-xs text-zinc-500">
             &copy; {new Date().getFullYear()} OpenSlop. All rights reserved.
           </p>
