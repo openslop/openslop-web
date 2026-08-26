@@ -9,7 +9,7 @@ export const homeDoc: Doc = {
   description:
     "Free open-source AI video pipeline. A single prompt becomes a finished video - no GPU, no manual editing.",
   intro: [
-    "OpenSlop is a free, open-source AI video creation pipeline that turns a single prompt into a finished video. It orchestrates the model providers you already use - Claude for scripting, Runware and Kling for imagery and motion, Cartesia and ElevenLabs for voice, ffmpeg for assembly - into one automated workflow that runs on your own API keys.",
+    "OpenSlop is a free, open-source AI video creation pipeline that turns a single prompt into a finished video. It is model-agnostic: it works with every LLM, image, video, voice, and music provider - Claude, GPT, Gemini, FLUX, Seedream, Kling, Veo, Sora, ElevenLabs, Cartesia, Speechify, Suno, and dozens more - and orchestrates whichever you choose into one automated workflow that runs on your own API keys.",
     "It is built for faceless YouTube, TikTok, and Shorts creators who want to publish AI-generated video at scale without paying for an all-in-one tool that produces generic output. Everything is modular: swap any model, edit any stage, keep every asset.",
   ],
   sections: [
@@ -22,7 +22,7 @@ export const homeDoc: Doc = {
     {
       heading: "Every model stays swappable",
       body: [
-        "Each stage of the pipeline is a module behind a common interface, so a new image model or a cheaper TTS provider is a config change rather than a rewrite. Bring your own API keys, mix providers per stage, and keep the intermediate assets - scripts, shot lists, stills, audio stems - as ordinary files you own. The full provider list - LLMs, image, video, voice, music, lip sync, and inference routers - is in [AGENTS.md](/AGENTS.md).",
+        "No provider is privileged and none is required. Every LLM can write the script, every image or video model can render the shots, and every TTS voice can narrate, so a new image model or a cheaper TTS provider is a config change rather than a rewrite. Bring your own API keys, mix providers per stage, and keep the intermediate assets - scripts, shot lists, stills, audio stems - as ordinary files you own. The full provider list - LLMs, image, video, voice, music, lip sync, and inference routers - is in [AGENTS.md](/AGENTS.md).",
       ],
     },
     {
