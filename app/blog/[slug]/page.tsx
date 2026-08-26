@@ -4,9 +4,10 @@ import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
 import { getAllPosts, getPostBySlug, formatDate } from "@/lib/blog";
-import { SITE_URL } from "@/lib/constants";
 import Footer from "@/app/components/landing/Footer";
 import BlogCTA from "@/app/components/blog/BlogCTA";
+import JsonLd from "@/app/components/JsonLd";
+import { blogPostingSchema } from "@/lib/seo/schema";
 import AiTubersCharts, {
   NicheLandscapeChart,
   AiMixChartBlock,
@@ -80,38 +81,9 @@ export default async function BlogPostPage({ params }: { params: Params }) {
   const post = getPostBySlug(slug);
   if (!post) notFound();
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    headline: post.title,
-    description: post.description,
-    image: `${SITE_URL}${post.coverImage}`,
-    datePublished: post.date,
-    dateModified: post.date,
-    author: {
-      "@type": "Person",
-      name: post.author,
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "OpenSlop",
-      url: SITE_URL,
-    },
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": `${SITE_URL}/blog/${post.slug}`,
-    },
-    keywords: post.tags.join(", "),
-  };
-
   return (
     <div className="min-h-screen bg-[#1a1a21]">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
-        }}
-      />
+      <JsonLd schema={blogPostingSchema(post)} />
       <div className="font-[family-name:var(--font-urbanist)] text-zinc-300">
         {/* Cover image — fixed to top of page, fades into background */}
         <div
