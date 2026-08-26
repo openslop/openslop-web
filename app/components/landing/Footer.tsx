@@ -8,6 +8,7 @@ const linkGroups = [
       { label: "Home", href: "/" },
       { label: "Blog", href: "/blog" },
       { label: "About", href: "/about" },
+      { label: "Developers", href: "/developers" },
     ],
   },
   {
@@ -20,6 +21,7 @@ const linkGroups = [
   {
     title: "Contact",
     links: [
+      { label: "Contact Us", href: "/contact" },
       { label: "Email Us", href: "mailto:hi@openslop.ai" },
       {
         label: "Join Our Discord",

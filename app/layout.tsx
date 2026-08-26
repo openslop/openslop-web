@@ -10,6 +10,8 @@ import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import { REDDIT_PIXEL } from "@/lib/analytics/redditPixel";
 import { SITE_URL } from "@/lib/constants";
+import { siteSchema } from "@/lib/seo/schema";
+import JsonLd from "./components/JsonLd";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -125,6 +127,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} ${urbanist.variable} antialiased bg-background text-white`}
       >
+        <JsonLd schema={siteSchema} />
         {children}
         <Analytics />
       </body>
